@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Menu, X, Phone, ChevronDown, ChevronRight } from "lucide-react"
@@ -55,16 +55,35 @@ export function Header() {
   const [mobileAccordion, setMobileAccordion] = useState<string | null>(null)
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
 
+  // Centralized close — always cleans up state AND body overflow
+  const closeMobileMenu = useCallback(() => {
+    setMobileMenuOpen(false)
+    setMobileAccordion(null)
+    document.body.style.overflow = ""
+  }, [])
+
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 10)
     window.addEventListener("scroll", handleScroll, { passive: true })
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  // Sync body overflow with menu open state
   useEffect(() => {
     document.body.style.overflow = mobileMenuOpen ? "hidden" : ""
     return () => { document.body.style.overflow = "" }
   }, [mobileMenuOpen])
+
+  // Close menu automatically when a hash anchor link is followed (e.g. #contacto)
+  useEffect(() => {
+    const handleNavigation = () => closeMobileMenu()
+    window.addEventListener("hashchange", handleNavigation)
+    window.addEventListener("popstate", handleNavigation)
+    return () => {
+      window.removeEventListener("hashchange", handleNavigation)
+      window.removeEventListener("popstate", handleNavigation)
+    }
+  }, [closeMobileMenu])
 
   const openSubmenu = (name: string) => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current)
@@ -77,7 +96,6 @@ export function Header() {
 
   return (
     <>
-
       {/* Main navbar */}
       <header
         className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled
@@ -88,7 +106,7 @@ export function Header() {
         <div className="mx-auto max-w-7xl px-8">
           <nav className="flex items-center justify-between h-16" aria-label="Navegación principal">
 
-            {/* Logo — compact */}
+            {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="SegurosOnline.net - Inicio">
               <Image
                 src="/sanitas_logo.webp"
@@ -167,7 +185,7 @@ export function Header() {
                 Te llamamos gratis
               </a>
 
-              {/* Mobile */}
+              {/* Mobile phone icon */}
               <a
                 href="tel:+34673674849"
                 className="xl:hidden inline-flex items-center justify-center w-9 h-9 rounded-full text-neutral-500 hover:text-neutral-900 hover:bg-neutral-50 transition-colors"
@@ -176,8 +194,9 @@ export function Header() {
                 <Phone className="w-[18px] h-[18px]" />
               </a>
 
+              {/* Burger button — always uses closeMobileMenu when open */}
               <button
-                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                onClick={() => mobileMenuOpen ? closeMobileMenu() : setMobileMenuOpen(true)}
                 className="xl:hidden inline-flex items-center justify-center w-9 h-9 rounded-full text-neutral-600 hover:bg-neutral-50 transition-colors"
                 aria-label={mobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
                 aria-expanded={mobileMenuOpen}
@@ -187,66 +206,66 @@ export function Header() {
             </div>
           </nav>
         </div>
+      </header>
 
-        {/* Mobile overlay */}
-        {mobileMenuOpen && (
-          <div className="xl:hidden fixed inset-x-0 top-16 bottom-0 bg-white z-40 overflow-y-auto">
-            <nav className="px-6 py-4">
-              {navigation.map((item) => (
-                <div key={item.name} className="border-b border-neutral-100 last:border-0">
-                  {item.submenu ? (
-                    <>
-                      <button
-                        onClick={() => setMobileAccordion(mobileAccordion === item.name ? null : item.name)}
-                        className="flex items-center justify-between w-full py-3.5 text-[15px] font-medium text-neutral-900"
-                      >
-                        {item.name}
-                        <ChevronDown className={`w-4 h-4 text-neutral-400 transition-transform duration-200 ${mobileAccordion === item.name ? "rotate-180" : ""}`} />
-                      </button>
-                      {mobileAccordion === item.name && (
-                        <div className="pb-3 space-y-0.5">
-                          {item.submenu.map((subitem) => (
-                            <Link
-                              key={subitem.name}
-                              href={subitem.href}
-                              className="block pl-3 py-2 text-[14px] text-neutral-500 hover:text-neutral-900 transition-colors"
-                              onClick={() => setMobileMenuOpen(false)}
-                            >
-                              {subitem.name}
-                            </Link>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className="block py-3.5 text-[15px] font-medium text-neutral-900"
-                      onClick={() => setMobileMenuOpen(false)}
+      {/* Mobile overlay — rendered OUTSIDE <header> to avoid sticky/z-index conflicts */}
+      {mobileMenuOpen && (
+        <div className="xl:hidden fixed inset-x-0 top-16 bottom-0 bg-white z-40 overflow-y-auto">
+          <nav className="px-6 py-4">
+            {navigation.map((item) => (
+              <div key={item.name} className="border-b border-neutral-100 last:border-0">
+                {item.submenu ? (
+                  <>
+                    <button
+                      onClick={() => setMobileAccordion(mobileAccordion === item.name ? null : item.name)}
+                      className="flex items-center justify-between w-full py-3.5 text-[15px] font-medium text-neutral-900"
                     >
                       {item.name}
-                    </Link>
-                  )}
-                </div>
-              ))}
-
-              {/* Mobile bottom actions */}
-              <div className="mt-6 space-y-3">
-                <div className="flex gap-3 text-[14px] text-neutral-500">
-                  <a href="tel:+34624217323" className="hover:text-neutral-900 transition-colors">624 21 73 23</a>
-                </div>
-                <a
-                  href="#contacto"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center justify-center w-full h-11 text-[14px] font-medium text-white bg-neutral-900 rounded-full transition-colors hover:bg-neutral-800"
-                >
-                  Te llamamos gratis
-                </a>
+                      <ChevronDown className={`w-4 h-4 text-neutral-400 transition-transform duration-200 ${mobileAccordion === item.name ? "rotate-180" : ""}`} />
+                    </button>
+                    {mobileAccordion === item.name && (
+                      <div className="pb-3 space-y-0.5">
+                        {item.submenu.map((subitem) => (
+                          <Link
+                            key={subitem.name}
+                            href={subitem.href}
+                            className="block pl-3 py-2 text-[14px] text-neutral-500 hover:text-neutral-900 transition-colors"
+                            onClick={closeMobileMenu}
+                          >
+                            {subitem.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className="block py-3.5 text-[15px] font-medium text-neutral-900"
+                    onClick={closeMobileMenu}
+                  >
+                    {item.name}
+                  </Link>
+                )}
               </div>
-            </nav>
-          </div>
-        )}
-      </header>
+            ))}
+
+            {/* Mobile bottom actions */}
+            <div className="mt-6 space-y-3">
+              <div className="flex gap-3 text-[14px] text-neutral-500">
+                <a href="tel:+34624217323" className="hover:text-neutral-900 transition-colors">624 21 73 23</a>
+              </div>
+              <a
+                href="#contacto"
+                onClick={closeMobileMenu}
+                className="flex items-center justify-center w-full h-11 text-[14px] font-medium text-white bg-neutral-900 rounded-full transition-colors hover:bg-neutral-800"
+              >
+                Te llamamos gratis
+              </a>
+            </div>
+          </nav>
+        </div>
+      )}
     </>
   )
 }

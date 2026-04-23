@@ -45,22 +45,24 @@ export function CategoryProductGrid({ title, description, products }: CategoryPr
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch relative">
           {products.map((product, i) => (
             <Reveal key={product.title} delay={i * 0.1} className="h-full">
-              <div className={`group relative flex flex-col rounded-[2rem] overflow-hidden transition-all duration-500 h-full ${
+              <div className={`group relative flex flex-col rounded-[2rem] overflow-hidden transition-shadow duration-500 h-full ${
                 product.highlighted
-                  ? "shadow-2xl shadow-[#0091DA]/20 border-2 border-[#0091DA] lg:-translate-y-2 bg-[#002A54]"
-                  : "hover:shadow-2xl hover:-translate-y-1 border border-border shadow-lg shadow-black/5 bg-white"
+                  ? "shadow-2xl shadow-[#0091DA]/20 border-2 border-[#0091DA] bg-[#002A54]"
+                  : "hover:shadow-2xl border border-border shadow-lg shadow-black/5 bg-white"
               }`}>
                 
                 {/* ZONA 1 - FOTO (60% superior aprox) */}
                 <div className="relative w-full h-[240px] sm:h-[280px] shrink-0 overflow-hidden bg-muted">
+                  <div className="absolute inset-0">
                     <Image 
                       src={product.image} 
                       alt={product.title}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-1000" 
+                      className="object-cover object-center transition-transform duration-700 group-hover:scale-105 will-change-transform" 
                       priority={i < 3}
                     />
+                  </div>
 
                   {/* Degradado sutil solo en el borde inferior para transición suave */}
                   <div className={`absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t to-transparent ${

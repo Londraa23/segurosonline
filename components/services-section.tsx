@@ -11,7 +11,7 @@ const services = [
     title: "Seguros de salud",
     description: "La mejor asistencia sanitaria del país, con opciones adaptadas a tu estilo de vida. Tu bienestar y el de tu familia en manos expertas.",
     href: "/seguros-medicos-para-particulares/",
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1000&q=80&auto=format",
+    image: "/seguros-salud.png",
     colSpan: "lg:col-span-2",
   },
   {
@@ -19,7 +19,7 @@ const services = [
     title: "Seguros dentales",
     description: "Prevención avanzada y acceso a más de 5.200 clínicas especializadas para cuidar tu sonrisa.",
     href: "/seguros-dentales/",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80&auto=format",
+    image: "/seguros-dentales.png",
     colSpan: "lg:col-span-1",
   },
   {
@@ -27,7 +27,7 @@ const services = [
     title: "Seguros de decesos",
     description: "Apoyo incondicional y gestión absoluta en los momentos familiares más delicados. Nada de papeleo.",
     href: "/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/",
-    image: "https://images.unsplash.com/photo-1606103920295-9a091573f160?w=800&q=80&auto=format", // Warm sunset / family feeling
+    image: "/seguro-decesos.png",
     colSpan: "lg:col-span-1",
   },
   {
@@ -35,7 +35,7 @@ const services = [
     title: "Servicios de Salud",
     description: "Maternidad, psicología, bienestar nutricional y estética médica. Programas de última generación para complementar tu rutina.",
     href: "/servicios-de-salud/",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=80&auto=format",
+    image: "/servicios-salud.png",
     colSpan: "lg:col-span-2",
   },
 ]

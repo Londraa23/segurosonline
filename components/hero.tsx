@@ -45,7 +45,7 @@ export function Hero() {
         // Fallback or error handling can go here, but for now we proceed with UI success
         // since the lead is still important and we might want to show success anyway 
         // or a specific error toast if you prefer.
-        setSubmitted(true) 
+        setSubmitted(true)
       }
     } catch (error) {
       console.error("Submission failed:", error)
@@ -59,8 +59,8 @@ export function Hero() {
     <section className="relative min-h-[85vh] lg:min-h-[780px] flex items-center overflow-hidden" id="inicio">
       {/* Optimized Background Image */}
       <div className="absolute inset-0 -z-10">
-        <Image 
-          src="https://images.unsplash.com/photo-1605684954998-685c79d6a018?q=80&auto=format" 
+        <Image
+          src="https://images.unsplash.com/photo-1605684954998-685c79d6a018?q=80&auto=format"
           alt="Seguros de Salud Sanitas"
           fill
           priority
@@ -88,12 +88,11 @@ export function Hero() {
 
             <Reveal delay={0.12}>
               <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-6xl font-bold tracking-tight leading-[1.08]">
-                Seguros de Salud Sanitas{" "}
-                <span className="text-[#0091DA]">en España</span>
+                Seguro de Salud Sanitas{" "}
+                <span className="text-[#0091DA]">desde 32€/mes</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl mt-5">
-                Agencia exclusiva Sanitas con <strong className="text-foreground">más de 30 años de experiencia</strong>.
-                Blua gratis para siempre. Sin carencias ni permanencia. Desde <strong className="text-foreground">39€/mes</strong>.
+                Sin esperas, sin permanencia y con acceso inmediato a miles de especialistas en toda España.
               </p>
             </Reveal>
 
@@ -107,7 +106,7 @@ export function Hero() {
                   <Image width={40} height={40} src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=80&h=80&fit=crop&crop=faces" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-foreground">+57.000 profesionales</p>
+                  <p className="text-sm font-semibold text-foreground">+58.000 profesionales</p>
                   <p className="text-xs text-muted-foreground">en el cuadro médico Sanitas</p>
                 </div>
               </div>
@@ -192,7 +191,7 @@ export function Hero() {
 
                 <div className="hidden sm:block absolute -bottom-4 -left-4 bg-foreground text-background px-5 py-3 rounded-2xl shadow-xl animate-float">
                   <p className="text-xs font-medium opacity-70">Desde</p>
-                  <p className="text-2xl font-bold">39€<span className="text-sm font-medium opacity-70">/mes</span></p>
+                  <p className="text-2xl font-bold">32€<span className="text-sm font-medium opacity-70">/mes</span></p>
                 </div>
                 <div className="absolute -top-3 -right-3 bg-[#0091DA] text-white px-4 py-2 rounded-xl shadow-lg text-sm font-semibold">
                   Blua GRATIS
