@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
-import { Phone, Check, Shield, Clock, Heart, Users, Star, FileText, ArrowRight, Building, Zap, Plus, Trophy, Smartphone, ShieldCheck, Loader2, X } from "lucide-react"
+import { Phone, Check, Shield, Clock, Heart, Users, Star, FileText, ArrowRight, Building, Zap, Plus, Trophy, Smartphone, ShieldCheck, Loader2, X, Globe, CheckCircle2 } from "lucide-react"
 import { submitToMake } from "@/lib/form-submission"
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -105,42 +105,21 @@ export default function CampanaDecesosClient() {
       {/* 1. STICKY HEADER */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-sm">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
+          <div className="flex h-16 items-center justify-center sm:justify-start">
             {/* Logos */}
-            <div className="flex items-center gap-2.5 shrink-0">
+            <div className="flex items-center shrink-0">
               <Image
-                src="/sanitas_logo.webp"
-                alt="Sanitas"
-                width={96}
-                height={48}
-                className="h-8 w-auto"
+                src="/Santalucia_Seguros_logo.svg.png"
+                alt="Santalucía Seguros"
+                width={200}
+                height={50}
+                className="h-7 sm:h-9 w-auto object-contain"
                 priority
               />
-              <span className="hidden sm:inline text-[15px] font-semibold tracking-tight text-neutral-900">
-                Seguros<span className="text-[#0091DA]">Online</span>
-              </span>
             </div>
-
-            {/* Phone */}
-            <a 
-              href="tel:+34624217323" 
-              className="flex items-center gap-2 text-sanitas-dark font-semibold hover:text-sanitas-blue transition-colors bg-sanitas-light/50 px-3 py-1.5 rounded-full md:bg-transparent md:px-0"
-            >
-              <Phone className="w-4 h-4 md:w-5 md:h-5" />
-              <span className="text-sm md:text-base hidden sm:inline">Llámanos gratis: </span>
-              <span className="text-sm md:text-base">624 21 73 23</span>
-            </a>
           </div>
         </div>
 
-        {/* Trust bar below header */}
-        <div className="bg-sanitas-light border-y border-sanitas-blue/10 py-2">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-wrap justify-center gap-x-4 sm:gap-x-6 gap-y-1.5 text-[11px] sm:text-[13px] text-sanitas-dark font-medium">
-            <span className="flex items-center gap-1.5"><Check className="w-3.5 h-3.5 text-sanitas-blue" /> Más de 3 millones de familias protegidas</span>
-            <span className="hidden sm:flex items-center gap-1.5"><Check className="w-3.5 h-3.5 text-sanitas-blue" /> Sin letra pequeña</span>
-            <span className="flex items-center gap-1.5"><Check className="w-3.5 h-3.5 text-sanitas-blue" /> Respuesta en 24h</span>
-          </div>
-        </div>
       </header>
 
       <main>
@@ -151,23 +130,36 @@ export default function CampanaDecesosClient() {
               
               {/* Left Content */}
               <div className="max-w-2xl animate-[slide-up_0.6s_ease-out_forwards]">
-                <div className="inline-flex items-center gap-1.5 sm:gap-2 rounded-full bg-sanitas-light px-3 py-1.5 text-xs sm:text-sm font-semibold text-sanitas-dark ring-1 ring-inset ring-sanitas-blue/20 mb-5 sm:mb-6">
-                  <Trophy className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sanitas-blue" /> Nº1 en seguros de decesos en España
-                </div>
-                
                 <h1 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl mb-4 sm:mb-6 leading-tight">
-                  Protege a tu familia cuando más te necesiten
+                  Nadie debería <span className="text-sanitas-blue">afrontarlo</span> solo
                 </h1>
                 
                 <p className="text-lg text-neutral-600 mb-8 max-w-lg">
-                  Un seguro de decesos completo para que tus seres queridos no tengan que preocuparse de nada en el momento más difícil.
+                  Cuando llega el momento, no hay tiempo para trámites, burocracia ni decisiones imposibles. Nosotros lo gestionamos todo. Tú solo tienes que estar.
                 </p>
                 
-                <div className="mb-8">
-                  <p className="text-sm text-neutral-500 font-medium mb-1">Desde</p>
-                  <p className="text-4xl font-bold text-sanitas-blue flex items-baseline gap-1">
-                    5€<span className="text-xl text-neutral-500 font-normal">/mes</span>
-                  </p>
+                <div className="mb-8 sm:mb-10">
+                  <div className="inline-flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 bg-gradient-to-r from-blue-50 to-white border border-sanitas-blue/10 rounded-2xl p-5 sm:p-6 shadow-sm">
+                    <div>
+                      <p className="text-xs uppercase tracking-widest font-bold text-sanitas-blue mb-1">Tranquilidad total desde</p>
+                      <div className="flex items-baseline">
+                        <span className="text-6xl sm:text-7xl font-black tracking-tighter text-[#002A54]">5</span>
+                        <span className="text-4xl sm:text-5xl font-black text-[#002A54] mr-1">€</span>
+                        <span className="text-lg sm:text-xl font-medium text-neutral-500">/mes</span>
+                      </div>
+                    </div>
+                    <div className="hidden sm:block w-px h-16 bg-neutral-200"></div>
+                    <ul className="space-y-2 text-sm sm:text-base font-medium text-neutral-700">
+                      <li className="flex items-center gap-2">
+                        <Check className="w-5 h-5 text-sanitas-blue bg-sanitas-light rounded-full p-0.5 shrink-0" /> 
+                        Precio cerrado y garantizado
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <Check className="w-5 h-5 text-sanitas-blue bg-sanitas-light rounded-full p-0.5 shrink-0" /> 
+                        Sin copagos ni cuotas ocultas
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 
                 <div className="flex flex-col gap-3 w-full sm:w-auto sm:inline-flex">
@@ -182,30 +174,6 @@ export default function CampanaDecesosClient() {
                   </div>
                 </div>
 
-                {/* Social Proof */}
-                <div className="mt-10 flex items-center gap-4 border-t border-neutral-100 pt-6">
-                  <div className="flex -space-x-2">
-                    {[
-                      "https://images.unsplash.com/photo-1548142813-c348350df52b?w=100&h=100&fit=crop",
-                      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
-                      "/avatar-3.png",
-                      "/avatar-4.png",
-                      "/avatar-5.png"
-                    ].map((src, i) => (
-                      <div key={i} className="inline-block h-8 w-8 rounded-full ring-2 ring-white overflow-hidden relative">
-                        <Image src={src} alt={`Usuario ${i + 1}`} fill sizes="32px" className="object-cover" />
-                      </div>
-                    ))}
-                  </div>
-                  <div>
-                    <div className="flex items-center gap-1 text-yellow-400 mb-0.5">
-                      {[1, 2, 3, 4, 5].map((i) => <Star key={i} className="w-4 h-4 fill-current" />)}
-                    </div>
-                    <p className="text-xs font-medium text-neutral-600">
-                      <span className="font-bold text-neutral-900">4.8/5</span> · Más de 12.000 opiniones verificadas
-                    </p>
-                  </div>
-                </div>
               </div>
 
               {/* Right Image (Hidden on mobile) */}
@@ -239,24 +207,63 @@ export default function CampanaDecesosClient() {
         </section>
 
         {/* 3. TRUST STRIP */}
-        <section className="bg-sanitas-dark py-8 sm:py-10">
+        <section className="bg-sanitas-dark py-5 sm:py-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-3 gap-2 sm:gap-6 text-center">
+              <div className="flex flex-col items-center gap-1.5 sm:gap-3 text-white">
+                <Building className="w-5 h-5 sm:w-8 sm:h-8 text-sanitas-light opacity-80" />
+                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">Más de 100 años de experiencia</span>
+              </div>
+              <div className="flex flex-col items-center gap-1.5 sm:gap-3 text-white">
+                <Users className="w-5 h-5 sm:w-8 sm:h-8 text-sanitas-light opacity-80" />
+                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">+3M familias protegidas</span>
+              </div>
+              <div className="flex flex-col items-center gap-1.5 sm:gap-3 text-white">
+                <Zap className="w-5 h-5 sm:w-8 sm:h-8 text-sanitas-light opacity-80" />
+                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">Atención 24/7 los 365 días</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 3.5. TRANQUILITY SECTION */}
+        <section className="py-16 sm:py-20 bg-white">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-center">
-              <div className="flex flex-col items-center gap-3 text-white">
-                <Building className="w-8 h-8 text-sanitas-light opacity-80" />
-                <span className="text-sm font-medium">Más de 100 años de experiencia</span>
+            <div className="text-center mb-12 sm:mb-16">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#002A54]">
+                Todo resuelto. Sin excepciones.
+              </h2>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8 sm:gap-10 text-center max-w-5xl mx-auto">
+              <div className="flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full bg-sanitas-light/50 flex items-center justify-center mb-6 text-sanitas-blue">
+                  <FileText className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-bold text-neutral-900 mb-3">Gestión integral de trámites</h3>
+                <p className="text-neutral-600 leading-relaxed">
+                  Certificados, registros, notarías, funeraria. Nos encargamos de cada papel para que tu familia no tenga que pensar en nada.
+                </p>
               </div>
-              <div className="flex flex-col items-center gap-3 text-white">
-                <Users className="w-8 h-8 text-sanitas-light opacity-80" />
-                <span className="text-sm font-medium">+3M familias protegidas</span>
+
+              <div className="flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full bg-sanitas-light/50 flex items-center justify-center mb-6 text-sanitas-blue">
+                  <CheckCircle2 className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-bold text-neutral-900 mb-3">Tú eliges, nosotros ejecutamos</h3>
+                <p className="text-neutral-600 leading-relaxed">
+                  Inhumación o cremación, en el lugar que decidas. Tus últimas voluntades respetadas al detalle, sin negociaciones.
+                </p>
               </div>
-              <div className="flex flex-col items-center gap-3 text-white">
-                <Zap className="w-8 h-8 text-sanitas-light opacity-80" />
-                <span className="text-sm font-medium">Atención 24/7 los 365 días</span>
-              </div>
-              <div className="flex flex-col items-center gap-3 text-white">
-                <FileText className="w-8 h-8 text-sanitas-light opacity-80" />
-                <span className="text-sm font-medium">Sin examen médico</span>
+
+              <div className="flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full bg-sanitas-light/50 flex items-center justify-center mb-6 text-sanitas-blue">
+                  <Globe className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-bold text-neutral-900 mb-3">Coberturas sin fronteras</h3>
+                <p className="text-neutral-600 leading-relaxed">
+                  En España o al otro lado del mundo. La protección viaja contigo, 365 días al año, sin letra pequeña ni exclusiones ocultas.
+                </p>
               </div>
             </div>
           </div>
@@ -267,63 +274,69 @@ export default function CampanaDecesosClient() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10 sm:mb-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-neutral-900">
-                Todo lo que necesitas, cubierto
+                Todo lo que necesitas. Sin asteriscos
               </h2>
             </div>
             
             <div className="grid md:grid-cols-3 gap-8">
               {/* Card 1 */}
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-neutral-100 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-neutral-900 mb-6">Lo básico, resuelto</h3>
+              <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-neutral-100 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-neutral-900 mb-6">Lo esencial, resuelto</h3>
                 <ul className="space-y-4">
                   {[
-                    "Servicio funerario completo incluido",
-                    "Traslado nacional e internacional",
-                    "Asesoría jurídica personalizada",
-                    "Gestión de trámites administrativos"
+                    "Servicio funerario completo: ataúd, urna, tanatorio, flores y personal",
+                    "Inhumación o cremación a tu elección",
+                    "Traslado nacional sin límite de kilómetros",
+                    "Repatriación internacional completa con trámites consulares",
+                    "Gestión de trámites administrativos",
+                    "Asesoría jurídica telefónica ilimitada"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-sanitas-blue shrink-0 mt-0.5" />
-                      <span className="text-neutral-600">{item}</span>
+                      <span className="text-neutral-600 text-sm sm:text-base">{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
               {/* Card 2 - Highlighted */}
-              <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-sanitas-blue relative transform md:-translate-y-4">
+              <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-xl border-2 border-sanitas-blue relative transform md:-translate-y-4">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-sanitas-blue text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
                   Más valorado
                 </div>
-                <h3 className="text-xl font-bold text-sanitas-dark mb-6">Apoyo emocional para los tuyos</h3>
+                <h3 className="text-xl font-bold text-sanitas-dark mb-6">Tu familia no está sola</h3>
                 <ul className="space-y-4">
                   {[
-                    "Acompañamiento psicológico gratuito",
-                    "Gastos de estancia para familiares",
-                    "Servicio de guardería de emergencia",
-                    "Asistencia en el hogar tras el fallecimiento"
+                    "Apoyo psicológico presencial y online tras el fallecimiento",
+                    "Gastos de alojamiento y desplazamiento para un familiar",
+                    "Guardería de emergencia para hijos menores",
+                    "Asistencia en el hogar tras el fallecimiento",
+                    "Testamento online con asesoría legal continua",
+                    "Ceremonia de despedida para mascotas incluida"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Heart className="w-5 h-5 text-sanitas-blue shrink-0 mt-0.5 fill-sanitas-blue/20" />
-                      <span className="text-neutral-700 font-medium">{item}</span>
+                      <span className="text-neutral-700 font-medium text-sm sm:text-base">{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
               {/* Card 3 */}
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-neutral-100 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-neutral-900 mb-6">Mucho más que un seguro</h3>
+              <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-neutral-100 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-neutral-900 mb-6">Más allá del seguro</h3>
                 <ul className="space-y-4">
                   {[
-                    "Farmacogenética: ADN para tratamientos",
-                    "Asistencia en viaje nacional e internacional",
-                    "Coberturas opcionales personalizables",
-                    "Segunda opinión médica"
+                    "Asistencia en viaje: anulación, equipaje, repatriación por enfermedad",
+                    "Acceso a red médica privada con más de 20.000 profesionales",
+                    "Segunda opinión médica",
+                    "Teleasistencia y acceso a residencias para mayores (Ballesol)",
+                    "Peque asistencia: servicios para menores de 17 años",
+                    "Coberturas opcionales personalizables (salud, accidentes, dependencia)"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Plus className="w-5 h-5 text-sanitas-blue shrink-0 mt-0.5" />
-                      <span className="text-neutral-600">{item}</span>
+                      <span className="text-neutral-600 text-sm sm:text-base">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -441,19 +454,16 @@ export default function CampanaDecesosClient() {
       {/* 8. FOOTER */}
       <footer className="bg-white border-t border-neutral-100 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2.5 shrink-0">
+          <div className="flex items-center shrink-0">
             <Image
-              src="/sanitas_logo.webp"
-              alt="Sanitas"
-              width={96}
-              height={48}
-              className="h-6 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+              src="/Santalucia_Seguros_logo.svg.png"
+              alt="Santalucía Seguros"
+              width={150}
+              height={30}
+              className="h-5 sm:h-6 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all object-contain"
             />
-            <span className="text-[14px] font-semibold tracking-tight text-neutral-500">
-              Seguros<span className="text-neutral-400">Online</span>
-            </span>
-            <span className="text-neutral-300 ml-2">|</span>
-            <span className="text-neutral-500 text-sm ml-2">Agencia Exclusiva</span>
+            <span className="text-neutral-300 mx-3">|</span>
+            <span className="text-neutral-500 text-sm font-medium">Agencia Exclusiva</span>
           </div>
           
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-neutral-500">
@@ -482,17 +492,14 @@ export default function CampanaDecesosClient() {
             
             {/* Modal Header */}
             <div className="border-b border-neutral-100 px-6 py-4 flex items-center justify-between shrink-0 relative">
-              <div className="flex items-center gap-2.5 shrink-0">
+              <div className="flex items-center shrink-0">
                 <Image
-                  src="/sanitas_logo.webp"
-                  alt="Sanitas"
-                  width={96}
-                  height={48}
-                  className="h-7 w-auto"
+                  src="/Santalucia_Seguros_logo.svg.png"
+                  alt="Santalucía Seguros"
+                  width={150}
+                  height={40}
+                  className="h-6 sm:h-7 w-auto object-contain"
                 />
-                <span className="text-[15px] font-semibold tracking-tight text-neutral-900">
-                  Seguros<span className="text-[#0091DA]">Online</span>
-                </span>
               </div>
               <button 
                 onClick={closeModal} 
@@ -607,7 +614,7 @@ export default function CampanaDecesosClient() {
                   <p className="text-center text-neutral-600 mb-8 font-medium">Selecciona una de las opciones</p>
                   
                   <div className="space-y-3 max-h-[40vh] overflow-y-auto pr-2 custom-scrollbar">
-                    {["No tengo seguro", "Sí, Santalucía", "Sí, Asisa", "Sí, Ocaso", "Sí, Adeslas", "Sí, Helvetia", "Sí, DKV"].map((ins) => (
+                    {["No tengo seguro", "Sí, Santalucía", "Sí, Asisa", "Sí, Ocaso", "Sí, Adeslas", "Sí, Helvetia", "Sí, DKV", "Sí, otra compañía"].map((ins) => (
                       <button
                         key={ins}
                         onClick={() => {
