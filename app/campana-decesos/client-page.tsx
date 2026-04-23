@@ -139,7 +139,7 @@ export default function CampanaDecesosClient() {
                 </p>
                 
                 <div className="mb-6 sm:mb-10">
-                  <p className="text-xs sm:text-sm font-bold uppercase tracking-wider text-sanitas-blue mb-0.5">Desde solo</p>
+                  <p className="text-xs sm:text-sm font-bold uppercase tracking-wider text-sanitas-blue mb-0.5">Seguro decesos desde solo</p>
                   <div className="flex items-end gap-1">
                     <span className="text-[5rem] sm:text-7xl lg:text-8xl font-black tracking-tighter text-[#002A54] leading-none -ml-1">5€</span>
                     <span className="text-2xl sm:text-3xl font-medium text-neutral-500 mb-2">/mes</span>
