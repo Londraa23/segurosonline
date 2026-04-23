@@ -124,34 +124,34 @@ export default function CampanaDecesosClient() {
 
       <main>
         {/* 2. HERO SECTION */}
-        <section className="relative overflow-hidden bg-white pt-8 pb-12 sm:pt-12 sm:pb-16 md:pt-20 md:pb-24">
+        <section className="relative overflow-hidden bg-white pt-6 pb-8 sm:pt-12 sm:pb-16 md:pt-20 md:pb-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-8 items-center">
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-8 items-center">
               
               {/* Left Content */}
               <div className="max-w-2xl animate-[slide-up_0.6s_ease-out_forwards]">
-                <h1 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl mb-4 sm:mb-6 leading-tight">
+                <h1 className="text-[2.5rem] font-bold tracking-tight text-neutral-900 sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl mb-4 sm:mb-6 leading-[1.1]">
                   Nadie debería <span className="text-sanitas-blue">afrontarlo</span> solo
                 </h1>
                 
-                <p className="text-lg text-neutral-600 mb-8 max-w-lg">
+                <p className="text-base sm:text-lg text-neutral-600 mb-6 max-w-lg leading-relaxed">
                   Cuando llega el momento, no hay tiempo para trámites, burocracia ni decisiones imposibles. Nosotros lo gestionamos todo. Tú solo tienes que estar.
                 </p>
                 
-                <div className="mb-8 sm:mb-10">
-                  <p className="text-sm font-semibold uppercase tracking-wider text-sanitas-blue mb-2">Desde solo</p>
-                  <div className="flex items-baseline gap-1.5">
-                    <span className="text-6xl sm:text-7xl lg:text-8xl font-black tracking-tighter text-[#002A54] leading-none">5€</span>
-                    <span className="text-2xl sm:text-3xl font-medium text-neutral-500">/mes</span>
+                <div className="mb-6 sm:mb-10">
+                  <p className="text-xs sm:text-sm font-bold uppercase tracking-wider text-sanitas-blue mb-0.5">Desde solo</p>
+                  <div className="flex items-end gap-1">
+                    <span className="text-[5rem] sm:text-7xl lg:text-8xl font-black tracking-tighter text-[#002A54] leading-none -ml-1">5€</span>
+                    <span className="text-2xl sm:text-3xl font-medium text-neutral-500 mb-2">/mes</span>
                   </div>
                 </div>
                 
                 <div className="flex flex-col gap-3 w-full sm:w-auto sm:inline-flex">
                   <button 
                     onClick={handleCTAClick}
-                    className="flex w-full items-center justify-center gap-2 rounded-full bg-sanitas-blue px-6 py-3.5 sm:px-8 sm:py-4 text-base sm:text-lg font-semibold text-white shadow-lg hover:bg-sanitas-dark transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
+                    className="flex w-full items-center justify-center gap-2 rounded-full bg-[#FFE169] px-6 py-4 sm:px-8 sm:py-4 text-lg font-bold text-[#002A54] shadow-lg hover:bg-[#FFD633] transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
                   >
-                    Calcular mi precio ahora <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                    Calcular mi precio ahora <ArrowRight className="w-5 h-5" />
                   </button>
                   <div className="flex items-center justify-center gap-1.5 text-xs sm:text-sm text-neutral-500 mt-1 sm:mt-2">
                     <Shield className="w-4 h-4" /> Sin compromiso · Cotización gratuita en 2 minutos
@@ -196,15 +196,15 @@ export default function CampanaDecesosClient() {
             <div className="grid grid-cols-3 gap-2 sm:gap-6 text-center">
               <div className="flex flex-col items-center gap-1.5 sm:gap-3 text-white">
                 <Building className="w-5 h-5 sm:w-8 sm:h-8 text-sanitas-light opacity-80" />
-                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">Más de 100 años de experiencia</span>
+                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">100 años historia</span>
               </div>
               <div className="flex flex-col items-center gap-1.5 sm:gap-3 text-white">
                 <Users className="w-5 h-5 sm:w-8 sm:h-8 text-sanitas-light opacity-80" />
-                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">+3M familias protegidas</span>
+                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">+3M familias</span>
               </div>
               <div className="flex flex-col items-center gap-1.5 sm:gap-3 text-white">
                 <Zap className="w-5 h-5 sm:w-8 sm:h-8 text-sanitas-light opacity-80" />
-                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">Atención 24/7 los 365 días</span>
+                <span className="text-[10px] sm:text-sm font-medium leading-tight px-1">Atención 24/7</span>
               </div>
             </div>
           </div>
