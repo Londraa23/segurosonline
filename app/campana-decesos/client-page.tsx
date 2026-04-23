@@ -139,26 +139,10 @@ export default function CampanaDecesosClient() {
                 </p>
                 
                 <div className="mb-8 sm:mb-10">
-                  <div className="inline-flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 bg-gradient-to-r from-blue-50 to-white border border-sanitas-blue/10 rounded-2xl p-5 sm:p-6 shadow-sm">
-                    <div>
-                      <p className="text-xs uppercase tracking-widest font-bold text-sanitas-blue mb-1">Tranquilidad total desde</p>
-                      <div className="flex items-baseline">
-                        <span className="text-6xl sm:text-7xl font-black tracking-tighter text-[#002A54]">5</span>
-                        <span className="text-4xl sm:text-5xl font-black text-[#002A54] mr-1">€</span>
-                        <span className="text-lg sm:text-xl font-medium text-neutral-500">/mes</span>
-                      </div>
-                    </div>
-                    <div className="hidden sm:block w-px h-16 bg-neutral-200"></div>
-                    <ul className="space-y-2 text-sm sm:text-base font-medium text-neutral-700">
-                      <li className="flex items-center gap-2">
-                        <Check className="w-5 h-5 text-sanitas-blue bg-sanitas-light rounded-full p-0.5 shrink-0" /> 
-                        Precio cerrado y garantizado
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="w-5 h-5 text-sanitas-blue bg-sanitas-light rounded-full p-0.5 shrink-0" /> 
-                        Sin copagos ni cuotas ocultas
-                      </li>
-                    </ul>
+                  <p className="text-sm font-semibold uppercase tracking-wider text-sanitas-blue mb-2">Desde solo</p>
+                  <div className="flex items-baseline gap-1.5">
+                    <span className="text-6xl sm:text-7xl lg:text-8xl font-black tracking-tighter text-[#002A54] leading-none">5€</span>
+                    <span className="text-2xl sm:text-3xl font-medium text-neutral-500">/mes</span>
                   </div>
                 </div>
                 
