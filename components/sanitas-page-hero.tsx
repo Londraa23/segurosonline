@@ -61,9 +61,10 @@ export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trus
 
   return (
     <section className="relative min-h-[85vh] flex items-center overflow-hidden" id="inicio">
-      <div className="absolute inset-0 -z-10">
-        <Image 
-          src={imageSrc} 
+      {/* Background image: hidden on mobile, visible on sm+ */}
+      <div className="hidden sm:block absolute inset-0 -z-10">
+        <Image
+          src={imageSrc}
           alt="Sanitas Hero"
           fill
           priority
@@ -72,6 +73,8 @@ export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trus
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent" />
       </div>
+      {/* Solid white background on mobile (no image) */}
+      <div className="sm:hidden absolute inset-0 -z-10 bg-white" />
 
       <div className="mx-auto max-w-7xl px-6 w-full py-16 lg:py-20 mt-16">
         {/* Breadcrumb */}
