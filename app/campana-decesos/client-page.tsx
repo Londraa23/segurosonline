@@ -28,6 +28,13 @@ export default function CampanaDecesosClient() {
     commercial: false
   });
 
+  // Cleanup body overflow when component unmounts (e.g. user navigates away)
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
+
   const handleCTAClick = (e?: React.MouseEvent) => {
     e?.preventDefault();
     setStep(1);
@@ -164,7 +171,7 @@ export default function CampanaDecesosClient() {
                       "/avatar-5.png"
                     ].map((src, i) => (
                       <div key={i} className="inline-block h-8 w-8 rounded-full ring-2 ring-white overflow-hidden relative">
-                        <Image src={src} alt={`Usuario ${i + 1}`} fill className="object-cover" />
+                        <Image src={src} alt={`Usuario ${i + 1}`} fill sizes="32px" className="object-cover" />
                       </div>
                     ))}
                   </div>
@@ -179,13 +186,14 @@ export default function CampanaDecesosClient() {
                 </div>
               </div>
 
-              {/* Right Image */}
-              <div className="relative mx-auto w-full max-w-lg lg:max-w-none animate-[slide-up_0.8s_ease-out_forwards]">
+              {/* Right Image (Hidden on mobile) */}
+              <div className="hidden md:block relative mx-auto w-full max-w-lg lg:max-w-none animate-[slide-up_0.8s_ease-out_forwards]">
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                   <Image 
                     src="/family-decesos-hero.png" 
                     alt="Familia sonriendo, abuelos y nietos en el salón" 
                     fill 
+                    priority
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
@@ -511,8 +519,8 @@ export default function CampanaDecesosClient() {
                   
                   <div className="space-y-4 mb-8">
                     {formData.ages.map((age, idx) => (
-                      <div key={idx} className="flex items-center gap-4 border border-neutral-200 p-4 rounded">
-                        <label className="font-semibold text-neutral-700 min-w-[120px]">
+                      <div key={idx} className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 border border-neutral-200 p-3 sm:p-4 rounded">
+                        <label className="font-semibold text-neutral-700 sm:min-w-[120px]">
                           Asegurado {idx + 1}:
                           <span className="block text-xs text-neutral-400 font-normal">(Obligatorio)</span>
                         </label>
@@ -521,7 +529,7 @@ export default function CampanaDecesosClient() {
                           placeholder="Edad"
                           value={age}
                           onChange={(e) => updateAge(idx, e.target.value)}
-                          className="flex-1 bg-neutral-100 px-4 py-3 rounded border-none outline-none focus:ring-2 focus:ring-sanitas-blue/50 text-neutral-800"
+                          className="w-full sm:flex-1 bg-neutral-100 px-4 py-3 rounded border-none outline-none focus:ring-2 focus:ring-sanitas-blue/50 text-neutral-800"
                         />
                       </div>
                     ))}
@@ -544,8 +552,8 @@ export default function CampanaDecesosClient() {
                   </h2>
                   <p className="text-center text-neutral-600 mb-8 font-medium">Algunas de las provincias españolas obtienen grandes descuentos</p>
                   
-                  <div className="flex items-center gap-4 border border-neutral-200 p-4 rounded mb-8">
-                    <label className="font-semibold text-neutral-700 min-w-[140px]">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 border border-neutral-200 p-3 sm:p-4 rounded mb-8">
+                    <label className="font-semibold text-neutral-700 sm:min-w-[140px]">
                       Código postal:
                       <span className="block text-xs text-neutral-400 font-normal">(5 cifras. Obligatorio)</span>
                     </label>
@@ -555,7 +563,7 @@ export default function CampanaDecesosClient() {
                       maxLength={5}
                       value={formData.cp}
                       onChange={(e) => updateFormData('cp', e.target.value)}
-                      className="flex-1 bg-neutral-100 px-4 py-3 rounded border-none outline-none focus:ring-2 focus:ring-sanitas-blue/50 text-neutral-800 text-center text-lg"
+                      className="w-full sm:flex-1 bg-neutral-100 px-4 py-3 rounded border-none outline-none focus:ring-2 focus:ring-sanitas-blue/50 text-neutral-800 sm:text-center text-lg"
                     />
                   </div>
                   <button
