@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Phone, Check, Shield, Clock, Heart, Users, Star, FileText, ArrowRight, Building, Zap, Plus, Trophy, Smartphone, ShieldCheck, Loader2, X } from "lucide-react"
+import { submitToMake } from "@/lib/form-submission"
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className={className} fill="currentColor">
@@ -14,6 +15,7 @@ export default function CampanaDecesosClient() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [step, setStep] = useState(1);
   const [isCalculating, setIsCalculating] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   
   const [formData, setFormData] = useState({
     numPersons: 1,
@@ -70,11 +72,31 @@ export default function CampanaDecesosClient() {
     updateFormData('ages', newAges);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted", formData);
-    alert("¡Gracias! Nos pondremos en contacto contigo pronto.");
-    closeModal();
+    setIsSubmitting(true);
+    
+    try {
+      await submitToMake({
+        ...formData,
+        pageUrl: window.location.href,
+        formId: "campana-decesos-modal"
+      });
+    } catch (error) {
+      console.error("Error submitting form", error);
+    }
+
+    setIsSubmitting(false);
+    setStep(7); // Show success step
+
+    // Auto-close modal after 4 seconds
+    setTimeout(() => {
+      // Only close if we are still on step 7 (user hasn't manually closed it)
+      setStep((currentStep) => {
+        if (currentStep === 7) closeModal();
+        return currentStep;
+      });
+    }, 4000);
   };
 
   return (
@@ -671,12 +693,32 @@ export default function CampanaDecesosClient() {
 
                     <button
                       type="submit"
-                      disabled={!formData.name || !formData.lastName || !formData.email || formData.phone.length !== 9 || !formData.privacy}
-                      className="w-full bg-[#FFE169] text-[#002A54] hover:bg-[#FFD633] py-4 text-xl font-bold transition-colors rounded disabled:opacity-50 disabled:cursor-not-allowed mt-4"
+                      disabled={!formData.name || !formData.lastName || !formData.email || formData.phone.length !== 9 || !formData.privacy || isSubmitting}
+                      className="w-full bg-[#FFE169] text-[#002A54] hover:bg-[#FFD633] py-4 text-xl font-bold transition-colors rounded disabled:opacity-50 disabled:cursor-not-allowed mt-4 flex items-center justify-center gap-2"
                     >
-                      Ver mi precio
+                      {isSubmitting ? (
+                        <><Loader2 className="w-6 h-6 animate-spin" /> Procesando...</>
+                      ) : (
+                        "Ver mi precio"
+                      )}
                     </button>
                   </form>
+                </div>
+              )}
+
+              {/* STEP 7: Success State */}
+              {step === 7 && (
+                <div className="flex flex-col items-center justify-center py-12 sm:py-16 animate-in zoom-in-95 duration-500">
+                  <div className="w-24 h-24 bg-green-50 rounded-full flex items-center justify-center mb-6 shadow-sm border border-green-100">
+                    <Check className="w-12 h-12 text-green-500 animate-[ping_1.5s_cubic-bezier(0,0,0.2,1)_1] absolute opacity-75" />
+                    <Check className="w-12 h-12 text-green-500 relative z-10" />
+                  </div>
+                  <h2 className="text-3xl sm:text-4xl font-bold text-[#002A54] text-center mb-4">
+                    ¡Formulario enviado!
+                  </h2>
+                  <p className="text-center text-neutral-600 text-lg max-w-md mx-auto">
+                    Gracias por confiar en nosotros. Un experto se pondrá en contacto contigo muy pronto para darte tu precio personalizado.
+                  </p>
                 </div>
               )}
 
