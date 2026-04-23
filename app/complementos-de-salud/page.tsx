@@ -8,8 +8,8 @@ import { Footer } from "@/components/footer"
 import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
-  title: "Complementos de Salud Sanitas — Personaliza tu Seguro | Sanitas Ventas Madrid",
-  description: "Amplía tu seguro Sanitas con complementos opcionales: farmacia, óptica, reembolso, genómica, accidentes, renta hospitalaria y más. Asesoramiento en Madrid. ☎ 91 726 46 33",
+  title: "Complementos de Salud Sanitas — Personaliza tu Seguro | Sanitas Ventas",
+  description: "Amplía tu seguro Sanitas con complementos opcionales: farmacia, óptica, reembolso, genómica, accidentes, renta hospitalaria y más. Asesoramiento. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/complementos-de-salud/"
   }

@@ -8,8 +8,8 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Operación de Cataratas con Láser Femtosegundo Sanitas Madrid",
-  description: "Operación de cataratas con láser de femtosegundo en Sanitas Madrid. Mayor precisión y seguridad que la cirugía tradicional. Sin hospitalización.",
+  title: "Operación de Cataratas con Láser Femtosegundo Sanitas",
+  description: "Operación de cataratas con láser de femtosegundo en Sanitas. Mayor precisión y seguridad que la cirugía tradicional. Sin hospitalización.",
   path: "/servicios-de-salud/vista/laser-de-cataratas"
 })
 

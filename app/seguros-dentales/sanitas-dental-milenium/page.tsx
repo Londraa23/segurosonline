@@ -14,8 +14,8 @@ import { Footer } from "@/components/footer"
 import { Download, ExternalLink, ChevronRight, Calculator, ShieldCheck, Users } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Dental Milenium — Seguro Dental en Madrid desde 12,20€/mes | Sanitas Ventas",
-  description: "Sanitas Dental Milenium: 55 servicios incluidos, hasta 40% de descuento en tratamientos, sin carencias ni preexistencias. Pack Dúo y Familia disponibles. Madrid. ☎ 91 726 46 33",
+  title: "Sanitas Dental Milenium — Seguro Dental desde 12,20€/mes | Sanitas Ventas",
+  description: "Sanitas Dental Milenium: 55 servicios incluidos, hasta 40% de descuento en tratamientos, sin carencias ni preexistencias. Pack Dúo y Familia disponibles.. ☎ 91 726 46 33",
   alternates: {
     canonical: "/seguros-dentales/sanitas-dental-milenium/"
   }

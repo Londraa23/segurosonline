@@ -8,8 +8,8 @@ import { CheckCircle2 } from "lucide-react"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Servicios de Nutrición y Pérdida de Peso Sanitas Madrid | Sanitas Ventas",
-  description: "Tratamientos para la obesidad y el sobrepeso con Sanitas: balón intragástrico, método POSE, método Apollo y cirugía bariátrica. Primera consulta gratuita. Madrid. ☎ 91 726 46 33",
+  title: "Servicios de Nutrición y Pérdida de Peso Sanitas | Sanitas Ventas",
+  description: "Tratamientos para la obesidad y el sobrepeso con Sanitas: balón intragástrico, método POSE, método Apollo y cirugía bariátrica. Primera consulta gratuita.. ☎ 91 726 46 33",
   path: "/servicios-de-salud/nutricion/"
 })
 

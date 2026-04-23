@@ -8,7 +8,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Sanitas Profesionales — Seguro Médico para Autónomos en Madrid",
+  title: "Sanitas Profesionales — Seguro Médico para Autónomos",
   description: "Seguro médico completo para autónomos desde 37,60€/mes. Deducible IRPF, cobertura de accidentes laborales y Blua gratis para siempre.",
   path: "/seguros-para-autonomos"
 })

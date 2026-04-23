@@ -7,8 +7,8 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, ComparisonTable, BluaSection, ThreeColumnFeatures, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Más Salud — Seguro Médico Completo con y sin Copago | Sanitas Ventas Madrid",
-  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Con o sin copago. 10% dto. desde 4 asegurados. Madrid. ☎ 91 726 46 33",
+  title: "Sanitas Más Salud — Seguro Médico Completo con y sin Copago | Sanitas Ventas",
+  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Con o sin copago. 10% dto. desde 4 asegurados.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud/" }
 }
 

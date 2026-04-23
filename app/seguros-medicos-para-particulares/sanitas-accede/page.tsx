@@ -9,8 +9,8 @@ import {
 } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Accede — Seguro Médico Privado en Madrid | Sanitas Ventas",
-  description: "Sanitas Accede: accede a 51.000 médicos, 4.200 centros y Blua gratis. Consultas ilimitadas, pruebas diagnósticas y urgencias 24h. Desde Madrid. ☎ 91 726 46 33",
+  title: "Sanitas Accede — Seguro Médico Privado | Sanitas Ventas",
+  description: "Sanitas Accede: accede a 51.000 médicos, 4.200 centros y Blua gratis. Consultas ilimitadas, pruebas diagnósticas y urgencias 24h. Desde. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-accede/" }
 }
 

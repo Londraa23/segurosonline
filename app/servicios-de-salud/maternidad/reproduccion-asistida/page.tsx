@@ -7,8 +7,8 @@ import { Footer } from "@/components/footer"
 import { ProductFeatureSection, FeatureList } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Reproducción Asistida Sanitas Madrid — FIV, Inseminación, ICSI | Sanitas Ventas",
-  description: "Tratamientos de reproducción asistida Sanitas: FIV, inseminación artificial, ICSI y ovodonación. Primera consulta gratuita. 8% dto. para clientes. Madrid. ☎ 91 726 46 33",
+  title: "Reproducción Asistida Sanitas — FIV, Inseminación, ICSI | Sanitas Ventas",
+  description: "Tratamientos de reproducción asistida Sanitas: FIV, inseminación artificial, ICSI y ovodonación. Primera consulta gratuita. 8% dto. para clientes.. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/servicios-de-salud/maternidad/reproduccion-asistida/"
   }

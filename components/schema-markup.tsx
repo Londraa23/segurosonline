@@ -23,8 +23,8 @@ export function SchemaMarkup({ faqs, breadcrumbs, type = 'WebPage' }: SchemaProp
     priceRange: "€€",
     address: {
       "@type": "PostalAddress",
-      "addressLocality": "Madrid",
-      "addressRegion": "Madrid",
+      "addressLocality": "España",
+      "addressRegion": "España",
       "addressCountry": "ES"
     }
   }

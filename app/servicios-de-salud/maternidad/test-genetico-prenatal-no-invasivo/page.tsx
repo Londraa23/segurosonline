@@ -7,8 +7,8 @@ import { Footer } from "@/components/footer"
 import { ProductFeatureSection, FeatureList, ComparisonTable } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Test Genético Prenatal No Invasivo Sanitas Madrid — Detección Trisomías | Sanitas Ventas",
-  description: "Test genético prenatal no invasivo Sanitas desde semana 10 de embarazo. Detecta síndrome de Down y otras trisomías sin riesgo. Muestra de sangre materna. Madrid. ☎ 91 726 46 33",
+  title: "Test Genético Prenatal No Invasivo Sanitas — Detección Trisomías | Sanitas Ventas",
+  description: "Test genético prenatal no invasivo Sanitas desde semana 10 de embarazo. Detecta síndrome de Down y otras trisomías sin riesgo. Muestra de sangre materna.. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/servicios-de-salud/maternidad/test-genetico-prenatal-no-invasivo/"
   }

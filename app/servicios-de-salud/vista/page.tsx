@@ -8,8 +8,8 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Servicios de Salud Visual Sanitas — Cirugía Ocular en Madrid",
-  description: "Cirugía láser ocular, operación de cataratas y tratamiento de presbicia con Sanitas en Madrid. Primera consulta gratuita, precios especiales y financiación.",
+  title: "Servicios de Salud Visual Sanitas — Cirugía Ocular",
+  description: "Cirugía láser ocular, operación de cataratas y tratamiento de presbicia con Sanitas. Primera consulta gratuita, precios especiales y financiación.",
   path: "/servicios-de-salud/vista"
 })
 

@@ -9,8 +9,8 @@ import { Reveal } from "@/components/reveal"
 import { CheckCircle2, FileCheck, Stethoscope, Video } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguros Médicos para Extranjeros en España | Sanitas Ventas Madrid",
-  description: "Seguros de salud Sanitas para extranjeros residentes en España. Válidos para visado y residencia, sin copago, con hospitalización. Asesoramiento en Madrid. ☎ 91 726 46 33",
+  title: "Seguros Médicos para Extranjeros en España | Sanitas Ventas",
+  description: "Seguros de salud Sanitas para extranjeros residentes en España. Válidos para visado y residencia, sin copago, con hospitalización. Asesoramiento. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/"
   }

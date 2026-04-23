@@ -11,7 +11,7 @@ import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Asistencia Senior Prima Única — Seguro de Decesos para Mayores de 75 | Sanitas Ventas",
-  description: "Asistencia Senior a prima única para mayores de 75 años. Un solo pago, cobertura completa por fallecimiento, gestión integral funeraria y garantía mundial. Madrid. ☎ 91 726 46 33",
+  description: "Asistencia Senior a prima única para mayores de 75 años. Un solo pago, cobertura completa por fallecimiento, gestión integral funeraria y garantía mundial.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-senior/" }
 }
 
@@ -144,7 +144,7 @@ export default function AsistenciaSeniorPage() {
       <ContactSection
         label="¿HABLAMOS?"
         title="Te explicamos todas las coberturas sin ningún compromiso."
-        description="Llámanos o déjanos tu número. Madrid · Metro Ventas · 91 726 46 33 · 673 674 849 · 615 875 184"
+        description="Llámanos o déjanos tu número. · Metro Ventas · 91 726 46 33 · 673 674 849 · 615 875 184"
       />
       <Footer />
     </main>

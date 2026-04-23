@@ -9,7 +9,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Seguros Médicos para Particulares Sanitas en Madrid",
+  title: "Seguros Médicos para Particulares Sanitas",
   description: "Encuentra el seguro médico Sanitas para particulares que mejor se adapta a ti. Con o sin copago, con reembolso, con Blua incluido gratis.",
   path: "/seguros-medicos-para-particulares"
 })

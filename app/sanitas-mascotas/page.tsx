@@ -15,8 +15,8 @@ import { Reveal } from "@/components/reveal"
 import { Dog, Cat, Heart, Shield, Clock, Stethoscope, BadgePercent, Globe, Download, ExternalLink } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Seguro Mascotas — Seguro Veterinario para Perros y Gatos | Sanitas Ventas Madrid",
-  description: "Seguro veterinario Sanitas para perros y gatos. 80% de reembolso hasta 2.500€/año, libre elección de veterinario, urgencias y consulta preventiva anual. Madrid. ☎ 91 726 46 33",
+  title: "Sanitas Seguro Mascotas — Seguro Veterinario para Perros y Gatos | Sanitas Ventas",
+  description: "Seguro veterinario Sanitas para perros y gatos. 80% de reembolso hasta 2.500€/año, libre elección de veterinario, urgencias y consulta preventiva anual.. ☎ 91 726 46 33",
   alternates: {
     canonical: "/sanitas-mascotas/"
   }

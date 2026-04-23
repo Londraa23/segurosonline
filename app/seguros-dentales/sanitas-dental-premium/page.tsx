@@ -15,7 +15,7 @@ import { Download, ExternalLink, ChevronRight, Calculator, ShieldCheck, Sparkles
 
 export const metadata: Metadata = {
   title: "Sanitas Dental Premium — Seguro Dental Completo con Empastes Incluidos | Sanitas Ventas",
-  description: "Sanitas Dental Premium: 73 servicios incluidos, 2 empastes/año incluidos, hasta 40% dto. Sin carencias ni preexistencias. Pack Dúo y Familia. Madrid. ☎ 91 726 46 33",
+  description: "Sanitas Dental Premium: 73 servicios incluidos, 2 empastes/año incluidos, hasta 40% dto. Sin carencias ni preexistencias. Pack Dúo y Familia.. ☎ 91 726 46 33",
   alternates: {
     canonical: "/seguros-dentales/sanitas-dental-premium/"
   }

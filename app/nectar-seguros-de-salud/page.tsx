@@ -7,8 +7,8 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Néctar Contigo — Seguro Médico Completo a Precio Reducido | Sanitas Ventas Madrid",
-  description: "Néctar Contigo: asistencia sanitaria completa con hospitalización a través de una red médica de más de 15.000 profesionales. Con y sin copago. Madrid. ☎ 91 726 46 33",
+  title: "Néctar Contigo — Seguro Médico Completo a Precio Reducido | Sanitas Ventas",
+  description: "Néctar Contigo: asistencia sanitaria completa con hospitalización a través de una red médica de más de 15.000 profesionales. Con y sin copago.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/nectar-seguros-de-salud/" }
 }
 

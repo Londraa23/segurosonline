@@ -12,7 +12,7 @@ import Link from "next/link"
 
 export const metadata = generateMetadata({
   title: "Sanitas Mayores — Residencias, Centros de Día y Cuidados para Mayores | Sanitas Ventas",
-  description: "Sanitas Mayores: residencias, centros de día, cuidados a domicilio y rehabilitación para personas mayores en España. Tengas o no seguro Sanitas. Madrid. ☎ 91 726 46 33",
+  description: "Sanitas Mayores: residencias, centros de día, cuidados a domicilio y rehabilitación para personas mayores en España. Tengas o no seguro Sanitas.. ☎ 91 726 46 33",
   path: "/sanitas-mayores/"
 })
 

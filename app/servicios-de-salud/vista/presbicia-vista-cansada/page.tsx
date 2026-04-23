@@ -7,8 +7,8 @@ import { Footer } from "@/components/footer"
 import { ProductFeatureSection, FeatureList } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Operación de Presbicia y Vista Cansada Sanitas Madrid | Sanitas Ventas",
-  description: "Tratamiento de la presbicia (vista cansada) con láser excimer o lente intraocular multifocal en Sanitas Madrid. Recuperación inmediata. Primera consulta gratuita. ☎ 91 726 46 33",
+  title: "Operación de Presbicia y Vista Cansada Sanitas | Sanitas Ventas",
+  description: "Tratamiento de la presbicia (vista cansada) con láser excimer o lente intraocular multifocal en Sanitas. Recuperación inmediata. Primera consulta gratuita. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/servicios-de-salud/vista/presbicia-vista-cansada/"
   }

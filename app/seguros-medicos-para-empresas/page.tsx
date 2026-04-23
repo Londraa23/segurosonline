@@ -10,7 +10,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Seguros Médicos para Empresas Sanitas en Madrid — Pymes y Grandes Cuentas",
+  title: "Seguros Médicos para Empresas Sanitas — Pymes y Grandes Cuentas",
   description: "Seguros de salud Sanitas para empresas y pymes. Cuida a tu equipo, mejora la productividad y aprovecha deducciones fiscales del 100%.",
   path: "/seguros-medicos-para-empresas"
 })

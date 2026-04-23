@@ -8,7 +8,7 @@ import { ProductFeatureSection, FeatureList } from "@/components/product-section
 
 export const metadata: Metadata = {
   title: "Conservación del Cordón Umbilical Sanitas — Células Madre 30 Años | Sanitas Ventas",
-  description: "Conservación de células madre del cordón umbilical en banco privado durante 30 años con Sanitas. Proceso indoloro, laboratorio en Madrid, descuentos para clientes. ☎ 91 726 46 33",
+  description: "Conservación de células madre del cordón umbilical en banco privado durante 30 años con Sanitas. Proceso indoloro, laboratorio, descuentos para clientes. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/servicios-de-salud/maternidad/sanitas-cordon-umbilical/"
   }
@@ -45,10 +45,10 @@ export default function CordónUmbilicalPage() {
           { label: "Maternidad", href: "/servicios-de-salud/maternidad" },
           { label: "Sanitas Cordón Umbilical" }
         ]}
-        label="30 años de conservación · Laboratorio en Madrid · Proceso indoloro · Precios especiales"
+        label="30 años de conservación · Laboratorio · Proceso indoloro · Precios especiales"
         h1={<>Sanitas Cordón Umbilical.<br />Una pequeña gran reserva de salud para tu familia.</>}
         body="¿Sabías que la sangre del cordón umbilical de tu bebé contiene células madre que podrían salvarle la vida en el futuro? En Sanitas hemos creado un servicio para la conservación de las células madre del cordón umbilical en un banco privado, que pueden constituir una auténtica reserva de salud ahora y en el futuro. Conservación durante 30 años."
-        badges={["30 años de conservación", "Laboratorio en Madrid", "Proceso indoloro", "Precios especiales clientes"]}
+        badges={["30 años de conservación", "Laboratorio", "Proceso indoloro", "Precios especiales clientes"]}
         trustItems={["Proceso indoloro", "Sin riesgo madre/bebé", "+70 enfermedades", "Disponible sin póliza"]}
         imageSrc="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=1600&q=80&auto=format"
       />
@@ -83,7 +83,7 @@ export default function CordónUmbilicalPage() {
         </p>
         <h3 className="text-xl font-bold mt-8 mb-3">Procesamiento y conservación</h3>
         <p>
-          La muestra se envía al laboratorio de Sanitas en Madrid para separar las células y conservarlas en nitrógeno líquido en un banco privado durante 30 años.
+          La muestra se envía al laboratorio de Sanitas para separar las células y conservarlas en nitrógeno líquido en un banco privado durante 30 años.
         </p>
       </ProductFeatureSection>
 
@@ -94,7 +94,7 @@ export default function CordónUmbilicalPage() {
           "Análisis y procesamiento de la muestra",
           "Transporte hasta el banco privado",
           "Almacenamiento y conservación durante 30 años",
-          "Laboratorio en Madrid: procesamiento más rápido y eficiente"
+          "Laboratorio: procesamiento más rápido y eficiente"
         ]} />
       </ProductFeatureSection>
 

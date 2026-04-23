@@ -7,8 +7,8 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, ProcessSteps, StatementBand, BluaSection, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Avanza — Seguro Médico con Cirugía sin Hospitalización | Sanitas Ventas Madrid",
-  description: "Sanitas Avanza: el único seguro sin hospitalización que incluye más de 400 intervenciones quirúrgicas. Cuadro médico completo y Blua gratis. Madrid. ☎ 91 726 46 33",
+  title: "Sanitas Avanza — Seguro Médico con Cirugía sin Hospitalización | Sanitas Ventas",
+  description: "Sanitas Avanza: el único seguro sin hospitalización que incluye más de 400 intervenciones quirúrgicas. Cuadro médico completo y Blua gratis.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-avanza/" }
 }
 

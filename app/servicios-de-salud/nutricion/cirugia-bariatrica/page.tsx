@@ -8,8 +8,8 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Cirugía Bariátrica Sanitas Madrid — Banda Gástrica y By-Pass | Sanitas Ventas",
-  description: "Cirugía bariátrica Sanitas: banda gástrica, by-pass gástrico y técnicas laparoscópicas para obesidad mórbida. Primera consulta gratuita. Seguimiento médico completo. Madrid. ☎ 91 726 46 33",
+  title: "Cirugía Bariátrica Sanitas — Banda Gástrica y By-Pass | Sanitas Ventas",
+  description: "Cirugía bariátrica Sanitas: banda gástrica, by-pass gástrico y técnicas laparoscópicas para obesidad mórbida. Primera consulta gratuita. Seguimiento médico completo.. ☎ 91 726 46 33",
   path: "/servicios-de-salud/nutricion/cirugia-bariatrica/"
 })
 

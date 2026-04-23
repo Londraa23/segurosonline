@@ -9,7 +9,7 @@ import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
   title: "Sanitas Global Care — Seguro Médico para Empleados en el Extranjero | Sanitas Ventas",
-  description: "Sanitas Global Care: cobertura médica mundial para empleados expatriados. Reembolso 100%, hospitalización completa y sin número mínimo de asegurados. Madrid. ☎ 91 726 46 33",
+  description: "Sanitas Global Care: cobertura médica mundial para empleados expatriados. Reembolso 100%, hospitalización completa y sin número mínimo de asegurados.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-global-care/" }
 }
 

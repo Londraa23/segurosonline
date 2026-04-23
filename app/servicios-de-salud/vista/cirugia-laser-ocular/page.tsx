@@ -8,7 +8,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Cirugía Láser Ocular Sanitas en Madrid — Miopía, Astigmatismo, Hipermetropía",
+  title: "Cirugía Láser Ocular Sanitas — Miopía, Astigmatismo, Hipermetropía",
   description: "Cirugía láser ocular Sanitas para corregir miopía, astigmatismo e hipermetropía. Primera consulta gratuita, técnica mínimamente invasiva, 20 minutos.",
   path: "/servicios-de-salud/vista/cirugia-laser-ocular"
 })

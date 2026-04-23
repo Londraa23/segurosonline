@@ -77,16 +77,6 @@ export function Header() {
 
   return (
     <>
-      {/* Utility bar — only on desktop */}
-      <div className="hidden lg:block border-b border-neutral-100 text-[13px] text-neutral-500 relative z-[60]">
-        <div className="mx-auto max-w-7xl px-8 h-9 flex items-center justify-between">
-          <span>Agencia Exclusiva Sanitas · DGSFP C032002638266M</span>
-          <div className="flex items-center divide-x divide-neutral-200">
-            <a href="tel:+34624217323" className="pr-4 hover:text-neutral-900 transition-colors">624 21 73 23</a>
-            <a href="https://wa.me/34624217323" target="_blank" rel="noopener noreferrer" className="pl-4 hover:text-neutral-900 transition-colors">WhatsApp</a>
-          </div>
-        </div>
-      </div>
 
       {/* Main navbar */}
       <header

@@ -8,7 +8,7 @@ import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection, LegalNote 
 
 export const metadata: Metadata = {
   title: "Sanitas Único — Seguro Médico para Mayores de 60 sin Límite de Edad | Sanitas Ventas",
-  description: "Sanitas Único: seguro médico desde 60 años sin límite de edad. Geriatría, servicios a domicilio, programas para mayores y Blua incluido. Madrid. ☎ 91 726 46 33",
+  description: "Sanitas Único: seguro médico desde 60 años sin límite de edad. Geriatría, servicios a domicilio, programas para mayores y Blua incluido.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-unico/" }
 }
 

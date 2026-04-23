@@ -32,10 +32,10 @@ const maternidadProducts: ProductCardData[] = [
     title: "Sanitas Cordón Umbilical",
     label: "// CÉLULAS MADRE · CONSERVACIÓN 30 AÑOS",
     tagline: "Una pequeña gran reserva de salud para tu familia.",
-    description: "Conservación de células madre del cordón umbilical en banco privado durante 30 años. El parto es el único momento para obtenerlas. Proceso indoloro y sin riesgo. Laboratorio en Madrid para mayor calidad de las células.",
+    description: "Conservación de células madre del cordón umbilical en banco privado durante 30 años. El parto es el único momento para obtenerlas. Proceso indoloro y sin riesgo. Laboratorio para mayor calidad de las células.",
     features: [
       "Conservación por 30 años",
-      "Laboratorio en Madrid (mayor viabilidad)",
+      "Laboratorio (mayor viabilidad)",
       "Proceso indoloro y sin riesgo",
       "Válido para hermanos compatibles"
     ],

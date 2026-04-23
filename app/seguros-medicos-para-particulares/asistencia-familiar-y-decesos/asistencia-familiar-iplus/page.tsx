@@ -10,8 +10,8 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguro de Decesos Asistencia Familiar iPlus Sanitas | Sanitas Ventas Madrid",
-  description: "Asistencia Familiar iPlus: el seguro de decesos más completo de Sanitas con asistencia en viaje, protección jurídica y cobertura por accidentes. Hasta 75 años. Madrid. ☎ 91 726 46 33",
+  title: "Seguro de Decesos Asistencia Familiar iPlus Sanitas | Sanitas Ventas",
+  description: "Asistencia Familiar iPlus: el seguro de decesos más completo de Sanitas con asistencia en viaje, protección jurídica y cobertura por accidentes. Hasta 75 años.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-familiar-iplus/" }
 }
 
@@ -184,7 +184,7 @@ export default function AsistenciaFamiliarIPlusPage() {
       <ContactSection
         label="¿HABLAMOS?"
         title="Te explicamos todas las coberturas y opciones sin ningún compromiso."
-        description="Estás en buenas manos. Madrid · Metro Ventas · 91 726 46 33 · 673 674 849 · 615 875 184"
+        description="Estás en buenas manos. · Metro Ventas · 91 726 46 33 · 673 674 849 · 615 875 184"
       />
       <Footer />
     </main>

@@ -7,8 +7,8 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Más Salud Familias — Seguro Médico Familiar Sanitas | Sanitas Ventas Madrid",
-  description: "Sanitas Más Salud Familias: toda la familia en una póliza. Pediatría, maternidad, hospitalización completa y Blua gratis. 10% dto. desde 4 asegurados. Madrid. ☎ 91 726 46 33",
+  title: "Sanitas Más Salud Familias — Seguro Médico Familiar Sanitas | Sanitas Ventas",
+  description: "Sanitas Más Salud Familias: toda la familia en una póliza. Pediatría, maternidad, hospitalización completa y Blua gratis. 10% dto. desde 4 asegurados.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud-familias/" }
 }
 
