@@ -1,0 +1,10 @@
+- [x] Refactor PageHero to exactly match Hero background structure (img + via-white/80)
+- [x] Ensure all attributes are stable to fix hydration error
+- [x] Verify background visuals on Empresas page
+- [x] Optimize PageHero for performance (fetchpriority, async decoding)
+- [x] Resolve Hydration Mismatch across all subpages
+- [x] Verify background images load quickly and correctly
+- [x] Implement structural Hydration Guard in PageHero (stable DOM structure)
+- [x] Implement structural Hydration Guard in Hero (stable DOM structure)
+- [x] Resolve any remaining hydration warnings for subpages
+- [x] Verify zero console errors in subpages with new structure
