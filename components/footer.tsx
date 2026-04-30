@@ -1,6 +1,10 @@
 import Link from "next/link"
 import Image from "next/image"
+<<<<<<< HEAD
 import { Phone, MessageCircle, Mail, ArrowUpRight } from "lucide-react"
+=======
+import { Phone, MapPin, MessageCircle, Mail, ArrowUpRight } from "lucide-react"
+>>>>>>> be20582e09389210bd048c3b8d7f471a367075e8
 
 const footerLinks = {
   seguros: [
@@ -58,7 +62,11 @@ export function Footer() {
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-5 max-w-sm">
               Agencia de Seguros Exclusiva de Sanitas S.A. de Seguros.
+<<<<<<< HEAD
               Expertos asesores de seguros médicos Sanitas con más de 30 años de experiencia.
+=======
+              DGSFP: C032002638266M. Expertos asesores de seguros médicos Sanitas con más de 30 años de experiencia.
+>>>>>>> be20582e09389210bd048c3b8d7f471a367075e8
             </p>
 
             {/* Contact */}
@@ -174,10 +182,17 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-muted-foreground">
+<<<<<<< HEAD
             &copy; {new Date().getFullYear()} SegurosOnline.net &mdash; Agencia Exclusiva Sanitas. Todos los derechos reservados.
           </p>
           <p className="text-xs text-muted-foreground text-center sm:text-right">
             Expertos asesores de Seguros M&eacute;dicos Sanitas
+=======
+            © {new Date().getFullYear()} SegurosOnline.net — Agencia Exclusiva Sanitas. Todos los derechos reservados.
+          </p>
+          <p className="text-xs text-muted-foreground text-center sm:text-right">
+            Expertos asesores de Seguros Médicos Sanitas
+>>>>>>> be20582e09389210bd048c3b8d7f471a367075e8
           </p>
         </div>
       </div>

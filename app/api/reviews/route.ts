@@ -7,6 +7,7 @@ const API_KEY = process.env.GOOGLE_PLACES_API_KEY || ''
 // Fallback reviews when API key is not configured
 const fallbackReviews = [
   {
+<<<<<<< HEAD
     author_name: "Carlos Ruiz",
     relative_time_description: "hace 2 días",
     rating: 5,
@@ -19,10 +20,17 @@ const fallbackReviews = [
     relative_time_description: "hace 1 semana",
     rating: 5,
     text: "Excelente atención al cliente. Me explicaron todas las coberturas con mucha paciencia y claridad. Da gusto encontrar profesionales que se preocupan de verdad por tus necesidades.",
+=======
+    author_name: "Emilia Tanasescu",
+    relative_time_description: "hace 7 días",
+    rating: 5,
+    text: "Quiero agradecer a Susana Barroso por su excelente atención y profesionalidad. Me ayudó a cambiar mi seguro de salud por uno mucho mejor, adaptado a mis necesidades. Totalmente recomendable.",
+>>>>>>> be20582e09389210bd048c3b8d7f471a367075e8
     profile_photo_url: null,
     time: Date.now() / 1000 - 604800,
   },
   {
+<<<<<<< HEAD
     author_name: "Javier Gómez",
     relative_time_description: "hace 2 semanas",
     rating: 5,
@@ -35,18 +43,48 @@ const fallbackReviews = [
     relative_time_description: "hace un mes",
     rating: 5,
     text: "Buscaba un seguro para mis padres y nos ayudaron a encontrar uno adaptado a su edad con las mejores coberturas médicas. Un trato muy humano y cercano.",
+=======
+    author_name: "Maria Montilla",
+    relative_time_description: "hace 15 días",
+    rating: 5,
+    text: "Excelente trato y amable atención, satisfaciendo mis necesidades. Cristina Barroso es la mejor. Recomiendo esta oficina 100%.",
+    profile_photo_url: null,
+    time: Date.now() / 1000 - 1296000,
+  },
+  {
+    author_name: "Chiara Zangrando",
+    relative_time_description: "hace 27 días",
+    rating: 5,
+    text: "Susana, muy profesional me ayudó mucho en todo el proceso de alta del seguro. Me encantó el servicio y la rapidez con la que todo fue tramitado.",
+    profile_photo_url: null,
+    time: Date.now() / 1000 - 2332800,
+  },
+  {
+    author_name: "Catalina Campins",
+    relative_time_description: "hace un mes",
+    rating: 5,
+    text: "He contratado la póliza para mayores 60 por email, mi gestora Cristina ha sido clara en mis peticiones y dudas. Le agradezco su confianza y amabilidad.",
+>>>>>>> be20582e09389210bd048c3b8d7f471a367075e8
     profile_photo_url: null,
     time: Date.now() / 1000 - 2592000,
   },
   {
+<<<<<<< HEAD
     author_name: "Miguel Ángel Torres",
     relative_time_description: "hace 2 meses",
     rating: 5,
     text: "Gran experiencia. Me resolvieron todas las dudas sobre la carencia y pude empezar a usar los servicios especialistas enseguida. Servicio de 10.",
+=======
+    author_name: "Julieta Reynoso",
+    relative_time_description: "hace 2 meses",
+    rating: 5,
+    text: "Excelente atención de Susana Barroso. Muy profesional, resolvió todas mis dudas sobre el seguro y me ayudó a elegir la mejor opción para mi familia.",
+>>>>>>> be20582e09389210bd048c3b8d7f471a367075e8
     profile_photo_url: null,
     time: Date.now() / 1000 - 5184000,
   },
   {
+<<<<<<< HEAD
     author_name: "Lucía Fernández",
     relative_time_description: "hace 3 meses",
     rating: 5,
@@ -54,6 +92,47 @@ const fallbackReviews = [
     profile_photo_url: null,
     time: Date.now() / 1000 - 7776000,
   },
+=======
+    author_name: "Atom Rutherford",
+    relative_time_description: "hace 2 meses",
+    rating: 5,
+    text: "Tuve una muy buena experiencia con Susana, es una gran profesional y me ayudó con la contratación del seguro médico para mi residencia. Todo fue rápido y claro.",
+    profile_photo_url: null,
+    time: Date.now() / 1000 - 5184000,
+  },
+  {
+    author_name: "Andrea Quintana",
+    relative_time_description: "hace 2 meses",
+    rating: 5,
+    text: "Muy buena experiencia. Gestión rápida y eficiente. El equipo de la oficina es muy profesional y amable. Recomiendo sin dudarlo.",
+    profile_photo_url: null,
+    time: Date.now() / 1000 - 5184000,
+  },
+  {
+    author_name: "Felipe Riesco",
+    relative_time_description: "hace 3 meses",
+    rating: 5,
+    text: "Muy clara y rápida atención. Muy amable y gran asesora Susana Barroso. Una experiencia muy positiva en la contratación de mi seguro.",
+    profile_photo_url: null,
+    time: Date.now() / 1000 - 7776000,
+  },
+  {
+    author_name: "Laura García",
+    relative_time_description: "hace 3 meses",
+    rating: 5,
+    text: "Increíble atención al cliente. Me explicaron todo con detalle y encontraron el seguro perfecto para mis necesidades. El proceso fue muy sencillo.",
+    profile_photo_url: null,
+    time: Date.now() / 1000 - 7776000,
+  },
+  {
+    author_name: "S Glick",
+    relative_time_description: "hace 4 meses",
+    rating: 5,
+    text: "Being a foreigner, I was worried about the process but the team made everything incredibly easy. Excellent service and very professional.",
+    profile_photo_url: null,
+    time: Date.now() / 1000 - 10368000,
+  },
+>>>>>>> be20582e09389210bd048c3b8d7f471a367075e8
 ]
 
 // In-memory cache
