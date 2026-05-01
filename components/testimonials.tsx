@@ -54,9 +54,6 @@ export function Testimonials() {
             <p className="text-sm font-semibold text-[#0091DA] uppercase tracking-wider mb-3">Opiniones reales</p>
             <h2 id="testimonios-heading" className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-balance leading-[1.05] mb-6">Lo que dicen nuestros clientes</h2>
             <p className="text-muted-foreground leading-relaxed">
-<<<<<<< HEAD
-              Opiniones reales de nuestros asegurados.
-=======
               Opiniones verificadas de nuestros clientes.{" "}
               {reviewsData?.source === 'google_api' && (
                 <span className="inline-flex items-center gap-1 text-xs text-[#0091DA] font-medium">
@@ -64,18 +61,13 @@ export function Testimonials() {
                   En directo
                 </span>
               )}
->>>>>>> 549132e (Añadir login + bugs)
             </p>
           </div>
           <div className="flex items-center gap-5 p-5 bg-white rounded-2xl border border-border/60 shadow-sm shrink-0">
             <div className="flex items-center gap-3">
-<<<<<<< HEAD
-              <Star className="w-7 h-7 text-amber-400 fill-amber-400" />
-=======
               <div className="w-10 h-10 rounded-full bg-[#0091DA]/10 flex items-center justify-center">
                 <Star className="w-5 h-5 text-[#0091DA] fill-[#0091DA]" />
               </div>
->>>>>>> 549132e (Añadir login + bugs)
               <div>
                 <div className="text-3xl font-bold text-foreground leading-none">{rating}</div>
                 <div className="flex gap-0.5 mt-1">
@@ -86,11 +78,7 @@ export function Testimonials() {
             <div className="h-10 w-px bg-border" />
             <div>
               <p className="font-bold text-foreground">{totalReviews} opiniones</p>
-<<<<<<< HEAD
-              <p className="text-xs text-muted-foreground">Valoración media</p>
-=======
               <p className="text-xs text-muted-foreground">verificadas</p>
->>>>>>> 549132e (Añadir login + bugs)
             </div>
           </div>
         </Reveal>

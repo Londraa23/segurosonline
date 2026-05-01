@@ -184,14 +184,6 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-<<<<<<< HEAD
-        <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} SegurosOnline.net &mdash; Agencia Exclusiva Sanitas. Todos los derechos reservados.
-          </p>
-          <p className="text-xs text-muted-foreground text-center sm:text-right">
-            Expertos asesores de Seguros M&eacute;dicos Sanitas
-=======
         <div className="mt-12 pt-6 border-t border-border flex flex-col lg:flex-row justify-between items-center gap-6">
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
             <p className="text-xs text-muted-foreground">
@@ -211,7 +203,6 @@ export function Footer() {
           </div>
           <p className="text-xs text-muted-foreground text-center lg:text-right">
             Expertos asesores de Seguros Médicos Sanitas
->>>>>>> 549132e (Añadir login + bugs)
           </p>
         </div>
       </div>
