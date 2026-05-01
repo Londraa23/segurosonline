@@ -45,14 +45,14 @@ export function CategoryProductGrid({ title, description, products }: CategoryPr
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch relative">
           {products.map((product, i) => (
             <Reveal key={product.title} delay={i * 0.1} className="h-full">
-              <div className={`group relative flex flex-col rounded-[2rem] overflow-hidden transition-shadow duration-500 h-full ${
+              <div className={`group relative flex flex-col rounded-[2rem] transition-shadow duration-500 h-full ${
                 product.highlighted
                   ? "shadow-2xl shadow-[#0091DA]/20 border-2 border-[#0091DA] bg-[#002A54]"
                   : "hover:shadow-2xl border border-border shadow-lg shadow-black/5 bg-white"
-              }`}>
+              }`} style={{ isolation: "isolate" }}>
                 
                 {/* ZONA 1 - FOTO */}
-                <div className="relative w-full aspect-[4/3] shrink-0 overflow-hidden bg-muted">
+                <div className="relative w-full aspect-[4/3] shrink-0 overflow-hidden bg-muted rounded-t-[2rem]">
                   <Image
                     src={product.image}
                     alt={product.title}

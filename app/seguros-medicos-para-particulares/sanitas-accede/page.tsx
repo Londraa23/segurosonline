@@ -37,7 +37,7 @@ export default function SanitasAccedePage() {
         h1={<>Accede a la sanidad<br className="hidden lg:block" /> privada desde el primer día.</>}
         body="Con Sanitas Accede tienes acceso a más de 51.000 médicos y 4.200 centros en toda España, incluyendo 4 hospitales propios. Sin periodos de carencia: usas el seguro el mismo día que contratas."
         badges={["Sin carencias", "51.000 médicos", "Blua gratis"]}
-        trustItems={["Consultas ilimitadas", "Pruebas diagnósticas", "Dental básico", "Urgencias sin copago"]}
+        trustItems={["Consultas ilimitadas", "Pruebas diagnósticas", "Dental básico", "Todo incluido"]}
         imageSrc="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=1600&q=80&auto=format"
       />
 

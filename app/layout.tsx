@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     'seguro dental Sanitas',
     'seguro mayores 60 años Sanitas',
     'seguro médico extranjeros España',
-    'Sanitas sin copagos',
+    'Sanitas todo incluido',
     'Sanitas sin carencias',
     'seguro salud económico',
     'Blua Sanitas gratis',
@@ -114,6 +114,8 @@ export const viewport: Viewport = {
   maximumScale: 5,
 }
 
+import { AuthGate } from '@/components/auth-gate'
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -129,7 +131,9 @@ export default function RootLayout({
       </head>
       <body className={`${dmSans.variable} ${outfit.variable} font-sans antialiased`}>
         <ScrollToTop />
-        {children}
+        <AuthGate>
+          {children}
+        </AuthGate>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

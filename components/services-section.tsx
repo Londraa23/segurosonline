@@ -33,7 +33,7 @@ const services = [
   {
     id: "servicios",
     title: "Servicios de Salud",
-    description: "Maternidad, psicología, bienestar nutricional y estética médica. Programas de última generación para complementar tu rutina.",
+    description: "Maternidad, psicología, bienestar nutricional y estética médica. Programas de última generación.",
     href: "/servicios-de-salud/",
     image: "/servicios-salud.png",
     colSpan: "lg:col-span-2",
@@ -85,7 +85,7 @@ export function ServicesSection() {
                       <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-3">
                         {service.title}
                       </h3>
-                      <p className="text-white/80 line-clamp-2 text-sm sm:text-base max-w-sm leading-relaxed mb-0">
+                      <p className="text-white/80 line-clamp-2 text-sm sm:text-base max-w-sm leading-relaxed mb-0" suppressHydrationWarning>
                         {service.description}
                       </p>
                     </div>

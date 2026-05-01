@@ -6,7 +6,7 @@ export function TrustBar() {
     { value: "+4.500", label: "centros médicos" },
     { value: "5", label: "hospitales propios" },
     { value: "+2M", label: "asegurados confían en Sanitas" },
-    { value: "4.7★", label: "valoración en Google" },
+    { value: "4.9★", label: "valoración media" },
     { value: "30+", label: "años de experiencia" },
   ]
 

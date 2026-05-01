@@ -5,11 +5,17 @@ import { Phone, MessageCircle, Mail, ArrowUpRight } from "lucide-react"
 const footerLinks = {
   seguros: [
     { label: "Seguros para particulares", href: "/seguros-medicos-para-particulares/" },
+    { label: "Sanitas Profesionales", href: "/seguros-medicos-para-particulares/sanitas-profesionales/" },
+    { label: "Néctar Contigo", href: "/seguros-medicos-para-particulares/nectar-contigo/" },
+    { label: "Sanitas Más Salud Extranjeros", href: "/seguros-medicos-para-particulares/sanitas-mas-salud-extranjeros/" },
+    { label: "Sanitas Premium 500.000", href: "/seguros-medicos-para-particulares/sanitas-premium-500-000/" },
+    { label: "Sanitas Más 90.000", href: "/seguros-medicos-para-particulares/sanitas-mas-90000/" },
+    { label: "Sanitas Estudiantes", href: "/seguros-para-estudiantes/sanitas-estudiantes/" },
     { label: "Seguros para autónomos", href: "/seguros-para-autonomos/" },
     { label: "Seguros para empresas", href: "/seguros-medicos-para-empresas/" },
     { label: "Seguros para mayores de 60", href: "/sanitas-mayores/" },
     { label: "Seguros para extranjeros", href: "/seguros-medicos-para-extranjeros/" },
-    { label: "Seguros sin copagos", href: "/seguros-medicos-para-particulares/sanitas-mas-salud/" },
+    { label: "Sanitas Más Salud (Todo incluido)", href: "/seguros-medicos-para-particulares/sanitas-mas-salud/" },
     { label: "Complementos de Salud", href: "/complementos-de-salud/" },
     { label: "Sanitas Inclusivo", href: "/seguros-medicos-para-particulares/sanitas-inclusivo-discapacidad/" },
   ],
@@ -32,7 +38,14 @@ const footerLinks = {
     { label: "Aviso Legal", href: "/aviso-legal" },
     { label: "Política de Privacidad", href: "/politica-privacidad" },
     { label: "Política de Cookies", href: "/politica-cookies" },
-    { label: "Contacto", href: "#contacto" },
+    { label: "Contacto", href: "/#contacto" },
+  ],
+  blog: [
+    { label: "Alergias Primaverales", href: "/blog/alergias-primaverales/" },
+    { label: "Seguro Médico Embarazo", href: "/blog/seguro-medico-embarazo/" },
+    { label: "Deducciones Autónomos", href: "/blog/seguros-autonomos-ventajas-fiscales-2026/" },
+    { label: "Seguro de Reembolso", href: "/blog/seguro-reembolso-sanitas/" },
+    { label: "Comparativa Seguros", href: "/blog/comparativa-seguros-salud/" },
   ],
 }
 
@@ -144,9 +157,9 @@ export function Footer() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-sm mb-3">Legal</h3>
+              <h3 className="font-semibold text-sm mb-3">Blog de Salud</h3>
               <ul className="space-y-2">
-                {footerLinks.legal.map((link) => (
+                {footerLinks.blog.map((link) => (
                   <li key={link.label}>
                     <Link
                       href={link.href}
@@ -156,28 +169,49 @@ export function Footer() {
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <Link
+                    href="/blog"
+                    className="text-xs text-[#0091DA] font-semibold hover:underline"
+                  >
+                    Ver todos los artículos
+                  </Link>
+                </li>
               </ul>
 
-              <a
-                href="https://www.sanitas.es"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-xs text-[#0091DA] font-medium mt-4 hover:underline"
-              >
-                sanitas.es
-                <ArrowUpRight className="w-3 h-3" />
-              </a>
             </div>
           </div>
         </div>
 
         {/* Bottom */}
+<<<<<<< HEAD
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} SegurosOnline.net &mdash; Agencia Exclusiva Sanitas. Todos los derechos reservados.
           </p>
           <p className="text-xs text-muted-foreground text-center sm:text-right">
             Expertos asesores de Seguros M&eacute;dicos Sanitas
+=======
+        <div className="mt-12 pt-6 border-t border-border flex flex-col lg:flex-row justify-between items-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+            <p className="text-xs text-muted-foreground">
+              © {new Date().getFullYear()} SegurosOnline.net — Agencia Exclusiva Sanitas.
+            </p>
+            <nav className="flex gap-4 sm:gap-6">
+              {footerLinks.legal.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+          <p className="text-xs text-muted-foreground text-center lg:text-right">
+            Expertos asesores de Seguros Médicos Sanitas
+>>>>>>> 549132e (Añadir login + bugs)
           </p>
         </div>
       </div>

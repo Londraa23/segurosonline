@@ -10,14 +10,14 @@ import { Check } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Sanitas Más Salud Extranjeros — Seguro Médico para Extranjeros | Sanitas Ventas",
-  description: "Sanitas Más Salud para extranjeros: cobertura completa sin copago válida para visado y residencia. Hospitalización, dental 32 servicios y Blua gratis.. ☎ 91 726 46 33",
+  description: "Sanitas Más Salud para extranjeros: cobertura completa todo incluido válida para visado y residencia. Hospitalización, dental y Blua gratis.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/seguro-medico-extranjeros-residentes-espana/" }
 }
 
 const pageFaqs = [
   { question: "¿Este seguro es válido para todos los tipos de visado?", answer: "Está diseñado para cumplir los requisitos de cobertura completa exigidos para residencia comunitaria, visados de estudios y ciudadanía UE. Consúltanos con tu tipo de visado concreto para confirmarlo antes de contratar." },
   { question: "¿Puedo contratar sin tener NIE todavía?", answer: "Sí. Sanitas Más Salud Extranjeros permite la contratación con pasaporte. Es uno de sus puntos clave para personas que acaban de llegar a España y aún no tienen NIE." },
-  { question: "¿Tiene copago cuando voy al médico?", answer: "No. No hay copagos ni franquicias de ningún tipo. El único pago es la prima mensual o anual." },
+  { question: "¿Tiene gastos adicionales cuando voy al médico?", answer: "No. No hay gastos adicionales por uso ni franquicias de ningún tipo. El único pago es la prima mensual o anual." },
   { question: "¿Incluye cobertura dental?", answer: "Sí. Incluye cobertura dental con 32 servicios incluidos, lo que es más amplio que la cobertura dental de la mayoría de seguros estándar de Sanitas." },
   { question: "¿Puedo incluir a mis familiares?", answer: "Sí. El seguro está pensado para extranjeros residentes, sus familiares y estudiantes en España. Puedes incluir a tu pareja e hijos en la misma póliza." },
   { question: "¿Qué pasa si necesito atención médica fuera de España?", answer: "Dispones de cobertura de urgencias en viajes al extranjero para estancias de hasta 90 días, con un límite de 12.000€. Para asistencia urgente en el extranjero llama al +34 91 345 65 84." },
@@ -34,11 +34,11 @@ export default function MasSaludExtranjerosPage() {
           { label: "Seguros para Extranjeros", href: "/seguros-medicos-para-extranjeros" },
           { label: "Sanitas Más Salud Extranjeros" }
         ]}
-        label="Válido para visado y residencia · Sin copago · Sin límite gastos"
+        label="Válido para visado y residencia · Todo incluido · Sin límite gastos"
         h1={<>Sanitas Más Salud Extranjeros.<br className="hidden lg:block" /> El seguro médico ideal para vivir en España.</>}
-        body="Diseñado para extranjeros que residen en España, sus familiares y estudiantes. Cobertura sanitaria completa sin copagos, válida para solicitar y renovar visado y permiso de residencia. Hospitalización en habitación individual, sin límite de gastos médicos al año y Blua digital incluido gratis."
+        body="Diseñado para extranjeros que residen en España, sus familiares y estudiantes. Cobertura sanitaria completa todo incluido, válida para solicitar y renovar visado y permiso de residencia. Hospitalización en habitación individual, sin límite de gastos médicos al año y Blua digital incluido gratis."
         badges={["Sin límite gastos", "Apto tramites extranjería"]}
-        trustItems={["Válido para residencia", "Sin copago", "Hospitalización incluida", "Contratación con pasaporte"]}
+        trustItems={["Válido para residencia", "Todo incluido", "Hospitalización incluida", "Contratación con pasaporte"]}
         imageSrc="https://images.unsplash.com/photo-1555529902-5261145633bf?w=1600&q=80&auto=format"
       />
 

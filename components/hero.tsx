@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
-import { Star, Shield, Clock, Users, Phone, CheckCircle, Send, ArrowDown } from "lucide-react"
+import { Star, Shield, Clock, Users, Phone, CheckCircle, Send, ArrowDown, Sparkles } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 import { submitToMake } from "@/lib/form-submission"
 
@@ -81,8 +81,8 @@ export function Hero() {
                     <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
                   ))}
                 </div>
-                <span className="font-bold text-foreground">4.7</span>
-                <span className="text-sm text-muted-foreground">· 143 opiniones en Google</span>
+                <span className="font-bold text-foreground" suppressHydrationWarning>4.9</span>
+                <span className="text-sm text-muted-foreground" suppressHydrationWarning>· 162 opiniones verificadas</span>
               </div>
             </Reveal>
 
@@ -117,7 +117,7 @@ export function Hero() {
                 {[
                   { icon: Shield, text: "Sin permanencia" },
                   { icon: Clock, text: "Sin carencias" },
-                  { icon: Users, text: "57.000+ médicos" },
+                  { icon: Sparkles, text: "Seguro dental incluido" },
                   { icon: Phone, text: "Atención inmediata" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-2 text-muted-foreground">
@@ -130,8 +130,8 @@ export function Hero() {
               </div>
             </Reveal>
 
-            <Reveal delay={0.3} className="hidden lg:block">
-              <a href="#seguros" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group pt-2">
+            <Reveal delay={0.3}>
+              <a href="/#seguros" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group pt-2">
                 <div className="w-8 h-12 rounded-full border-2 border-muted-foreground/30 flex items-start justify-center pt-2 group-hover:border-[#0091DA]/50 transition-colors">
                   <ArrowDown className="w-3.5 h-3.5 animate-bounce" />
                 </div>

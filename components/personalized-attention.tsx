@@ -15,12 +15,12 @@ export function PersonalizedAttention() {
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold text-[#0091DA] uppercase tracking-wider mb-4">Sobre Nosotros</p>
-              <h2 id="atencion-heading" className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05] text-balance">
-                No eres una póliza. <br className="hidden sm:block" /> Eres <span className="text-[#0091DA]">nuestra prioridad.</span>
+              <h2 id="atencion-heading" className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05] text-balance" suppressHydrationWarning>
+                Asesoramiento profesional y <br className="hidden sm:block" /> <span className="text-[#0091DA]" suppressHydrationWarning>soluciones a medida.</span>
               </h2>
             </div>
-            <p className="text-lg text-muted-foreground leading-relaxed lg:max-w-sm lg:text-right">
-              Cada cliente es único. Te acompañamos durante toda la vigencia de tu póliza con dedicación exclusiva y profesionalidad.
+            <p className="text-lg text-muted-foreground leading-relaxed lg:max-w-sm lg:text-right" suppressHydrationWarning>
+              Analizamos cada caso de forma individual para ofrecer la mejor opción en cobertura, precio y tranquilidad. Cada cliente es único y merece un trato exclusivo.
             </p>
           </div>
         </Reveal>

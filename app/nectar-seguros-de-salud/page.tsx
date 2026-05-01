@@ -8,14 +8,14 @@ import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection } from "@/c
 
 export const metadata: Metadata = {
   title: "Néctar Contigo — Seguro Médico Completo a Precio Reducido | Sanitas Ventas",
-  description: "Néctar Contigo: asistencia sanitaria completa con hospitalización a través de una red médica de más de 15.000 profesionales. Con y sin copago.. ☎ 91 726 46 33",
+  description: "Néctar Contigo: asistencia sanitaria completa con hospitalización a través de una red médica de más de 15.000 profesionales. Con dental incluido.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/nectar-seguros-de-salud/" }
 }
 
 const pageFaqs = [
   { question: "¿Qué diferencia hay entre Néctar Contigo y Sanitas Más Salud?", answer: "La principal diferencia es la red médica: Néctar funciona con una red específica de +15.000 profesionales. A cambio, el precio es más accesible manteniendo cobertura completa con hospitalización." },
   { question: "¿Tiene urgencias en el extranjero?", answer: "Sí. Incluye cobertura de urgencias médicas en el extranjero hasta 12.000€ anuales." },
-  { question: "¿Puedo elegir entre copago y sin copago?", answer: "Sí. Ofrecemos ambas modalidades con exactamente las mismas coberturas." },
+  { question: "¿Puedo elegir la modalidad que más me convenga?", answer: "Sí. Ofrecemos diferentes opciones de acceso con exactamente las mismas coberturas." },
   { question: "¿Cómo puedo saber si los médicos de mi zona están en la red Néctar?", answer: "Contacta con nosotros y te consultamos la disponibilidad en tu zona antes de contratar, sin compromiso." }
 ]
 
@@ -32,7 +32,7 @@ export default function NectarContigoPage() {
         label="Néctar Contigo"
         h1={<>Néctar Contigo.<br className="hidden lg:block" /> Asistencia sanitaria completa a un precio a medida.</>}
         body="Cobertura sanitaria completa con hospitalización, acceso a especialidades médicas y todas las coberturas esenciales, a través de una red médica exclusiva de más de 15.000 profesionales."
-        badges={["Red médica específica", "Con y sin copago", "Hospitalización incluida"]}
+        badges={["Red médica específica", "Todo incluido", "Hospitalización incluida"]}
         trustItems={["Asistencia completa", "Hospitalización", "+15.000 médicos", "Urgencias 12.000€/año"]}
         imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
       />
@@ -40,7 +40,7 @@ export default function NectarContigoPage() {
       <ProductStatBar stats={[
         { value: "15.000+", label: "Médicos en red Néctar" },
         { value: "12.000€", label: "Urgencias en el extranjero" },
-        { value: "2", label: "Modalidades (con/sin copago)" },
+        { value: "2", label: "Modalidades (Todo incluido/Flexible)" },
         { value: "24h", label: "Atención telefónica" },
       ]} />
 
@@ -65,7 +65,7 @@ export default function NectarContigoPage() {
           { icon: "shield", title: "Hospitalización completa", description: "Ingreso, estancia, quirófano y postoperatorio incluidos, a través de la red médica Néctar Contigo." },
           { icon: "star", title: "Red médica optimizada", description: "Más de 15.000 profesionales médicos en toda España, con cobertura completa a precio ajustado." },
           { icon: "check", title: "Urgencias en el extranjero", description: "Hasta 12.000€ anuales de cobertura para urgencias médicas en estancias en el extranjero de hasta 90 días." },
-          { icon: "clock", title: "Con o sin copago", description: "Elige la modalidad más adecuada para ti. Las coberturas son exactamente las mismas en ambas." },
+          { icon: "clock", title: "Protección a tu medida", description: "Elige la modalidad más adecuada para ti. Las coberturas son exactamente las mismas en ambas." },
           { icon: "smartphone", title: "Sanitas 24 horas", description: "Atención telefónica ininterrumpida para urgencias médicas y gestiones con tu seguro." },
           { icon: "shield", title: "Sin carencias en consultas básicas", description: "Visitas médicas y pruebas sencillas como análisis, ecografías y radiografías disponibles desde el primer día." },
         ]}

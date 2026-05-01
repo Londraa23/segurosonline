@@ -1,7 +1,7 @@
 import { Header } from "@/components/header"
 import { SanitasPageHero } from "@/components/sanitas-page-hero"
 import { CategoryProductGrid, ProductCardData } from "@/components/category-product-grid"
-import { CopagoComparison } from "@/components/copago-comparison"
+
 import { FaqSection } from "@/components/faq-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
@@ -10,7 +10,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
   title: "Seguros Médicos para Particulares Sanitas",
-  description: "Encuentra el seguro médico Sanitas para particulares que mejor se adapta a ti. Con o sin copago, con reembolso, con Blua incluido gratis.",
+  description: "Encuentra el seguro médico Sanitas para particulares que mejor se adapta a ti. Con dental incluido, con reembolso y con Blua incluido gratis.",
   path: "/seguros-medicos-para-particulares"
 })
 
@@ -37,9 +37,9 @@ const productosCuadroMedico: ProductCardData[] = [
     title: "Sanitas Más Salud",
     label: "Cuadro médico · Cobertura completa",
     badge: "MÁS POPULAR",
-    tagline: "Seguro de salud completo, con y sin copago",
-    description: "El seguro más elegido de Sanitas. Cobertura sanitaria completa con hospitalización, con opción de copago o sin él. Para quienes quieren lo mejor sin sorpresas.",
-    features: ["Hospitalización completa incluida", "Con o sin copago, tú decides", "Todo el cuadro médico Sanitas", "Blua digital gratis para siempre"],
+    tagline: "Seguro de salud completo con dental incluido",
+    description: "El seguro más elegido de Sanitas. Cobertura sanitaria completa con hospitalización y dental premium. Para quienes quieren lo mejor sin sorpresas.",
+    features: ["Hospitalización completa incluida", "Seguro dental incluido", "Todo el cuadro médico Sanitas", "Blua digital gratis para siempre"],
     href: "/seguros-medicos-para-particulares/sanitas-mas-salud/",
     image: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=800&q=80&auto=format",
     highlighted: true
@@ -47,9 +47,9 @@ const productosCuadroMedico: ProductCardData[] = [
   {
     title: "Sanitas TOP QUANTUM",
     label: "Cuadro médico · Sin copago · Premium",
-    tagline: "Seguro de salud sin copagos",
+    tagline: "Seguro de salud premium",
     description: "La versión más premium del cuadro médico Sanitas. Sin copagos en ningún servicio, cobertura total y acceso prioritario. Para quienes no quieren pagar nada extra nunca.",
-    features: ["Sin copagos en ningún servicio", "Cobertura sanitaria total", "Atención prioritaria garantizada", "Blua digital incluido"],
+    features: ["Seguro dental premium incluido", "Cobertura sanitaria total", "Atención prioritaria garantizada", "Blua digital incluido"],
     href: "/sanitas-top-quantum/",
     image: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80&auto=format",
   },
@@ -122,9 +122,9 @@ const productosReembolso: ProductCardData[] = [
   {
     title: "Sanitas TOP QUANTUM",
     label: "Reembolso · Sin copagos",
-    tagline: "Seguro completo con reembolso y sin copagos",
+    tagline: "Seguro completo con reembolso y dental premium",
     description: "Lo mejor de los dos mundos: cuadro médico Sanitas completo, sin copagos, y reembolso de gastos médicos fuera del cuadro. Sin límites innecesarios.",
-    features: ["Sin copagos en el cuadro médico", "Reembolso de gastos fuera del cuadro", "Cobertura sanitaria total", "Blua digital incluido"],
+    features: ["Seguro dental incluido", "Reembolso de gastos fuera del cuadro", "Cobertura sanitaria total", "Blua digital incluido"],
     href: "/sanitas-top-quantum/",
     image: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=800&q=80&auto=format",
   },
@@ -190,7 +190,7 @@ export default function ParticularesPage() {
         ]}
         label="Seguros Médicos · Para Particulares"
         h1={<>Seguro médico privado <br className="hidden lg:block"/> para particulares.</>}
-        body="Elige el seguro de salud Sanitas que mejor se adapta a ti y a tu familia. Con o sin copago, con reembolso o cuadro médico, con Blua digital incluido gratis para siempre. Te asesoramos sin ningún compromiso."
+        body="Elige el seguro de salud Sanitas que mejor se adapta a ti y a tu familia. Con dental incluido, con reembolso o cuadro médico, con Blua digital incluido gratis para siempre. Te asesoramos sin ningún compromiso."
         badges={["Blua GRATIS para siempre", "4% dto. pago anual", "Sin periodos de carencia si vienes de otra compañía"]}
         trustItems={["57.000+ médicos", "4.500 centros", "5 hospitales", "Sin permanencia"]}
         imageSrc="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1600&q=80&auto=format"
@@ -203,24 +203,7 @@ export default function ParticularesPage() {
         products={productosCuadroMedico}
       />
 
-      <CopagoComparison 
-        title="¿Con o sin copago? Te lo explicamos."
-        leftTitle="Seguro con copago"
-        leftDescription="La prima mensual es más económica. Pagas una pequeña cantidad cada vez que usas el seguro — normalmente entre 1€ y 3€ por consulta o prueba. Ideal si quieres acceso a la sanidad privada con el coste mensual más ajustado posible."
-        leftPoints={[
-          "Prima mensual más reducida",
-          "Mismo cuadro médico completo",
-          "Blua incluido sin coste extra"
-        ]}
-        rightTitle="Seguro sin copago"
-        rightDescription="La prima mensual es algo más alta, pero cada vez que usas el seguro no pagas nada adicional. Sin sorpresas, sin calcular. Especialmente recomendado para familias o quienes prevén un uso frecuente de los servicios médicos."
-        rightPoints={[
-          "Cero costes al usar el seguro",
-          "Ideal para familias",
-          "Gasto mensual fijo y predecible",
-          "Blua incluido gratis"
-        ]}
-      />
+
 
       {/* Reembolso Section */}
       <CategoryProductGrid 

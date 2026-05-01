@@ -24,18 +24,18 @@ export const metadata: Metadata = {
 const pricingRows = [
   {
     feature: "Por persona",
-    withCopago: "desde 12,20€/mes",
-    withoutCopago: "desde 14,25€/mes"
+    valA: "desde 12,20€/mes",
+    valB: "desde 14,25€/mes"
   },
   {
     feature: "Pack Dúo (2 asegurados)",
-    withCopago: "desde 22,90€/mes",
-    withoutCopago: "desde 27,50€/mes"
+    valA: "desde 22,90€/mes",
+    valB: "desde 27,50€/mes"
   },
   {
     feature: "Pack Familia (3 a 6 asegurados)",
-    withCopago: "desde 32,90€/mes",
-    withoutCopago: "desde 40,50€/mes"
+    valA: "desde 32,90€/mes",
+    valB: "desde 40,50€/mes"
   }
 ]
 
@@ -172,8 +172,8 @@ export default function SanitasDentalMileniumPage() {
         title="Precios Sanitas Dental Milenium — 2026"
         subtitle="Elige la modalidad que mejor se adapte a ti o a tu familia. Tarifas planas disponibles para packs."
         rows={pricingRows}
-        colA="Con Copago"
-        colB="Sin Copago"
+        colA="Tarifa Flexible"
+        colB="Tarifa Plana"
       />
 
       <ProductFeatureSection title="Información de contratación">
@@ -184,9 +184,9 @@ export default function SanitasDentalMileniumPage() {
               <p>Tanto si vienes de otra aseguradora dental como si este es tu primer seguro, podrás disfrutar de tu seguro dental Sanitas desde el primer día de contratación.</p>
             </div>
             <div>
-              <h3>Con Copago y Sin Copago</h3>
-              <p><strong>Sin copago:</strong> pagarás una póliza fija mensual y no abonarás nada por las visitas de los servicios incluidos.</p>
-              <p><strong>Con copago:</strong> tu cuota dependerá del uso de tu seguro y abonarás solo 3€ por los servicios incluidos consumidos por día de visita, independientemente del número de servicios prestados en esa visita.</p>
+              <h3>Tarifa Flexible y Tarifa Plana</h3>
+              <p><strong>Tarifa Plana:</strong> pagarás una póliza fija mensual y no abonarás nada por las visitas de los servicios incluidos.</p>
+              <p><strong>Tarifa Flexible:</strong> tu cuota dependerá del uso de tu seguro y abonarás solo 3€ por los servicios incluidos consumidos por día de visita, independientemente del número de servicios prestados en esa visita.</p>
             </div>
             <div>
               <h3>Permanencia y Precio final</h3>
@@ -215,7 +215,7 @@ export default function SanitasDentalMileniumPage() {
             {[
               { title: "Ficha de producto", file: "Ficha_Dental_Milenium.pdf" },
               { title: "Ver Precios Tratamientos 2026", file: "Tarifa_Dental_2026.pdf" },
-              { title: "Nota Informativa Con Copago", file: "Nota_Informativa_Copago.pdf" },
+              { title: "Nota Informativa Tarifa Flexible", file: "Nota_Informativa_Flexible.pdf" },
               { title: "Contrátalo online", href: "#", external: true }
             ].map((doc, i) => (
               <Reveal key={i} delay={i * 0.05}>

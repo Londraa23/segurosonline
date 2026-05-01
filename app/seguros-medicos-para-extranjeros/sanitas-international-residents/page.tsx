@@ -9,7 +9,7 @@ import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
   title: "Sanitas International Residents — Seguro Médico para Extranjeros | Sanitas Ventas",
-  description: "Sanitas International Residents: cobertura completa con reembolso 80-90% para extranjeros en España. Sin copago, Dental 21 incluido, válido para residencia.. ☎ 91 726 46 33",
+  description: "Sanitas International Residents: cobertura completa con reembolso 80-90% para extranjeros en España. Todo incluido, Dental 21 incluido, válido para residencia.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/sanitas-international-residents/" }
 }
 
@@ -18,7 +18,7 @@ const pageFaqs = [
   { question: "¿Qué es un seguro de cuadro médico y qué es el reembolso?", answer: "El cuadro médico te da acceso a los médicos y centros de la red Sanitas. El reembolso te permite ir a cualquier médico del mundo fuera de esa red y Sanitas te devuelve un porcentaje de los gastos. International Residents incluye ambas modalidades." },
   { question: "¿Puedo usar el seguro desde fuera de España?", answer: "Sí. Dispones de cobertura de urgencias en el extranjero hasta 12.000€/año para estancias fuera de España. Además, el reembolso aplica a médicos en cualquier parte del mundo. Para asistencia urgente en el extranjero: +34 91 345 65 84." },
   { question: "¿Puedo contratar si acabo de llegar a España?", answer: "Sí, desde que tengas dirección de residencia en España. El seguro se activa desde la fecha de efecto que acuerdes al contratar." },
-  { question: "¿Hay copago cuando uso el seguro?", answer: "No. No existen copagos ni franquicias de ningún tipo. El único pago es la prima mensual o anual." },
+  { question: "¿Hay gastos adicionales cuando uso el seguro?", answer: "No. No existen gastos adicionales por uso ni franquicias de ningún tipo. El único pago es la prima mensual o anual." },
   { question: "¿Incluye cobertura dental?", answer: "Sí. Sanitas Dental 21 está incluido: 30 servicios dentales en cobertura y hasta un 21% de descuento en el resto de tratamientos en toda la red dental Sanitas." }
 ]
 
@@ -32,11 +32,11 @@ export default function SanitasInternationalResidentsPage() {
           { label: "Seguros para Extranjeros", href: "/seguros-medicos-para-extranjeros" },
           { label: "Sanitas International Residents" }
         ]}
-        label="Reembolso 80-90% · Sin copago · Dental 21 incluido · Blua GRATIS"
+        label="Reembolso 80-90% · Todo incluido · Dental 21 incluido · Blua GRATIS"
         h1={<>Sanitas International Residents.<br className="hidden lg:block" /> Un seguro de salud específico para extranjeros residentes en España.</>}
-        body="Asistencia sanitaria completa con libre elección de especialistas, reembolso de gastos médicos en cualquier parte del mundo y sin copagos. Diseñado para extranjeros residentes en España que quieren la máxima cobertura dentro y fuera del cuadro médico Sanitas. Con Blua digital incluido gratis para siempre."
-        badges={["Sin copagos", "Reembolso mundial", "Válido trámites legales"]}
-        trustItems={["Libre elección mundial", "Sin copago", "Repatriación incluida", "Edad máx. 64 años"]}
+        body="Asistencia sanitaria completa con libre elección de especialistas, reembolso de gastos médicos en cualquier parte del mundo y todo incluido. Diseñado para extranjeros residentes en España que quieren la máxima cobertura dentro y fuera del cuadro médico Sanitas. Con Blua digital incluido gratis para siempre."
+        badges={["Todo incluido", "Reembolso mundial", "Válido trámites legales"]}
+        trustItems={["Libre elección mundial", "Todo incluido", "Repatriación incluida", "Edad máx. 64 años"]}
         imageSrc="https://images.unsplash.com/photo-1512100356956-c1227c331f01?w=1600&q=80&auto=format"
       />
 

@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 const products = [
   {
     title: "Seguros para Particulares",
-    description: "Coberturas completas con o sin copago. Incluye telemedicina Blua.",
+    description: "Coberturas completas con dental incluido. Incluye telemedicina Blua.",
     href: "/seguros-medicos-para-particulares/",
     price: "Desde 31€/mes",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&q=75",
@@ -29,7 +29,7 @@ const products = [
   },
   {
     title: "Para Extranjeros",
-    description: "Pólizas sin copagos que cumplen 100% requisitos para residencia y NIE.",
+    description: "Pólizas premium que cumplen 100% requisitos para residencia y NIE.",
     href: "/seguros-medicos-para-extranjeros/",
     price: "Desde 50€/mes",
     image: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&q=75",

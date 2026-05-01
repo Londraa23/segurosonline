@@ -8,7 +8,7 @@ import { Menu, X, Phone, ChevronDown, ChevronRight } from "lucide-react"
 const navigation = [
   {
     name: "Seguros Médicos",
-    href: "#seguros",
+    href: "/#seguros",
     submenu: [
       { name: "Para particulares", href: "/seguros-medicos-para-particulares/" },
       { name: "Para autónomos", href: "/seguros-para-autonomos/" },
@@ -45,7 +45,8 @@ const navigation = [
       { name: "Nutrición", href: "/servicios-de-salud/nutricion/" },
     ],
   },
-  { name: "Contacto", href: "#contacto" },
+  { name: "Blog", href: "/blog" },
+  { name: "Contacto", href: "/#contacto" },
 ]
 
 export function Header() {
@@ -98,13 +99,14 @@ export function Header() {
     <>
       {/* Main navbar */}
       <header
+        suppressHydrationWarning
         className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled
             ? "bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-[0_1px_3px_rgba(0,0,0,0.04)]"
             : "bg-white border-b border-transparent"
           }`}
       >
         <div className="mx-auto max-w-7xl px-8">
-          <nav className="flex items-center justify-between h-16" aria-label="Navegación principal">
+          <nav className="flex items-center justify-between h-16" aria-label="Navegación principal" suppressHydrationWarning>
 
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="SegurosOnline.net - Inicio">
@@ -179,7 +181,7 @@ export function Header() {
               </a>
 
               <a
-                href="#contacto"
+                href="/#contacto"
                 className="hidden xl:inline-flex h-9 items-center px-5 text-[13px] font-medium text-white bg-neutral-900 hover:bg-neutral-800 rounded-full transition-colors"
               >
                 Te llamamos gratis
@@ -211,7 +213,7 @@ export function Header() {
       {/* Mobile overlay — rendered OUTSIDE <header> to avoid sticky/z-index conflicts */}
       {mobileMenuOpen && (
         <div className="xl:hidden fixed inset-x-0 top-16 bottom-0 bg-white z-40 overflow-y-auto">
-          <nav className="px-6 py-4">
+          <nav className="px-6 py-4" suppressHydrationWarning>
             {navigation.map((item) => (
               <div key={item.name} className="border-b border-neutral-100 last:border-0">
                 {item.submenu ? (
@@ -256,7 +258,7 @@ export function Header() {
                 <a href="tel:+34624217323" className="hover:text-neutral-900 transition-colors">624 21 73 23</a>
               </div>
               <a
-                href="#contacto"
+                href="/#contacto"
                 onClick={closeMobileMenu}
                 className="flex items-center justify-center w-full h-11 text-[14px] font-medium text-white bg-neutral-900 rounded-full transition-colors hover:bg-neutral-800"
               >

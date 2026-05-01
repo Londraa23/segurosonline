@@ -24,18 +24,18 @@ export const metadata: Metadata = {
 const pricingRows = [
   {
     feature: "Por persona",
-    withCopago: "desde 19,90€/mes",
-    withoutCopago: "desde 22,90€/mes"
+    valA: "desde 19,90€/mes",
+    valB: "desde 22,90€/mes"
   },
   {
     feature: "Pack Dúo (2 asegurados)",
-    withCopago: "desde 36,90€/mes",
-    withoutCopago: "desde 42,90€/mes"
+    valA: "desde 36,90€/mes",
+    valB: "desde 42,90€/mes"
   },
   {
     feature: "Pack Familia (3 a 6 asegurados)",
-    withCopago: "desde 50,90€/mes",
-    withoutCopago: "desde 59,90€/mes"
+    valA: "desde 50,90€/mes",
+    valB: "desde 59,90€/mes"
   }
 ]
 
@@ -170,10 +170,10 @@ export default function SanitasDentalPremiumPage() {
 
       <ComparisonTable 
         title="Precios Sanitas Dental Premium — 2026"
-        subtitle="Máxima protección dental con tarifas planas para familias y opciones con o sin copago."
+        subtitle="Máxima protección dental con tarifas planas para familias y opciones flexibles o premium."
         rows={pricingRows}
-        colA="Con Copago"
-        colB="Sin Copago"
+        colA="Tarifa Flexible"
+        colB="Tarifa Plana"
       />
 
       <ProductFeatureSection title="Empastes incluidos — condiciones">
@@ -205,8 +205,8 @@ export default function SanitasDentalPremiumPage() {
             </div>
             <div>
               <h3>Modalidades de pago</h3>
-              <p><strong>Sin copago:</strong> Cuota fija mensual sin costes por uso en servicios incluidos.</p>
-              <p><strong>Con copago:</strong> Cuota mensual reducida + 3€ por visita en servicios incluidos consumidos.</p>
+              <p><strong>Tarifa Plana:</strong> Cuota fija mensual sin costes por uso en servicios incluidos.</p>
+              <p><strong>Tarifa Flexible:</strong> Cuota mensual reducida + 3€ por visita en servicios incluidos consumidos.</p>
             </div>
             <div>
               <h3>Permanencia y Descuentos</h3>

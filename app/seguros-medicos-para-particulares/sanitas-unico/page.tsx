@@ -16,7 +16,7 @@ const pageFaqs = [
   { question: "¿Desde qué edad puedo contratar Sanitas Único?", answer: "Desde los 60 años. No existe límite de edad máxima ni para contratar ni para mantener la póliza activa." },
   { question: "¿Requiere cuestionario de salud?", answer: "No. Sanitas Único puede contratarse sin cuestionario de salud, independientemente de las patologías o antecedentes del asegurado." },
   { question: "¿Incluye servicios a domicilio?", answer: "Sí. Incluye envío de medicamentos, auxiliar a domicilio, fisioterapia a domicilio, acompañamiento a citas médicas y durante la hospitalización, podología y peluquería, entre otros." },
-  { question: "¿Qué es el copago progresivo?", answer: "El copago es el importe adicional que se abona al usar los servicios. En Sanitas Único es progresivo según el servicio utilizado. Te explicamos los detalles al contratar." }
+  { question: "¿Qué incluye la protección integral?", answer: "La protección integral de Sanitas Único incluye acceso a especialistas, pruebas y urgencias con dental incluido. Te explicamos los detalles al contratar." }
 ]
 
 export default function SanitasUnicoPage() {
@@ -97,7 +97,7 @@ export default function SanitasUnicoPage() {
       <section className="py-10 bg-[#001C3D]">
         <div className="container mx-auto max-w-4xl px-4">
           <LegalNote>
-            Sanitas Único es un seguro con copago progresivo. Contratación desde 60 años sin límite de permanencia. No requiere cuestionario de salud previo.
+            Sanitas Único es un seguro con dental incluido y protección integral. Contratación desde 60 años sin límite de permanencia. No requiere cuestionario de salud previo.
           </LegalNote>
         </div>
       </section>

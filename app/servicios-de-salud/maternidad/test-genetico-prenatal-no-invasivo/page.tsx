@@ -34,11 +34,11 @@ const pageFaqs = [
 ]
 
 const comparisonRows = [
-  { feature: "Riesgo de pérdida fetal", withCopago: "Sin riesgo", withoutCopago: "Riesgo asociado" },
-  { feature: "Tipo de muestra", withCopago: "Sangre materna", withoutCopago: "Punción invasiva" },
-  { feature: "Semana de inicio", withCopago: "Semana 10", withoutCopago: "Posteriores" },
-  { feature: "Precisión diagnóstica", withCopago: "Alta (Cribado)", withoutCopago: "Definitiva" },
-  { feature: "Periodo recuperación", withCopago: "Ninguno", withoutCopago: "Reposo necesario" }
+  { feature: "Riesgo de pérdida fetal", valA: "Sin riesgo", valB: "Riesgo asociado" },
+  { feature: "Tipo de muestra", valA: "Sangre materna", valB: "Punción invasiva" },
+  { feature: "Semana de inicio", valA: "Semana 10", valB: "Posteriores" },
+  { feature: "Precisión diagnóstica", valA: "Alta (Cribado)", valB: "Definitiva" },
+  { feature: "Periodo recuperación", valA: "Ninguno", valB: "Reposo necesario" }
 ]
 
 export default function TestPrenatalPage() {

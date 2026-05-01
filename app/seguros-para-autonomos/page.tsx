@@ -48,7 +48,7 @@ export default function SanitasProfesionalesPage() {
       <ProductStatBar stats={[
         { value: "500€", label: "Deducción máx./persona/año" },
         { value: "37,60€", label: "Prima desde (al mes)" },
-        { value: "0€", label: "Copagos" },
+        { value: "0€", label: "Gastos adicionales por uso" },
         { value: "24h", label: "Urgencias digitales Blua" },
       ]} />
 
@@ -69,10 +69,10 @@ export default function SanitasProfesionalesPage() {
 
       {/* Medical coverage */}
       <FeatureBlock
-        title="Cobertura médica completa. Sin copagos."
+        title="Cobertura médica completa. Todo incluido."
         description="Todas las coberturas de Sanitas Más Salud, con accidentes laborales incluidos y servicios de apoyo específicos para cuando no puedes trabajar."
         items={[
-          "Medicina primaria y todas las especialidades sin copago",
+          "Medicina primaria y todas las especialidades incluidas",
           "Pruebas diagnósticas simples y de alta tecnología",
           "Intervenciones quirúrgicas y hospitalización completa",
           "Accidentes de tráfico y laborales incluidos de serie",
@@ -80,7 +80,7 @@ export default function SanitasProfesionalesPage() {
           "Segunda opinión médica internacional",
         ]}
         imageSrc="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1200&q=80&auto=format&v=medico"
-        badge="Coberturas sin copago"
+        badge="Todo incluido"
         bgColor="bg-[#002A54]"
       />
 

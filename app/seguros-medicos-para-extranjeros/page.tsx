@@ -10,7 +10,7 @@ import { CheckCircle2, FileCheck, Stethoscope, Video } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Seguros Médicos para Extranjeros en España | Sanitas Ventas",
-  description: "Seguros de salud Sanitas para extranjeros residentes en España. Válidos para visado y residencia, sin copago, con hospitalización. Asesoramiento. ☎ 91 726 46 33",
+  description: "Seguros de salud Sanitas para extranjeros residentes en España. Válidos para visado y residencia, todo incluido, con hospitalización. Asesoramiento. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/"
   }
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
 const productosExtranjeros: ProductCardData[] = [
   {
     title: "Sanitas Más Salud Extranjeros",
-    label: "Extranjeros · Cuadro médico · Sin copago",
+    label: "Extranjeros · Cuadro médico · Premium",
     badge: "VÁLIDO PARA VISADO",
     tagline: "El seguro médico ideal para extranjeros que residen en España, sus familiares y estudiantes.",
-    description: "Cobertura sanitaria completa sin copagos, con hospitalización en habitación individual y acceso a toda la red médica Sanitas. Diseñado para cumplir los requisitos de visado y permiso de residencia.",
+    description: "Cobertura sanitaria completa todo incluido, con hospitalización en habitación individual y acceso a toda la red médica Sanitas. Diseñado para cumplir los requisitos de visado y permiso de residencia.",
     features: [
       "Cobertura completa — ambulatoria y hospitalaria",
       "Válido para pedir visado y permiso de residencia",
-      "Sin copagos ni franquicias — solo la prima",
+      "Todo incluido — sin gastos adicionales por uso",
       "Hospitalización en habitación individual",
       "Repatriación incluida por fallecimiento",
       "Gastos en el extranjero hasta 12.000€"
@@ -37,13 +37,13 @@ const productosExtranjeros: ProductCardData[] = [
   },
   {
     title: "Sanitas International Residents",
-    label: "Extranjeros · Cuadro médico + Reembolso · Sin copago",
+    label: "Extranjeros · Cuadro médico + Reembolso · Premium",
     tagline: "Seguro de salud de asistencia completa con libre elección de especialistas y reembolso.",
     description: "Para extranjeros residentes en España que quieren cobertura total más la libertad de elegir cualquier médico del mundo. Reembolso del 80% hasta 150k€ o 90% hasta 300k€ fuera del cuadro.",
     features: [
       "Libre elección de especialistas en todo el mundo",
       "Reembolso 80% hasta 150.000€ / 90% hasta 300.000€",
-      "Sin copagos ni franquicias al usar los servicios",
+      "Sin gastos adicionales por uso de los servicios",
       "Dental 21 incluido (30 servicios + 21% dto.)",
       "Repatriación al país de origen incluida",
       "Edad máx. contratación: 64 años"
@@ -56,7 +56,7 @@ const productosExtranjeros: ProductCardData[] = [
 const pageFaqs = [
   { question: "¿Estos seguros son válidos para solicitar la residencia en España?", answer: "Sí. Ambos productos cumplen los requisitos de cobertura sanitaria completa exigidos por las autoridades españolas para residencia comunitaria, visados de estudios y otros trámites de extranjería. Consúltanos con tu tipo de visado concreto para confirmarlo." },
   { question: "¿Puedo contratar con pasaporte sin tener NIE?", answer: "Sí. Sanitas Más Salud Extranjeros permite la contratación con pasaporte. Para Sanitas International Residents es necesario residir en España al menos 6 meses al año durante la vigencia del contrato y aportar dirección de residencia en España y documento válido (NIF, CIF, Pasaporte o NIE)." },
-  { question: "¿Cuál es la diferencia entre los dos seguros?", answer: "Sanitas Más Salud Extranjeros da acceso al cuadro médico Sanitas sin copago. Sanitas International Residents añade reembolso de gastos en cualquier médico del mundo fuera del cuadro, con porcentajes del 80% o el 90% según el límite contratado. International Residents tiene edad máxima de contratación de 64 años." },
+  { question: "¿Cuál es la diferencia entre los dos seguros?", answer: "Sanitas Más Salud Extranjeros da acceso al cuadro médico Sanitas todo incluido. Sanitas International Residents añade reembolso de gastos en cualquier médico del mundo fuera del cuadro, con porcentajes del 80% o el 90% según el límite contratado. International Residents tiene edad máxima de contratación de 64 años." },
   { question: "¿Puedo incluir a mis familiares en la misma póliza?", answer: "Sí, en ambos seguros puedes incluir a tu pareja e hijos. Sanitas Más Salud Extranjeros está pensado expresamente para extranjeros residentes, familiares y estudiantes en España." },
   { question: "¿Tienen periodos de carencia?", answer: "Sí, como todos los seguros médicos. La mayoría de coberturas están disponibles desde el primer día o con carencias cortas. Los periodos más largos aplican a hospitalización compleja, parto y algunos métodos terapéuticos complejos. Puedes eliminarlos si llevas +1 año en otra compañía de cobertura completa (excepto parto)." }
 ]
@@ -71,11 +71,11 @@ export default function SegurosExtranjerosPage() {
           { label: "Inicio", href: "/" },
           { label: "Seguros para Extranjeros" }
         ]}
-        label="Válido para visado y residencia · Sin copago · Hospitalización incluida · Blua GRATIS"
+        label="Válido para visado y residencia · Todo incluido · Hospitalización incluida · Blua GRATIS"
         h1={<>Seguros médicos para extranjeros<br className="hidden lg:block"/> residentes en España.</>}
         body="Vivir en España requiere un seguro médico de cobertura completa para muchos trámites administrativos: solicitud de residencia comunitaria, visados de estudios, ciudadanía de la UE y más. En Sanitas Ventas te ofrecemos dos opciones específicamente diseñadas para extranjeros residentes, ambas válidas para estos trámites y con acceso inmediato a toda la red médica Sanitas desde el primer día."
-        badges={["Válido para visado", "Sin copagos", "Trámites residencia"]}
-        trustItems={["Válido para residencia", "Sin copago", "+45.000 médicos", "Contratación con pasaporte"]}
+        badges={["Válido para visado", "Todo incluido", "Trámites residencia"]}
+        trustItems={["Válido para residencia", "Todo incluido", "+45.000 médicos", "Contratación con pasaporte"]}
         imageSrc="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=1600&q=80&auto=format"
       />
 
@@ -99,8 +99,8 @@ export default function SegurosExtranjerosPage() {
                 <div className="w-14 h-14 bg-[#0091DA]/10 rounded-2xl flex items-center justify-center mb-5 text-[#0091DA]">
                   <CheckCircle2 className="w-7 h-7" />
                 </div>
-                <h3 className="text-lg font-bold text-[#002A54] mb-3">Sin copagos</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">En ambos productos el único pago es la prima mensual o anual. Ningún coste adicional cada vez que usas el seguro de salud.</p>
+                <h3 className="text-lg font-bold text-[#002A54] mb-3">Todo incluido</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">En ambos productos el único pago es la prima mensual o anual. Ningún gasto adicional cada vez que usas el seguro de salud.</p>
               </div>
             </Reveal>
 

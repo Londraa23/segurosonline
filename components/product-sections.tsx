@@ -317,7 +317,7 @@ export function ProcessSteps({ title, subtitle, steps }: { title: string; subtit
 // ──────────────────────────────────────────────────────────
 // Comparison Table — clean, light
 // ──────────────────────────────────────────────────────────
-interface ComparisonRow { feature: string; withCopago: boolean | string; withoutCopago: boolean | string }
+interface ComparisonRow { feature: string; valA: boolean | string; valB: boolean | string }
 export function ComparisonTable({ title, subtitle, rows, colA, colB }: { title: string; subtitle?: string; rows: ComparisonRow[]; colA: string; colB: string }) {
   const Cell = ({ val }: { val: boolean | string }) => {
     if (val === true) return <div className="w-6 h-6 rounded-full bg-[#0091DA]/10 flex items-center justify-center mx-auto"><Check className="w-4 h-4 text-[#0091DA]" /></div>
@@ -341,8 +341,8 @@ export function ComparisonTable({ title, subtitle, rows, colA, colB }: { title: 
             {rows.map((row, i) => (
               <div key={i} className={`grid grid-cols-3 border-b border-border/20 ${i % 2 === 0 ? "" : "bg-muted/10"}`}>
                 <div className="p-4 text-foreground text-sm">{row.feature}</div>
-                <div className="p-4 text-center border-l border-border/20"><Cell val={row.withCopago} /></div>
-                <div className="p-4 text-center border-l border-border/20"><Cell val={row.withoutCopago} /></div>
+                <div className="p-4 text-center border-l border-border/20"><Cell val={row.valA} /></div>
+                <div className="p-4 text-center border-l border-border/20"><Cell val={row.valB} /></div>
               </div>
             ))}
           </div>

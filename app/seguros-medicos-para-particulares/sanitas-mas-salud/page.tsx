@@ -7,13 +7,13 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, ComparisonTable, BluaSection, ThreeColumnFeatures, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Más Salud — Seguro Médico Completo con y sin Copago | Sanitas Ventas",
-  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Con o sin copago. 10% dto. desde 4 asegurados.. ☎ 91 726 46 33",
+  title: "Sanitas Más Salud — Seguro Médico Completo Todo Incluido | Sanitas Ventas",
+  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Todo incluido. 10% dto. desde 4 asegurados.. ☎ 91 726 46 33",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud/" }
 }
 
 const pageFaqs = [
-  { question: "¿Cuál es la diferencia entre Más Salud y Más Salud Óptima?", answer: "Las coberturas son exactamente las mismas. La diferencia está en la prima mensual y la estructura de copagos: Óptima tiene la prima más económica pero copagos ligeramente superiores al usar el seguro." },
+  { question: "¿Cuál es la diferencia entre Más Salud y Más Salud Óptima?", answer: "Las coberturas son exactamente las mismas. La diferencia está en la prima mensual y la modalidad de acceso: Óptima tiene la prima más económica para quienes quieren acceso flexible a la sanidad privada." },
   { question: "¿Incluye maternidad y parto?", answer: "Sí. Sanitas Más Salud incluye seguimiento de embarazo, parto y postparto. Carencia de 8 meses para parto, eliminable si llevas +1 año en otra compañía." },
   { question: "¿El Dental 21 cubre todos los tratamientos?", answer: "Sanitas Dental 21 incluye 25 servicios en cobertura completa más hasta un 21% de descuento en el resto de tratamientos dentales." },
   { question: "¿Puedo añadir más asegurados después?", answer: "Sí, en cualquier momento. Al llegar a 4 o más asegurados el descuento del 10% vitalicio se aplica automáticamente." }
@@ -31,10 +31,10 @@ export default function SanitasMasSaludPage() {
           { label: "Sanitas Más Salud" }
         ]}
         label="Sanitas Más Salud"
-        h1={<>Sanitas Más Salud.<br className="hidden lg:block" /> Cobertura completa. Con o sin copago.</>}
-        body="El seguro más elegido de Sanitas. Asistencia sanitaria completa con hospitalización, todas las especialidades, Sanitas Dental 21 y Blua digital gratis. Tú decides si prefieres pagar copago o no — las coberturas son exactamente las mismas."
+        h1={<>Sanitas Más Salud.<br className="hidden lg:block" /> Cobertura completa. Todo incluido.</>}
+        body="El seguro más elegido de Sanitas. Asistencia sanitaria completa con hospitalización, todas las especialidades, Sanitas Dental 21 y Blua digital gratis. La máxima tranquilidad para ti y tu familia con todo incluido."
         badges={["Blua GRATIS", "Dental 21 incluido", "10% dto. desde 4 asegurados"]}
-        trustItems={["Hospitalización completa", "Dental 21 incluido", "Con o sin copago", "Blua digital"]}
+        trustItems={["Hospitalización completa", "Dental 21 incluido", "Todo incluido", "Blua digital"]}
         imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
       />
 
@@ -42,7 +42,7 @@ export default function SanitasMasSaludPage() {
         { value: "58.000+", label: "Médicos en España" },
         { value: "25", label: "Servicios dentales incluidos" },
         { value: "10%", label: "Dto. desde 4 asegurados" },
-        { value: "2", label: "Modalidades (con/sin copago)" },
+        { value: "Premium", label: "Modalidad recomendada" },
       ]} />
 
       {/* What's inside — image left */}
@@ -62,22 +62,7 @@ export default function SanitasMasSaludPage() {
       />
 
       {/* The key differentiator: comparison table copago vs no copago */}
-      <ComparisonTable
-        title="Con copago o sin copago — tú eliges."
-        subtitle="Las coberturas son exactamente las mismas en ambas modalidades. La diferencia está en la prima y si pagas algo al usar el seguro."
-        colA="Con copago (Óptima)"
-        colB="Sin copago (Más Salud)"
-        rows={[
-          { feature: "Prima mensual", withCopago: "Más económica", withoutCopago: "Prima estándar" },
-          { feature: "Pago al visitar al médico", withCopago: "Sí, pequeño copago", withoutCopago: "No" },
-          { feature: "Hospitalización", withCopago: true, withoutCopago: true },
-          { feature: "Todas las especialidades", withCopago: true, withoutCopago: true },
-          { feature: "Dental 21 incluido", withCopago: true, withoutCopago: true },
-          { feature: "Blua digital gratis", withCopago: true, withoutCopago: true },
-          { feature: "Segunda opinión médica", withCopago: true, withoutCopago: true },
-          { feature: "Urgencias en el extranjero", withCopago: "hasta 12.000€/año", withoutCopago: "hasta 12.000€/año" },
-        ]}
-      />
+
 
       {/* Three columns for extras */}
       <ThreeColumnFeatures
@@ -113,7 +98,7 @@ export default function SanitasMasSaludPage() {
       />
 
       <FaqSection title="Preguntas sobre Sanitas Más Salud." description="Todo lo que necesitas saber sobre el seguro más elegido." faqs={pageFaqs} />
-      <ContactSection label="¿HABLAMOS?" title="El más elegido. Por algo será." description="Te ayudamos a elegir entre Más Salud y Más Salud Óptima según tu perfil. Sin compromiso." />
+      <ContactSection label="¿HABLAMOS?" title="El más elegido. Por algo será." description="Te ayudamos a elegir la modalidad de Más Salud que mejor encaja con tu perfil. Sin compromiso." />
       <Footer />
     </main>
   )
