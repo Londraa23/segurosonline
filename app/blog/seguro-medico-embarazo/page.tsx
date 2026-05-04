@@ -9,7 +9,7 @@ import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Seguro Médico para Embarazo: Guía Completa para Futuras Madres 2026 | Sanitas Ventas",
-  description: "Todo lo que necesitas saber sobre el seguro médico privado durante el embarazo: coberturas, carencias, cuándo contratar y qué incluye Sanitas. Madrid. ☎ 91 726 46 33",
+  description: "Todo lo que necesitas saber sobre el seguro médico privado durante el embarazo: coberturas, carencias, cuándo contratar y qué incluye Sanitas. España. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/seguro-medico-embarazo/"
   }

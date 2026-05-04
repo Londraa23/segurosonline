@@ -9,7 +9,7 @@ import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Seguro de Salud con Reembolso Sanitas: Qué Es y Cómo Funciona | Sanitas Ventas",
-  description: "Guía completa sobre los seguros de reembolso de Sanitas: qué es, cómo funciona, diferencias con el cuadro médico y qué productos ofrece Sanitas. Madrid. ☎ 91 726 46 33",
+  description: "Guía completa sobre los seguros de reembolso de Sanitas: qué es, cómo funciona, diferencias con el cuadro médico y qué productos ofrece Sanitas. España. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/seguro-reembolso-sanitas/"
   }

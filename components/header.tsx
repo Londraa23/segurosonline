@@ -21,7 +21,7 @@ const navigation = [
   },
   {
     name: "Dental",
-    href: "#",
+    href: "/seguros-dentales/",
     submenu: [
       { name: "Sanitas Dental Milenium", href: "/seguros-dentales/sanitas-dental-milenium/" },
       { name: "Sanitas Dental Premium", href: "/seguros-dentales/sanitas-dental-premium/" },
@@ -38,7 +38,7 @@ const navigation = [
   },
   {
     name: "Servicios",
-    href: "#",
+    href: "/servicios-de-salud/",
     submenu: [
       { name: "Vista", href: "/servicios-de-salud/vista/" },
       { name: "Maternidad", href: "/servicios-de-salud/maternidad/" },

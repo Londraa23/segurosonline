@@ -214,7 +214,7 @@ export function CoverageCardGrid({ title, subtitle, cards }: { title?: string; s
 // ──────────────────────────────────────────────────────────
 // White card grid — for detailed feature cards
 // ──────────────────────────────────────────────────────────
-interface WhiteCard { icon: IconKey; title: string; description: string }
+interface WhiteCard { icon: IconKey; title: string; description: string; href?: string }
 export function WhiteCardGrid({ title, subtitle, cards }: { title: string; subtitle?: string; cards: WhiteCard[] }) {
   return (
     <section className="py-20 bg-white border-t border-border/40">
@@ -226,13 +226,28 @@ export function WhiteCardGrid({ title, subtitle, cards }: { title: string; subti
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {cards.map((card, i) => {
             const Icon = IconMap[card.icon]
+            const CardContent = (
+              <div className="group p-7 rounded-xl border border-border/50 hover:border-[#0091DA]/30 hover:shadow-md hover:shadow-[#0091DA]/[0.04] hover:-translate-y-0.5 transition-all duration-300 h-full bg-white cursor-pointer">
+                <Icon className="w-6 h-6 text-[#0091DA] mb-4" />
+                <h3 className="text-base font-bold mb-2 text-foreground">{card.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{card.description}</p>
+                {card.href && (
+                  <div className="mt-4 flex items-center text-[#0091DA] text-xs font-bold uppercase tracking-wider group-hover:gap-1.5 transition-all">
+                    Saber más <ArrowRight className="w-3.5 h-3.5" />
+                  </div>
+                )}
+              </div>
+            )
+
             return (
               <Reveal key={i} delay={i * 0.05}>
-                <div className="group p-7 rounded-xl border border-border/50 hover:border-[#0091DA]/30 hover:shadow-md hover:shadow-[#0091DA]/[0.04] hover:-translate-y-0.5 transition-all duration-300 h-full bg-white">
-                  <Icon className="w-6 h-6 text-[#0091DA] mb-4" />
-                  <h3 className="text-base font-bold mb-2 text-foreground">{card.title}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{card.description}</p>
-                </div>
+                {card.href ? (
+                  <Link href={card.href} className="block h-full">
+                    {CardContent}
+                  </Link>
+                ) : (
+                  CardContent
+                )}
               </Reveal>
             )
           })}

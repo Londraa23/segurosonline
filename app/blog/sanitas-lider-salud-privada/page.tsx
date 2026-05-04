@@ -9,7 +9,7 @@ import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Por Qué Sanitas es Líder en Salud Privada en España: Innovación y Red Médica | Sanitas Ventas",
-  description: "Sanitas lleva más de 60 años siendo referente de la salud privada en España. Te contamos por qué: red médica, innovación digital, hospitalización y Blua. Madrid. ☎ 91 726 46 33",
+  description: "Sanitas lleva más de 60 años siendo referente de la salud privada en España. Te contamos por qué: red médica, innovación digital, hospitalización y Blua. España. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/sanitas-lider-salud-privada/"
   }

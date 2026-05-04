@@ -51,7 +51,7 @@ const serviciosMayores: ProductCardData[] = [
     tagline: "Los mejores expertos para tu recuperación.",
     description: "Rehabilitación física y cognitiva con las terapias más vanguardistas y equipos multidisciplinares expertos en la atención a personas mayores.",
     features: ["Terapias vanguardistas", "Rehabilitación física y mental", "Trato especializado senior", "Equipos multidisciplinares"],
-    href: "/sanitas-mayores/rehabilitacion/",
+    href: "/sanitas-mayores/rehabilitacion-mayores/",
     image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80&auto=format"
   }
 ]

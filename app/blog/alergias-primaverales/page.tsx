@@ -9,7 +9,7 @@ import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Alergias Primaverales: Prevención y Tratamiento con tu Seguro Sanitas | Sanitas Ventas",
-  description: "Cómo prevenir y tratar las alergias primaverales con tu seguro de salud Sanitas. Alergólogos, pruebas diagnósticas, inmunoterapia y Blua digital incluidos. Madrid. ☎ 91 726 46 33",
+  description: "Cómo prevenir y tratar las alergias primaverales con tu seguro de salud Sanitas. Alergólogos, pruebas diagnósticas, inmunoterapia y Blua digital incluidos. España. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/alergias-primaverales/"
   }
@@ -145,7 +145,7 @@ export default function AlergiasPrimaveralesPage() {
                 </a>
               </div>
               <div className="mt-8 flex flex-wrap justify-center gap-6 text-xs font-semibold text-muted-foreground uppercase tracking-widest">
-                <span>Madrid</span>
+                <span>España</span>
                 <span>·</span>
                 <span>Metro Ventas</span>
                 <span>·</span>
@@ -161,7 +161,7 @@ export default function AlergiasPrimaveralesPage() {
       <ContactSection 
         label="CONTACTO"
         title="¿Hablamos de tu salud?"
-        description="Estamos en Madrid, en Metro Ventas. Ven a vernos o llámanos para resolver cualquier duda."
+        description="Estamos en España para ayudarte. Ven a vernos o llámanos para resolver cualquier duda."
       />
 
       <Footer />

@@ -9,7 +9,7 @@ import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Comparativa Seguros de Salud: Qué Ofrece Sanitas Frente a Otras Aseguradoras | Sanitas Ventas",
-  description: "Comparativa honesta entre Sanitas y otras aseguradoras de salud en España: red médica, precios, coberturas digitales y atención al cliente. Madrid. ☎ 91 726 46 33",
+  description: "Comparativa honesta entre Sanitas y otras aseguradoras de salud en España: red médica, precios, coberturas digitales y atención al cliente. España. ☎ 91 726 46 33",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/comparativa-seguros-salud/"
   }

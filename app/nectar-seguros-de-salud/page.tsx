@@ -62,12 +62,12 @@ export default function NectarContigoPage() {
       <CoverageCardGrid
         title="¿Qué incluye Néctar Contigo?"
         cards={[
-          { icon: "shield", title: "Hospitalización completa", description: "Ingreso, estancia, quirófano y postoperatorio incluidos, a través de la red médica Néctar Contigo." },
-          { icon: "star", title: "Red médica optimizada", description: "Más de 15.000 profesionales médicos en toda España, con cobertura completa a precio ajustado." },
-          { icon: "check", title: "Urgencias en el extranjero", description: "Hasta 12.000€ anuales de cobertura para urgencias médicas en estancias en el extranjero de hasta 90 días." },
-          { icon: "clock", title: "Protección a tu medida", description: "Elige la modalidad más adecuada para ti. Las coberturas son exactamente las mismas en ambas." },
-          { icon: "smartphone", title: "Sanitas 24 horas", description: "Atención telefónica ininterrumpida para urgencias médicas y gestiones con tu seguro." },
-          { icon: "shield", title: "Sin carencias en consultas básicas", description: "Visitas médicas y pruebas sencillas como análisis, ecografías y radiografías disponibles desde el primer día." },
+          { icon: "shield", label: "SEGURIDAD", stat: "Hospitalización completa", description: "Ingreso, estancia, quirófano y postoperatorio incluidos, a través de la red médica Néctar Contigo." },
+          { icon: "star", label: "RED MÉDICA", stat: "Red médica optimizada", description: "Más de 15.000 profesionales médicos en toda España, con cobertura completa a precio ajustado." },
+          { icon: "check", label: "VIAJES", stat: "Urgencias en el extranjero", description: "Hasta 12.000€ anuales de cobertura para urgencias médicas en estancias en el extranjero de hasta 90 días." },
+          { icon: "clock", label: "FLEXIBILIDAD", stat: "Protección a tu medida", description: "Elige la modalidad más adecuada para ti. Las coberturas son exactamente las mismas en ambas." },
+          { icon: "smartphone", label: "ATENCIÓN 24H", stat: "Sanitas 24 horas", description: "Atención telefónica ininterrumpida para urgencias médicas y gestiones con tu seguro." },
+          { icon: "shield", label: "SIN ESPERAS", stat: "Sin carencias en consultas", description: "Visitas médicas y pruebas sencillas como análisis, ecografías y radiografías disponibles desde el primer día." },
         ]}
       />
 
