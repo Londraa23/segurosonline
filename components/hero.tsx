@@ -89,7 +89,7 @@ export function Hero() {
             <Reveal delay={0.12}>
               <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-6xl font-bold tracking-tight leading-[1.08]">
                 Seguro de Salud Sanitas{" "}
-                <span className="text-[#0091DA]">desde 32€/mes</span>
+                <span className="text-[#0091DA]">desde 29,90€/mes</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl mt-5">
                 Sin esperas, sin permanencia y con acceso inmediato a miles de especialistas en toda España.
@@ -158,8 +158,7 @@ export function Hero() {
                   ) : (
                     <>
                       <div className="mb-6">
-                        <h2 className="text-xl font-bold mb-1">Te llamamos gratis</h2>
-                        <p className="text-sm text-muted-foreground">Déjanos tu número y te contactamos en menos de 5 min</p>
+                        <h2 className="text-xl font-bold mb-1">Solicitar más información</h2>
                       </div>
                       <form onSubmit={handleSubmit} className="space-y-4" id="hero-form">
                         <div className="space-y-1.5">
@@ -177,7 +176,7 @@ export function Hero() {
                           </Label>
                         </div>
                         <Button type="submit" className="w-full rounded-xl py-6 text-base font-semibold bg-[#0091DA] hover:bg-[#007BBD] shadow-lg shadow-[#0091DA]/20 hover:shadow-xl hover:shadow-[#0091DA]/30 transition-all duration-300 group" disabled={!formData.acceptPolicy || isSubmitting}>
-                          {isSubmitting ? "Enviando..." : "Solicitar llamada gratuita"}
+                          {isSubmitting ? "Enviando..." : "Solicitar información"}
                           {!isSubmitting && <Send className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" />}
                         </Button>
                       </form>
@@ -191,7 +190,7 @@ export function Hero() {
 
                 <div className="hidden sm:block absolute -bottom-4 -left-4 bg-foreground text-background px-5 py-3 rounded-2xl shadow-xl animate-float">
                   <p className="text-xs font-medium opacity-70">Desde</p>
-                  <p className="text-2xl font-bold">32€<span className="text-sm font-medium opacity-70">/mes</span></p>
+                  <p className="text-2xl font-bold">29,90€<span className="text-sm font-medium opacity-70">/mes</span></p>
                 </div>
                 <div className="absolute -top-3 -right-3 bg-[#0091DA] text-white px-4 py-2 rounded-xl shadow-lg text-sm font-semibold">
                   Blua GRATIS

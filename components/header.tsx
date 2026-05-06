@@ -16,8 +16,15 @@ const navigation = [
       { name: "Para mayores de 60", href: "/seguros-medicos-para-particulares/sanitas-unico/" },
       { name: "Para extranjeros", href: "/seguros-medicos-para-extranjeros/" },
       { name: "Complementos de Salud", href: "/complementos-de-salud/" },
-      { name: "Seguros de Decesos", href: "/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-familiar-iplus/" },
     ],
+  },
+  {
+    name: "Decesos",
+    href: "/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/",
+    submenu: [
+      { name: "Asistencia Familiar iPlus", href: "/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-familiar-iplus/" },
+      { name: "Asistencia Senior (Prima Única)", href: "/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-senior/" },
+    ]
   },
   {
     name: "Dental",
@@ -217,21 +224,30 @@ export function Header() {
             {navigation.map((item) => (
               <div key={item.name} className="border-b border-neutral-100 last:border-0">
                 {item.submenu ? (
-                  <>
-                    <button
-                      onClick={() => setMobileAccordion(mobileAccordion === item.name ? null : item.name)}
-                      className="flex items-center justify-between w-full py-3.5 text-[15px] font-medium text-neutral-900"
-                    >
-                      {item.name}
-                      <ChevronDown className={`w-4 h-4 text-neutral-400 transition-transform duration-200 ${mobileAccordion === item.name ? "rotate-180" : ""}`} />
-                    </button>
+                  <div className="flex flex-col">
+                    <div className="flex items-center justify-between w-full border-b border-neutral-100/50">
+                      <Link
+                        href={item.href}
+                        className="flex-1 py-3.5 text-[15px] font-medium text-neutral-900"
+                        onClick={closeMobileMenu}
+                      >
+                        {item.name}
+                      </Link>
+                      <button
+                        onClick={() => setMobileAccordion(mobileAccordion === item.name ? null : item.name)}
+                        className="px-4 py-3.5 text-neutral-400"
+                        aria-label={`Ver submenú de ${item.name}`}
+                      >
+                        <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${mobileAccordion === item.name ? "rotate-180" : ""}`} />
+                      </button>
+                    </div>
                     {mobileAccordion === item.name && (
-                      <div className="pb-3 space-y-0.5">
+                      <div className="bg-neutral-50/50 px-3 py-2 space-y-0.5">
                         {item.submenu.map((subitem) => (
                           <Link
                             key={subitem.name}
                             href={subitem.href}
-                            className="block pl-3 py-2 text-[14px] text-neutral-500 hover:text-neutral-900 transition-colors"
+                            className="block py-2.5 text-[14px] text-neutral-500 hover:text-neutral-900 transition-colors"
                             onClick={closeMobileMenu}
                           >
                             {subitem.name}
@@ -239,7 +255,7 @@ export function Header() {
                         ))}
                       </div>
                     )}
-                  </>
+                  </div>
                 ) : (
                   <Link
                     href={item.href}

@@ -10,7 +10,7 @@ const featuredProducts = [
   {
     name: "Sanitas Avanza",
     description: "Equilibrio perfecto entre cobertura y precio. Seguro dental incluido.",
-    price: "49",
+    price: "29,90",
     badge: null,
     image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80&auto=format",
     features: ["Seguro dental incluido", "Urgencias 24h", "Todas las especialidades", "App Blua incluida", "Fisioterapia y rehabilitación"],
@@ -20,7 +20,7 @@ const featuredProducts = [
   {
     name: "Sanitas Más Salud",
     description: "Nuestro seguro más completo. Cobertura integral premium.",
-    price: "89",
+    price: "32,40",
     badge: "Más contratado",
     image: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=800&q=80&auto=format",
     features: ["Todo incluido", "Medicina primaria y especialidades", "Hospitalización completa", "Blua incluido gratis", "Urgencias 24h", "Reembolso disponible"],
@@ -30,7 +30,7 @@ const featuredProducts = [
   {
     name: "Sanitas Pymes",
     description: "La solución ideal para empresas. Gestión digital y beneficios fiscales.",
-    price: "39",
+    price: "34,90",
     badge: "Para empresas",
     image: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80&auto=format",
     features: ["Gestión 100% digital", "Cobertura empleados", "Beneficios fiscales", "Sin carencias", "Blua incluido"],

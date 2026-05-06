@@ -95,7 +95,7 @@ export function ContactSection({
                 </div>
               ) : (
                 <>
-                  <h3 className="text-xl font-bold mb-6">Tu seguro de salud</h3>
+                  <h3 className="text-xl font-bold mb-6">Solicitar más información</h3>
                   <form onSubmit={handleSubmit} className="space-y-4" id="contact-form">
                     <div className="space-y-1.5">
                       <Label htmlFor="contact-name" className="text-sm font-medium">Nombre</Label>
@@ -112,7 +112,7 @@ export function ContactSection({
                       </Label>
                     </div>
                     <Button type="submit" className="w-full rounded-xl py-6 text-base font-semibold bg-[#0091DA] hover:bg-[#007BBD] mt-2 group" disabled={!formData.acceptPolicy || isSubmitting}>
-                      {isSubmitting ? "Enviando..." : "Calcula Ahora"}
+                      {isSubmitting ? "Enviando..." : "Solicitar información"}
                       {!isSubmitting && <Send className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" />}
                     </Button>
                   </form>

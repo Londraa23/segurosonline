@@ -165,8 +165,7 @@ export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trus
                   ) : (
                     <>
                       <div className="mb-6">
-                        <h2 className="text-xl font-bold mb-1">Te asesoramos gratis.</h2>
-                        <p className="text-sm text-muted-foreground">Déjanos tu número y te contactamos ahora mismo.</p>
+                        <h2 className="text-xl font-bold mb-1">Solicitar más información</h2>
                       </div>
                       <form onSubmit={handleSubmit} className="space-y-4">
                         <div className="space-y-1.5">
@@ -183,8 +182,8 @@ export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trus
                             He leído y acepto la <a href="/politica-privacidad" className="text-[#0091DA] hover:underline">política de privacidad</a>
                           </Label>
                         </div>
-                        <Button type="submit" className="w-full rounded-xl py-6 text-base font-semibold bg-[#0091DA] hover:bg-[#007BBD] shadow-lg shadow-[#0091DA]/20 hover:shadow-xl hover:shadow-[#0091DA]/30 transition-all duration-300 group" disabled={!formData.acceptPolicy || isSubmitting}>
-                          {isSubmitting ? "Enviando..." : "Solicitar llamada gratuita"}
+                        <Button type="submit" className="w-full rounded-xl py-6 text-base font-semibold bg-[#0091DA] hover:bg-[#007BBD] shadow-lg shadow-[#0091DA]/20 hover:shadow-xl shadow-[#0091DA]/30 transition-all duration-300 group" disabled={!formData.acceptPolicy || isSubmitting}>
+                          {isSubmitting ? "Enviando..." : "Solicitar información"}
                           {!isSubmitting && <Send className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" />}
                         </Button>
                       </form>

@@ -10,7 +10,7 @@ const products = [
     title: "Seguros para Particulares",
     description: "Coberturas completas con dental incluido. Incluye telemedicina Blua.",
     href: "/seguros-medicos-para-particulares/",
-    price: "Desde 31€/mes",
+    price: "Desde 29,90€/mes",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&q=75",
   },
   {
@@ -24,7 +24,7 @@ const products = [
     title: "Para Empresas",
     description: "Mejora el bienestar de tu equipo con beneficios fiscales que retienen talento.",
     href: "/seguros-medicos-para-empresas/",
-    price: "Desde 30€/mes",
+    price: "Desde 34,90€/mes",
     image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&q=75",
   },
   {
