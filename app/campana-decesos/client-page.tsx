@@ -126,7 +126,7 @@ export default function CampanaDecesosClient() {
         `
       }} />
       <noscript dangerouslySetInnerHTML={{
-        __html: \`<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1499433194771352&ev=PageView&noscript=1" alt="" />\`
+        __html: '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1499433194771352&ev=PageView&noscript=1" alt="" />'
       }} />
 
       {/* 1. STICKY HEADER */}
