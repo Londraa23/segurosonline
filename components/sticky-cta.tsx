@@ -25,7 +25,7 @@ export function StickyCta() {
       <div className="bg-white border-t border-border shadow-2xl shadow-black/10 px-4 py-3 safe-area-pb">
         <div className="flex items-center gap-3 max-w-md mx-auto">
           <a
-            href="tel:+34673674849"
+            href="tel:+34624217323"
             className="flex items-center gap-2 px-4 py-2.5 rounded-full border border-border text-sm font-semibold hover:bg-muted transition-colors shrink-0"
           >
             <Phone className="w-4 h-4 text-[#0091DA]" />

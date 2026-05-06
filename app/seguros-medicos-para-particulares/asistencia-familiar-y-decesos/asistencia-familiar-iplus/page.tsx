@@ -184,7 +184,7 @@ export default function AsistenciaFamiliarIPlusPage() {
       <ContactSection
         label="¿HABLAMOS?"
         title="Te explicamos todas las coberturas y opciones sin ningún compromiso."
-        description="Estás en buenas manos. · Metro Ventas · 624 21 73 23 · 673 674 849 · 615 875 184"
+        description="Estás en buenas manos. · Metro Ventas · 624 21 73 23"
       />
       <Footer />
     </main>

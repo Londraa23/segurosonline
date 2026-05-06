@@ -144,7 +144,7 @@ export default function AsistenciaSeniorPage() {
       <ContactSection
         label="¿HABLAMOS?"
         title="Te explicamos todas las coberturas sin ningún compromiso."
-        description="Llámanos o déjanos tu número. · Metro Ventas · 624 21 73 23 · 673 674 849 · 615 875 184"
+        description="Llámanos o déjanos tu número. · Metro Ventas · 624 21 73 23"
       />
       <Footer />
     </main>

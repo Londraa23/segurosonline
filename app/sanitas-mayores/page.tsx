@@ -97,7 +97,7 @@ export default function SanitasMayoresIndexPage() {
       {/* Por qué elegir Sanitas Mayores */}
       <section className="py-16 lg:py-24 bg-white">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="bg-[#002A54] rounded-[2.5rem] p-8 md:p-12 lg:p-16 overflow-hidden relative">
+          <div className="bg-[#002A54] rounded-[2.5rem] px-6 py-10 md:p-12 lg:p-16 overflow-hidden relative">
             <div className="max-w-3xl mb-12">
               <Reveal>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">

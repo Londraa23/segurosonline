@@ -28,7 +28,7 @@ interface CategoryProductGridProps {
 export function CategoryProductGrid({ title, description, products }: CategoryProductGridProps) {
   return (
     <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
-      <div className="mx-auto max-w-7xl px-6 relative z-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 relative z-10">
         <Reveal className="mb-14">
           <div className="max-w-2xl">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-balance leading-[1.05] mb-5">
@@ -83,12 +83,12 @@ export function CategoryProductGrid({ title, description, products }: CategoryPr
                 </div>
 
                 {/* ZONA 2 - CONTENIDO (40% inferior) */}
-                <div className="relative z-20 flex flex-col flex-grow p-6 lg:p-8 pt-4">
+                <div className="relative z-20 flex flex-col flex-grow p-5 sm:p-6 lg:p-8 pt-6 sm:pt-4">
                   <div className="mb-5">
                     <h3 className={`text-2xl sm:text-3xl font-extrabold mb-1.5 tracking-tight ${product.highlighted ? "text-white" : "text-foreground"}`}>
                       {product.title}
                     </h3>
-                    <p className={`text-sm truncate font-medium ${product.highlighted ? "text-white/70" : "text-muted-foreground"}`}>
+                    <p className={`text-sm leading-relaxed ${product.highlighted ? "text-white/70" : "text-muted-foreground"}`}>
                       {product.tagline}
                     </p>
                   </div>
@@ -113,7 +113,7 @@ export function CategoryProductGrid({ title, description, products }: CategoryPr
                         }`}>
                           <Check className={`w-3 h-3 stroke-[3] ${product.highlighted ? "text-white" : "text-[#0091DA]"}`} />
                         </div>
-                        <span className={`text-[15px] font-medium leading-tight truncate ${product.highlighted ? "text-white/90" : "text-foreground/80"}`} title={feature}>
+                        <span className={`text-[15px] font-medium leading-snug ${product.highlighted ? "text-white/90" : "text-foreground/80"}`}>
                           {feature}
                         </span>
                       </li>

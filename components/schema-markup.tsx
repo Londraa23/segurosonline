@@ -18,7 +18,7 @@ export function SchemaMarkup({ faqs, breadcrumbs, type = 'WebPage' }: SchemaProp
     },
     image: "https://segurosonline.net/og-image.jpg",
     description: "Agencia exclusiva de seguros Sanitas. Seguros de salud para particulares, autónomos, empresas y mayores de 60 años en España.",
-    telephone: ["+34673674849", "+34615875184"],
+    telephone: ["+34624217323"],
     email: "info@segurosonline.net",
     priceRange: "€€",
     address: {
