@@ -8,7 +8,7 @@ import { ProductStatBar, FeatureBlock, ComparisonTable, BluaSection, ThreeColumn
 
 export const metadata: Metadata = {
   title: "Sanitas Más Salud — Seguro Médico Completo Todo Incluido | Sanitas Ventas",
-  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Todo incluido. 10% dto. desde 4 asegurados.. ☎ 91 726 46 33",
+  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Todo incluido. 10% dto. desde 4 asegurados.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud/" }
 }
 

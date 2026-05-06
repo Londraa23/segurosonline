@@ -9,7 +9,7 @@ import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Seguros Médicos para Autónomos: Ventajas Fiscales y Deducciones 2026 | Sanitas Ventas",
-  description: "Guía completa sobre las ventajas fiscales del seguro médico para autónomos en 2026: cuánto te puedes deducir, cómo aplicarlo y qué cubre Sanitas Profesionales. España. ☎ 91 726 46 33",
+  description: "Guía completa sobre las ventajas fiscales del seguro médico para autónomos en 2026: cuánto te puedes deducir, cómo aplicarlo y qué cubre Sanitas Profesionales. España. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/seguros-autonomos-ventajas-fiscales-2026/"
   }
@@ -106,7 +106,7 @@ export default function SegurosAutonomosFiscalidadPage() {
                 Te explicamos cómo contratar Sanitas Profesionales y optimizar tu fiscalidad como autónomo.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="tel:+34917264633" className="w-full sm:w-auto px-8 py-4 bg-[#0091DA] text-white rounded-full font-bold hover:bg-[#007BBD] transition-colors">
+                <a href="tel:+34624217323" className="w-full sm:w-auto px-8 py-4 bg-[#0091DA] text-white rounded-full font-bold hover:bg-[#007BBD] transition-colors">
                   Asesoramiento gratuito
                 </a>
                 <a href="#contacto" className="w-full sm:w-auto px-8 py-4 bg-white border border-[#0091DA] text-[#0091DA] rounded-full font-bold hover:bg-[#0091DA]/5 transition-colors">

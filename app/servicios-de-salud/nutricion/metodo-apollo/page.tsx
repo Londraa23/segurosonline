@@ -9,7 +9,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
   title: "Método Apollo Sanitas — Reducción de Estómago Endoscópica | Sanitas Ventas",
-  description: "Método Apollo Sanitas: reducción del 60–70% del estómago por endoscopia para obesidad severa. Seguimiento 24 meses. Primera consulta gratuita. Financiación 0%.. ☎ 91 726 46 33",
+  description: "Método Apollo Sanitas: reducción del 60–70% del estómago por endoscopia para obesidad severa. Seguimiento 24 meses. Primera consulta gratuita. Financiación 0%.. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/metodo-apollo/"
 })
 

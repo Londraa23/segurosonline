@@ -8,7 +8,7 @@ import { ProductStatBar, FeatureBlock, CoverageCardGrid, StatementBand, ThreeCol
 
 export const metadata: Metadata = {
   title: "Sanitas TOP QUANTUM — Seguro Médico Premium con Reembolso | Sanitas Ventas",
-  description: "Sanitas TOP QUANTUM: asistencia sanitaria premium, todo incluido, con reembolso del 80% hasta 10.000€/año y urgencias en el extranjero hasta 15.000€.. ☎ 91 726 46 33",
+  description: "Sanitas TOP QUANTUM: asistencia sanitaria premium, todo incluido, con reembolso del 80% hasta 10.000€/año y urgencias en el extranjero hasta 15.000€.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/sanitas-top-quantum/" }
 }
 

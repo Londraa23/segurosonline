@@ -8,7 +8,7 @@ import { ProductStatBar, FeatureBlock, ProcessSteps, StatementBand, BluaSection,
 
 export const metadata: Metadata = {
   title: "Sanitas Avanza — Seguro Médico con Cirugía sin Hospitalización | Sanitas Ventas",
-  description: "Sanitas Avanza: el único seguro sin hospitalización que incluye más de 400 intervenciones quirúrgicas. Cuadro médico completo y Blua gratis.. ☎ 91 726 46 33",
+  description: "Sanitas Avanza: el único seguro sin hospitalización que incluye más de 400 intervenciones quirúrgicas. Cuadro médico completo y Blua gratis.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-avanza/" }
 }
 

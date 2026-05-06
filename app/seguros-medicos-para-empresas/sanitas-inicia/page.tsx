@@ -9,7 +9,7 @@ import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
   title: "Sanitas Inicia — Seguro Médico Básico para Empresas y Pymes | Sanitas Ventas",
-  description: "Sanitas Inicia: la opción más económica para que tus empleados accedan a la sanidad privada. Sin hospitalización, con especialistas y cobertura de óptica.. ☎ 91 726 46 33",
+  description: "Sanitas Inicia: la opción más económica para que tus empleados accedan a la sanidad privada. Sin hospitalización, con especialistas y cobertura de óptica.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-inicia/" }
 }
 

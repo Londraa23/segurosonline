@@ -10,7 +10,7 @@ import { Check } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Sanitas Pymes Digital — Seguro Médico para Pymes | Sanitas Ventas",
-  description: "Sanitas Pymes Digital: el seguro de salud más innovador para pymes. Cobertura completa, dental incluido, videoconsulta 24h, fisioterapia en el trabajo.. ☎ 91 726 46 33",
+  description: "Sanitas Pymes Digital: el seguro de salud más innovador para pymes. Cobertura completa, dental incluido, videoconsulta 24h, fisioterapia en el trabajo.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-pymes-digital/" }
 }
 

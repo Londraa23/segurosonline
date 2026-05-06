@@ -9,7 +9,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
   title: "Método POSE Sanitas — Reducción de Estómago sin Cirugía | Sanitas Ventas",
-  description: "Método POSE en Sanitas: reducción del estómago por vía endoscópica sin incisiones. La opción menos invasiva contra la obesidad. Primera consulta gratuita. ☎ 91 726 46 33",
+  description: "Método POSE en Sanitas: reducción del estómago por vía endoscópica sin incisiones. La opción menos invasiva contra la obesidad. Primera consulta gratuita. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/metodo-pose/"
 })
 

@@ -9,7 +9,7 @@ import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
   title: "Seguros Dentales Sanitas en España — Dental Milenium y Dental Premium | Sanitas Ventas",
-  description: "Seguros dentales Sanitas en España: Dental Milenium y Dental Premium con empastes incluidos. Sin carencias ni preexistencias. ☎ 91 726 46 33",
+  description: "Seguros dentales Sanitas en España: Dental Milenium y Dental Premium con empastes incluidos. Sin carencias ni preexistencias. ☎ 624 21 73 23",
   path: "/seguros-dentales/"
 })
 

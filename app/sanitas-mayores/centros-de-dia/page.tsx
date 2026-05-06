@@ -9,7 +9,7 @@ import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
   title: "Centros de Día para Mayores Sanitas — Actividades y Terapias en España | Sanitas Ventas",
-  description: "Centros de Día Sanitas Mayores: programa de actividades adaptadas, terapias de rehabilitación, control nutricional, transporte adaptado y horarios flexibles. ☎ 91 726 46 33",
+  description: "Centros de Día Sanitas Mayores: programa de actividades adaptadas, terapias de rehabilitación, control nutricional, transporte adaptado y horarios flexibles. ☎ 624 21 73 23",
   path: "/sanitas-mayores/centros-de-dia/"
 })
 

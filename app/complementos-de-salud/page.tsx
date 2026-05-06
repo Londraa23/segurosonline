@@ -9,7 +9,7 @@ import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
   title: "Complementos de Salud Sanitas — Personaliza tu Seguro | Sanitas Ventas",
-  description: "Amplía tu seguro Sanitas con complementos opcionales: farmacia, óptica, reembolso, genómica, accidentes, renta hospitalaria y más. Asesoramiento. ☎ 91 726 46 33",
+  description: "Amplía tu seguro Sanitas con complementos opcionales: farmacia, óptica, reembolso, genómica, accidentes, renta hospitalaria y más. Asesoramiento. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/complementos-de-salud/"
   }

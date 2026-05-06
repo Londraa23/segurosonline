@@ -9,7 +9,7 @@ import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
   title: "Seguros de Decesos Sanitas en España — Asistencia Familiar iPlus y Senior | Sanitas Ventas",
-  description: "Seguros de decesos Sanitas en España: Asistencia Familiar iPlus hasta 75 años y Asistencia Senior Prima Única para mayores de 75. Avalados por Santalucía. ☎ 91 726 46 33",
+  description: "Seguros de decesos Sanitas en España: Asistencia Familiar iPlus hasta 75 años y Asistencia Senior Prima Única para mayores de 75. Avalados por Santalucía. ☎ 624 21 73 23",
   path: "/seguros-de-decesos/"
 })
 

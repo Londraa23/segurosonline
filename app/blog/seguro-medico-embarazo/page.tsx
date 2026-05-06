@@ -9,7 +9,7 @@ import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Seguro Médico para Embarazo: Guía Completa para Futuras Madres 2026 | Sanitas Ventas",
-  description: "Todo lo que necesitas saber sobre el seguro médico privado durante el embarazo: coberturas, carencias, cuándo contratar y qué incluye Sanitas. España. ☎ 91 726 46 33",
+  description: "Todo lo que necesitas saber sobre el seguro médico privado durante el embarazo: coberturas, carencias, cuándo contratar y qué incluye Sanitas. España. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/seguro-medico-embarazo/"
   }
@@ -115,8 +115,8 @@ export default function SeguroMedicoEmbarazoPage() {
                 Te orientamos sobre qué puedes cubrir ahora mismo y cómo gestionar tu alta en Sanitas.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="tel:+34917264633" className="w-full sm:w-auto px-8 py-4 bg-[#0091DA] text-white rounded-full font-bold hover:bg-[#007BBD] transition-colors">
-                  Llamar 91 726 46 33
+                <a href="tel:+34624217323" className="w-full sm:w-auto px-8 py-4 bg-[#0091DA] text-white rounded-full font-bold hover:bg-[#007BBD] transition-colors">
+                  Llamar 624 21 73 23
                 </a>
                 <a href="#contacto" className="w-full sm:w-auto px-8 py-4 bg-white border border-[#0091DA] text-[#0091DA] rounded-full font-bold hover:bg-[#0091DA]/5 transition-colors">
                   Solicitar información

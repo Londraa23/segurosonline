@@ -9,7 +9,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
   title: "Balón Intragástrico Sanitas — Tratamiento Sobrepeso sin Cirugía | Sanitas Ventas",
-  description: "Balón intragástrico Sanitas: pierde peso sin cirugía con apoyo médico, nutricional y psicológico. Primera consulta gratuita, financiación al 0%, precio cerrado.. ☎ 91 726 46 33",
+  description: "Balón intragástrico Sanitas: pierde peso sin cirugía con apoyo médico, nutricional y psicológico. Primera consulta gratuita, financiación al 0%, precio cerrado.. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/balon-intragastrico/"
 })
 

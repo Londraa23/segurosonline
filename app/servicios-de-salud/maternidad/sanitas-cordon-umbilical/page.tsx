@@ -8,7 +8,7 @@ import { ProductFeatureSection, FeatureList } from "@/components/product-section
 
 export const metadata: Metadata = {
   title: "Conservación del Cordón Umbilical Sanitas — Células Madre 30 Años | Sanitas Ventas",
-  description: "Conservación de células madre del cordón umbilical en banco privado durante 30 años con Sanitas. Proceso indoloro, laboratorio, descuentos para clientes. ☎ 91 726 46 33",
+  description: "Conservación de células madre del cordón umbilical en banco privado durante 30 años con Sanitas. Proceso indoloro, laboratorio, descuentos para clientes. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/servicios-de-salud/maternidad/sanitas-cordon-umbilical/"
   }

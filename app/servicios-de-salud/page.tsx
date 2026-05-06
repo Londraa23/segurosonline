@@ -9,7 +9,7 @@ import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
   title: "Servicios de Salud Sanitas en España — Vista, Maternidad y Nutrición | Sanitas Ventas",
-  description: "Servicios de salud Sanitas en España: cirugía ocular, maternidad, reproducción asistida, tratamientos para la obesidad y más. Primera consulta gratuita. ☎ 91 726 46 33",
+  description: "Servicios de salud Sanitas en España: cirugía ocular, maternidad, reproducción asistida, tratamientos para la obesidad y más. Primera consulta gratuita. ☎ 624 21 73 23",
   path: "/servicios-de-salud/"
 })
 

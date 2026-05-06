@@ -11,7 +11,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
   title: "Residencias de Mayores Sanitas — Estancias Permanentes y Temporales | Sanitas Ventas",
-  description: "Residencias Sanitas Mayores en España: atención médica 24h, especialistas en Alzheimer, centros libres de sujeciones y app para familias. 47 residencias. ☎ 91 726 46 33",
+  description: "Residencias Sanitas Mayores en España: atención médica 24h, especialistas en Alzheimer, centros libres de sujeciones y app para familias. 47 residencias. ☎ 624 21 73 23",
   path: "/sanitas-mayores/sanitas-residencias/"
 })
 

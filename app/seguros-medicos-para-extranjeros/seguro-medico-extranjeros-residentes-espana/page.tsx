@@ -10,7 +10,7 @@ import { Check } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Sanitas Más Salud Extranjeros — Seguro Médico para Extranjeros | Sanitas Ventas",
-  description: "Sanitas Más Salud para extranjeros: cobertura completa todo incluido válida para visado y residencia. Hospitalización, dental y Blua gratis.. ☎ 91 726 46 33",
+  description: "Sanitas Más Salud para extranjeros: cobertura completa todo incluido válida para visado y residencia. Hospitalización, dental y Blua gratis.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/seguro-medico-extranjeros-residentes-espana/" }
 }
 

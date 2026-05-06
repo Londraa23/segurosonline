@@ -15,7 +15,7 @@ import { Download, ExternalLink, ChevronRight, Calculator, ShieldCheck, Users } 
 
 export const metadata: Metadata = {
   title: "Sanitas Dental Milenium — Seguro Dental desde 12,20€/mes | Sanitas Ventas",
-  description: "Sanitas Dental Milenium: 55 servicios incluidos, hasta 40% de descuento en tratamientos, sin carencias ni preexistencias. Pack Dúo y Familia disponibles.. ☎ 91 726 46 33",
+  description: "Sanitas Dental Milenium: 55 servicios incluidos, hasta 40% de descuento en tratamientos, sin carencias ni preexistencias. Pack Dúo y Familia disponibles.. ☎ 624 21 73 23",
   alternates: {
     canonical: "/seguros-dentales/sanitas-dental-milenium/"
   }
