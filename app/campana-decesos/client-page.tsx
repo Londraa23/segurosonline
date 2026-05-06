@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Phone, Check, Shield, Clock, Heart, Users, Star, FileText, ArrowRight, Building, Zap, Plus, Trophy, Smartphone, ShieldCheck, Loader2, X, Globe, CheckCircle2 } from "lucide-react"
 import { submitToMake } from "@/lib/form-submission"
-import Script from "next/script"
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className={className} fill="currentColor">
@@ -108,8 +107,8 @@ export default function CampanaDecesosClient() {
   return (
     <div className="min-h-screen bg-white font-sans selection:bg-[#0091DA]/20 text-neutral-900">
       
-      <Script id="meta-pixel-decesos" strategy="afterInteractive">
-        {`
+      <script dangerouslySetInnerHTML={{
+        __html: `
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -124,17 +123,11 @@ export default function CampanaDecesosClient() {
             fbq('track', 'PageView');
             window.fbqInitialized = true;
           }
-        `}
-      </Script>
-      <noscript>
-        <img 
-          height="1" 
-          width="1" 
-          style={{ display: 'none' }}
-          src="https://www.facebook.com/tr?id=1499433194771352&ev=PageView&noscript=1"
-          alt=""
-        />
-      </noscript>
+        `
+      }} />
+      <noscript dangerouslySetInnerHTML={{
+        __html: \`<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1499433194771352&ev=PageView&noscript=1" alt="" />\`
+      }} />
 
       {/* 1. STICKY HEADER */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-sm">
