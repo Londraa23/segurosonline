@@ -34,6 +34,14 @@ export function Testimonials() {
   // Exaggerated movement: starts from right and moves far to the left
   const xRaw = useTransform(scrollYProgress, [0, 1], [300, -1400])
   const x = useSpring(xRaw, { stiffness: 50, damping: 20 })
+  const [isDesktop, setIsDesktop] = useState(false)
+
+  useEffect(() => {
+    setIsDesktop(window.innerWidth >= 1024)
+    const handleResize = () => setIsDesktop(window.innerWidth >= 1024)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   useEffect(() => {
     fetch('/api/reviews')
@@ -83,15 +91,15 @@ export function Testimonials() {
           </div>
         </Reveal>
 
-        <div className="relative -mx-6 px-6 overflow-visible">
+        <div className="relative -mx-6 px-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory lg:overflow-visible">
           <motion.div 
-            style={{ x }}
-            className="flex gap-6 pb-4"
+            style={{ x: isDesktop ? x : 0 }}
+            className="flex gap-6 pb-4 min-w-full"
           >
             {reviews.map((review, i) => (
-              <div key={`${review.author_name}-${i}`} className="shrink-0 w-[340px] sm:w-[400px] group bg-white rounded-3xl p-8 border border-border/60 hover:border-[#0091DA]/20 hover:shadow-xl transition-all duration-300">
+              <div key={`${review.author_name}-${i}`} className="shrink-0 w-[85vw] sm:w-[400px] lg:w-[400px] snap-center group bg-white rounded-3xl p-8 border border-border/60 hover:border-[#0091DA]/20 hover:shadow-xl transition-all duration-300">
                 <Quote className="w-10 h-10 text-[#0091DA]/10 mb-6" />
-                <p className="text-muted-foreground text-base leading-relaxed mb-8 line-clamp-5">{review.text}</p>
+                <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-8 line-clamp-5">{review.text}</p>
                 <div className="flex items-center justify-between mt-auto">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-[#0091DA]/10 flex items-center justify-center">

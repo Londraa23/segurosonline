@@ -120,6 +120,12 @@ export default function SegurosAutonomosFiscalidadPage() {
 
       <BlogPreview />
 
+      <ContactSection 
+        label="CONTACTO"
+        title="¿Hablamos de tu salud?"
+        description="Estamos en España para ayudarte. Ven a vernos o llámanos para resolver cualquier duda."
+      />
+
       <Footer />
     </main>
   )

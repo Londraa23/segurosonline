@@ -13,7 +13,7 @@ export function TrustBar() {
   return (
     <section className="py-6 bg-white border-y border-border/40 overflow-hidden" aria-label="Cifras de confianza">
       <div className="relative">
-        <div className="animate-marquee flex gap-16 whitespace-nowrap">
+        <div className="animate-marquee flex gap-8 sm:gap-16 whitespace-nowrap">
           {[...stats, ...stats].map((stat, i) => (
             <div key={i} className="flex items-center gap-3 shrink-0">
               <span className="text-2xl font-bold text-[#0091DA]">{stat.value}</span>
