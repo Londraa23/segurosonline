@@ -25,7 +25,8 @@ export default function AlergiasPrimaveralesPage() {
           { label: "Inicio", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Alergias Primaverales" }
-            label="Salud y bienestar"
+        ]}
+        label="Salud y bienestar"
         h1="Controla tu Alergia Primaveral con los Especialistas de Sanitas y SegurosOnline"
         body="Estornudos, picor de ojos y congestión. Descubre cómo controlar la alergia al polen con especialistas sin esperas y tratamientos avanzados."
         badges={[{ text: "Lectura: 8 min", variant: "blue" }]}
@@ -133,8 +134,7 @@ export default function AlergiasPrimaveralesPage() {
             <div className="bg-[#0091DA]/5 rounded-3xl p-8 sm:p-12 text-center">
               <h2 className="text-2xl sm:text-3xl font-bold mb-6">¿Sufres alergia primaveral y quieres saber qué cubre tu seguro?</h2>
               <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-                En SegurosOnline te asesoramos sin compromiso sobre el seguro que mejor se adapta a ti. Llámanos o déjanos tus datos.
-              </p>ntas te asesoramos sin compromiso sobre el seguro que mejor se adapta a ti. Llámanos o déjanos tus datos.
+                En SegurosOnline te asesoramos sin compromiso sobre el seguro que mejor se adapta a ti. Llámanos o déjanos tu número.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a href="tel:+34624217323" className="w-full sm:w-auto px-8 py-4 bg-[#0091DA] text-white rounded-full font-bold hover:bg-[#007BBD] transition-colors">
