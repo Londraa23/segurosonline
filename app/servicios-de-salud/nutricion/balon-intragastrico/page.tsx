@@ -8,8 +8,8 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Balón Intragástrico Sanitas — Tratamiento Sobrepeso sin Cirugía | Sanitas Ventas",
-  description: "Balón intragástrico Sanitas: pierde peso sin cirugía con apoyo médico, nutricional y psicológico. Primera consulta gratuita, financiación al 0%, precio cerrado.. ☎ 624 21 73 23",
+  title: "Balón Intragástrico Sanitas: Pierde Peso sin Cirugía",
+  description: "Pierde peso sin cirugía con el Balón Intragástrico Sanitas. Programa con apoyo médico, nutricional y psicológico. Consulta gratuita y financiación al 0%.",
   path: "/servicios-de-salud/nutricion/balon-intragastrico/"
 })
 
@@ -43,11 +43,12 @@ export default function BalonIntragastricoPage() {
           { label: "Balón Intragástrico" }
         ]}
         label="Primera consulta gratuita · Sin cirugía · Financiación 0% · Precio cerrado"
-        h1={<>Balón Intragástrico Sanitas.<br className="hidden lg:block"/> Pierde peso sin cirugía, con apoyo médico completo.</>}
+        h1={<>Balón Intragástrico Sanitas.<br className="hidden lg:block"/> Pierde Peso de Forma Segura y sin Cirugía.</>}
         body="Si ya has probado con todo tipo de dietas y no has obtenido resultados, posiblemente necesitas la ayuda de otros sistemas. El balón intragástrico es un completo programa multidisciplinar en el que participan médicos, psicólogos y nutricionistas. Técnica mínimamente invasiva, sin cirugía, por vía endoscópica. Primera consulta gratuita. Disponible con o sin seguro Sanitas."
         badges={["Técnica ambulatoria", "Equipo multidisciplinar", "Resultados comprobados"]}
         trustItems={["Sin hospitalización", "Sin cicatrices", "Programa 6 meses", "Equipo multidisciplinar"]}
         imageSrc="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1600&q=80&auto=format"
+        imageAlt="Paciente recibiendo asesoramiento nutricional para el tratamiento de balón intragástrico"
       />
 
       <ProductStatBar stats={[

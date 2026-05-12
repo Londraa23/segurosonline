@@ -6,13 +6,13 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { ProductFeatureSection, FeatureList, ComparisonTable } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Test Genético Prenatal No Invasivo Sanitas — Detección Trisomías | Sanitas Ventas",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Test Prenatal No Invasivo Sanitas: Seguro",
   description: "Test genético prenatal no invasivo Sanitas desde semana 10 de embarazo. Detecta síndrome de Down y otras trisomías sin riesgo. Muestra de sangre materna.. ☎ 624 21 73 23",
-  alternates: {
-    canonical: "https://www.segurosonline.net/servicios-de-salud/maternidad/test-genetico-prenatal-no-invasivo/"
-  }
-}
+  path: "/servicios-de-salud/maternidad/test-genetico-prenatal-no-invasivo/"
+})
 
 const pageFaqs = [
   { 
@@ -54,7 +54,7 @@ export default function TestPrenatalPage() {
           { label: "Test Genético Prenatal" }
         ]}
         label="Desde semana 10 · Sin riesgo madre ni bebé · Solo muestra de sangre · Gran precisión"
-        h1={<>Test Genético Prenatal<br />No Invasivo Sanitas. Conoce la salud de tu bebé sin riesgo.</>}
+        h1={<>Test Genético Prenatal Sanitas.<br />Conoce la Salud de tu Bebé sin Ningún Riesgo.</>}
         body="El test genético prenatal no invasivo permite detectar durante el embarazo anomalías cromosómicas que pueden afectar al feto. Se realiza a partir de la semana 10 de embarazo mediante una simple muestra de sangre materna. Sin ningún riesgo ni para la madre ni para el bebé. La mejor alternativa no invasiva a la amniocentesis o la biopsia corial."
         badges={["Desde semana 10", "Sin riesgo", "Alta precisión", "Alternativa a amniocentesis"]}
         trustItems={["Desde semana 10", "Sin riesgo", "Alta precisión", "Alternativa a amniocentesis"]}

@@ -39,8 +39,10 @@ const navigation = [
     name: "Sanitas Mayores",
     href: "/sanitas-mayores/",
     submenu: [
-      { name: "Residencias y Cuidados", href: "/sanitas-mayores/" },
-      { name: "Nuestras Residencias", href: "/sanitas-mayores/sanitas-residencias/" },
+      { name: "Residencias Sanitas", href: "/sanitas-mayores/sanitas-residencias/" },
+      { name: "Centros de Día", href: "/sanitas-mayores/centros-de-dia/" },
+      { name: "Cuidados a Domicilio", href: "/sanitas-mayores/cuidados-a-domicilio/" },
+      { name: "Rehabilitación", href: "/sanitas-mayores/rehabilitacion-mayores/" },
     ],
   },
   {

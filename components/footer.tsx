@@ -31,8 +31,6 @@ const footerLinks = {
     { label: "Vista", href: "/servicios-de-salud/vista/" },
     { label: "Maternidad", href: "/servicios-de-salud/maternidad/" },
     { label: "Nutrición", href: "/servicios-de-salud/nutricion/" },
-    { label: "Estética", href: "/servicios-de-salud/estetica/" },
-    { label: "Chequeos de Salud", href: "/servicios-de-salud/chequeos-de-salud/" },
   ],
   legal: [
     { label: "Aviso Legal", href: "/aviso-legal" },
@@ -41,11 +39,11 @@ const footerLinks = {
     { label: "Contacto", href: "/#contacto" },
   ],
   blog: [
+    { label: "Sanitas: Líder en Salud", href: "/blog/sanitas-lider-salud-privada/" },
     { label: "Alergias Primaverales", href: "/blog/alergias-primaverales/" },
     { label: "Seguro Médico Embarazo", href: "/blog/seguro-medico-embarazo/" },
     { label: "Deducciones Autónomos", href: "/blog/seguros-autonomos-ventajas-fiscales-2026/" },
     { label: "Seguro de Reembolso", href: "/blog/seguro-reembolso-sanitas/" },
-    { label: "Comparativa Seguros", href: "/blog/comparativa-seguros-salud/" },
   ],
 }
 

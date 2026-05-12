@@ -38,7 +38,7 @@ export default function SanitasProfesionalesPage() {
           { label: "Sanitas Profesionales" }
         ]}
         label="Sanitas Profesionales"
-        h1={<>Sanitas Profesionales.<br className="hidden lg:block" /> El seguro médico del autónomo inteligente.</>}
+        h1={<>Seguros Sanitas para Autónomos.<br className="hidden lg:block" /> Protección Médica y Máximas Ventajas Fiscales.</>}
         body="Cobertura completa, ventajas fiscales reales y protección específica ante la incapacidad temporal. Diseñado por y para autónomos y profesionales independientes."
         badges={["Desde 37,60€/mes", "Deducible IRPF", "Accidentes laborales", "Blua GRATIS"]}
         trustItems={["Deducible fiscalmente", "Accidentes laborales", "Hospitalización completa", "Blua digital"]}

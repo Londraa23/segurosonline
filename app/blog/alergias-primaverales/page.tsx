@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Alergias Primaverales: Prevención y Tratamiento con tu Seguro Sanitas | Sanitas Ventas",
+  title: "Alergias Primaverales: Prevención y Tratamiento con tu Seguro Sanitas | SegurosOnline",
   description: "Cómo prevenir y tratar las alergias primaverales con tu seguro de salud Sanitas. Alergólogos, pruebas diagnósticas, inmunoterapia y Blua digital incluidos. España. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/alergias-primaverales/"
@@ -25,9 +25,8 @@ export default function AlergiasPrimaveralesPage() {
           { label: "Inicio", href: "/" },
           { label: "Blog", href: "/blog" },
           { label: "Alergias Primaverales" }
-        ]}
-        label="Salud y bienestar"
-        h1="Alergias primaverales: cómo prevenir y tratar los síntomas con tu seguro Sanitas."
+            label="Salud y bienestar"
+        h1="Controla tu Alergia Primaveral con los Especialistas de Sanitas y SegurosOnline"
         body="Estornudos, picor de ojos y congestión. Descubre cómo controlar la alergia al polen con especialistas sin esperas y tratamientos avanzados."
         badges={[{ text: "Lectura: 8 min", variant: "blue" }]}
         trustItems={["Alergólogos sin esperas", "Pruebas diagnósticas", "Inmunoterapia", "Blua digital"]}
@@ -68,7 +67,7 @@ export default function AlergiasPrimaveralesPage() {
               La alergia primaveral es una respuesta exagerada del sistema inmunitario ante el contacto con el polen de árboles, hierbas y plantas que florecen entre los meses de marzo y julio. Cuando el sistema inmune de una persona alérgica detecta estas partículas, las identifica como una amenaza y desencadena una reacción inflamatoria que produce los síntomas típicos.
             </p>
             <p>
-              En España los pólenes más problemáticos son la gramínea (responsable de la mayoría de alergias en el centro del país), el olivo (predominante en Andalucía y Castilla-La Mancha), el plátano de sombra (muy frecuente en zonas urbanas), el ciprés (que adelanta la temporada ya en febrero) y el abedul (más habitual en el norte). Las concentraciones más altas suelen darse en días secos, soleados y con viento, especialmente a primera hora de la mañana y al atardecer.
+              En España los pólenes más problemáticos son la gramínea (responsable de la mayoría de alergias en el centro del país), el olivo (predominante en Andalucía y Castilla-La Mancha), el plátano de sombra (muy frecuente en zonas urbanas), el ciprés (que adelanta la temporada ya en febrero) y el abedul (más habitual en el norte). Las concentraciones más altas suelen darse en días secos, soloados y con viento, especialmente a primera hora de la mañana y al atardecer.
             </p>
           </Reveal>
 
@@ -134,7 +133,8 @@ export default function AlergiasPrimaveralesPage() {
             <div className="bg-[#0091DA]/5 rounded-3xl p-8 sm:p-12 text-center">
               <h2 className="text-2xl sm:text-3xl font-bold mb-6">¿Sufres alergia primaveral y quieres saber qué cubre tu seguro?</h2>
               <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-                En Sanitas Ventas te asesoramos sin compromiso sobre el seguro que mejor se adapta a ti. Llámanos o déjanos tus datos.
+                En SegurosOnline te asesoramos sin compromiso sobre el seguro que mejor se adapta a ti. Llámanos o déjanos tus datos.
+              </p>ntas te asesoramos sin compromiso sobre el seguro que mejor se adapta a ti. Llámanos o déjanos tus datos.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a href="tel:+34624217323" className="w-full sm:w-auto px-8 py-4 bg-[#0091DA] text-white rounded-full font-bold hover:bg-[#007BBD] transition-colors">

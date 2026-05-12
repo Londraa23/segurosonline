@@ -11,7 +11,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 import Link from "next/link"
 
 export const metadata = generateMetadata({
-  title: "Sanitas Mayores — Residencias, Centros de Día y Cuidados para Mayores | Sanitas Ventas",
+  title: "Sanitas Mayores: Residencias y Cuidados",
   description: "Sanitas Mayores: residencias, centros de día, cuidados a domicilio y rehabilitación para personas mayores en España. Tengas o no seguro Sanitas.. ☎ 624 21 73 23",
   path: "/sanitas-mayores/"
 })
@@ -81,11 +81,12 @@ export default function SanitasMayoresIndexPage() {
           { label: "Sanitas Mayores" }
         ]}
         label="47 residencias en España · 25 centros de día · Cuidados a domicilio · Tengas o no seguro"
-        h1={<>Sanitas Mayores.<br className="hidden lg:block"/> Cuidado experto para quienes más lo merecen.</>}
+        h1={<>Servicios de Sanitas Mayores.<br className="hidden lg:block"/> Bienestar y Cuidados Profesionales de Confianza.</>}
         body="En Sanitas Mayores atendemos y cuidamos a personas mayores para mejorar su calidad de vida y proporcionarles toda la ayuda que necesitan. Residencias, centros de día, cuidados a domicilio y centros de rehabilitación avanzada en toda España. Con o sin seguro Sanitas."
         badges={["Con o sin seguro", "Especialistas senior", "Alcance nacional"]}
         trustItems={["47 residencias", "25 centros de día", "Atención 24h", "Equipo multidisciplinar"]}
         imageSrc="https://images.unsplash.com/photo-1517409217036-74fc2249df9c?w=1600&q=80&auto=format"
+        imageAlt="Personas mayores felices recibiendo cuidados profesionales en Sanitas Mayores"
       />
 
       <CategoryProductGrid 
@@ -142,7 +143,7 @@ export default function SanitasMayoresIndexPage() {
                   Para el seguro médico de tus mayores.
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 max-w-2xl leading-relaxed">
-                  Si además buscas un seguro médico específico para mayores de 60 años, en Sanitas Ventas también te asesoramos sobre <strong>Sanitas Único</strong>, el seguro médico diseñado para mayores sin cuestionario de salud, sin límite de edad y con descuentos en residencias y centros de día Sanitas.
+                  Si además buscas un seguro médico específico para mayores de 60 años, en SegurosOnline también te asesoramos sobre <strong>Sanitas Único</strong>, el seguro médico diseñado para mayores sin cuestionario de salud, sin límite de edad y con descuentos en residencias y centros de día Sanitas.
                 </p>
                 <Link
                   href="/seguros-medicos-para-particulares/sanitas-unico/"

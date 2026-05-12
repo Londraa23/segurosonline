@@ -8,7 +8,7 @@ import { CheckCircle2 } from "lucide-react"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Servicios de Nutrición y Pérdida de Peso Sanitas | Sanitas Ventas",
+  title: "Servicios de Nutrición y Pérdida de Peso Sanitas | SegurosOnline",
   description: "Tratamientos para la obesidad y el sobrepeso con Sanitas: balón intragástrico, método POSE, método Apollo y cirugía bariátrica. Primera consulta gratuita.. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/"
 })
@@ -64,7 +64,7 @@ export default function NutricionIndexPage() {
           { label: "Nutrición" }
         ]}
         label="Primera consulta gratuita · Sin necesidad de póliza · Precios especiales clientes · Financiación disponible"
-        h1={<>Servicios de Nutrición Sanitas.<br className="hidden lg:block"/> Descubre lo que mejor te sienta. Reduce peso.</>}
+        h1={<>Tratamientos de Nutrición Sanitas.<br className="hidden lg:block"/> Soluciones Avanzadas para el Control de Peso.</>}
         body="Si las dietas no han dado resultado, existen tratamientos médicos eficaces para el sobrepeso y la obesidad. En Sanitas disponemos de varias soluciones adaptadas a cada grado de obesidad: desde técnicas sin cirugía hasta procedimientos quirúrgicos avanzados. Siempre con un equipo multidisciplinar de médicos, psicólogos y nutricionistas a tu lado. Primera consulta gratuita. Disponible sin seguro Sanitas."
         badges={["Primera consulta gratuita", "Tratamientos sin cirugía", "Financiación disponible"]}
         trustItems={["Técnicas sin cirugía", "Equipo multidisciplinar", "Seguimiento completo", "Precio cerrado"]}

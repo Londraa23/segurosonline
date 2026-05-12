@@ -9,7 +9,7 @@ import { Reveal } from "@/components/reveal"
 import { Check } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Empresas — Seguro Médico para Empresas y Pymes | Sanitas Ventas",
+  title: "Sanitas Empresas — Seguro Médico para Empresas y Pymes | SegurosOnline",
   description: "Sanitas Empresas: asistencia sanitaria completa para tus empleados. Dental incluido, programas de salud, segunda opinión médica y ventajas fiscales.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-empresas/" }
 }

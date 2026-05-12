@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Seguros Dentales Sanitas en España — Dental Milenium y Dental Premium | Sanitas Ventas",
+  title: "Seguros Dentales Sanitas en España — Dental Milenium y Dental Premium | SegurosOnline",
   description: "Seguros dentales Sanitas en España: Dental Milenium y Dental Premium con empastes incluidos. Sin carencias ni preexistencias. ☎ 624 21 73 23",
   path: "/seguros-dentales/"
 })
@@ -45,7 +45,7 @@ export default function SegurosDentalesPage() {
           { label: "Inicio", href: "/" },
           { label: "Seguro Dental" }
         ]}
-        h1={<>Seguros Dentales Sanitas.<br />Cuida tu sonrisa sin sorpresas.</>}
+        h1={<>Salud Bucodental Sanitas.<br />Seguros Dentales con Cobertura Completa y Sin Sorpresas.</>}
         body="En Sanitas queremos verte sonreír. Por eso cuidamos de tu salud bucodental en todas las etapas de tu vida, seas o no cliente de Sanitas. Dos modalidades de seguro dental con más de 200 clínicas Milenium en toda España, sin carencias y sin preexistencias. Desde el primer día."
         badges={["Sin carencias", "Sin preexistencias", "+200 clínicas Milenium"]}
         trustItems={["Sin carencias", "Desde el primer día", "+200 clínicas", "Pack Dúo y Familia disponibles"]}

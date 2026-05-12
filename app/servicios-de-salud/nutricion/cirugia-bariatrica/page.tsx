@@ -8,7 +8,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Cirugía Bariátrica Sanitas — Banda Gástrica y By-Pass | Sanitas Ventas",
+  title: "Cirugía Bariátrica Sanitas: Bypass y Manga",
   description: "Cirugía bariátrica Sanitas: banda gástrica, by-pass gástrico y técnicas laparoscópicas para obesidad mórbida. Primera consulta gratuita. Seguimiento médico completo.. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/cirugia-bariatrica/"
 })
@@ -42,7 +42,7 @@ export default function CirugiaBariatricaPage() {
           { label: "Cirugía Bariátrica" }
         ]}
         label="Primera consulta gratuita · Laparoscópica · Asistencia integral · Precios especiales"
-        h1={<>Cirugía Bariátrica Sanitas.<br className="hidden lg:block"/> Pérdida de peso permanente para casos de obesidad grave.</>}
+        h1={<>Cirugía Bariátrica Sanitas.<br className="hidden lg:block"/> Técnicas Avanzadas para una Pérdida de Peso Permanente.</>}
         body="La cirugía bariátrica es el conjunto de procedimientos quirúrgicos diseñados para conseguir pérdidas de peso mantenidas y duraderas en el tiempo, modificando anatómica y funcionalmente el tracto digestivo. En Sanitas realizamos las técnicas más avanzadas por vía laparoscópica, con asistencia personalizada e integral: médica, psicológica y nutricional. Primera consulta de valoración gratuita."
         badges={["Laparoscopia avanzada", "Atención multidisciplinar", "Resultados duraderos"]}
         trustItems={["Laparoscópica", "Equipo especializado", "Seguimiento nutricional y psicológico", "Precio cerrado"]}

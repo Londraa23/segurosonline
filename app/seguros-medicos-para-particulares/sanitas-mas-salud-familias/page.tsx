@@ -6,11 +6,13 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Sanitas Más Salud Familias — Seguro Médico Familiar Sanitas | Sanitas Ventas",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Sanitas Más Salud Familias: Protección Total",
   description: "Sanitas Más Salud Familias: toda la familia en una póliza. Pediatría, maternidad, hospitalización completa y Blua gratis. 10% dto. desde 4 asegurados.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud-familias/" }
-}
+  path: "/seguros-medicos-para-particulares/sanitas-mas-salud-familias/"
+})
 
 const pageFaqs = [
   { question: "¿Cuántos miembros puedo incluir?", answer: "No hay límite de miembros. Puedes incluir pareja, hijos y otros familiares directos. Cuantos más asegurados, mayor el ahorro." },
@@ -31,7 +33,7 @@ export default function SanitasMasSaludFamiliasPage() {
           { label: "Sanitas Más Salud Familias" }
         ]}
         label="Sanitas Más Salud Familias"
-        h1={<>Sanitas Más Salud Familias.<br className="hidden lg:block" /> Tu familia, protegida de verdad.</>}
+        h1={<>Sanitas Más Salud Familias.<br className="hidden lg:block" /> El Seguro Médico más Completo para Proteger tu Hogar.</>}
         body="Toda la familia bajo una sola póliza con las mismas coberturas completas de Sanitas Más Salud. Pediatría, maternidad, hospitalización, y Blua para todos. Y cuantos más seáis, más ahorráis."
         badges={["10% dto. desde 4 asegurados", "Blua GRATIS para todos", "Dental 21 incluido"]}
         trustItems={["Pediatría incluida", "Maternidad", "Hospitalización completa", "10% dto. vitalicio"]}

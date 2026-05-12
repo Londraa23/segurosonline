@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Cuidados a Domicilio para Mayores Sanitas — Atención Profesional en Casa | Sanitas Ventas",
+  title: "Cuidados a Domicilio para Mayores Sanitas — Atención Profesional en Casa | SegurosOnline",
   description: "Cuidados a domicilio Sanitas Mayores: selección de cuidador, rehabilitación en el hogar y servicios asistenciales personalizados. Sin salir de casa. ☎ 624 21 73 23",
   path: "/sanitas-mayores/cuidados-a-domicilio/"
 })

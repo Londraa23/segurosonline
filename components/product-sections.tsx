@@ -4,7 +4,8 @@ import { ReactNode } from "react"
 import Image from "next/image"
 import {
   CheckCircle2, Info, Shield, Clock, Smartphone, Star,
-  Check, X, Home, TrendingUp, Percent, BadgeCheck, ArrowRight
+  Check, X, Home, TrendingUp, Percent, BadgeCheck, ArrowRight,
+  Heart, Activity, Users
 } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 import Link from "next/link"
@@ -175,7 +176,8 @@ export function FeatureBlock({
 // ──────────────────────────────────────────────────────────
 const IconMap = {
   shield: Shield, clock: Clock, smartphone: Smartphone,
-  star: Star, check: CheckCircle2, home: Home, trending: TrendingUp, percent: Percent
+  star: Star, check: CheckCircle2, home: Home, trending: TrendingUp, percent: Percent,
+  heart: Heart, activity: Activity, users: Users
 }
 type IconKey = keyof typeof IconMap
 
@@ -225,7 +227,7 @@ export function WhiteCardGrid({ title, subtitle, cards }: { title: string; subti
         </Reveal>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {cards.map((card, i) => {
-            const Icon = IconMap[card.icon]
+            const Icon = IconMap[card.icon] || Info;
             const CardContent = (
               <div className="group p-7 rounded-xl border border-border/50 hover:border-[#0091DA]/30 hover:shadow-md hover:shadow-[#0091DA]/[0.04] hover:-translate-y-0.5 transition-all duration-300 h-full bg-white cursor-pointer">
                 <Icon className="w-6 h-6 text-[#0091DA] mb-4" />

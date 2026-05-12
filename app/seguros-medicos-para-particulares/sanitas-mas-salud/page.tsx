@@ -6,11 +6,13 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, ComparisonTable, BluaSection, ThreeColumnFeatures, LegalNote } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Sanitas Más Salud — Seguro Médico Completo Todo Incluido | Sanitas Ventas",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Sanitas Más Salud: Seguro Médico Completo",
   description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Todo incluido. 10% dto. desde 4 asegurados.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud/" }
-}
+  path: "/seguros-medicos-para-particulares/sanitas-mas-salud/"
+})
 
 const pageFaqs = [
   { question: "¿Cuál es la diferencia entre Más Salud y Más Salud Óptima?", answer: "Las coberturas son exactamente las mismas. La diferencia está en la prima mensual y la modalidad de acceso: Óptima tiene la prima más económica para quienes quieren acceso flexible a la sanidad privada." },
@@ -31,11 +33,12 @@ export default function SanitasMasSaludPage() {
           { label: "Sanitas Más Salud" }
         ]}
         label="Sanitas Más Salud"
-        h1={<>Sanitas Más Salud.<br className="hidden lg:block" /> Cobertura completa. Todo incluido.</>}
+        h1={<>Sanitas Más Salud.<br className="hidden lg:block" /> El Seguro Médico más Completo para ti y tu Familia.</>}
         body="El seguro más elegido de Sanitas. Asistencia sanitaria completa con hospitalización, todas las especialidades, Sanitas Dental 21 y Blua digital gratis. La máxima tranquilidad para ti y tu familia con todo incluido."
         badges={["Blua GRATIS", "Dental 21 incluido", "10% dto. desde 4 asegurados"]}
         trustItems={["Hospitalización completa", "Dental 21 incluido", "Todo incluido", "Blua digital"]}
         imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageAlt="Familia joven sonriente protegida por el seguro médico Sanitas Más Salud"
       />
 
       <ProductStatBar stats={[

@@ -6,13 +6,13 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { ProductFeatureSection, FeatureList } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Reproducción Asistida Sanitas — FIV, Inseminación, ICSI | Sanitas Ventas",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Reproducción Asistida Sanitas: FIV e ICSI",
   description: "Tratamientos de reproducción asistida Sanitas: FIV, inseminación artificial, ICSI y ovodonación. Primera consulta gratuita. 8% dto. para clientes.. ☎ 624 21 73 23",
-  alternates: {
-    canonical: "https://www.segurosonline.net/servicios-de-salud/maternidad/reproduccion-asistida/"
-  }
-}
+  path: "/servicios-de-salud/maternidad/reproduccion-asistida/"
+})
 
 const pageFaqs = [
   { 
@@ -46,7 +46,7 @@ export default function ReproduccionAsistidaPage() {
           { label: "Reproducción Asistida" }
         ]}
         label="Primera consulta gratuita (+120€ valor) · 8% dto. clientes Sanitas · Precios cerrados"
-        h1={<>Reproducción Asistida Sanitas.<br />Os ayudamos a hacer realidad el sueño de ser padres.</>}
+        h1={<>Reproducción Asistida Sanitas.<br />Las Mejores Técnicas para Cumplir tu Sueño.</>}
         body="Los tratamientos de Reproducción Asistida de Sanitas os ayudan a hacer realidad el sueño de ser padres. Ponemos a vuestra disposición lo último en técnicas, en los centros más avanzados y de la mano de especialistas de gran prestigio. Primera consulta gratuita, valorada en más de 120€."
         badges={["Disponible sin póliza", "Técnicas más avanzadas", "Discreción total", "Equipo multidisciplinar"]}
         trustItems={["Consulta gratis", "Ahorro del 8%", "Precios cerrados", "Financiación"]}

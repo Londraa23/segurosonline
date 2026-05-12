@@ -10,7 +10,7 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguro de Decesos Asistencia Familiar iPlus Sanitas | Sanitas Ventas",
+  title: "Seguro de Decesos Asistencia Familiar iPlus Sanitas | SegurosOnline",
   description: "Asistencia Familiar iPlus: el seguro de decesos más completo de Sanitas con asistencia en viaje, protección jurídica y cobertura por accidentes. Hasta 75 años.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-familiar-iplus/" }
 }

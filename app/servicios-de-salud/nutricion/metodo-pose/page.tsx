@@ -8,7 +8,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Método POSE Sanitas — Reducción de Estómago sin Cirugía | Sanitas Ventas",
+  title: "Método POSE Sanitas: Adelgaza sin Cirugía",
   description: "Método POSE en Sanitas: reducción del estómago por vía endoscópica sin incisiones. La opción menos invasiva contra la obesidad. Primera consulta gratuita. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/metodo-pose/"
 })
@@ -42,7 +42,7 @@ export default function MetodoPosePage() {
           { label: "Método POSE" }
         ]}
         label="Primera consulta gratuita · Sin incisiones · Sin cicatrices · Técnica ambulatoria"
-        h1={<>Método POSE Sanitas.<br className="hidden lg:block"/> Reducción de estómago sin incisiones ni cicatrices.</>}
+        h1={<>Método POSE Sanitas.<br className="hidden lg:block"/> Reducción de Estómago por Endoscopia y sin Cicatrices.</>}
         body="El método POSE permite la reducción del volumen del estómago por vía endoscópica, sin necesidad de incisiones externas. Es la opción menos invasiva y más segura para tratar el sobrepeso y la obesidad. Técnica ambulatoria — en la mayoría de casos el paciente puede retomar su actividad normal en 24–48 horas. Primera consulta gratuita, sin compromiso."
         badges={["Menos invasiva", "Rápida recuperación", "Sin cirugía abierta"]}
         trustItems={["Sin incisiones", "Sin cicatrices", "Ambulatorio", "Descuentos clientes Sanitas"]}

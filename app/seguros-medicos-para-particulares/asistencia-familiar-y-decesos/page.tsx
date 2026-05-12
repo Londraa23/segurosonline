@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Seguros de Decesos Sanitas en España — Asistencia Familiar iPlus y Senior | Sanitas Ventas",
+  title: "Seguro de Decesos Sanitas: Tranquilidad",
   description: "Seguros de decesos Sanitas en España: Asistencia Familiar iPlus hasta 75 años y Asistencia Senior Prima Única para mayores de 75. Avalados por Santalucía. ☎ 624 21 73 23",
   path: "/seguros-de-decesos/"
 })
@@ -49,7 +49,7 @@ export default function SegurosDecesosPage() {
           { label: "Inicio", href: "/" },
           { label: "Seguros de Decesos" }
         ]}
-        h1={<>Seguros de Decesos Sanitas.<br />Tranquilidad para ti.<br />Alivio para los tuyos.</>}
+        h1={<>Seguros de Decesos Sanitas.<br />Gestión Integral y Tranquilidad para tu Familia.</>}
         body="En los momentos más difíciles, lo último que tu familia debería tener que hacer es gestionar trámites. Un seguro de decesos se ocupa de todo: el servicio fúnebre, el traslado nacional e internacional, la asistencia jurídica y el apoyo emocional, con una simple llamada. Avalados por Santalucía, especialista líder en decesos en España."
         badges={["Avalado por Santalucía", "Sin edad máx. permanencia", "Gestión integral", "Traslado mundial incluido"]}
         trustItems={["Avalado por Santalucía", "Traslado nacional e internacional", "Asistencia jurídica", "Atención psicológica"]}

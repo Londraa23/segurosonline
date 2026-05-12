@@ -19,9 +19,10 @@ interface SanitasPageHeroProps {
   badges?: (string | { text: string; variant?: "blue" | "red" })[];
   trustItems?: string[];
   imageSrc: string;
+  imageAlt?: string;
 }
 
-export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trustItems = [], imageSrc }: SanitasPageHeroProps) {
+export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trustItems = [], imageSrc, imageAlt }: SanitasPageHeroProps) {
   const [formData, setFormData] = useState({ name: "", phone: "", acceptPolicy: false })
   const [submitted, setSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -65,7 +66,7 @@ export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trus
       <div className="hidden sm:block absolute inset-0 -z-10">
         <Image
           src={imageSrc}
-          alt="Sanitas Hero"
+          alt={imageAlt || (typeof h1 === 'string' ? h1 : "Sanitas Hero")}
           fill
           priority
           sizes="100vw"

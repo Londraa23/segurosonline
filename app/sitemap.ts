@@ -12,10 +12,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/seguros-medicos-para-particulares/sanitas-avanza',
     '/seguros-medicos-para-particulares/sanitas-mas-salud',
     '/seguros-medicos-para-particulares/sanitas-mas-salud-familias',
+    '/seguros-medicos-para-particulares/sanitas-mas-90000',
+    '/seguros-medicos-para-particulares/sanitas-premium-500-000',
+    '/seguros-medicos-para-particulares/sanitas-profesionales',
     '/seguros-medicos-para-particulares/sanitas-unico',
     '/seguros-medicos-para-particulares/sanitas-inclusivo-discapacidad',
+    '/seguros-medicos-para-particulares/nectar-contigo',
     
     // Decesos y Asistencia Familiar
+    '/seguros-medicos-para-particulares/asistencia-familiar-y-decesos',
     '/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-familiar-iplus',
     '/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-senior',
 
@@ -29,11 +34,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Otros Seguros y Premium
     '/seguros-medicos-para-extranjeros',
     '/seguros-medicos-para-extranjeros/seguro-medico-extranjeros-residentes-espana',
+    '/seguros-medicos-para-extranjeros/sanitas-international-residents',
+    '/seguros-para-estudiantes',
     '/sanitas-top-quantum',
     '/nectar-seguros-de-salud',
     '/complementos-de-salud',
     
     // Dentales y Mascotas
+    '/seguros-dentales',
     '/seguros-dentales/sanitas-dental-milenium',
     '/seguros-dentales/sanitas-dental-premium',
     '/sanitas-mascotas',
@@ -41,6 +49,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Sanitas Mayores
     '/sanitas-mayores',
     '/sanitas-mayores/sanitas-residencias',
+    '/sanitas-mayores/centros-de-dia',
+    '/sanitas-mayores/cuidados-a-domicilio',
+    '/sanitas-mayores/rehabilitacion-mayores',
 
     // Servicios de Salud: Vista
     '/servicios-de-salud/vista',
@@ -60,6 +71,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/servicios-de-salud/nutricion/metodo-pose',
     '/servicios-de-salud/nutricion/metodo-apollo',
     '/servicios-de-salud/nutricion/cirugia-bariatrica',
+
+    // Blog
+    '/blog',
+    '/blog/alergias-primaverales',
+    '/blog/comparativa-seguros-salud',
+    '/blog/sanitas-lider-salud-privada',
+    '/blog/seguro-medico-embarazo',
+    '/blog/seguro-reembolso-sanitas',
+    '/blog/seguros-autonomos-ventajas-fiscales-2026',
   ]
 
   return routes.map((route) => {

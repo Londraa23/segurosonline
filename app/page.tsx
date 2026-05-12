@@ -10,7 +10,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 import { DEFAULT_FAQS } from "@/lib/constants"
 
 export const metadata = generateMetadata({
-  title: 'Seguros de Salud Sanitas | Desde 39€/mes',
+  title: 'Seguros de Salud Sanitas 2025: Compara y Ahorra | SegurosOnline',
   description: 'Agencia exclusiva de seguros Sanitas. Seguros de salud para particulares, autónomos, empresas y mayores de 60 años. Blua GRATIS para siempre. Sin carencias ni permanencia.',
   path: '/',
   subTitle: false

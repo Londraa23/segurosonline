@@ -113,7 +113,7 @@ export default function SegurosEmpresasPage() {
           { label: "Para Empresas" }
         ]}
         label="Deducible para empresa · Exento IRPF empleado · Blua GRATIS"
-        h1={<>Seguros médicos para empresas.<br className="hidden lg:block"/> Cuida a tu equipo. Cuida tu negocio.</>}
+        h1={<>Soluciones Médicas Sanitas para Empresas.<br className="hidden lg:block"/> La Mejor Inversión en el Talento de tu Negocio.</>}
         body="Ofrecer un seguro de salud a tus empleados no es solo un beneficio social — es una decisión inteligente. Reduce el absentismo, mejora la productividad y es uno de los beneficios más valorados por encima de otras compensaciones. Y además, la empresa puede deducirse el gasto y el empleado tiene ventajas fiscales en su IRPF."
         badges={["Desde 5 empleados", "Exento IRPF hasta 500€", "Blua gratis"]}
         trustItems={["Desde 5 empleados", "Ventajas fiscales", "Reduce el absentismo", "Atención personalizada"]}
@@ -165,7 +165,7 @@ export default function SegurosEmpresasPage() {
                   <Workflow className="w-7 h-7" />
                 </div>
                 <h3 className="text-lg font-bold text-[#002A54] mb-3">Gestión centralizada</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">La empresa centraliza la contratación y la gestión. Los empleados no tienen que negociar individualmente — tú decides el nivel de cobertura para todo el equipo.</p>
+                <p className="text-gray-600 text-sm leading-relaxed">En SegurosOnline te acompañamos en la contratación y en la gestión de toda la documentación necesaria para tu empresa.</p>
               </div>
             </Reveal>
           </div>

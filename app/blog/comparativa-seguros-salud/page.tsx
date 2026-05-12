@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Comparativa Seguros de Salud: Qué Ofrece Sanitas Frente a Otras Aseguradoras | Sanitas Ventas",
+  title: "Comparativa Seguros de Salud: Qué Ofrece Sanitas Frente a Otras Aseguradoras | SegurosOnline",
   description: "Comparativa honesta entre Sanitas y otras aseguradoras de salud en España: red médica, precios, coberturas digitales y atención al cliente. España. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/comparativa-seguros-salud/"

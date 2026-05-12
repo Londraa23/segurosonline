@@ -8,7 +8,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Método Apollo Sanitas — Reducción de Estómago Endoscópica | Sanitas Ventas",
+  title: "Método Apollo Sanitas: Reducción de Estómago",
   description: "Método Apollo Sanitas: reducción del 60–70% del estómago por endoscopia para obesidad severa. Seguimiento 24 meses. Primera consulta gratuita. Financiación 0%.. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/metodo-apollo/"
 })
@@ -42,7 +42,7 @@ export default function MetodoApolloPage() {
           { label: "Método Apollo" }
         ]}
         label="Primera consulta gratuita · Reducción 60–70% estómago · Seguimiento 24 meses · Financiación 0%"
-        h1={<>Método Apollo Sanitas.<br className="hidden lg:block"/> Reducción de estómago endoscópica para una pérdida de peso definitiva.</>}
+        h1={<>Método Apollo Sanitas.<br className="hidden lg:block"/> Reducción de Estómago Endoscópica para Obesidad Severa.</>}
         body="El método Apollo es un tratamiento multidisciplinar que consiste en la reducción del estómago por vía endoscópica en forma de manga, reduciendo su capacidad entre un 60 y un 70%. Tratamiento ambulatorio, sin cirugía ni cicatrices externas, con seguimiento integral durante 24 meses. Indicado para obesidad severa. Primera consulta gratuita. Financiación al 0% para clientes Sanitas."
         badges={["Sin cirugía abierta", "Reversible", "Altamente efectivo"]}
         trustItems={["Sin cirugía", "Sin cicatrices", "Ambulatorio", "IMC 30–40"]}

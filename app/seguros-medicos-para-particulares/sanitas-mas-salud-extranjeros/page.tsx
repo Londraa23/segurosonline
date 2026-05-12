@@ -73,7 +73,7 @@ export default function SanitasMasSaludExtranjerosPage() {
           { label: "Más Salud Extranjeros" }
         ]}
         label="Válido para visado y residencia · Sin copago · Sin límite gastos"
-        h1={<>Sanitas Más Salud Extranjeros.<br />El seguro médico ideal para<br />vivir en España.</>}
+        h1={<>Sanitas Más Salud Extranjeros.<br />Tu Seguro Médico para Visado y Residencia en España.</>}
         body="Diseñado para extranjeros residentes en España, sus familiares y estudiantes. Válido para solicitar y renovar visado y permiso de residencia. Sin copagos."
         badges={["Apto Visado", "Sin copagos", "Hospitalización"]}
         trustItems={["Válido para residencia", "Sin copago", "Hospitalización incluida", "Dental 32 servicios"]}

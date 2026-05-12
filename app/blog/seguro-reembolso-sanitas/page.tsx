@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguro de Salud con Reembolso Sanitas: Qué Es y Cómo Funciona | Sanitas Ventas",
+  title: "Seguro de Salud con Reembolso Sanitas: Qué Es y Cómo Funciona | SegurosOnline",
   description: "Guía completa sobre los seguros de reembolso de Sanitas: qué es, cómo funciona, diferencias con el cuadro médico y qué productos ofrece Sanitas. España. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/seguro-reembolso-sanitas/"

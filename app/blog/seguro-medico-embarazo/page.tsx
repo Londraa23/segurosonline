@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguro Médico para Embarazo: Guía Completa para Futuras Madres 2026 | Sanitas Ventas",
+  title: "Seguro Médico para Embarazo: Guía Completa para Futuras Madres 2026 | SegurosOnline",
   description: "Todo lo que necesitas saber sobre el seguro médico privado durante el embarazo: coberturas, carencias, cuándo contratar y qué incluye Sanitas. España. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/seguro-medico-embarazo/"

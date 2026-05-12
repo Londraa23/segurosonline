@@ -88,8 +88,8 @@ export function Hero() {
 
             <Reveal delay={0.12}>
               <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-6xl font-bold tracking-tight leading-[1.08]">
-                Seguro de Salud Sanitas{" "}
-                <span className="text-[#0091DA]">desde 29,90€/mes</span>
+                Seguros de Salud Sanitas:{" "}
+                <span className="text-[#0091DA]">Cobertura Premium al Mejor Precio</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl mt-5">
                 Sin esperas, sin permanencia y con acceso inmediato a miles de especialistas en toda España.

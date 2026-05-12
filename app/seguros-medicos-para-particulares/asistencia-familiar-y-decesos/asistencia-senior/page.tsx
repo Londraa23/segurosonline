@@ -10,7 +10,7 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Asistencia Senior Prima Única — Seguro de Decesos para Mayores de 75 | Sanitas Ventas",
+  title: "Asistencia Senior Prima Única — Seguro de Decesos para Mayores de 75 | SegurosOnline",
   description: "Asistencia Senior a prima única para mayores de 75 años. Un solo pago, cobertura completa por fallecimiento, gestión integral funeraria y garantía mundial.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-senior/" }
 }

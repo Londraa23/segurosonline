@@ -15,7 +15,7 @@ import { Reveal } from "@/components/reveal"
 import { Dog, Cat, Heart, Shield, Clock, Stethoscope, BadgePercent, Globe, Download, ExternalLink } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Seguro Mascotas — Seguro Veterinario para Perros y Gatos | Sanitas Ventas",
+  title: "Sanitas Seguro Mascotas — Seguro Veterinario para Perros y Gatos | SegurosOnline",
   description: "Seguro veterinario Sanitas para perros y gatos. 80% de reembolso hasta 2.500€/año, libre elección de veterinario, urgencias y consulta preventiva anual.. ☎ 624 21 73 23",
   alternates: {
     canonical: "/sanitas-mascotas/"
@@ -72,7 +72,7 @@ export default function SanitasMascotasPage() {
           { label: "Mascotas" }
         ]}
         label="Seguro Veterinario para Perros y Gatos"
-        h1={<>Sanitas Seguro Mascotas.<br />La tranquilidad de Sanitas,<br className="hidden lg:block"/> también para tus mascotas.</>}
+        h1={<>Cuida de tu Mascota con Sanitas.<br />El Seguro Veterinario más Completo para tu Perro o Gato.</>}
         body="El seguro veterinario que protege a tu mascota frente a imprevistos. Con Sanitas Salud Mascotas puedes acudir a cualquier veterinario y cubrirte ante enfermedades, accidentes, urgencias y una revisión anual. Con cobertura en todo el territorio español y en la UE para situaciones de emergencia."
         badges={[
           { text: "Descuento exclusivo de 100€/año para clientes de Sanitas", variant: "red" }

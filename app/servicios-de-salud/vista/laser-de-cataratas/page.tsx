@@ -8,7 +8,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Operación de Cataratas con Láser Femtosegundo Sanitas",
+  title: "Operación de Cataratas con Láser Sanitas",
   description: "Operación de cataratas con láser de femtosegundo en Sanitas. Mayor precisión y seguridad que la cirugía tradicional. Sin hospitalización.",
   path: "/servicios-de-salud/vista/laser-de-cataratas"
 })
@@ -55,7 +55,7 @@ export default function LaserCataratasPage() {
           { label: "Láser de Cataratas" }
         ]}
         label="Primera consulta gratuita · Sin hospitalización · Láser femtosegundo · Precios especiales"
-        h1={<>Láser de Cataratas Sanitas.<br />La última tecnología para recuperar tu visión.</>}
+        h1={<>Operación de Cataratas con Láser Sanitas.<br />Precisión y Seguridad para Recuperar tu Visión.</>}
         body="En Sanitas te ofrecemos la última tecnología láser en la cirugía de cataratas para que puedas recuperar tu visión con mayor precisión y seguridad. Esta cirugía consiste en la extracción del cristalino opacificado y su sustitución por una lente intraocular, consiguiendo la restauración de la visión. Primera consulta de valoración gratuita y sin compromiso."
         badges={["Láser femtosegundo", "Sin hospitalización", "Sin anestesia general", "Recuperación rápida"]}
         trustItems={["Láser femtosegundo", "Sin hospitalización", "Sin anestesia general", "Recuperación rápida"]}

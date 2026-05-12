@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Servicios de Salud Sanitas en España — Vista, Maternidad y Nutrición | Sanitas Ventas",
+  title: "Servicios de Salud Sanitas: Especialidades",
   description: "Servicios de salud Sanitas en España: cirugía ocular, maternidad, reproducción asistida, tratamientos para la obesidad y más. Primera consulta gratuita. ☎ 624 21 73 23",
   path: "/servicios-de-salud/"
 })
@@ -28,7 +28,7 @@ const faqData = [
   },
   { 
     question: "¿Cómo solicito una primera consulta?", 
-    answer: "A través de Sanitas Ventas. Llámanos o déjanos tu número y te gestionamos la primera consulta gratuita sin ningún trámite." 
+    answer: "A través de SegurosOnline. Llámanos o déjanos tu número y te gestionamos la primera consulta gratuita sin ningún trámite." 
   }
 ]
 
@@ -41,7 +41,7 @@ export default function ServiciosSaludPage() {
           { label: "Inicio", href: "/" },
           { label: "Servicios de Salud" }
         ]}
-        h1={<>Servicios de Salud Sanitas.<br />Más allá del seguro médico.</>}
+        h1={<>Especialidades de Salud Sanitas.<br />Soluciones Avanzadas en Cirugía y Nutrición.</>}
         body="Además de los seguros médicos, Sanitas ofrece una gama completa de servicios de salud especializados disponibles para clientes y no clientes. Cirugía ocular, maternidad, reproducción asistida, tratamientos para el sobrepeso y más. Siempre con primera consulta gratuita y precios especiales para asegurados."
         badges={["Primera consulta gratuita", "Seas o no cliente", "Precios especiales", "Financiación disponible"]}
         trustItems={["Técnicas más avanzadas", "Equipos especializados", "Precio cerrado", "Disponible sin seguro"]}

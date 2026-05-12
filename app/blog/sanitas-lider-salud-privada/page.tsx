@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Por Qué Sanitas es Líder en Salud Privada en España: Innovación y Red Médica | Sanitas Ventas",
+  title: "Por Qué Sanitas es Líder en Salud Privada en España: Innovación y Red Médica | SegurosOnline",
   description: "Sanitas lleva más de 60 años siendo referente de la salud privada en España. Te contamos por qué: red médica, innovación digital, hospitalización y Blua. España. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/sanitas-lider-salud-privada/"
@@ -27,7 +27,7 @@ export default function SanitasLiderSaludPage() {
           { label: "Sanitas Líder Salud Privada" }
         ]}
         label="Sobre Sanitas"
-        h1="Por qué Sanitas es líder en salud privada en España: innovación, red médica y experiencia."
+        h1="Sanitas: Líder en Salud Privada en España | Análisis por SegurosOnline"
         body="Descubre los pilares que hacen de Sanitas la aseguradora de referencia: hospitales propios, salud digital de vanguardia y respaldo internacional."
         badges={[{ text: "Lectura: 7 min", variant: "blue" }]}
         trustItems={["+60 años de historia", "57.000+ médicos", "Hospitales universitarios", "Líder en salud digital"]}
@@ -92,7 +92,7 @@ export default function SanitasLiderSaludPage() {
             <div className="bg-[#0091DA]/5 rounded-3xl p-8 sm:p-12 text-center">
               <h2 className="text-2xl sm:text-3xl font-bold mb-6">Únete a la compañía líder en salud</h2>
               <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Contrata tu seguro Sanitas con el asesoramiento experto de Sanitas Ventas, con más de 30 años de experiencia.
+                Contrata tu seguro Sanitas con el asesoramiento experto de SegurosOnline, con más de 30 años de experiencia.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a href="tel:+34624217323" className="w-full sm:w-auto px-8 py-4 bg-[#0091DA] text-white rounded-full font-bold hover:bg-[#007BBD] transition-colors">

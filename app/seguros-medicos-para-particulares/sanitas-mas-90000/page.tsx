@@ -13,13 +13,13 @@ import {
   LegalNote
 } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Sanitas Más 90.000 — Cuadro Médico y Reembolso en un Solo Seguro | Segurosonline",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Sanitas Más 90.000: Cuadro y Reembolso",
   description: "Sanitas Más 90.000: cuadro médico Sanitas completo más reembolso del 70% hasta 90.000€/año para médicos fuera del cuadro. Libertad total. Contrátalo aquí.",
-  alternates: {
-    canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-90000/"
-  }
-}
+  path: "/seguros-medicos-para-particulares/sanitas-mas-90000/"
+})
 
 const pageFaqs = [
   { 
@@ -57,7 +57,7 @@ export default function SanitasMas90Page() {
           { label: "Sanitas Más 90.000" }
         ]}
         label="Cuadro médico + reembolso · 70% reembolso · Hasta 90.000€/año"
-        h1={<>Sanitas Más 90.000.<br />El médico que tú decidas.<br />Al precio de siempre.</>}
+        h1={<>Sanitas Más 90.000.<br />Cuadro Médico Completo y Libertad de Elección con Reembolso.</>}
         body="Todo el cuadro médico Sanitas para el día a día, más reembolso del 70% hasta 90.000€/año si prefieres ir a cualquier médico fuera de la red. Sin renunciar a nada."
         badges={["Cuadro + Reembolso", "70% Reembolso", "Cobertura mundial"]}
         trustItems={["Cuadro médico completo", "Reembolso 70%", "Hasta 90.000€/año", "Cobertura mundial"]}

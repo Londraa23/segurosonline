@@ -8,7 +8,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Cirugía Láser Ocular Sanitas — Miopía, Astigmatismo, Hipermetropía",
+  title: "Cirugía Láser Ocular Sanitas: Di Adiós a las Gafas",
   description: "Cirugía láser ocular Sanitas para corregir miopía, astigmatismo e hipermetropía. Primera consulta gratuita, técnica mínimamente invasiva, 20 minutos.",
   path: "/servicios-de-salud/vista/cirugia-laser-ocular"
 })
@@ -59,7 +59,7 @@ export default function CirugiaLaserOcularPage() {
           { label: "Cirugía Láser Ocular" }
         ]}
         label="Primera consulta gratuita · Seas o no cliente · Precios especiales · Financiación disponible"
-        h1={<>Cirugía Láser Ocular Sanitas.<br />Di adiós a las gafas para siempre.</>}
+        h1={<>Cirugía Láser Ocular Sanitas.<br />Corrige Miopía y Astigmatismo en solo 20 Minutos.</>}
         body="Si tienes entre 18 y 50 años y padeces astigmatismo, miopía o hipermetropía, puedes solucionar tu problema con cirugía láser ocular. El láser modifica la curvatura de la córnea para que los rayos de luz se enfoquen adecuadamente sobre la retina, logrando una visión nítida sin necesidad de gafas. Primera consulta de valoración gratuita y sin compromiso."
         badges={["18–50 años", "20 minutos, ambos ojos", "Sin anestesia general", "Recuperación inmediata"]}
         trustItems={["18–50 años", "20 minutos", "Sin anestesia general", "Recuperación inmediata"]}

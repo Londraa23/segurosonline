@@ -6,11 +6,13 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection, LegalNote } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Sanitas Único — Seguro Médico para Mayores de 60 sin Límite de Edad | Sanitas Ventas",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Sanitas Único: Seguro Médico para Mayores",
   description: "Sanitas Único: seguro médico desde 60 años sin límite de edad. Geriatría, servicios a domicilio, programas para mayores y Blua incluido.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-unico/" }
-}
+  path: "/seguros-medicos-para-particulares/sanitas-unico/"
+})
 
 const pageFaqs = [
   { question: "¿Desde qué edad puedo contratar Sanitas Único?", answer: "Desde los 60 años. No existe límite de edad máxima ni para contratar ni para mantener la póliza activa." },
@@ -31,7 +33,7 @@ export default function SanitasUnicoPage() {
           { label: "Sanitas Único" }
         ]}
         label="Sanitas Único"
-        h1={<>Sanitas Único.<br className="hidden lg:block" /> El seguro médico que no te abandona con los años.</>}
+        h1={<>Sanitas Único.<br className="hidden lg:block" /> Seguro Médico para Mayores de 60 años sin Límite de Edad ni Cuestionario Médico.</>}
         body="Diseñado específicamente para personas a partir de 60 años, sin límite de edad. Coberturas médicas completas, servicios a domicilio y programas de salud adaptados a mayores, con Blua incluido."
         badges={["Desde 60 años", "Sin límite de edad", "Sin cuestionario de salud"]}
         trustItems={["Desde 60 años", "Sin límite de edad", "Geriatría", "Servicios a domicilio"]}

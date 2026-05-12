@@ -12,13 +12,13 @@ import {
   LegalNote
 } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Sanitas Premium 500.000 — Seguro de Reembolso Máximo | Segurosonline",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Sanitas Premium 500.000: Máximo Reembolso",
   description: "Sanitas Premium 500.000: reembolso hasta 500.000€/año, farmacia, dental y cobertura en EE.UU. El seguro de reembolso más completo de Sanitas. Contrátalo aquí.",
-  alternates: {
-    canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-premium-500-000/"
-  }
-}
+  path: "/seguros-medicos-para-particulares/sanitas-premium-500-000/"
+})
 
 const pageFaqs = [
   { 
@@ -56,7 +56,7 @@ export default function SanitasPremium500Page() {
           { label: "Sanitas Premium 500.000" }
         ]}
         label="Hasta 500.000€/año · Reembolso farmacia y dental · Cobertura en EE.UU."
-        h1={<>Sanitas Premium 500.000.<br />El reembolso más alto del mercado.<br />Libertad total para elegir tu médico.</>}
+        h1={<>Sanitas Premium 500.000.<br />El Seguro de Reembolso más Exclusivo y con Cobertura Mundial.</>}
         body="Hasta 500.000€ por persona y año. Cualquier médico en España o en el extranjero. Con reembolso de farmacia, dental y cobertura completa en EE.UU."
         badges={["500.000€ Límite", "Reembolso farmacia", "Cobertura EE.UU."]}
         trustItems={["500.000€ límite anual", "Reembolso farmacia", "Cobertura EE.UU.", "Subsidio hospitalización"]}

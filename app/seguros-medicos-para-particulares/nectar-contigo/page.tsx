@@ -13,13 +13,13 @@ import {
   FeatureBlock
 } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Néctar Contigo — Seguro Médico Completo a Precio Accesible | Segurosonline",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Néctar Contigo: Seguro Médico Económico",
   description: "Néctar Contigo: asistencia sanitaria completa con hospitalización a través de una red médica de más de 15.000 profesionales. Con y sin copago. Contrátalo aquí.",
-  alternates: {
-    canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/nectar-contigo/"
-  }
-}
+  path: "/seguros-medicos-para-particulares/nectar-contigo/"
+})
 
 const pageFaqs = [
   { 
@@ -57,7 +57,7 @@ export default function NectarContigoPage() {
           { label: "Néctar Contigo" }
         ]}
         label="Hospitalización incluida · Con y sin copago · Red médica +15.000 profesionales"
-        h1={<>Néctar Contigo.<br />Asistencia sanitaria completa<br />a un precio a medida.</>}
+        h1={<>Néctar Contigo.<br />Seguro Médico con Hospitalización al Precio más Accesible.</>}
         body="Todas las coberturas esenciales, incluyendo hospitalización, a través de una red médica específica. Con copago o sin copago. Al precio más accesible."
         badges={["Precio accesible", "Hospitalización", "Red médica específica"]}
         trustItems={["Cobertura completa", "Hospitalización", "Urgencias 12.000€/año", "Sin carencias desde el inicio"]}

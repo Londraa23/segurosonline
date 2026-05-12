@@ -78,7 +78,7 @@ export default function VistaIndexPage() {
           { label: "Vista" }
         ]}
         label="Primera consulta gratuita · Seas o no cliente de Sanitas · Precios especiales para asegurados"
-        h1={<>Servicios de Salud Visual.<br />Di adiós a las gafas.</>}
+        h1={<>Especialistas en Salud Visual Sanitas.<br />Recupera tu Visión y Di Adiós a las Gafas.</>}
         body="Hoy en día la operación de ojos es un procedimiento sencillo que se realiza a través de técnicas de láser ocular avanzadas. En Sanitas encontrarás la mejor solución para la presbicia (vista cansada), miopía, astigmatismo, hipermetropía y cataratas, con las técnicas más avanzadas y seguras del mercado."
         badges={["Consulta gratuita", "Financiación disponible", "Para clientes y no clientes"]}
         trustItems={["Primera consulta gratis", "Técnicas más avanzadas", "Sin anestesia general", "Recuperación inmediata"]}

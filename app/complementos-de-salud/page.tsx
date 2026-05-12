@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer"
 import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
-  title: "Complementos de Salud Sanitas — Personaliza tu Seguro | Sanitas Ventas",
+  title: "Complementos de Salud Sanitas — Personaliza tu Seguro | SegurosOnline",
   description: "Amplía tu seguro Sanitas con complementos opcionales: farmacia, óptica, reembolso, genómica, accidentes, renta hospitalaria y más. Asesoramiento. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/complementos-de-salud/"
@@ -101,7 +101,7 @@ const processSteps = [
   },
   {
     title: "Paso 3 — Lo añadimos a tu póliza",
-    description: "Desde Sanitas Ventas gestionamos la incorporación del complemento a tu póliza actual. Rápido, sin papeleo innecesario y con asesoramiento personalizado."
+    description: "Desde SegurosOnline gestionamos la incorporación del complemento a tu póliza actual. Rápido, sin papeleo innecesario y con asesoramiento personalizado."
   }
 ]
 
@@ -124,7 +124,7 @@ export default function ComplementosDeSaludPage() {
           { label: "Complementos de Salud" }
         ]}
         label="11 complementos disponibles · Añadibles a tu póliza actual · Sin cambiar de seguro"
-        h1={<>Complementos de Salud Sanitas.<br className="hidden lg:block"/> Tú construyes tu propio seguro.</>}
+        h1={<>Personaliza tu Póliza con los Complementos de Salud Sanitas.</>}
         body="Tu seguro Sanitas ya te cubre lo esencial. Los complementos te permiten ir más allá: añade solo lo que necesitas, cuando lo necesitas. Una amplia gama de coberturas opcionales para personalizar tu póliza a tu medida y a la de tu familia."
         badges={["11 complementos disponibles", "Añadibles a tu póliza actual"]}
         trustItems={["✓ Farmacia", "✓ Óptica", "✓ Reembolso", "✓ Accidentes", "✓ Genómica", "✓ Y más"]}
@@ -169,7 +169,7 @@ export default function ComplementosDeSaludPage() {
                 ¿No sabes cuál necesitas?
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                No todos los complementos son compatibles con todos los seguros Sanitas. En Sanitas Ventas te decimos exactamente cuáles puedes añadir a tu póliza actual y cuáles tienen más sentido según tu perfil y el de tu familia.
+                No todos los complementos son compatibles con todos los seguros Sanitas. En SegurosOnline te decimos exactamente cuáles puedes añadir a tu póliza actual y cuáles tienen más sentido según tu perfil y el de tu familia.
               </p>
             </Reveal>
         </div>

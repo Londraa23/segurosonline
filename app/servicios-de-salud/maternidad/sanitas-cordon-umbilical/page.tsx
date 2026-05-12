@@ -6,13 +6,13 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { ProductFeatureSection, FeatureList } from "@/components/product-sections"
 
-export const metadata: Metadata = {
-  title: "Conservación del Cordón Umbilical Sanitas — Células Madre 30 Años | Sanitas Ventas",
+import { generateMetadata } from "@/lib/metadata"
+
+export const metadata = generateMetadata({
+  title: "Cordón Umbilical Sanitas: Células Madre",
   description: "Conservación de células madre del cordón umbilical en banco privado durante 30 años con Sanitas. Proceso indoloro, laboratorio, descuentos para clientes. ☎ 624 21 73 23",
-  alternates: {
-    canonical: "https://www.segurosonline.net/servicios-de-salud/maternidad/sanitas-cordon-umbilical/"
-  }
-}
+  path: "/servicios-de-salud/maternidad/sanitas-cordon-umbilical/"
+})
 
 const pageFaqs = [
   { 
@@ -46,7 +46,7 @@ export default function CordónUmbilicalPage() {
           { label: "Sanitas Cordón Umbilical" }
         ]}
         label="30 años de conservación · Laboratorio · Proceso indoloro · Precios especiales"
-        h1={<>Sanitas Cordón Umbilical.<br />Una pequeña gran reserva de salud para tu familia.</>}
+        h1={<>Conservación del Cordón Umbilical Sanitas.<br />Una Reserva de Salud para el Futuro de tu Familia.</>}
         body="¿Sabías que la sangre del cordón umbilical de tu bebé contiene células madre que podrían salvarle la vida en el futuro? En Sanitas hemos creado un servicio para la conservación de las células madre del cordón umbilical en un banco privado, que pueden constituir una auténtica reserva de salud ahora y en el futuro. Conservación durante 30 años."
         badges={["30 años de conservación", "Laboratorio", "Proceso indoloro", "Precios especiales clientes"]}
         trustItems={["Proceso indoloro", "Sin riesgo madre/bebé", "+70 enfermedades", "Disponible sin póliza"]}

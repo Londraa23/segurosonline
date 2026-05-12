@@ -78,7 +78,7 @@ export default function MaternidadIndexPage() {
           { label: "Maternidad" }
         ]}
         label="Primera consulta gratuita · Seas o no cliente · Descuentos especiales · Financiación disponible"
-        h1={<>Servicios de Maternidad Sanitas.<br />Te acompañamos en cada etapa.</>}
+        h1={<>Expertos en Maternidad Sanitas.<br />Acompañamiento Integral en tu Embarazo.</>}
         body="Desde el proceso de ser mamá hasta la protección del recién nacido. En Sanitas disponemos de servicios especializados para acompañarte en cada etapa: reproducción asistida cuando lo necesitas, conservación del cordón umbilical de tu bebé y detección precoz de anomalías mediante test genético prenatal. Disponibles para clientes y no clientes de Sanitas."
         badges={["Técnicas avanzadas", "Centros especializados", "Atención personalizada", "Consulta gratuita"]}
         trustItems={["Técnicas más avanzadas", "Centros especializados", "Confidencialidad total", "Atención personalizada"]}

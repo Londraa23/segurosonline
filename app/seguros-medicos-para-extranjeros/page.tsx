@@ -9,7 +9,7 @@ import { Reveal } from "@/components/reveal"
 import { CheckCircle2, FileCheck, Stethoscope, Video } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguros Médicos para Extranjeros en España | Sanitas Ventas",
+  title: "Seguros Médicos para Extranjeros en España | SegurosOnline",
   description: "Seguros de salud Sanitas para extranjeros residentes en España. Válidos para visado y residencia, todo incluido, con hospitalización. Asesoramiento. ☎ 624 21 73 23",
   alternates: {
     canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/"
@@ -72,8 +72,8 @@ export default function SegurosExtranjerosPage() {
           { label: "Seguros para Extranjeros" }
         ]}
         label="Válido para visado y residencia · Todo incluido · Hospitalización incluida · Blua GRATIS"
-        h1={<>Seguros médicos para extranjeros<br className="hidden lg:block"/> residentes en España.</>}
-        body="Vivir en España requiere un seguro médico de cobertura completa para muchos trámites administrativos: solicitud de residencia comunitaria, visados de estudios, ciudadanía de la UE y más. En Sanitas Ventas te ofrecemos dos opciones específicamente diseñadas para extranjeros residentes, ambas válidas para estos trámites y con acceso inmediato a toda la red médica Sanitas desde el primer día."
+        h1={<>Seguros Médicos Sanitas para Extranjeros.<br className="hidden lg:block"/> Válidos para Visado y Permiso de Residencia.</>}
+        body="Vivir en España requiere un seguro médico de cobertura completa para muchos trámites administrativos: solicitud de residencia comunitaria, visados de estudios, ciudadanía de la UE y más. En SegurosOnline te ofrecemos dos opciones específicamente diseñadas para extranjeros residentes, ambas válidas para estos trámites y con acceso inmediato a toda la red médica Sanitas desde el primer día."
         badges={["Válido para visado", "Todo incluido", "Trámites residencia"]}
         trustItems={["Válido para residencia", "Todo incluido", "+45.000 médicos", "Contratación con pasaporte"]}
         imageSrc="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=1600&q=80&auto=format"
@@ -130,7 +130,7 @@ export default function SegurosExtranjerosPage() {
                   <Stethoscope className="w-7 h-7" />
                 </div>
                 <h3 className="text-lg font-bold text-[#002A54] mb-3">Atención personalizada</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">En Sanitas Ventas te acompañamos en la contratación y en la gestión de toda la documentación necesaria para tus trámites.</p>
+                <p className="text-gray-600 text-sm leading-relaxed">En SegurosOnline te acompañamos en la contratación y en la gestión de toda la documentación necesaria para tus trámites.</p>
               </div>
             </Reveal>
           </div>

@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, ProcessSteps, StatementBand, BluaSection, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Avanza — Seguro Médico con Cirugía sin Hospitalización | Sanitas Ventas",
+  title: "Sanitas Avanza — Seguro Médico con Cirugía sin Hospitalización | SegurosOnline",
   description: "Sanitas Avanza: el único seguro sin hospitalización que incluye más de 400 intervenciones quirúrgicas. Cuadro médico completo y Blua gratis.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-avanza/" }
 }
@@ -31,7 +31,7 @@ export default function SanitasAvanzaPage() {
           { label: "Sanitas Avanza" }
         ]}
         label="Sanitas Avanza"
-        h1={<>Sanitas Avanza.<br className="hidden lg:block" /> El único seguro sin hospitalización con cirugía incluida.</>}
+        h1={<>Sanitas Avanza.<br className="hidden lg:block" /> Todo el Cuadro Médico Sanitas y Cirugía sin Hospitalización.</>}
         body="Accede a todo el cuadro médico Sanitas y a más de 400 intervenciones quirúrgicas ambulatorias. Sin necesitar ingreso hospitalario. El equilibrio perfecto entre cobertura y precio."
         badges={["+400 intervenciones quirúrgicas", "Blua GRATIS", "Sin hospitalización"]}
         trustItems={["Cuadro médico completo", "400+ cirugías incluidas", "Urgencias 24h", "Blua digital"]}

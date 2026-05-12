@@ -5,14 +5,13 @@ import { FaqSection } from "@/components/faq-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { ProductFeatureSection, FeatureList } from "@/components/product-sections"
+import { generateMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-  title: "Operación de Presbicia y Vista Cansada Sanitas | Sanitas Ventas",
-  description: "Tratamiento de la presbicia (vista cansada) con láser excimer o lente intraocular multifocal en Sanitas. Recuperación inmediata. Primera consulta gratuita. ☎ 624 21 73 23",
-  alternates: {
-    canonical: "https://www.segurosonline.net/servicios-de-salud/vista/presbicia-vista-cansada/"
-  }
-}
+export const metadata = generateMetadata({
+  title: "Operación de Presbicia Sanitas: Vista Cansada",
+  description: "Tratamiento de la presbicia (vista cansada) con láser o lente intraocular en Sanitas. Recuperación inmediata. Primera consulta gratuita. ☎ 624 21 73 23",
+  path: "/servicios-de-salud/vista/presbicia-vista-cansada/"
+})
 
 const pageFaqs = [
   { 
@@ -46,7 +45,7 @@ export default function PresbiciaPage() {
           { label: "Presbicia (Vista Cansada)" }
         ]}
         label="Primera consulta gratuita · Recuperación inmediata · Láser excimer o lente intraocular"
-        h1={<>Presbicia (Vista Cansada) Sanitas.<br />Devuélvele la juventud a tus ojos.</>}
+        h1={<>Tratamiento de la Presbicia Sanitas.<br />Soluciones para Volver a Ver de Cerca con Nitidez.</>}
         body="La presbicia o vista cansada es la dificultad para ver nítidamente objetos cercanos por el envejecimiento del cristalino. En Sanitas disponemos de soluciones para corregirla: técnicas extraoculares con láser excimer, o intraoculares que reemplazan el cristalino por una lente intraocular multifocal. Recuperación inmediata. Primera consulta gratuita."
         badges={["Técnicas extraoculares e intraoculares", "Sin hospitalización", "Recuperación al día siguiente", "Consulta gratuita"]}
         trustItems={["Técnicas variadas", "Sin hospitalización", "Recuperación al día siguiente", "Vida normal rápida"]}

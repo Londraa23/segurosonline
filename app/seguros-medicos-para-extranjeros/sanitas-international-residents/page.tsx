@@ -8,7 +8,7 @@ import { FeatureBlock, BluaSection } from "@/components/product-sections"
 import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
-  title: "Sanitas International Residents — Seguro Médico para Extranjeros | Sanitas Ventas",
+  title: "Sanitas International Residents — Seguro Médico para Extranjeros | SegurosOnline",
   description: "Sanitas International Residents: cobertura completa con reembolso 80-90% para extranjeros en España. Todo incluido, Dental 21 incluido, válido para residencia.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/sanitas-international-residents/" }
 }

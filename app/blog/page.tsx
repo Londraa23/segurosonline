@@ -6,7 +6,7 @@ import { BlogPreview } from "@/components/blog-preview"
 import { ContactSection } from "@/components/contact-section"
 
 export const metadata: Metadata = {
-  title: "Blog de Salud y Seguros Médicos | Sanitas Ventas",
+  title: "Blog de Salud y Seguros Médicos | SegurosOnline",
   description: "Artículos informativos sobre salud, consejos médicos y guías sobre seguros de salud Sanitas. Mantente informado con nuestros expertos.",
   alternates: {
     canonical: "https://www.segurosonline.net/blog/"

@@ -194,7 +194,12 @@
 .stagger-7 { animation-delay: 0.7s; }
 .stagger-8 { animation-delay: 0.8s; }
 
-/* ===== Smooth Scroll ===== */
+/* ===== Smooth Scroll & Positioning Context ===== */
+html, body {
+  position: relative;
+  min-height: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }

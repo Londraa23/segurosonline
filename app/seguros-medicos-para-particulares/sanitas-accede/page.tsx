@@ -9,7 +9,7 @@ import {
 } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Accede — Seguro Médico Privado | Sanitas Ventas",
+  title: "Sanitas Accede — Seguro Médico Privado | SegurosOnline",
   description: "Sanitas Accede: accede a 51.000 médicos, 4.200 centros y Blua gratis. Consultas ilimitadas, pruebas diagnósticas y urgencias 24h. Desde. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-accede/" }
 }
@@ -34,7 +34,7 @@ export default function SanitasAccedePage() {
           { label: "Sanitas Accede" }
         ]}
         label="Sanitas Accede · Sin carencias"
-        h1={<>Accede a la sanidad<br className="hidden lg:block" /> privada desde el primer día.</>}
+        h1={<>Sanitas Accede.<br className="hidden lg:block" /> Tu Entrada a la Sanidad Privada sin Esperas ni Carencias.</>}
         body="Con Sanitas Accede tienes acceso a más de 51.000 médicos y 4.200 centros en toda España, incluyendo 4 hospitales propios. Sin periodos de carencia: usas el seguro el mismo día que contratas."
         badges={["Sin carencias", "51.000 médicos", "Blua gratis"]}
         trustItems={["Consultas ilimitadas", "Pruebas diagnósticas", "Dental básico", "Todo incluido"]}

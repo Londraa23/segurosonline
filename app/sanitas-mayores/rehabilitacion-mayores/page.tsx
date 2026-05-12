@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Rehabilitación para Mayores Sanitas — Fisioterapia y Terapia Ocupacional | Sanitas Ventas",
+  title: "Rehabilitación para Mayores Sanitas — Fisioterapia y Terapia Ocupacional | SegurosOnline",
   description: "Rehabilitación para personas mayores con Sanitas: fisioterapia avanzada, terapia ocupacional, logopedia y rehabilitación cognitiva. En centros y a domicilio. ☎ 624 21 73 23",
   path: "/sanitas-mayores/rehabilitacion-mayores/"
 })

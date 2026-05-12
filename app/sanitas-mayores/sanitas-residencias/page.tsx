@@ -10,7 +10,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Residencias de Mayores Sanitas — Estancias Permanentes y Temporales | Sanitas Ventas",
+  title: "Residencias de Mayores Sanitas — Estancias Permanentes y Temporales | SegurosOnline",
   description: "Residencias Sanitas Mayores en España: atención médica 24h, especialistas en Alzheimer, centros libres de sujeciones y app para familias. 47 residencias. ☎ 624 21 73 23",
   path: "/sanitas-mayores/sanitas-residencias/"
 })
@@ -43,7 +43,7 @@ export default function ResidenciasMayoresPage() {
           { label: "Sanitas Residencias" }
         ]}
         label="47 residencias en España · Atención 24h · Especialistas en Alzheimer · ISO 9001"
-        h1={<>Sanitas Residencias.<br className="hidden lg:block"/> Un hogar con atención profesional. Las 24 horas.</>}
+        h1={<>Residencias Sanitas.<br className="hidden lg:block"/> Hogares con Atención Médica 24h y Cuidados Expertos.</>}
         body="En Sanitas Residencias atendemos y cuidamos a personas mayores para mejorar su calidad de vida y proporcionarles toda la ayuda que necesitan. Más de 47 residencias en toda España con atención médica propia, equipo multidisciplinar, actividades adaptadas y tecnología al servicio del bienestar. Disponible para estancias permanentes y temporales, tengas o no seguro."
         badges={["Tengas o no seguro Sanitas", "Estancias temporales y permanentes", "Centros integrales"]}
         trustItems={["47 residencias", "Equipo médico propio", "Centros libres de sujeciones", "App para familias"]}

@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Inclusivo — Seguro Médico para Personas con Discapacidad | Sanitas Ventas",
+  title: "Sanitas Inclusivo — Seguro Médico para Personas con Discapacidad | SegurosOnline",
   description: "Sanitas Inclusivo: seguro médico sin cuestionario de salud para personas con discapacidad. Sin límite de edad, sin carencias, desde 25€/mes.. ☎ 624 21 73 23",
   alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-inclusivo-discapacidad/" }
 }
