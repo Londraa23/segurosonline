@@ -1,0 +1,5 @@
+app/blog/alergias-primaverales/page.tsx
+app/blog/comparativa-seguros-salud/page.tsx
+app/blog/seguro-medico-embarazo/page.tsx
+app/blog/seguro-reembolso-sanitas/page.tsx
+app/blog/seguros-autonomos-ventajas-fiscales-2026/page.tsx
