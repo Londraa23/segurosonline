@@ -478,9 +478,7 @@ export default function CampanaDecesosClient() {
           </div>
           
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-neutral-500">
-            <a href="#" className="hover:text-neutral-900 transition-colors">Aviso legal</a>
             <a href="/politica-privacidad" className="hover:text-neutral-900 transition-colors">Política de privacidad</a>
-            <a href="#" className="hover:text-neutral-900 transition-colors">Política de cookies</a>
           </div>
         </div>
       </footer>

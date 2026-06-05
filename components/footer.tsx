@@ -33,9 +33,7 @@ const footerLinks = {
     { label: "Nutrición", href: "/servicios-de-salud/nutricion/" },
   ],
   legal: [
-    { label: "Aviso Legal", href: "/aviso-legal" },
     { label: "Política de Privacidad", href: "/politica-privacidad" },
-    { label: "Política de Cookies", href: "/politica-cookies" },
     { label: "Contacto", href: "/#contacto" },
   ],
   blog: [
