@@ -9,9 +9,9 @@ import { Reveal } from "@/components/reveal"
 import { Check } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Empresas — Seguro Médico para Empresas y Pymes | SegurosOnline",
-  description: "Sanitas Empresas: asistencia sanitaria completa para tus empleados. Dental incluido, programas de salud, segunda opinión médica y ventajas fiscales.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-empresas/" }
+  title: "Sanitas Empresas — Seguro Médico para Empresas y Pymes",
+  description: "Sanitas Empresas: asistencia sanitaria completa para tus empleados. Dental incluido, programas de salud, segunda opinión médica y ventajas fiscales. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-empresas/sanitas-empresas/" }
 }
 
 const pageFaqs = [
@@ -36,7 +36,7 @@ export default function SanitasEmpresasPage() {
         body="Cuidamos la salud de tus empleados para asegurar la salud de tu negocio. Sanitas Empresas ofrece asistencia sanitaria completa para equipos de cualquier tamaño: medicina primaria, especialidades, hospitalización, dental y Blua incluido. Con ventajas fiscales reales para empresa y empleado."
         badges={["Exento IRPF empleado", "Cobertura Total"]}
         trustItems={["Hospitalización completa", "Dental incluido", "Segunda opinión médica", "Blua digital"]}
-        imageSrc="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1497366216548-37526070297c.jpg"
       />
 
       <FeatureBlock
@@ -51,7 +51,7 @@ export default function SanitasEmpresasPage() {
           "Atención médica y urgencias a domicilio",
           "Urgencias en viajes al extranjero"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579154204601-01588f351e67.jpg"
         badge="Coberturas"
       />
 

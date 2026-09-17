@@ -9,9 +9,9 @@ import { Reveal } from "@/components/reveal"
 import { Check } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Pymes Digital — Seguro Médico para Pymes | SegurosOnline",
-  description: "Sanitas Pymes Digital: el seguro de salud más innovador para pymes. Cobertura completa, dental incluido, videoconsulta 24h, fisioterapia en el trabajo.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-pymes-digital/" }
+  title: "Sanitas Pymes Digital — Seguro Médico para Pymes",
+  description: "Sanitas Pymes Digital: el seguro de salud más innovador para pymes. Cobertura completa, dental incluido, videoconsulta 24h, fisioterapia en el trabajo. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-empresas/sanitas-pymes-digital/" }
 }
 
 const pageFaqs = [
@@ -37,7 +37,7 @@ export default function SanitasPymesDigitalPage() {
         body="Con Sanitas Pymes Digital cuidas de tu empresa cuidando de tus empleados. Al contar con un seguro de salud, tu empleado se siente más cuidado, motivado y comprometido, lo que ayuda al buen funcionamiento de tu empresa. Cobertura sanitaria completa con servicios digitales exclusivos diseñados para el entorno laboral."
         badges={["Hospitalización incluida", "Servicios digitales únicos", "Dental incluido"]}
         trustItems={["Cobertura completa", "Dental incluido", "Accidentes laborales", "Fisioterapia en el trabajo"]}
-        imageSrc="https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1664575602276-acd073f104c1.jpg"
       />
 
       <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
@@ -120,7 +120,7 @@ export default function SanitasPymesDigitalPage() {
           "Fisioterapia en el propio centro de trabajo",
           "Medicamentos y analíticas sin salir de casa/trabajo",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1600880292203-757bb62b4baf.jpg"
         reverse
         badge="Eficiencia"
         bgColor="bg-gray-50"

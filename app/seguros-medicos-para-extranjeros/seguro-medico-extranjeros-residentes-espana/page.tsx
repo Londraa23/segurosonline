@@ -9,9 +9,9 @@ import { Reveal } from "@/components/reveal"
 import { Check } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Más Salud Extranjeros — Seguro Médico para Extranjeros | SegurosOnline",
-  description: "Sanitas Más Salud para extranjeros: cobertura completa todo incluido válida para visado y residencia. Hospitalización, dental y Blua gratis.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/seguro-medico-extranjeros-residentes-espana/" }
+  title: "Sanitas Más Salud Extranjeros — Seguro Médico para Extranjeros",
+  description: "Sanitas Más Salud para extranjeros: cobertura completa todo incluido válida para visado y residencia. Hospitalización, dental y Blua gratis. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-extranjeros/seguro-medico-extranjeros-residentes-espana/" }
 }
 
 const pageFaqs = [
@@ -39,7 +39,7 @@ export default function MasSaludExtranjerosPage() {
         body="Diseñado para extranjeros que residen en España, sus familiares y estudiantes. Cobertura sanitaria completa todo incluido, válida para solicitar y renovar visado y permiso de residencia. Hospitalización en habitación individual, sin límite de gastos médicos al año y Blua digital incluido gratis."
         badges={["Sin límite gastos", "Apto tramites extranjería"]}
         trustItems={["Válido para residencia", "Todo incluido", "Hospitalización incluida", "Contratación con pasaporte"]}
-        imageSrc="https://images.unsplash.com/photo-1555529902-5261145633bf?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1555529902-5261145633bf.jpg"
       />
 
       <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
@@ -80,7 +80,7 @@ export default function MasSaludExtranjerosPage() {
 
       <FeatureBlock
         title="La asistencia más completa que un extranjero necesita."
-        description="Pone a tu disposición un marco estructural de más de 45.000 profesionales, 4.200 centros y 4 macrohospitales en red propia para que vivir en España sea pacífico y resolutivo."
+        description="Pone a tu disposición un marco estructural de más de 45.000 profesionales, 4.400 centros y 4 macrohospitales en red propia para que vivir en España sea pacífico y resolutivo."
         items={[
           "Medicina Primaria y Especialidades Íntegras",
           "Alta tecnología diagnóstica: T.A.C, endoscopias corporales o resonancias",
@@ -89,7 +89,7 @@ export default function MasSaludExtranjerosPage() {
           "Asistencia Dental Superior (32 servicios cubiertos preventivos y activos)",
           "Segunda Opinión Inter-continental"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1576091160399-112ba8d25d1d.jpg"
         badge="Red Sanitas Integrada"
         reverse
         bgColor="bg-gray-50"

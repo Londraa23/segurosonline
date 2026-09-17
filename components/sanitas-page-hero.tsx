@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -64,7 +64,7 @@ export function SanitasPageHero({ breadcrumb, label, h1, body, badges = [], trus
     <section className="relative min-h-[85vh] flex items-center overflow-hidden" id="inicio">
       {/* Background image: hidden on mobile, visible on sm+ */}
       <div className="hidden sm:block absolute inset-0 -z-10">
-        <Image
+        <LoadingImage
           src={imageSrc}
           alt={imageAlt || (typeof h1 === 'string' ? h1 : "Sanitas Hero")}
           fill

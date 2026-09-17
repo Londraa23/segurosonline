@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Alergias Primaverales: Prevención y Tratamiento con tu Seguro Sanitas | SegurosOnline",
+  title: "Alergias Primaverales: Prevención y Tratamiento con tu Seguro Sanitas",
   description: "Cómo prevenir y tratar las alergias primaverales con tu seguro de salud Sanitas. Alergólogos, pruebas diagnósticas, inmunoterapia y Blua digital incluidos. España. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/blog/alergias-primaverales/"
+    canonical: "https://segurosonline.net/blog/alergias-primaverales/"
   }
 }
 
@@ -31,7 +31,7 @@ export default function AlergiasPrimaveralesPage() {
         body="Estornudos, picor de ojos y congestión. Descubre cómo controlar la alergia al polen con especialistas sin esperas y tratamientos avanzados."
         badges={[{ text: "Lectura: 8 min", variant: "blue" }]}
         trustItems={["Alergólogos sin esperas", "Pruebas diagnósticas", "Inmunoterapia", "Blua digital"]}
-        imageSrc="https://images.unsplash.com/photo-1508704019882-f9cf40e475b4?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1508704019882-f9cf40e475b4.jpg"
       />
 
       <article className="max-w-4xl mx-auto px-6 py-16 lg:py-24">

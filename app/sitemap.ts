@@ -80,6 +80,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog/seguro-medico-embarazo',
     '/blog/seguro-reembolso-sanitas',
     '/blog/seguros-autonomos-ventajas-fiscales-2026',
+    '/blog/carencias-sanitas-cuales-son',
+    '/blog/copago-vs-sin-copago-sanitas',
+    '/blog/precio-sanitas-por-edad-2026',
+    '/blog/seguro-medico-mayores-65',
+    '/blog/seguro-medico-mayores-70',
+    '/blog/seguro-medico-visado-espana',
+    '/blog/seguro-medico-nomada-digital',
+    '/blog/sanitas-mas-salud-vs-avanza',
+    '/blog/sanitas-unico-opiniones-coberturas',
   ]
 
   return routes.map((route) => {

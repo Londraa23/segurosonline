@@ -59,7 +59,7 @@ export default function LaserCataratasPage() {
         body="En Sanitas te ofrecemos la última tecnología láser en la cirugía de cataratas para que puedas recuperar tu visión con mayor precisión y seguridad. Esta cirugía consiste en la extracción del cristalino opacificado y su sustitución por una lente intraocular, consiguiendo la restauración de la visión. Primera consulta de valoración gratuita y sin compromiso."
         badges={["Láser femtosegundo", "Sin hospitalización", "Sin anestesia general", "Recuperación rápida"]}
         trustItems={["Láser femtosegundo", "Sin hospitalización", "Sin anestesia general", "Recuperación rápida"]}
-        imageSrc="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579154204601-01588f351e67.jpg"
       />
 
       <ProductFeatureSection title="¿Qué es una catarata?">

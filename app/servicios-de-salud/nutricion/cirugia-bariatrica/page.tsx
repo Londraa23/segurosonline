@@ -9,7 +9,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
   title: "Cirugía Bariátrica Sanitas: Bypass y Manga",
-  description: "Cirugía bariátrica Sanitas: banda gástrica, by-pass gástrico y técnicas laparoscópicas para obesidad mórbida. Primera consulta gratuita. Seguimiento médico completo.. ☎ 624 21 73 23",
+  description: "Cirugía bariátrica Sanitas: banda gástrica, by-pass gástrico y técnicas laparoscópicas para obesidad mórbida. Primera consulta gratuita. Seguimiento médico completo. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/cirugia-bariatrica/"
 })
 
@@ -46,7 +46,7 @@ export default function CirugiaBariatricaPage() {
         body="La cirugía bariátrica es el conjunto de procedimientos quirúrgicos diseñados para conseguir pérdidas de peso mantenidas y duraderas en el tiempo, modificando anatómica y funcionalmente el tracto digestivo. En Sanitas realizamos las técnicas más avanzadas por vía laparoscópica, con asistencia personalizada e integral: médica, psicológica y nutricional. Primera consulta de valoración gratuita."
         badges={["Laparoscopia avanzada", "Atención multidisciplinar", "Resultados duraderos"]}
         trustItems={["Laparoscópica", "Equipo especializado", "Seguimiento nutricional y psicológico", "Precio cerrado"]}
-        imageSrc="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579684385127-1ef15d508118.jpg"
       />
 
       <ProductStatBar stats={[
@@ -65,7 +65,7 @@ export default function CirugiaBariatricaPage() {
           "No existe necesidad de abrir el abdomen de forma convencional.",
           "Se efectúa a través de pequeñas incisiones para asegurar la mejor recuperación de los tejidos."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
         badge="El Concepto"
       />
 
@@ -90,7 +90,7 @@ export default function CirugiaBariatricaPage() {
           "Revisiones regulares para controlar evolución de peso y estado analítico.",
           "Si queda exceso de piel o flacidez post-pérdida, disponemos de tratamientos de cirugía estética post-bariátrica."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1581056771107-24ca5f033842.jpg"
         badge="Indicaciones y Futuro"
         reverse
       />

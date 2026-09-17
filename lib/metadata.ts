@@ -6,7 +6,6 @@ interface MetadataProps {
   title: string
   description: string
   path: string
-  subTitle?: boolean
   image?: string
 }
 
@@ -14,14 +13,12 @@ export function generateMetadata({
   title,
   description,
   path,
-  subTitle = true,
   image = '/og-image.jpg'
 }: MetadataProps): Metadata {
   const url = `${BASE_URL}${path.startsWith('/') ? path : `/${path}`}`
-  const fullTitle = subTitle ? `${title} | SegurosOnline.net` : title
 
   return {
-    title: fullTitle,
+    title,
     description,
     alternates: {
       canonical: url,
@@ -30,7 +27,7 @@ export function generateMetadata({
       },
     },
     openGraph: {
-      title: fullTitle,
+      title,
       description,
       url,
       images: [{ url: image }],
@@ -39,7 +36,7 @@ export function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: fullTitle,
+      title,
       description,
       images: [image],
     },

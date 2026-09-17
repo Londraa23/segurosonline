@@ -14,10 +14,10 @@ import {
 } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Más Salud Extranjeros — Seguro Médico para Residentes en España | Segurosonline",
+  title: "Sanitas Más Salud Extranjeros — Seguro Médico para Residentes en España",
   description: "Sanitas Más Salud Extranjeros: cobertura completa sin copago válida para visado y residencia en España. Hospitalización, dental 32 servicios y Blua gratis. Contrátalo aquí.",
   alternates: {
-    canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud-extranjeros/"
+    canonical: "https://segurosonline.net/seguros-medicos-para-particulares/sanitas-mas-salud-extranjeros/"
   }
 }
 
@@ -77,13 +77,13 @@ export default function SanitasMasSaludExtranjerosPage() {
         body="Diseñado para extranjeros residentes en España, sus familiares y estudiantes. Válido para solicitar y renovar visado y permiso de residencia. Sin copagos."
         badges={["Apto Visado", "Sin copagos", "Hospitalización"]}
         trustItems={["Válido para residencia", "Sin copago", "Hospitalización incluida", "Dental 32 servicios"]}
-        imageSrc="https://images.unsplash.com/photo-1555529902-5261145633bf?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1555529902-5261145633bf.jpg"
       />
 
       <ProductStatBar stats={[
         { value: "0€", label: "Copagos" },
         { value: "Válido", label: "Para Visado/Residencia" },
-        { value: "58.000+", label: "Médicos en España" },
+        { value: "59.000+", label: "Médicos en España" },
         { value: "24h", label: "Asistencia telefónica" },
       ]} />
 
@@ -128,11 +128,11 @@ export default function SanitasMasSaludExtranjerosPage() {
         description="Con Sanitas Más Salud Extranjeros accedes a una de las redes médicas privadas más completas de España."
         items={[
           "Más de 45.000 profesionales médicos",
-          "4.200 centros médicos en toda España",
+          "4.400 centros médicos en toda España",
           "4 hospitales propios Sanitas",
           "20 centros médicos Milenium exclusivos"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1519494026892-80bbd2d6fd0d.jpg"
         badge="Red Líder en España"
       />
 

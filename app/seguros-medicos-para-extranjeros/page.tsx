@@ -9,10 +9,10 @@ import { Reveal } from "@/components/reveal"
 import { CheckCircle2, FileCheck, Stethoscope, Video } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguros Médicos para Extranjeros en España | SegurosOnline",
+  title: "Seguros Médicos para Extranjeros en España",
   description: "Seguros de salud Sanitas para extranjeros residentes en España. Válidos para visado y residencia, todo incluido, con hospitalización. Asesoramiento. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/"
+    canonical: "https://segurosonline.net/seguros-medicos-para-extranjeros/"
   }
 }
 
@@ -32,7 +32,7 @@ const productosExtranjeros: ProductCardData[] = [
       "Gastos en el extranjero hasta 12.000€"
     ],
     href: "/seguros-medicos-para-extranjeros/seguro-medico-extranjeros-residentes-espana/",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1454165804606-c3d57bc86b40.jpg",
     highlighted: true
   },
   {
@@ -49,7 +49,7 @@ const productosExtranjeros: ProductCardData[] = [
       "Edad máx. contratación: 64 años"
     ],
     href: "/seguros-medicos-para-extranjeros/sanitas-international-residents/",
-    image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1606811841689-23dfddce3e95.jpg"
   }
 ]
 
@@ -76,7 +76,7 @@ export default function SegurosExtranjerosPage() {
         body="Vivir en España requiere un seguro médico de cobertura completa para muchos trámites administrativos: solicitud de residencia comunitaria, visados de estudios, ciudadanía de la UE y más. En SegurosOnline te ofrecemos dos opciones específicamente diseñadas para extranjeros residentes, ambas válidas para estos trámites y con acceso inmediato a toda la red médica Sanitas desde el primer día."
         badges={["Válido para visado", "Todo incluido", "Trámites residencia"]}
         trustItems={["Válido para residencia", "Todo incluido", "+45.000 médicos", "Contratación con pasaporte"]}
-        imageSrc="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1526772662000-3f88f10405ff.jpg"
       />
 
       <CategoryProductGrid 

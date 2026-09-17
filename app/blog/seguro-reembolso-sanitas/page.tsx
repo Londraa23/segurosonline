@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguro de Salud con Reembolso Sanitas: Qué Es y Cómo Funciona | SegurosOnline",
+  title: "Seguro de Salud con Reembolso Sanitas: Qué Es y Cómo Funciona",
   description: "Guía completa sobre los seguros de reembolso de Sanitas: qué es, cómo funciona, diferencias con el cuadro médico y qué productos ofrece Sanitas. España. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/blog/seguro-reembolso-sanitas/"
+    canonical: "https://segurosonline.net/blog/seguro-reembolso-sanitas/"
   }
 }
 
@@ -31,7 +31,7 @@ export default function SeguroReembolsoSanitasPage() {
         body="Descubre la libertad total de elegir cualquier médico del mundo y cómo Sanitas te devuelve los gastos de tu consulta."
         badges={[{ text: "Lectura: 8 min", variant: "blue" }]}
         trustItems={["Libertad total de elección", "Reembolso mundial", "Hasta 500.000€/año", "Cuadro médico incluido"]}
-        imageSrc="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1554224155-6726b3ff858f.jpg"
       />
 
       <article className="max-w-4xl mx-auto px-6 py-16 lg:py-24">

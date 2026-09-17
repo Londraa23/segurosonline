@@ -46,7 +46,7 @@ export default function MetodoPosePage() {
         body="El método POSE permite la reducción del volumen del estómago por vía endoscópica, sin necesidad de incisiones externas. Es la opción menos invasiva y más segura para tratar el sobrepeso y la obesidad. Técnica ambulatoria — en la mayoría de casos el paciente puede retomar su actividad normal en 24–48 horas. Primera consulta gratuita, sin compromiso."
         badges={["Menos invasiva", "Rápida recuperación", "Sin cirugía abierta"]}
         trustItems={["Sin incisiones", "Sin cicatrices", "Ambulatorio", "Descuentos clientes Sanitas"]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
       />
 
       <ProductStatBar stats={[
@@ -65,7 +65,7 @@ export default function MetodoPosePage() {
           "Mayor sensación de saciedad con menores cantidades de comida.",
           "Pérdida de peso progresiva sin necesidad de cirugía abierta ni laparoscópica (sin dejar cicatrices externas)."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579154341098-e4e158cc7f55.jpg"
         badge="El Funcionamiento"
       />
 
@@ -78,7 +78,7 @@ export default function MetodoPosePage() {
           "Pacientes candidatos a balón intragástrico que por diversas causas médicas no pueden colocárselo.",
           "Personas que buscan una técnica ambulatoria con recuperación rápida. No apto para obesidad mórbida grave."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1505576399279-565b52d4ac71.jpg"
         badge="Indicaciones"
         reverse
       />

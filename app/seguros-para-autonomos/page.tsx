@@ -8,8 +8,8 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Sanitas Profesionales — Seguro Médico para Autónomos",
-  description: "Seguro médico completo para autónomos desde 37,60€/mes. Deducible IRPF, cobertura de accidentes laborales y Blua gratis para siempre.",
+  title: "Sanitas Profesionales – Coberturas, Precio y Deducción IRPF",
+  description: "Seguro médico completo para autónomos desde 38,90€/mes. Deducible IRPF, cobertura de accidentes laborales y Blua gratis para siempre.",
   path: "/seguros-para-autonomos"
 })
 
@@ -40,14 +40,14 @@ export default function SanitasProfesionalesPage() {
         label="Sanitas Profesionales"
         h1={<>Seguros Sanitas para Autónomos.<br className="hidden lg:block" /> Protección Médica y Máximas Ventajas Fiscales.</>}
         body="Cobertura completa, ventajas fiscales reales y protección específica ante la incapacidad temporal. Diseñado por y para autónomos y profesionales independientes."
-        badges={["Desde 37,60€/mes", "Deducible IRPF", "Accidentes laborales", "Blua GRATIS"]}
+        badges={["Desde 38,90€/mes", "Deducible IRPF", "Accidentes laborales", "Blua GRATIS"]}
         trustItems={["Deducible fiscalmente", "Accidentes laborales", "Hospitalización completa", "Blua digital"]}
         imageSrc="/inicia.jpg"
       />
 
       <ProductStatBar stats={[
         { value: "500€", label: "Deducción máx./persona/año" },
-        { value: "37,60€", label: "Prima desde (al mes)" },
+        { value: "38,90€", label: "Prima desde (al mes)" },
         { value: "0€", label: "Gastos adicionales por uso" },
         { value: "24h", label: "Urgencias digitales Blua" },
       ]} />
@@ -63,7 +63,7 @@ export default function SanitasProfesionalesPage() {
           "1.500€ de límite por persona con discapacidad reconocida",
           "Incluye también la prima de tu familia si la añades a la póliza",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1554224155-6726b3ff858f.jpg"
         note="Consulta con tu asesor fiscal cómo aplicarlo a tu situación concreta."
       />
 
@@ -79,7 +79,7 @@ export default function SanitasProfesionalesPage() {
           "Sanitas Dental 21 incluido",
           "Segunda opinión médica internacional",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1200&q=80&auto=format&v=medico"
+        imageSrc="/images/unsplash/photo-1612349317150-e413f6a5b16d.jpg"
         badge="Todo incluido"
         bgColor="bg-[#002A54]"
       />

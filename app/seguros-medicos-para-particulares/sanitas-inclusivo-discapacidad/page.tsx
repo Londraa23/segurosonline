@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Inclusivo — Seguro Médico para Personas con Discapacidad | SegurosOnline",
-  description: "Sanitas Inclusivo: seguro médico sin cuestionario de salud para personas con discapacidad. Sin límite de edad, sin carencias, desde 25€/mes.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-inclusivo-discapacidad/" }
+  title: "Sanitas Inclusivo — Seguro Médico para Personas con Discapacidad",
+  description: "Sanitas Inclusivo: seguro médico sin cuestionario de salud para personas con discapacidad. Sin límite de edad, sin carencias, desde 25€/mes. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-particulares/sanitas-inclusivo-discapacidad/" }
 }
 
 const pageFaqs = [
@@ -36,7 +36,7 @@ export default function SanitasInclusivoPage() {
         body="El seguro médico de Sanitas para personas con discapacidad. Sin cuestionario de salud, sin límite de edad y desde 25€/mes. Acceso completo a casi todas las coberturas desde el primer día."
         badges={["Desde 25€/mes", "Sin cuestionario de salud", "Sin límite de edad", "Blua GRATIS"]}
         trustItems={["Sin cuestionario de salud", "Desde 0 años", "Sin límite de edad", "Acceso desde el primer día"]}
-        imageSrc="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1622253692010-333f2da6031d.jpg"
       />
 
       <ProductStatBar stats={[
@@ -57,7 +57,7 @@ export default function SanitasInclusivoPage() {
           "Cobertura dental básica",
           "Urgencias en el extranjero hasta 15.000€/año",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1576091160550-2173dba999ef.jpg"
         badge="Acceso desde el primer día"
       />
 
@@ -89,7 +89,7 @@ export default function SanitasInclusivoPage() {
           "Acompañamiento durante hospitalización superior a 48h",
           "Auxiliar a domicilio tras hospitalización (máx. 20h/año)",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1584467735867-4297ae2ebcee?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1584467735867-4297ae2ebcee.jpg"
         reverse
         badge="Servicios de Apoyo"
       />

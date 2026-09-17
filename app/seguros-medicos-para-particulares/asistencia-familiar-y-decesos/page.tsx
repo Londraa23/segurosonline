@@ -53,7 +53,7 @@ export default function SegurosDecesosPage() {
         body="En los momentos más difíciles, lo último que tu familia debería tener que hacer es gestionar trámites. Un seguro de decesos se ocupa de todo: el servicio fúnebre, el traslado nacional e internacional, la asistencia jurídica y el apoyo emocional, con una simple llamada. Avalados por Santalucía, especialista líder en decesos en España."
         badges={["Avalado por Santalucía", "Sin edad máx. permanencia", "Gestión integral", "Traslado mundial incluido"]}
         trustItems={["Avalado por Santalucía", "Traslado nacional e internacional", "Asistencia jurídica", "Atención psicológica"]}
-        imageSrc="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1544027993-37dbfe43562a.jpg"
       />
 
       <ProductFeatureSection title="¿Por qué contratar un seguro de decesos?">

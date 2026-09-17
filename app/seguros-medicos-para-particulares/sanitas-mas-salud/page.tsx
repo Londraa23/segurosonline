@@ -9,13 +9,13 @@ import { ProductStatBar, FeatureBlock, ComparisonTable, BluaSection, ThreeColumn
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Sanitas Más Salud: Seguro Médico Completo",
-  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Todo incluido. 10% dto. desde 4 asegurados.. ☎ 624 21 73 23",
+  title: "Sanitas Más Salud – Coberturas, Precio y Carencias",
+  description: "Sanitas Más Salud: cobertura sanitaria completa, hospitalización, Dental 21 incluido y Blua gratis. Todo incluido. 10% dto. desde 4 asegurados. ☎ 624 21 73 23",
   path: "/seguros-medicos-para-particulares/sanitas-mas-salud/"
 })
 
 const pageFaqs = [
-  { question: "¿Cuál es la diferencia entre Más Salud y Más Salud Óptima?", answer: "Las coberturas son exactamente las mismas. La diferencia está en la prima mensual y la modalidad de acceso: Óptima tiene la prima más económica para quienes quieren acceso flexible a la sanidad privada." },
+  { question: "¿Cuál es la diferencia entre Más Salud y Más Salud Óptima?", answer: "Las coberturas son exactamente las mismas. La diferencia está en la prima mensual y la modalidad de acceso: Más Salud Óptima tiene la prima más económica, desde 32,40€/mes, para quienes quieren acceso flexible a la sanidad privada. Más Salud (sin copago) tiene una prima desde 55,26€/mes." },
   { question: "¿Incluye maternidad y parto?", answer: "Sí. Sanitas Más Salud incluye seguimiento de embarazo, parto y postparto. Carencia de 8 meses para parto, eliminable si llevas +1 año en otra compañía." },
   { question: "¿El Dental 21 cubre todos los tratamientos?", answer: "Sanitas Dental 21 incluye 25 servicios en cobertura completa más hasta un 21% de descuento en el resto de tratamientos dentales." },
   { question: "¿Puedo añadir más asegurados después?", answer: "Sí, en cualquier momento. Al llegar a 4 o más asegurados el descuento del 10% vitalicio se aplica automáticamente." }
@@ -32,21 +32,32 @@ export default function SanitasMasSaludPage() {
           { label: "Para Particulares", href: "/seguros-medicos-para-particulares" },
           { label: "Sanitas Más Salud" }
         ]}
-        label="Sanitas Más Salud"
+        label="Desde 55,26€/mes · 32,40€/mes en modalidad Óptima"
         h1={<>Sanitas Más Salud.<br className="hidden lg:block" /> El Seguro Médico más Completo para ti y tu Familia.</>}
         body="El seguro más elegido de Sanitas. Asistencia sanitaria completa con hospitalización, todas las especialidades, Sanitas Dental 21 y Blua digital gratis. La máxima tranquilidad para ti y tu familia con todo incluido."
-        badges={["Blua GRATIS", "Dental 21 incluido", "10% dto. desde 4 asegurados"]}
+        badges={["Desde 55,26€/mes", "Dental 21 incluido", "10% dto. desde 4 asegurados"]}
         trustItems={["Hospitalización completa", "Dental 21 incluido", "Todo incluido", "Blua digital"]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
         imageAlt="Familia joven sonriente protegida por el seguro médico Sanitas Más Salud"
       />
 
       <ProductStatBar stats={[
-        { value: "58.000+", label: "Médicos en España" },
+        { value: "59.000+", label: "Médicos en España" },
         { value: "25", label: "Servicios dentales incluidos" },
-        { value: "10%", label: "Dto. desde 4 asegurados" },
-        { value: "Premium", label: "Modalidad recomendada" },
+        { value: "55,26€", label: "Desde (al mes)" },
+        { value: "32,40€", label: "Modalidad Óptima" },
       ]} />
+
+      <ComparisonTable
+        title="Modalidades y precio"
+        subtitle="Mismas coberturas médicas, distinta prima según la modalidad de acceso."
+        rows={[
+          { feature: "Prima mensual", valA: "32,40€/mes", valB: "55,26€/mes" },
+          { feature: "Copago por servicio", valA: "Sí", valB: "No" },
+        ]}
+        colA="Más Salud Óptima"
+        colB="Más Salud (Sin Copago)"
+      />
 
       {/* What's inside — image left */}
       <FeatureBlock
@@ -60,7 +71,7 @@ export default function SanitasMasSaludPage() {
           "Hospitalización completa con habitación privada",
           "Seguimiento de embarazo, parto y postparto",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579154341098-e4e158cc7f55.jpg"
         badge="Coberturas Principales"
       />
 
@@ -91,10 +102,9 @@ export default function SanitasMasSaludPage() {
         items={[
           "La cobertura más completa al precio más accesible de Sanitas",
           "Más de 10 millones de asegurados confían en Sanitas",
-          "Sin permanencia mínima — cancelas cuando quieras",
-          "Sin periodos de carencia si llevas +1 año en otra compañía completa",
+          "Eliminación de periodos de carencia si llevas +1 año en otra compañía completa",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1559839734-2b71ea197ec2.jpg"
         reverse
         badge="El más popular"
         bgColor="bg-[#001C3D]"

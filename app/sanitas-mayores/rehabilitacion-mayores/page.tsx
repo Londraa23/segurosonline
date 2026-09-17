@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Rehabilitación para Mayores Sanitas — Fisioterapia y Terapia Ocupacional | SegurosOnline",
+  title: "Rehabilitación para Mayores Sanitas — Fisioterapia y Terapia Ocupacional",
   description: "Rehabilitación para personas mayores con Sanitas: fisioterapia avanzada, terapia ocupacional, logopedia y rehabilitación cognitiva. En centros y a domicilio. ☎ 624 21 73 23",
   path: "/sanitas-mayores/rehabilitacion-mayores/"
 })
@@ -50,7 +50,7 @@ export default function RehabilitacionMayoresPage() {
         body="Las terapias más avanzadas aplicadas por expertos en la atención a personas mayores. Para recuperar lo que se ha perdido y mantener lo que aún está."
         badges={["Centros de rehabilitación avanzada", "Domicilio disponible", "Equipo multidisciplinar", "Fisioterapia", "Terapia Ocupacional"]}
         trustItems={["Fisioterapia avanzada", "Terapia ocupacional", "Rehabilitación cognitiva", "En centros y a domicilio"]}
-        imageSrc="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1544367567-0f2fcb009e0b.jpg"
       />
 
       <ProductFeatureSection title="Por qué la rehabilitación es clave en la tercera edad">

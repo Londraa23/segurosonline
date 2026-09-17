@@ -10,7 +10,7 @@ import { generateMetadata } from "@/lib/metadata"
 import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
-  title: "Residencias de Mayores Sanitas — Estancias Permanentes y Temporales | SegurosOnline",
+  title: "Residencias de Mayores Sanitas — Estancias Permanentes y Temporales",
   description: "Residencias Sanitas Mayores en España: atención médica 24h, especialistas en Alzheimer, centros libres de sujeciones y app para familias. 47 residencias. ☎ 624 21 73 23",
   path: "/sanitas-mayores/sanitas-residencias/"
 })
@@ -47,7 +47,7 @@ export default function ResidenciasMayoresPage() {
         body="En Sanitas Residencias atendemos y cuidamos a personas mayores para mejorar su calidad de vida y proporcionarles toda la ayuda que necesitan. Más de 47 residencias en toda España con atención médica propia, equipo multidisciplinar, actividades adaptadas y tecnología al servicio del bienestar. Disponible para estancias permanentes y temporales, tengas o no seguro."
         badges={["Tengas o no seguro Sanitas", "Estancias temporales y permanentes", "Centros integrales"]}
         trustItems={["47 residencias", "Equipo médico propio", "Centros libres de sujeciones", "App para familias"]}
-        imageSrc="https://images.unsplash.com/photo-1576766125468-b8004f21ebd9?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1447452001602-7090c7ab2db3.jpg"
       />
 
       <ProductStatBar stats={[
@@ -66,7 +66,7 @@ export default function ResidenciasMayoresPage() {
           "Combinación de vanguardia tecnológica en el cuidado y la rehabilitación.",
           "Garantización de una atención cercana, eficaz y completamente digna."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1517409217036-74fc2249df9c?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1542884748-2b87b36c6b90.jpg"
         badge="Nuestra Filosofía"
       />
 
@@ -155,7 +155,7 @@ export default function ResidenciasMayoresPage() {
           "Fomentamos un estilo de vida activo recuperando las funcionalidades perdidas.",
           "Residencias acreditadas como «Centro Libre de Sujeciones» por CEOMA o Norma Libera-Ger."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1582213782179-e0d53f98f2ca.jpg"
         badge="Dignidad y Cuidado"
         reverse
       />

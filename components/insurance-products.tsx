@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 import { ArrowUpRight } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 
@@ -10,14 +10,14 @@ const products = [
     title: "Seguros para Particulares",
     description: "Coberturas completas con dental incluido. Incluye telemedicina Blua.",
     href: "/seguros-medicos-para-particulares/",
-    price: "Desde 29,90€/mes",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&q=75",
+    price: "Desde 22,10€/mes",
+    image: "/images/unsplash/photo-1600880292203-757bb62b4baf.jpg",
   },
   {
     title: "Seguros Autónomos",
     description: "Desgrava hasta 500€ en IRPF. Protección adaptada a tus necesidades.",
     href: "/seguros-para-autonomos/",
-    price: "Desde 35€/mes",
+    price: "Desde 38,90€/mes",
     image: "/inicia.jpg",
   },
   {
@@ -25,42 +25,42 @@ const products = [
     description: "Mejora el bienestar de tu equipo con beneficios fiscales que retienen talento.",
     href: "/seguros-medicos-para-empresas/",
     price: "Desde 34,90€/mes",
-    image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&q=75",
+    image: "/images/unsplash/photo-1606857521015-7f9fcf423740.jpg",
   },
   {
     title: "Para Extranjeros",
     description: "Pólizas premium que cumplen 100% requisitos para residencia y NIE.",
     href: "/seguros-medicos-para-extranjeros/",
     price: "Desde 50€/mes",
-    image: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&q=75",
+    image: "/images/unsplash/photo-1530521954074-e64f6810b32d.jpg",
   },
   {
     title: "Mayores de 60",
     description: "Atención especializada, sin necesidad de rellenar cuestionario previo.",
     href: "/sanitas-mayores/",
-    price: "Desde 41€/mes",
-    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&q=75",
+    price: "Desde 48,10€/mes",
+    image: "/images/unsplash/photo-1511895426328-dc8714191300.jpg",
   },
   {
     title: "Servicio Dental",
     description: "Más de 5.200 clínicas. Incluye limpiezas y radiografías sin coste.",
     href: "/seguros-dentales/",
-    price: "Desde 9€/mes",
-    image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&q=75",
+    price: "Desde 12,20€/mes",
+    image: "/images/unsplash/photo-1606811841689-23dfddce3e95.jpg",
   },
   {
     title: "Asegura a tu Mascota",
     description: "La mejor cobertura para proteger a los perros y gatos de la familia.",
     href: "/sanitas-mascotas/",
-    price: "Desde 15€/mes",
-    image: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&q=75",
+    price: "Desde 6€/mes",
+    image: "/images/unsplash/photo-1544568100-847a948585b9.jpg",
   },
   {
     title: "Asistencia y Decesos",
     description: "Tranquilidad total para tu familia con asistencia integral garantizada.",
     href: "/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/",
     price: "Desde 6€/mes",
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&q=75",
+    image: "/images/unsplash/photo-1464822759023-fed622ff2c3b.jpg",
   },
 ]
 
@@ -90,7 +90,7 @@ export function InsuranceProducts() {
               >
                 {/* Imagen de fondo base */}
                 <div className="absolute inset-0 w-full h-full">
-                  <Image 
+                  <LoadingImage 
                     src={product.image} 
                     alt={product.title}
                     fill

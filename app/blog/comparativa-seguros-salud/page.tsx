@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Comparativa Seguros de Salud: Qué Ofrece Sanitas Frente a Otras Aseguradoras | SegurosOnline",
+  title: "Comparativa Seguros de Salud: Qué Ofrece Sanitas Frente a Otras Aseguradoras",
   description: "Comparativa honesta entre Sanitas y otras aseguradoras de salud en España: red médica, precios, coberturas digitales y atención al cliente. España. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/blog/comparativa-seguros-salud/"
+    canonical: "https://segurosonline.net/blog/comparativa-seguros-salud/"
   }
 }
 
@@ -31,7 +31,7 @@ export default function ComparativaSegurosSaludPage() {
         body="Analizamos los factores clave (red médica, digitalización y precio) para ayudarte a elegir el mejor seguro privado en España."
         badges={[{ text: "Lectura: 10 min", variant: "blue" }]}
         trustItems={["Sanitas vs Competencia", "Salud Digital", "Red de Hospitales", "Atención al cliente"]}
-        imageSrc="https://images.unsplash.com/photo-1454165833267-028cc2402f1b?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1554224155-6726b3ff858f.jpg"
       />
 
       <article className="max-w-4xl mx-auto px-6 py-16 lg:py-24">
@@ -63,7 +63,7 @@ export default function ComparativaSegurosSaludPage() {
             <h2 className="text-3xl mt-16 mb-6">Cuadro médico — Sanitas vs. competencia</h2>
             <p>La amplitud y calidad de la red es el factor determinante. Sanitas destaca por sus hospitales universitarios propios, mientras que competidores como Adeslas tienen una cuota de mercado mayor pero menos centros propios.</p>
             <ul className="space-y-3">
-              <li><strong>Sanitas:</strong> 57.000 profesionales y red hospitalaria propia líder en tecnología.</li>
+              <li><strong>Sanitas:</strong> 59.000 profesionales y red hospitalaria propia líder en tecnología.</li>
               <li><strong>Adeslas:</strong> Red concertada muy extensa en todas las provincias.</li>
               <li><strong>Mapfre / Asisa:</strong> Opciones competitivas en determinadas zonas geográficas.</li>
             </ul>

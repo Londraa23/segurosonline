@@ -14,8 +14,8 @@ import { Footer } from "@/components/footer"
 import { Download, ExternalLink, ChevronRight, Calculator, ShieldCheck, Users } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Dental Milenium — Seguro Dental desde 12,20€/mes | SegurosOnline",
-  description: "Sanitas Dental Milenium: 55 servicios incluidos, hasta 40% de descuento en tratamientos, sin carencias ni preexistencias. Pack Dúo y Familia disponibles.. ☎ 624 21 73 23",
+  title: "Sanitas Dental Milenium – Coberturas, Precio y Carencias",
+  description: "Sanitas Dental Milenium: 55 servicios incluidos, hasta 40% de descuento en tratamientos, sin carencias ni preexistencias. Pack Dúo y Familia disponibles. ☎ 624 21 73 23",
   alternates: {
     canonical: "/seguros-dentales/sanitas-dental-milenium/"
   }
@@ -63,7 +63,7 @@ export default function SanitasDentalMileniumPage() {
           "Sin preexistencias",
           "+200 clínicas en España"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1606811841689-23dfddce3e95.jpg"
       />
 
       <section className="py-20 bg-white">

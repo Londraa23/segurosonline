@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Por Qué Sanitas es Líder en Salud Privada en España: Innovación y Red Médica | SegurosOnline",
+  title: "Por Qué Sanitas es Líder en Salud Privada en España: Innovación y Red Médica",
   description: "Sanitas lleva más de 60 años siendo referente de la salud privada en España. Te contamos por qué: red médica, innovación digital, hospitalización y Blua. España. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/blog/sanitas-lider-salud-privada/"
+    canonical: "https://segurosonline.net/blog/sanitas-lider-salud-privada/"
   }
 }
 
@@ -30,8 +30,8 @@ export default function SanitasLiderSaludPage() {
         h1="Sanitas: Líder en Salud Privada en España | Análisis por SegurosOnline"
         body="Descubre los pilares que hacen de Sanitas la aseguradora de referencia: hospitales propios, salud digital de vanguardia y respaldo internacional."
         badges={[{ text: "Lectura: 7 min", variant: "blue" }]}
-        trustItems={["+60 años de historia", "57.000+ médicos", "Hospitales universitarios", "Líder en salud digital"]}
-        imageSrc="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1600&q=80&auto=format"
+        trustItems={["+60 años de historia", "59.000+ médicos", "Hospitales universitarios", "Líder en salud digital"]}
+        imageSrc="/images/unsplash/photo-1519494026892-80bbd2d6fd0d.jpg"
       />
 
       <article className="max-w-4xl mx-auto px-6 py-16 lg:py-24">
@@ -63,7 +63,7 @@ export default function SanitasLiderSaludPage() {
             <h2 className="text-3xl mt-16 mb-6">La red médica más amplia de España</h2>
             <p>El cuadro médico de Sanitas es el más completo del país, garantizando que siempre habrá un especialista disponible en tu zona:</p>
             <ul className="space-y-3">
-              <li>Más de 57.000 profesionales médicos en toda España.</li>
+              <li>Más de 59.000 profesionales médicos en toda España.</li>
               <li>4 hospitales universitarios propios (La Moraleja, La Zarzuela, Virgen del Mar y CIMA).</li>
               <li>Hospital Blua Sanitas Valdebebas: el primer hospital nativo digital de España.</li>
               <li>Más de 200 clínicas Milenium Dental y 25 centros multiespecialidad.</li>

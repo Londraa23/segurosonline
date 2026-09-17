@@ -2,8 +2,8 @@
 
 export function TrustBar() {
   const stats = [
-    { value: "+57.000", label: "profesionales médicos" },
-    { value: "+4.500", label: "centros médicos" },
+    { value: "+59.000", label: "profesionales médicos" },
+    { value: "+4.400", label: "centros médicos" },
     { value: "5", label: "hospitales propios" },
     { value: "+2M", label: "asegurados confían en Sanitas" },
     { value: "4.9★", label: "valoración media" },

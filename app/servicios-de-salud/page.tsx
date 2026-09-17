@@ -45,7 +45,7 @@ export default function ServiciosSaludPage() {
         body="Además de los seguros médicos, Sanitas ofrece una gama completa de servicios de salud especializados disponibles para clientes y no clientes. Cirugía ocular, maternidad, reproducción asistida, tratamientos para el sobrepeso y más. Siempre con primera consulta gratuita y precios especiales para asegurados."
         badges={["Primera consulta gratuita", "Seas o no cliente", "Precios especiales", "Financiación disponible"]}
         trustItems={["Técnicas más avanzadas", "Equipos especializados", "Precio cerrado", "Disponible sin seguro"]}
-        imageSrc="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1576091160550-2173dba999ef.jpg"
       />
 
       <WhiteCardGrid

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 import { Check, ArrowRight, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Reveal } from "@/components/reveal"
@@ -53,7 +53,7 @@ export function CategoryProductGrid({ title, description, products }: CategoryPr
                 
                 {/* ZONA 1 - FOTO */}
                 <div className="relative w-full aspect-[4/3] shrink-0 overflow-hidden bg-muted rounded-t-[2rem]">
-                  <Image
+                  <LoadingImage
                     src={product.image}
                     alt={product.title}
                     fill

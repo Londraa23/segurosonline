@@ -15,8 +15,8 @@ import { Reveal } from "@/components/reveal"
 import { Dog, Cat, Heart, Shield, Clock, Stethoscope, BadgePercent, Globe, Download, ExternalLink } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Seguro Mascotas — Seguro Veterinario para Perros y Gatos | SegurosOnline",
-  description: "Seguro veterinario Sanitas para perros y gatos. 80% de reembolso hasta 2.500€/año, libre elección de veterinario, urgencias y consulta preventiva anual.. ☎ 624 21 73 23",
+  title: "Sanitas Mascotas – Coberturas, Precio y Carencias",
+  description: "Seguro veterinario Sanitas para perros y gatos desde 6€/mes. 80% de reembolso hasta 2.500€/año, libre elección de veterinario, urgencias y consulta preventiva anual. ☎ 624 21 73 23",
   alternates: {
     canonical: "/sanitas-mascotas/"
   }
@@ -71,19 +71,19 @@ export default function SanitasMascotasPage() {
           { label: "Inicio", href: "/" },
           { label: "Mascotas" }
         ]}
-        label="Seguro Veterinario para Perros y Gatos"
+        label="Desde 6€/mes · Seguro Veterinario para Perros y Gatos"
         h1={<>Cuida de tu Mascota con Sanitas.<br />El Seguro Veterinario más Completo para tu Perro o Gato.</>}
-        body="El seguro veterinario que protege a tu mascota frente a imprevistos. Con Sanitas Salud Mascotas puedes acudir a cualquier veterinario y cubrirte ante enfermedades, accidentes, urgencias y una revisión anual. Con cobertura en todo el territorio español y en la UE para situaciones de emergencia."
+        body="Desde 6€/mes. El seguro veterinario que protege a tu mascota frente a imprevistos. Con Sanitas Salud Mascotas puedes acudir a cualquier veterinario y cubrirte ante enfermedades, accidentes, urgencias y una revisión anual. Con cobertura en todo el territorio español y en la UE para situaciones de emergencia."
         badges={[
           { text: "Descuento exclusivo de 100€/año para clientes de Sanitas", variant: "red" }
         ]}
         trustItems={[
+          "Desde 6€/mes",
           "80% reembolso hasta 2.500€/año",
           "Libre elección de veterinario",
-          "Perros y gatos",
           "Cobertura en España y UE"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1583511655857-d19b40a7a54e.jpg"
       />
 
       <section className="py-16 lg:py-24 bg-gray-50/50">

@@ -8,9 +8,9 @@ import { FeatureBlock, BluaSection } from "@/components/product-sections"
 import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
-  title: "Sanitas International Residents — Seguro Médico para Extranjeros | SegurosOnline",
-  description: "Sanitas International Residents: cobertura completa con reembolso 80-90% para extranjeros en España. Todo incluido, Dental 21 incluido, válido para residencia.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-extranjeros/sanitas-international-residents/" }
+  title: "Sanitas International Residents — Seguro Médico para Extranjeros",
+  description: "Sanitas International Residents: cobertura completa con reembolso 80-90% para extranjeros en España. Todo incluido, Dental 21 incluido, válido para residencia. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-extranjeros/sanitas-international-residents/" }
 }
 
 const pageFaqs = [
@@ -37,7 +37,7 @@ export default function SanitasInternationalResidentsPage() {
         body="Asistencia sanitaria completa con libre elección de especialistas, reembolso de gastos médicos en cualquier parte del mundo y todo incluido. Diseñado para extranjeros residentes en España que quieren la máxima cobertura dentro y fuera del cuadro médico Sanitas. Con Blua digital incluido gratis para siempre."
         badges={["Todo incluido", "Reembolso mundial", "Válido trámites legales"]}
         trustItems={["Libre elección mundial", "Todo incluido", "Repatriación incluida", "Edad máx. 64 años"]}
-        imageSrc="https://images.unsplash.com/photo-1512100356956-c1227c331f01?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1590650153855-d9e808231d41.jpg"
       />
 
       <FeatureBlock
@@ -51,7 +51,7 @@ export default function SanitasInternationalResidentsPage() {
           "Intervenciones quirúrgicas ambulatorias y con ingreso hospitalario",
           "Hospitalización con ingresos y estancias completas"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1544568100-847a948585b9?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1544568100-847a948585b9.jpg"
         badge="Salud Integral"
       />
 

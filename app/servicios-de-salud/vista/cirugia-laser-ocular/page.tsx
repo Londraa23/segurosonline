@@ -63,7 +63,7 @@ export default function CirugiaLaserOcularPage() {
         body="Si tienes entre 18 y 50 años y padeces astigmatismo, miopía o hipermetropía, puedes solucionar tu problema con cirugía láser ocular. El láser modifica la curvatura de la córnea para que los rayos de luz se enfoquen adecuadamente sobre la retina, logrando una visión nítida sin necesidad de gafas. Primera consulta de valoración gratuita y sin compromiso."
         badges={["18–50 años", "20 minutos, ambos ojos", "Sin anestesia general", "Recuperación inmediata"]}
         trustItems={["18–50 años", "20 minutos", "Sin anestesia general", "Recuperación inmediata"]}
-        imageSrc="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1530026186672-2cd00ffc50fe.jpg"
       />
 
       <ProductFeatureSection title="¿Cómo funciona la cirugía láser ocular?">

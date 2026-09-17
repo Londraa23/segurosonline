@@ -61,13 +61,13 @@ export default function SanitasMas90Page() {
         body="Todo el cuadro médico Sanitas para el día a día, más reembolso del 70% hasta 90.000€/año si prefieres ir a cualquier médico fuera de la red. Sin renunciar a nada."
         badges={["Cuadro + Reembolso", "70% Reembolso", "Cobertura mundial"]}
         trustItems={["Cuadro médico completo", "Reembolso 70%", "Hasta 90.000€/año", "Cobertura mundial"]}
-        imageSrc="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1576091160550-2173dba999ef.jpg"
       />
 
       <ProductStatBar stats={[
         { value: "90.000€", label: "Límite reembolso" },
         { value: "70%", label: "Reembolso de gastos" },
-        { value: "58.000+", label: "Médicos en cuadro" },
+        { value: "59.000+", label: "Médicos en cuadro" },
         { value: "Mundial", label: "Cobertura" },
       ]} />
 
@@ -76,7 +76,7 @@ export default function SanitasMas90Page() {
           Sanitas Más 90.000 combina en una sola póliza lo mejor del cuadro médico y del seguro de reembolso. No tienes que elegir entre la comodidad de la red Sanitas y la libertad de ir al médico que prefieras — tienes ambas.
         </p>
         <p>
-          Para las consultas del día a día tienes acceso a toda la red médica Sanitas: más de 57.000 profesionales, 4.500 centros y hospitales propios, sin esperas. Y si en algún momento prefieres ir a un médico que no está en el cuadro, Sanitas te reembolsa el 70% de los gastos hasta 90.000€ por persona y año.
+          Para las consultas del día a día tienes acceso a toda la red médica Sanitas: más de 59.000 profesionales, 4.400 centros y hospitales propios, sin esperas. Y si en algún momento prefieres ir a un médico que no está en el cuadro, Sanitas te reembolsa el 70% de los gastos hasta 90.000€ por persona y año.
         </p>
       </ProductFeatureSection>
 
@@ -140,7 +140,7 @@ export default function SanitasMas90Page() {
           "4% adicional por elección de pago anual",
           "Sin carencias si vienes de otra compañía (+1 año)"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1556761175-4b46a572b786.jpg"
         badge="Ahorro Familiar"
       />
 

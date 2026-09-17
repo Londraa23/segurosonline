@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Centros de Día para Mayores Sanitas — Actividades y Terapias en España | SegurosOnline",
+  title: "Centros de Día para Mayores Sanitas — Actividades y Terapias en España",
   description: "Centros de Día Sanitas Mayores: programa de actividades adaptadas, terapias de rehabilitación, control nutricional, transporte adaptado y horarios flexibles. ☎ 624 21 73 23",
   path: "/sanitas-mayores/centros-de-dia/"
 })
@@ -50,7 +50,7 @@ export default function CentrosDeDiaPage() {
         body="El equilibrio perfecto entre la independencia en el hogar y la atención profesional durante el día. Para mayores que quieren seguir en su entorno familiar pero necesitan apoyo y estimulación diaria."
         badges={["Horarios flexibles", "Transporte adaptado", "Actividades adaptadas", "Tengas o no seguro Sanitas"]}
         trustItems={["Programa de actividades", "Terapias de rehabilitación", "Control nutricional", "Equipo especializado"]}
-        imageSrc="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1576765608535-5f04d1e3f289.jpg"
       />
 
       <ProductFeatureSection title="¿Qué es un Centro de Día para mayores?">

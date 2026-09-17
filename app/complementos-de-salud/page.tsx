@@ -8,10 +8,10 @@ import { Footer } from "@/components/footer"
 import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
-  title: "Complementos de Salud Sanitas — Personaliza tu Seguro | SegurosOnline",
+  title: "Complementos de Salud Sanitas — Personaliza tu Seguro",
   description: "Amplía tu seguro Sanitas con complementos opcionales: farmacia, óptica, reembolso, genómica, accidentes, renta hospitalaria y más. Asesoramiento. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/complementos-de-salud/"
+    canonical: "https://segurosonline.net/complementos-de-salud/"
   }
 }
 
@@ -128,7 +128,7 @@ export default function ComplementosDeSaludPage() {
         body="Tu seguro Sanitas ya te cubre lo esencial. Los complementos te permiten ir más allá: añade solo lo que necesitas, cuando lo necesitas. Una amplia gama de coberturas opcionales para personalizar tu póliza a tu medida y a la de tu familia."
         badges={["11 complementos disponibles", "Añadibles a tu póliza actual"]}
         trustItems={["✓ Farmacia", "✓ Óptica", "✓ Reembolso", "✓ Accidentes", "✓ Genómica", "✓ Y más"]}
-        imageSrc="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1544367567-0f2fcb009e0b.jpg"
       />
 
       <section className="py-16 lg:py-24 bg-gray-50/50">

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 import { ArrowUpRight } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 
@@ -66,7 +66,7 @@ export function ServicesSection() {
               >
                 {/* Imagen de fondo base */}
                 <div className="absolute inset-0 w-full h-full">
-                  <Image 
+                  <LoadingImage 
                     src={service.image} 
                     alt={service.title}
                     fill

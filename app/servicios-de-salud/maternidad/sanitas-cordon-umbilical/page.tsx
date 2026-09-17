@@ -50,7 +50,7 @@ export default function CordónUmbilicalPage() {
         body="¿Sabías que la sangre del cordón umbilical de tu bebé contiene células madre que podrían salvarle la vida en el futuro? En Sanitas hemos creado un servicio para la conservación de las células madre del cordón umbilical en un banco privado, que pueden constituir una auténtica reserva de salud ahora y en el futuro. Conservación durante 30 años."
         badges={["30 años de conservación", "Laboratorio", "Proceso indoloro", "Precios especiales clientes"]}
         trustItems={["Proceso indoloro", "Sin riesgo madre/bebé", "+70 enfermedades", "Disponible sin póliza"]}
-        imageSrc="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1474552226712-ac0f0961a954.jpg"
       />
 
       <ProductFeatureSection title="¿Qué son las células madre del cordón umbilical?">

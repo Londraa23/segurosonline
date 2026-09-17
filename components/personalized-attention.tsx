@@ -4,7 +4,7 @@ import { Users, HeartHandshake, Award, Clock, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Reveal } from "@/components/reveal"
 import Link from "next/link"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 
 export function PersonalizedAttention() {
   return (
@@ -28,8 +28,8 @@ export function PersonalizedAttention() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
           {/* Main large photographic card */}
           <Reveal className="lg:col-span-2 group relative block overflow-hidden rounded-3xl min-h-[460px] lg:min-h-[500px]">
-            <Image
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80&auto=format"
+            <LoadingImage
+              src="/images/unsplash/photo-1560250097-0b93528c311a.jpg"
               alt="Asesor de seguros Sanitas"
               fill
               sizes="(max-width: 768px) 100vw, 66vw"

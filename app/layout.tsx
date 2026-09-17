@@ -22,10 +22,10 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL('https://segurosonline.net'),
   title: {
-    default: 'Seguros de Salud Sanitas | Desde 39€/mes – SegurosOnline.net',
-    template: '%s | SegurosOnline.net – Agencia Exclusiva Sanitas'
+    default: 'Seguros de Salud Sanitas | Desde 22,10€/mes',
+    template: '%s | Sanitas'
   },
-  description: 'Agencia exclusiva de seguros Sanitas. Seguros de salud para particulares desde 39€/mes, autónomos, empresas y mayores de 60 años. Blua GRATIS para siempre. Sin carencias ni permanencia. Más de 57.000 médicos. ☎ Te llamamos gratis.',
+  description: 'Agencia exclusiva de seguros Sanitas. Seguros de salud para particulares desde 22,10€/mes, autónomos, empresas y mayores de 60 años. Blua GRATIS para siempre. Más de 59.000 médicos. ☎ Te llamamos gratis.',
   keywords: [
     'seguro médico Sanitas',
     'seguro de salud',
@@ -37,7 +37,6 @@ export const metadata: Metadata = {
     'seguro mayores 60 años Sanitas',
     'seguro médico extranjeros España',
     'Sanitas todo incluido',
-    'Sanitas sin carencias',
     'seguro salud económico',
     'Blua Sanitas gratis',
     'cuadro médico Sanitas',
@@ -47,7 +46,6 @@ export const metadata: Metadata = {
     'seguro médico familiar',
     'mejor seguro de salud privado',
     'contratar seguro Sanitas online',
-    'seguro salud sin permanencia',
     'Sanitas inclusivo discapacidad',
     'Sanitas mascotas',
     'seguro médico con reembolso',
@@ -71,9 +69,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_ES',
     url: 'https://segurosonline.net',
-    siteName: 'SegurosOnline.net',
-    title: 'Seguros de Salud Sanitas | Desde 39€/mes – SegurosOnline.net',
-    description: 'Agencia exclusiva de seguros Sanitas. Seguros de salud para particulares, autónomos, empresas y mayores. Blua GRATIS para siempre. Sin carencias. ☎ Te llamamos gratis.',
+    siteName: 'Sanitas',
+    title: 'Seguros de Salud Sanitas | Desde 22,10€/mes',
+    description: 'Agencia exclusiva de seguros Sanitas. Seguros de salud para particulares, autónomos, empresas y mayores. Blua GRATIS para siempre. ☎ Te llamamos gratis.',
     images: [
       {
         url: '/og-image.jpg',
@@ -85,8 +83,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Seguros de Salud Sanitas | Desde 39€/mes',
-    description: 'Agencia exclusiva de seguros Sanitas. Blua GRATIS para siempre. Sin carencias ni permanencia.',
+    title: 'Seguros de Salud Sanitas | Desde 22,10€/mes',
+    description: 'Agencia exclusiva de seguros Sanitas. Blua GRATIS para siempre.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -124,7 +122,6 @@ export default function RootLayout({
   return (
     <html lang="es" dir="ltr" data-scroll-behavior="smooth">
       <head>
-        <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="icon" href="/sanitas_logo.webp" type="image/webp" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <SchemaMarkup />

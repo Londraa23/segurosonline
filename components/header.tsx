@@ -118,7 +118,7 @@ export function Header() {
           <nav className="flex items-center justify-between h-16" aria-label="Navegación principal" suppressHydrationWarning>
 
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="SegurosOnline.net - Inicio">
+            <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="Sanitas - Inicio">
               <Image
                 src="/sanitas_logo.webp"
                 alt="Sanitas"
@@ -127,9 +127,6 @@ export function Header() {
                 className="h-8 w-auto"
                 priority
               />
-              <span className="hidden sm:inline text-[15px] font-semibold tracking-tight text-neutral-900">
-                Seguros<span className="text-[#0091DA]">Online</span>
-              </span>
             </Link>
 
             {/* Desktop links */}

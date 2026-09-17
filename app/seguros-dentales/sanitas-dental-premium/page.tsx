@@ -14,8 +14,8 @@ import { Footer } from "@/components/footer"
 import { Download, ExternalLink, ChevronRight, Calculator, ShieldCheck, Sparkles, Plus } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Sanitas Dental Premium — Seguro Dental Completo con Empastes Incluidos | SegurosOnline",
-  description: "Sanitas Dental Premium: 73 servicios incluidos, 2 empastes/año incluidos, hasta 40% dto. Sin carencias ni preexistencias. Pack Dúo y Familia.. ☎ 624 21 73 23",
+  title: "Sanitas Dental Premium – Coberturas, Precio y Carencias",
+  description: "Sanitas Dental Premium: 73 servicios incluidos, 2 empastes/año incluidos, hasta 40% dto. Sin carencias ni preexistencias. Pack Dúo y Familia. ☎ 624 21 73 23",
   alternates: {
     canonical: "/seguros-dentales/sanitas-dental-premium/"
   }
@@ -63,7 +63,7 @@ export default function SanitasDentalPremiumPage() {
           "Sin carencias",
           "+200 clínicas en España"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1588776814546-1ffcf47267a5.jpg"
       />
 
       <section className="py-20 bg-white">

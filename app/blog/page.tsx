@@ -6,10 +6,10 @@ import { BlogPreview } from "@/components/blog-preview"
 import { ContactSection } from "@/components/contact-section"
 
 export const metadata: Metadata = {
-  title: "Blog de Salud y Seguros Médicos | SegurosOnline",
+  title: "Blog de Salud y Seguros Médicos",
   description: "Artículos informativos sobre salud, consejos médicos y guías sobre seguros de salud Sanitas. Mantente informado con nuestros expertos.",
   alternates: {
-    canonical: "https://www.segurosonline.net/blog/"
+    canonical: "https://segurosonline.net/blog/"
   }
 }
 
@@ -28,7 +28,7 @@ export default function BlogLandingPage() {
         body="Explora nuestros artículos escritos por expertos para ayudarte a elegir el mejor seguro y cuidar de lo que más importa."
         badges={["Actualidad 2026", "Guías de salud", "Consejos expertos"]}
         trustItems={["Información contrastada", "Actualizado 2026", "Asesoramiento profesional"]}
-        imageSrc="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1499750310107-5fef28a66643.jpg"
       />
 
       <BlogPreview />

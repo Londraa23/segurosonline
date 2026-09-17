@@ -12,7 +12,7 @@ import Link from "next/link"
 
 export const metadata = generateMetadata({
   title: "Sanitas Mayores: Residencias y Cuidados",
-  description: "Sanitas Mayores: residencias, centros de día, cuidados a domicilio y rehabilitación para personas mayores en España. Tengas o no seguro Sanitas.. ☎ 624 21 73 23",
+  description: "Sanitas Mayores: residencias, centros de día, cuidados a domicilio y rehabilitación para personas mayores en España. Tengas o no seguro Sanitas. ☎ 624 21 73 23",
   path: "/sanitas-mayores/"
 })
 
@@ -24,7 +24,7 @@ const serviciosMayores: ProductCardData[] = [
     description: "Estancias indefinidas o temporales con atención médica, enfermería, fisioterapia, nutrición y actividades adaptadas. Especialistas en Alzheimer y deterioro cognitivo. Centros libres de sujeciones.",
     features: ["Especialistas en Alzheimer", "Libres de sujeciones", "App para familias", "Atención 24h"],
     href: "/sanitas-mayores/sanitas-residencias/",
-    image: "https://images.unsplash.com/photo-1576766125468-b8004f21ebd9?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1447452001602-7090c7ab2db3.jpg",
     highlighted: true
   },
   {
@@ -34,7 +34,7 @@ const serviciosMayores: ProductCardData[] = [
     description: "Programa de actividades adaptadas a la condición física y cognitiva, horarios flexibles, transporte adaptado, control nutricional y de medicación, y programa de terapias de rehabilitación.",
     features: ["Horarios flexibles", "Transporte adaptado", "Terapias diarias", "Control nutricional"],
     href: "/sanitas-mayores/centros-de-dia/",
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1521791136064-7986c2920216.jpg"
   },
   {
     title: "Cuidados a Domicilio",
@@ -43,7 +43,7 @@ const serviciosMayores: ProductCardData[] = [
     description: "Servicios de selección de cuidador a domicilio, rehabilitación en el hogar y servicios asistenciales personalizados. Para mayores que prefieren continuar en su entorno familiar con apoyo profesional.",
     features: ["Selección de cuidador", "Rehabilitación en el hogar", "Atención personalizada", "Cuidado en entorno familiar"],
     href: "/sanitas-mayores/cuidados-a-domicilio/",
-    image: "https://images.unsplash.com/photo-1581579186913-46eaacd70dd5?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1530026186672-2cd00ffc50fe.jpg"
   },
   {
     title: "Rehabilitación para Mayores",
@@ -52,7 +52,7 @@ const serviciosMayores: ProductCardData[] = [
     description: "Rehabilitación física y cognitiva con las terapias más vanguardistas y equipos multidisciplinares expertos en la atención a personas mayores.",
     features: ["Terapias vanguardistas", "Rehabilitación física y mental", "Trato especializado senior", "Equipos multidisciplinares"],
     href: "/sanitas-mayores/rehabilitacion-mayores/",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1544367567-0f2fcb009e0b.jpg"
   }
 ]
 
@@ -85,7 +85,7 @@ export default function SanitasMayoresIndexPage() {
         body="En Sanitas Mayores atendemos y cuidamos a personas mayores para mejorar su calidad de vida y proporcionarles toda la ayuda que necesitan. Residencias, centros de día, cuidados a domicilio y centros de rehabilitación avanzada en toda España. Con o sin seguro Sanitas."
         badges={["Con o sin seguro", "Especialistas senior", "Alcance nacional"]}
         trustItems={["47 residencias", "25 centros de día", "Atención 24h", "Equipo multidisciplinar"]}
-        imageSrc="https://images.unsplash.com/photo-1517409217036-74fc2249df9c?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1542884748-2b87b36c6b90.jpg"
         imageAlt="Personas mayores felices recibiendo cuidados profesionales en Sanitas Mayores"
       />
 
@@ -153,7 +153,7 @@ export default function SanitasMayoresIndexPage() {
                 </Link>
               </div>
               <div className="hidden lg:block w-72 h-72 rounded-full overflow-hidden border-8 border-white shadow-2xl shrink-0">
-                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80&auto=format" alt="Mayor sonriendo" className="w-full h-full object-cover" />
+                <img src="/images/unsplash/photo-1573496359142-b8d87734a5a2.jpg" alt="Mayor sonriendo" className="w-full h-full object-cover" />
               </div>
             </div>
           </Reveal>

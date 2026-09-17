@@ -9,12 +9,13 @@ import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection } from "@/c
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Sanitas Más Salud Familias: Protección Total",
-  description: "Sanitas Más Salud Familias: toda la familia en una póliza. Pediatría, maternidad, hospitalización completa y Blua gratis. 10% dto. desde 4 asegurados.. ☎ 624 21 73 23",
+  title: "Sanitas Más Salud Familias – Coberturas, Precio y Carencias",
+  description: "Sanitas Más Salud Familias: toda la familia en una póliza. Pediatría, maternidad, hospitalización completa y Blua gratis. 10% dto. desde 4 asegurados. ☎ 624 21 73 23",
   path: "/seguros-medicos-para-particulares/sanitas-mas-salud-familias/"
 })
 
 const pageFaqs = [
+  { question: "¿Cuál es la diferencia entre Familias y Familias Plus?", answer: "Las coberturas son exactamente las mismas. Familias Plus tiene la prima más económica, desde 40,01€/mes por asegurado, con copago por servicio. Familias (sin copago) tiene una prima desde 50,79€/mes por asegurado." },
   { question: "¿Cuántos miembros puedo incluir?", answer: "No hay límite de miembros. Puedes incluir pareja, hijos y otros familiares directos. Cuantos más asegurados, mayor el ahorro." },
   { question: "¿Puedo añadir al bebé al nacer?", answer: "Sí. Puedes incorporar al recién nacido desde el momento del nacimiento, sin periodo sin cobertura." },
   { question: "¿El descuento del 10% es permanente?", answer: "Sí, es vitalicio mientras la póliza mantenga 4 o más asegurados y esté al corriente de pago." },
@@ -32,19 +33,19 @@ export default function SanitasMasSaludFamiliasPage() {
           { label: "Para Particulares", href: "/seguros-medicos-para-particulares" },
           { label: "Sanitas Más Salud Familias" }
         ]}
-        label="Sanitas Más Salud Familias"
+        label="Desde 40,01€/mes por asegurado"
         h1={<>Sanitas Más Salud Familias.<br className="hidden lg:block" /> El Seguro Médico más Completo para Proteger tu Hogar.</>}
         body="Toda la familia bajo una sola póliza con las mismas coberturas completas de Sanitas Más Salud. Pediatría, maternidad, hospitalización, y Blua para todos. Y cuantos más seáis, más ahorráis."
-        badges={["10% dto. desde 4 asegurados", "Blua GRATIS para todos", "Dental 21 incluido"]}
+        badges={["Desde 40,01€/mes", "Blua GRATIS para todos", "Dental 21 incluido"]}
         trustItems={["Pediatría incluida", "Maternidad", "Hospitalización completa", "10% dto. vitalicio"]}
-        imageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1559839734-2b71ea197ec2.jpg"
       />
 
       <ProductStatBar stats={[
+        { value: "40,01€", label: "Familias Plus (al mes)" },
+        { value: "50,79€", label: "Familias (al mes)" },
         { value: "10%", label: "Dto. vitalicio desde 4 asegurados" },
-        { value: "4%", label: "Dto. adicional pago anual" },
-        { value: "58.000+", label: "Médicos en España" },
-        { value: "24h", label: "Urgencias digitales Blua" },
+        { value: "59.000+", label: "Médicos en España" },
       ]} />
 
       <FeatureBlock
@@ -58,7 +59,7 @@ export default function SanitasMasSaludFamiliasPage() {
           "Hospitalización completa con habitación privada",
           "Seguimiento de embarazo, parto y postparto incluidos",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1474552226712-ac0f0961a954.jpg"
         badge="Coberturas Familiares"
       />
 
@@ -90,7 +91,7 @@ export default function SanitasMasSaludFamiliasPage() {
           "Aplicable también en combinación con Más 90.000 y TOP QUANTUM",
           "Añade al bebé al nacer sin periodo de espera para coberturas básicas",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1609220136736-443140cfeaa5?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1542884748-2b87b36c6b90.jpg"
         reverse
         badge="Descuento Familiar"
       />

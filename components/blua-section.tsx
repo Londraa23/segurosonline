@@ -3,7 +3,7 @@
 import { Laptop2, ShieldAlert, BadgeCheck, Stethoscope, Video, Scale, Baby, ArrowRight, Activity } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 import Link from "next/link"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 
 const bluaFeatures = [
   { icon: Video, title: "Videoconsulta", description: "Consulta con médicos de todas las especialidades desde casa, sin desplazamientos ni esperas.", colSpan: "lg:col-span-2", featured: true },
@@ -54,8 +54,8 @@ export function BluaSection() {
                   </div>
                   <div className="sm:w-[45%] bg-muted/20 relative min-h-[200px] sm:min-h-0 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent z-10 hidden sm:block" />
-                    <Image 
-                      src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800" 
+                    <LoadingImage 
+                      src="/images/unsplash/photo-1576091160399-112ba8d25d1d.jpg" 
                       alt="Videoconsulta médica"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"

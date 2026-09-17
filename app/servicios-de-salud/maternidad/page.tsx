@@ -26,7 +26,7 @@ const maternidadProducts: ProductCardData[] = [
       "Financiación a medida"
     ],
     href: "/servicios-de-salud/maternidad/reproduccion-asistida/",
-    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1511895426328-dc8714191300.jpg"
   },
   {
     title: "Sanitas Cordón Umbilical",
@@ -40,7 +40,7 @@ const maternidadProducts: ProductCardData[] = [
       "Válido para hermanos compatibles"
     ],
     href: "/servicios-de-salud/maternidad/sanitas-cordon-umbilical/",
-    image: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1474552226712-ac0f0961a954.jpg"
   },
   {
     title: "Test Genético Prenatal",
@@ -54,7 +54,7 @@ const maternidadProducts: ProductCardData[] = [
       "Solo requiere muestra de sangre"
     ],
     href: "/servicios-de-salud/maternidad/test-genetico-prenatal-no-invasivo/",
-    image: "https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1624727828489-a1e03b79bba8.jpg"
   }
 ]
 
@@ -82,7 +82,7 @@ export default function MaternidadIndexPage() {
         body="Desde el proceso de ser mamá hasta la protección del recién nacido. En Sanitas disponemos de servicios especializados para acompañarte en cada etapa: reproducción asistida cuando lo necesitas, conservación del cordón umbilical de tu bebé y detección precoz de anomalías mediante test genético prenatal. Disponibles para clientes y no clientes de Sanitas."
         badges={["Técnicas avanzadas", "Centros especializados", "Atención personalizada", "Consulta gratuita"]}
         trustItems={["Técnicas más avanzadas", "Centros especializados", "Confidencialidad total", "Atención personalizada"]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
       />
 
       <CategoryProductGrid 

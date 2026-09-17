@@ -10,7 +10,7 @@ import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
   title: "Reproducción Asistida Sanitas: FIV e ICSI",
-  description: "Tratamientos de reproducción asistida Sanitas: FIV, inseminación artificial, ICSI y ovodonación. Primera consulta gratuita. 8% dto. para clientes.. ☎ 624 21 73 23",
+  description: "Tratamientos de reproducción asistida Sanitas: FIV, inseminación artificial, ICSI y ovodonación. Primera consulta gratuita. 8% dto. para clientes. ☎ 624 21 73 23",
   path: "/servicios-de-salud/maternidad/reproduccion-asistida/"
 })
 
@@ -50,7 +50,7 @@ export default function ReproduccionAsistidaPage() {
         body="Los tratamientos de Reproducción Asistida de Sanitas os ayudan a hacer realidad el sueño de ser padres. Ponemos a vuestra disposición lo último en técnicas, en los centros más avanzados y de la mano de especialistas de gran prestigio. Primera consulta gratuita, valorada en más de 120€."
         badges={["Disponible sin póliza", "Técnicas más avanzadas", "Discreción total", "Equipo multidisciplinar"]}
         trustItems={["Consulta gratis", "Ahorro del 8%", "Precios cerrados", "Financiación"]}
-        imageSrc="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1511895426328-dc8714191300.jpg"
       />
 
       <ProductFeatureSection title="La infertilidad tiene solución en la mayoría de los casos.">

@@ -3,7 +3,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Política de Privacidad | SegurosOnline",
+  title: "Política de Privacidad",
   description: "Política de Privacidad de PIQUE ADS SOCIEDAD LIMITADA.",
 }
 
@@ -33,7 +33,7 @@ export default function PoliticaPrivacidadPage() {
             <li><strong>NIF:</strong> B88654702</li>
             <li><strong>Domicilio:</strong> Calle Salvador Dalí 10, Reus</li>
             <li><strong>Sitio web:</strong> Segurosonline.net</li>
-            <li><strong>Correo electrónico de contacto:</strong> <a href="mailto:contactomaxiriums@gmail.com">contactomaxiriums@gmail.com</a></li>
+            <li><strong>Correo electrónico de contacto:</strong> <a href="mailto:storrespi.agenteexclusivo@sanitas.es">storrespi.agenteexclusivo@sanitas.es</a></li>
             <li><strong>Teléfono:</strong> 624 217 323</li>
           </ul>
           <p>En adelante, el "Responsable del Tratamiento".</p>
@@ -99,7 +99,7 @@ export default function PoliticaPrivacidadPage() {
             <li>Derecho a la portabilidad de los datos.</li>
             <li>Derecho a retirar el consentimiento prestado en cualquier momento.</li>
           </ul>
-          <p>Para ejercer estos derechos, el usuario puede enviar una solicitud por correo electrónico a: <strong><a href="mailto:contactomaxiriums@gmail.com">contactomaxiriums@gmail.com</a></strong></p>
+          <p>Para ejercer estos derechos, el usuario puede enviar una solicitud por correo electrónico a: <strong><a href="mailto:storrespi.agenteexclusivo@sanitas.es">storrespi.agenteexclusivo@sanitas.es</a></strong></p>
           <p>La solicitud deberá indicar claramente el derecho que desea ejercitar y acompañarse, si fuera necesario, de una copia del DNI, NIE, pasaporte o documento equivalente que permita acreditar la identidad del solicitante.</p>
 
           <h2>9. Derecho a presentar una reclamación</h2>

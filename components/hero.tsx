@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -59,8 +60,8 @@ export function Hero() {
     <section className="relative min-h-[85vh] lg:min-h-[780px] flex items-center overflow-hidden" id="inicio">
       {/* Optimized Background Image */}
       <div className="absolute inset-0 -z-10">
-        <Image
-          src="https://images.unsplash.com/photo-1605684954998-685c79d6a018?q=80&auto=format"
+        <LoadingImage
+          src="/images/unsplash/photo-1605684954998-685c79d6a018.jpg"
           alt="Seguros de Salud Sanitas"
           fill
           priority
@@ -92,7 +93,7 @@ export function Hero() {
                 <span className="text-[#0091DA]">Cobertura Premium al Mejor Precio</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl mt-5">
-                Sin esperas, sin permanencia y con acceso inmediato a miles de especialistas en toda España.
+                Sin esperas y con acceso inmediato a miles de especialistas en toda España.
               </p>
             </Reveal>
 
@@ -100,13 +101,13 @@ export function Hero() {
             <Reveal delay={0.18}>
               <div className="flex items-center gap-4">
                 <div className="flex -space-x-3">
-                  <Image width={40} height={40} src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=80&h=80&fit=crop&crop=faces" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
-                  <Image width={40} height={40} src="https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=80&h=80&fit=crop&crop=faces" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
-                  <Image width={40} height={40} src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=80&h=80&fit=crop&crop=faces" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
-                  <Image width={40} height={40} src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=80&h=80&fit=crop&crop=faces" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
+                  <Image width={40} height={40} src="/images/unsplash/photo-1559839734-2b71ea197ec2.jpg" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
+                  <Image width={40} height={40} src="/images/unsplash/photo-1614608682850-e0d6ed316d47.jpg" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
+                  <Image width={40} height={40} src="/images/unsplash/photo-1573496359142-b8d87734a5a2.jpg" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
+                  <Image width={40} height={40} src="/images/unsplash/photo-1622253692010-333f2da6031d.jpg" alt="Profesional médico" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-white" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-foreground">+58.000 profesionales</p>
+                  <p className="text-sm font-semibold text-foreground">+59.000 profesionales</p>
                   <p className="text-xs text-muted-foreground">en el cuadro médico Sanitas</p>
                 </div>
               </div>
@@ -115,8 +116,8 @@ export function Hero() {
             <Reveal delay={0.22}>
               <div className="flex flex-wrap gap-x-6 gap-y-3">
                 {[
-                  { icon: Shield, text: "Sin permanencia" },
-                  { icon: Clock, text: "Sin carencias" },
+                  { icon: Shield, text: "+4.400 centros médicos" },
+                  { icon: Clock, text: "Cuadro médico Sanitas" },
                   { icon: Sparkles, text: "Seguro dental incluido" },
                   { icon: Phone, text: "Atención inmediata" },
                 ].map((item, i) => (
@@ -190,7 +191,7 @@ export function Hero() {
 
                 <div className="hidden sm:block absolute -bottom-4 -left-4 bg-foreground text-background px-5 py-3 rounded-2xl shadow-xl animate-float">
                   <p className="text-xs font-medium opacity-70">Desde</p>
-                  <p className="text-2xl font-bold">29,90€<span className="text-sm font-medium opacity-70">/mes</span></p>
+                  <p className="text-2xl font-bold">22,10€<span className="text-sm font-medium opacity-70">/mes</span></p>
                 </div>
                 <div className="absolute -top-3 -right-3 bg-[#0091DA] text-white px-4 py-2 rounded-xl shadow-lg text-sm font-semibold">
                   Blua GRATIS

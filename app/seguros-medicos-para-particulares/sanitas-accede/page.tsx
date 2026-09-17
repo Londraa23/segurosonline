@@ -9,9 +9,9 @@ import {
 } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Accede — Seguro Médico Privado | SegurosOnline",
-  description: "Sanitas Accede: accede a 51.000 médicos, 4.200 centros y Blua gratis. Consultas ilimitadas, pruebas diagnósticas y urgencias 24h. Desde. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-accede/" }
+  title: "Sanitas Accede – Coberturas, Precio y Carencias",
+  description: "Sanitas Accede: accede a 59.000 médicos, 4.400 centros y Blua gratis. Consultas ilimitadas, pruebas diagnósticas y urgencias 24h. Desde 22,10€/mes. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-particulares/sanitas-accede/" }
 }
 
 const pageFaqs = [
@@ -33,19 +33,19 @@ export default function SanitasAccedePage() {
           { label: "Para Particulares", href: "/seguros-medicos-para-particulares" },
           { label: "Sanitas Accede" }
         ]}
-        label="Sanitas Accede · Sin carencias"
+        label="Desde 22,10€/mes · Sin carencias"
         h1={<>Sanitas Accede.<br className="hidden lg:block" /> Tu Entrada a la Sanidad Privada sin Esperas ni Carencias.</>}
-        body="Con Sanitas Accede tienes acceso a más de 51.000 médicos y 4.200 centros en toda España, incluyendo 4 hospitales propios. Sin periodos de carencia: usas el seguro el mismo día que contratas."
-        badges={["Sin carencias", "51.000 médicos", "Blua gratis"]}
+        body="Con Sanitas Accede tienes acceso a más de 59.000 médicos y 4.400 centros en toda España, incluyendo 4 hospitales propios. Sin periodos de carencia: usas el seguro el mismo día que contratas."
+        badges={["Desde 22,10€/mes", "Sin carencias", "Blua gratis"]}
         trustItems={["Consultas ilimitadas", "Pruebas diagnósticas", "Dental básico", "Todo incluido"]}
-        imageSrc="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1516574187841-cb9cc2ca948b.jpg"
       />
 
       <ProductStatBar stats={[
-        { value: "51.000+", label: "Médicos en España" },
-        { value: "4.200", label: "Centros médicos" },
+        { value: "22,10€", label: "Desde (al mes)" },
+        { value: "59.000+", label: "Médicos en España" },
+        { value: "4.400", label: "Centros médicos" },
         { value: "0", label: "Periodos de carencia" },
-        { value: "24h", label: "Urgencias por videoconsulta" },
       ]} />
 
       <WhiteCardGrid
@@ -69,15 +69,15 @@ export default function SanitasAccedePage() {
 
       <FeatureBlock
         title="La red médica más grande de España."
-        description="Accede a más de 4.200 centros médicos en toda España — hospitales propios, centros Milenium exclusivos y centros concertados."
+        description="Accede a más de 4.400 centros médicos en toda España — hospitales propios, centros Milenium exclusivos y centros concertados."
         items={[
           "4 hospitales propios de Sanitas",
           "20 centros médicos Milenium exclusivos en las principales ciudades",
-          "Más de 4.200 centros concertados en toda España",
+          "Más de 4.400 centros concertados en toda España",
           "Cita online o presencial, tú eliges",
           "Historia clínica digital y resultados en la app Mi Sanitas",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1538108149393-fbbd81895907.jpg"
         badge="Red Médica Sanitas"
         reverse
       />

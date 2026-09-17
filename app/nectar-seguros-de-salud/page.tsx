@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Néctar Contigo — Seguro Médico Completo a Precio Reducido | SegurosOnline",
-  description: "Néctar Contigo: asistencia sanitaria completa con hospitalización a través de una red médica de más de 15.000 profesionales. Con dental incluido.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/nectar-seguros-de-salud/" }
+  title: "Néctar Contigo — Seguro Médico Completo a Precio Reducido",
+  description: "Néctar Contigo: asistencia sanitaria completa con hospitalización a través de una red médica de más de 15.000 profesionales. Con dental incluido. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/nectar-seguros-de-salud/" }
 }
 
 const pageFaqs = [
@@ -34,7 +34,7 @@ export default function NectarContigoPage() {
         body="Cobertura sanitaria completa con hospitalización, acceso a especialidades médicas y todas las coberturas esenciales, a través de una red médica exclusiva de más de 15.000 profesionales."
         badges={["Red médica específica", "Todo incluido", "Hospitalización incluida"]}
         trustItems={["Asistencia completa", "Hospitalización", "+15.000 médicos", "Urgencias 12.000€/año"]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
       />
 
       <ProductStatBar stats={[
@@ -55,7 +55,7 @@ export default function NectarContigoPage() {
           "Intervenciones quirúrgicas ambulatorias y con ingreso",
           "Hospitalización completa",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1504813184591-01572f98c85f.jpg"
         badge="Cobertura completa"
       />
 
@@ -76,12 +76,12 @@ export default function NectarContigoPage() {
         description="La cobertura de Néctar Contigo se presta exclusivamente a través de la red Néctar: más de 15.000 profesionales médicos en toda España. La nota clave para entender el producto."
         items={[
           "Más de 15.000 médicos en la red específica Néctar Contigo",
-          "No da acceso al cuadro médico general de Sanitas (+58.000 médicos)",
+          "No da acceso al cuadro médico general de Sanitas (+59.000 médicos)",
           "A cambio, la prima mensual es significativamente inferior",
           "Cobertura hospitalaria completa con los centros de la red",
           "Antes de contratar verificamos contigo que haya médicos en tu zona",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1582719471384-894fbb16e074.jpg"
         reverse
         badge="Red médica Néctar"
       />

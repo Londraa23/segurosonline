@@ -8,9 +8,9 @@ import { FeatureBlock, ThreeColumnFeatures } from "@/components/product-sections
 import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
-  title: "Sanitas Inicia — Seguro Médico Básico para Empresas y Pymes | SegurosOnline",
-  description: "Sanitas Inicia: la opción más económica para que tus empleados accedan a la sanidad privada. Sin hospitalización, con especialistas y cobertura de óptica.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-inicia/" }
+  title: "Sanitas Inicia — Seguro Médico Básico para Empresas y Pymes",
+  description: "Sanitas Inicia: la opción más económica para que tus empleados accedan a la sanidad privada. Sin hospitalización, con especialistas y cobertura de óptica. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-empresas/sanitas-inicia/" }
 }
 
 const pageFaqs = [
@@ -35,7 +35,7 @@ export default function SanitasIniciaPage() {
         body="La entrada al seguro de empresa de Sanitas. La opción más accesible en precio que permite a tus empleados acceder a especialistas, pruebas diagnósticas y cobertura de óptica, con descuentos garantizados en intervenciones quirúrgicas y hospitalización si las necesitan. Con segunda opinión médica internacional."
         badges={["Urgencias extranjero", "Óptica", "Especialistas"]}
         trustItems={["Acceso a especialistas", "Pruebas diagnósticas", "Óptica incluida", "Segunda opinión médica"]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
       />
 
       <FeatureBlock
@@ -51,7 +51,7 @@ export default function SanitasIniciaPage() {
           "Sanitas 24 horas y Sanitas Welcome (evaluación y gestiones telefónicas)",
           "Gestiones 100% online vía app Mi Sanitas"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1559839734-2b71ea197ec2.jpg"
         badge="Acceso Premium"
       />
 

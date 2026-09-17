@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 import { Check, ArrowRight, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Reveal } from "@/components/reveal"
@@ -10,9 +10,9 @@ const featuredProducts = [
   {
     name: "Sanitas Avanza",
     description: "Equilibrio perfecto entre cobertura y precio. Seguro dental incluido.",
-    price: "29,90",
+    price: "33,60",
     badge: null,
-    image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1544027993-37dbfe43562a.jpg",
     features: ["Seguro dental incluido", "Urgencias 24h", "Todas las especialidades", "App Blua incluida", "Fisioterapia y rehabilitación"],
     href: "/seguros-medicos-para-particulares/",
     highlighted: false,
@@ -20,9 +20,9 @@ const featuredProducts = [
   {
     name: "Sanitas Más Salud",
     description: "Nuestro seguro más completo. Cobertura integral premium.",
-    price: "32,40",
+    price: "55,26",
     badge: "Más contratado",
-    image: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1536640712-4d4c36ff0e4e.jpg",
     features: ["Todo incluido", "Medicina primaria y especialidades", "Hospitalización completa", "Blua incluido gratis", "Urgencias 24h", "Reembolso disponible"],
     href: "/seguros-medicos-para-particulares/sanitas-mas-salud/",
     highlighted: true,
@@ -32,8 +32,8 @@ const featuredProducts = [
     description: "La solución ideal para empresas. Gestión digital y beneficios fiscales.",
     price: "34,90",
     badge: "Para empresas",
-    image: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80&auto=format",
-    features: ["Gestión 100% digital", "Cobertura empleados", "Beneficios fiscales", "Sin carencias", "Blua incluido"],
+    image: "/images/unsplash/photo-1600880292089-90a7e086ee0c.jpg",
+    features: ["Gestión 100% digital", "Cobertura empleados", "Beneficios fiscales", "Blua incluido"],
     href: "/seguros-medicos-para-empresas/sanitas-pymes-digital/",
     highlighted: false,
   },
@@ -75,7 +75,7 @@ export function FeaturedProducts() {
               }`}>
                 
                 {/* Background Image Area */}
-                <Image 
+                <LoadingImage 
                   src={product.image} 
                   alt={product.name}
                   fill

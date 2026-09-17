@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, ProcessSteps, StatementBand, BluaSection, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Avanza — Seguro Médico con Cirugía sin Hospitalización | SegurosOnline",
-  description: "Sanitas Avanza: el único seguro sin hospitalización que incluye más de 400 intervenciones quirúrgicas. Cuadro médico completo y Blua gratis.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-avanza/" }
+  title: "Sanitas Avanza – Coberturas, Precio y Carencias",
+  description: "Sanitas Avanza: el único seguro sin hospitalización que incluye más de 400 intervenciones quirúrgicas. Cuadro médico completo y Blua gratis. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-particulares/sanitas-avanza/" }
 }
 
 const pageFaqs = [
@@ -35,12 +35,12 @@ export default function SanitasAvanzaPage() {
         body="Accede a todo el cuadro médico Sanitas y a más de 400 intervenciones quirúrgicas ambulatorias. Sin necesitar ingreso hospitalario. El equilibrio perfecto entre cobertura y precio."
         badges={["+400 intervenciones quirúrgicas", "Blua GRATIS", "Sin hospitalización"]}
         trustItems={["Cuadro médico completo", "400+ cirugías incluidas", "Urgencias 24h", "Blua digital"]}
-        imageSrc="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1584515979956-d9f6e5d09982.jpg"
       />
 
       <ProductStatBar stats={[
         { value: "400+", label: "Intervenciones quirúrgicas" },
-        { value: "51.000+", label: "Médicos en España" },
+        { value: "59.000+", label: "Médicos en España" },
         { value: "3m", label: "Carencia cirugía" },
         { value: "24h", label: "Urgencias digitales" },
       ]} />
@@ -62,7 +62,7 @@ export default function SanitasAvanzaPage() {
           "Corrección de desviación de tabique nasal",
           "Y cientos de intervenciones más — consulta el listado completo",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1559757148-5c350d0d3c56.jpg"
         badge="Cirugía sin hospitalización"
         bgColor="bg-[#002A54]"
       />
@@ -91,7 +91,7 @@ export default function SanitasAvanzaPage() {
           "Cobertura dental básica: consultas, limpiezas, curas y extracciones",
           "Urgencias hospitalarias y domiciliarias",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1582750433449-648ed127bb54.jpg"
         reverse
         badge="Cuadro médico completo"
         bgColor="bg-[#003B73]"

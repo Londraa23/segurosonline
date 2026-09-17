@@ -10,9 +10,9 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Asistencia Senior Prima Única — Seguro de Decesos para Mayores de 75 | SegurosOnline",
-  description: "Asistencia Senior a prima única para mayores de 75 años. Un solo pago, cobertura completa por fallecimiento, gestión integral funeraria y garantía mundial.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-senior/" }
+  title: "Asistencia Senior Prima Única — Seguro de Decesos para Mayores de 75",
+  description: "Asistencia Senior a prima única para mayores de 75 años. Un solo pago, cobertura completa por fallecimiento, gestión integral funeraria y garantía mundial. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-senior/" }
 }
 
 const pageFaqs = [
@@ -38,7 +38,7 @@ export default function AsistenciaSeniorPage() {
         body="Para mayores de 75 años. Un único pago. Cobertura completa. Avalado por Santalucía."
         badges={["Desde 75 años", "Un único pago", "Sin carencias"]}
         trustItems={["Desde 75 años", "Un único pago", "Sin carencias", "Avalado por Santalucía"]}
-        imageSrc="https://images.unsplash.com/photo-1447005497901-b3e9ee359928?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1447005497901-b3e9ee359928.jpg"
       />
 
       <ProductStatBar stats={[
@@ -59,7 +59,7 @@ export default function AsistenciaSeniorPage() {
           "Equipo de profesionales especialistas a tu disposición 24 horas los 365 días del año",
           "Con una simple llamada podrás realizar todas las gestiones necesarias",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1517457373958-b7bdd4587205.jpg"
         badge="Asistencia Senior"
       />
 
@@ -96,7 +96,7 @@ export default function AsistenciaSeniorPage() {
           "Gestión integral del servicio funerario: traslado del fallecido, traslado de acompañantes y obtención de toda la documentación necesaria tras el fallecimiento",
           "Garantía válida en cualquier lugar del mundo en el que se produzca el fallecimiento",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1454165804606-c3d57bc86b40.jpg"
         badge="Ventajas"
         reverse
       />

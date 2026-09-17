@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguro Médico para Embarazo: Guía Completa para Futuras Madres 2026 | SegurosOnline",
+  title: "Seguro Médico para Embarazo: Guía Completa para Futuras Madres 2026",
   description: "Todo lo que necesitas saber sobre el seguro médico privado durante el embarazo: coberturas, carencias, cuándo contratar y qué incluye Sanitas. España. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/blog/seguro-medico-embarazo/"
+    canonical: "https://segurosonline.net/blog/seguro-medico-embarazo/"
   }
 }
 
@@ -31,7 +31,7 @@ export default function SeguroMedicoEmbarazoPage() {
         body="Descubre qué cubre tu seguro Sanitas durante la gestación, el parto y el postparto, y cómo gestionar los periodos de carencia."
         badges={[{ text: "Lectura: 10 min", variant: "blue" }]}
         trustItems={["Ginecólogo a tu elección", "Parto y cesárea", "Habitación individual", "Atención postparto"]}
-        imageSrc="https://images.unsplash.com/photo-1559734840-f9509ee5677f?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1559734840-f9509ee5677f.jpg"
       />
 
       <article className="max-w-4xl mx-auto px-6 py-16 lg:py-24">

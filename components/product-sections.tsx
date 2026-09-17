@@ -1,7 +1,7 @@
 "use client"
 
 import { ReactNode } from "react"
-import Image from "next/image"
+import { LoadingImage } from "@/components/loading-image"
 import {
   CheckCircle2, Info, Shield, Clock, Smartphone, Star,
   Check, X, Home, TrendingUp, Percent, BadgeCheck, ArrowRight,
@@ -65,7 +65,7 @@ export function ProductHeroBlock({
           {/* Right: image */}
           <Reveal delay={0.1}>
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-lg">
-              <Image
+              <LoadingImage
                 src={imageSrc}
                 alt={imageAlt || title}
                 fill
@@ -145,7 +145,7 @@ export function FeatureBlock({
         <div className={`grid lg:grid-cols-2 gap-12 lg:gap-20 items-center ${reverse ? "lg:[&>*:first-child]:order-2" : ""}`}>
           <Reveal>
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-lg">
-              <Image src={imageSrc} alt={imageAlt || title} fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+              <LoadingImage src={imageSrc} alt={imageAlt || title} fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
             </div>
           </Reveal>
           <Reveal delay={0.1}>
@@ -289,8 +289,8 @@ export function BluaSection({ items }: { items: string[] }) {
           </Reveal>
           <Reveal delay={0.1}>
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=900&q=80&auto=format"
+              <LoadingImage
+                src="/images/unsplash/photo-1512941937669-90a1b58e7e9c.jpg"
                 alt="App Blua Sanitas"
                 fill sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -399,7 +399,7 @@ export function PriceHighlight({ label, price, unit, features, imageSrc, note }:
           </Reveal>
           <Reveal delay={0.1}>
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-lg">
-              <Image src={imageSrc} alt={label} fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+              <LoadingImage src={imageSrc} alt={label} fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
             </div>
           </Reveal>
         </div>

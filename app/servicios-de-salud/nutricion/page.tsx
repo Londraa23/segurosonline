@@ -8,8 +8,8 @@ import { CheckCircle2 } from "lucide-react"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Servicios de Nutrición y Pérdida de Peso Sanitas | SegurosOnline",
-  description: "Tratamientos para la obesidad y el sobrepeso con Sanitas: balón intragástrico, método POSE, método Apollo y cirugía bariátrica. Primera consulta gratuita.. ☎ 624 21 73 23",
+  title: "Servicios de Nutrición y Pérdida de Peso Sanitas",
+  description: "Tratamientos para la obesidad y el sobrepeso con Sanitas: balón intragástrico, método POSE, método Apollo y cirugía bariátrica. Primera consulta gratuita. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/"
 })
 
@@ -21,7 +21,7 @@ const tratamientos: ProductCardData[] = [
     description: "Globo de silicona que se introduce en el estómago vía endoscópica para crear sensación de saciedad. Programa multidisciplinar de 6 meses con médico, nutricionista y psicólogo. Sin hospitalización, sin cicatrices.",
     features: ["Sin hospitalización", "Sin cicatrices", "Programa de 6 meses", "Equipo multidisciplinar"],
     href: "/servicios-de-salud/nutricion/balon-intragastrico/",
-    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1490645935967-10de6ba17061.jpg",
     highlighted: true
   },
   {
@@ -31,7 +31,7 @@ const tratamientos: ProductCardData[] = [
     description: "Reducción del volumen del estómago por vía endoscópica, sin incisiones externas. La opción menos invasiva para tratar el sobrepeso y la obesidad. Técnica ambulatoria. Primera consulta gratuita.",
     features: ["Reducción sin incisiones", "Sin cicatrices", "Técnica ambulatoria", "Menos invasivo"],
     href: "/servicios-de-salud/nutricion/metodo-pose/",
-    image: "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1551076805-e1869033e561.jpg"
   },
   {
     title: "Método Apollo",
@@ -40,7 +40,7 @@ const tratamientos: ProductCardData[] = [
     description: "Reducción del 60–70% de la capacidad del estómago mediante suturas endoscópicas. Tratamiento ambulatorio, sin cirugía ni cicatrices, con seguimiento multidisciplinar completo durante 2 años.",
     features: ["Reducción 60-70% del estómago", "Seguimiento 24 meses", "Sin cirugía abierta", "Ambulatorio"],
     href: "/servicios-de-salud/nutricion/metodo-apollo/",
-    image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1505576399279-565b52d4ac71.jpg"
   },
   {
     title: "Cirugía Bariátrica",
@@ -49,7 +49,7 @@ const tratamientos: ProductCardData[] = [
     description: "Conjunto de procedimientos quirúrgicos para lograr pérdidas de peso mantenidas: banda gástrica, by-pass gástrico y otras técnicas laparoscópicas. Asistencia médica, psicológica y nutricional. Primera consulta gratuita.",
     features: ["Pérdida de peso permanente", "Técnicas laparoscópicas seguras", "Banda y By-pass gástrico", "Asistencia integral incl."],
     href: "/servicios-de-salud/nutricion/cirugia-bariatrica/",
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1579684385127-1ef15d508118.jpg"
   }
 ]
 
@@ -68,7 +68,7 @@ export default function NutricionIndexPage() {
         body="Si las dietas no han dado resultado, existen tratamientos médicos eficaces para el sobrepeso y la obesidad. En Sanitas disponemos de varias soluciones adaptadas a cada grado de obesidad: desde técnicas sin cirugía hasta procedimientos quirúrgicos avanzados. Siempre con un equipo multidisciplinar de médicos, psicólogos y nutricionistas a tu lado. Primera consulta gratuita. Disponible sin seguro Sanitas."
         badges={["Primera consulta gratuita", "Tratamientos sin cirugía", "Financiación disponible"]}
         trustItems={["Técnicas sin cirugía", "Equipo multidisciplinar", "Seguimiento completo", "Precio cerrado"]}
-        imageSrc="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1490645935967-10de6ba17061.jpg"
       />
 
       <CategoryProductGrid 

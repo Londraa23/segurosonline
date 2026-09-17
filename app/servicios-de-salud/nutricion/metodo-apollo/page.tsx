@@ -9,7 +9,7 @@ import { SchemaMarkup } from "@/components/schema-markup"
 
 export const metadata = generateMetadata({
   title: "Método Apollo Sanitas: Reducción de Estómago",
-  description: "Método Apollo Sanitas: reducción del 60–70% del estómago por endoscopia para obesidad severa. Seguimiento 24 meses. Primera consulta gratuita. Financiación 0%.. ☎ 624 21 73 23",
+  description: "Método Apollo Sanitas: reducción del 60–70% del estómago por endoscopia para obesidad severa. Seguimiento 24 meses. Primera consulta gratuita. Financiación 0%. ☎ 624 21 73 23",
   path: "/servicios-de-salud/nutricion/metodo-apollo/"
 })
 
@@ -46,7 +46,7 @@ export default function MetodoApolloPage() {
         body="El método Apollo es un tratamiento multidisciplinar que consiste en la reducción del estómago por vía endoscópica en forma de manga, reduciendo su capacidad entre un 60 y un 70%. Tratamiento ambulatorio, sin cirugía ni cicatrices externas, con seguimiento integral durante 24 meses. Indicado para obesidad severa. Primera consulta gratuita. Financiación al 0% para clientes Sanitas."
         badges={["Sin cirugía abierta", "Reversible", "Altamente efectivo"]}
         trustItems={["Sin cirugía", "Sin cicatrices", "Ambulatorio", "IMC 30–40"]}
-        imageSrc="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1505576399279-565b52d4ac71.jpg"
       />
 
       <ProductStatBar stats={[
@@ -65,7 +65,7 @@ export default function MetodoApolloPage() {
           "Genera sensación de saciedad con la ingesta de poca cantidad de alimentos.",
           "Periodo de recuperación menor que en una cirugía bariátrica laparoscópica (incorporación laboral en 24h)."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1628348070830-246f140c8b1d?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1490645935967-10de6ba17061.jpg"
         badge="El Funcionamiento"
       />
 
@@ -78,7 +78,7 @@ export default function MetodoApolloPage() {
           "Personas que necesiten perder entre 15 y 35 kg aproximadamente.",
           "Quienes hayan fracasado en otros tratamientos no quirúrgicos de adelgazamiento de manera reiterada."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1542884748-2b87b36c6b90?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1542884748-2b87b36c6b90.jpg"
         badge="Indicaciones"
         reverse
       />

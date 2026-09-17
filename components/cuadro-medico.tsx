@@ -5,8 +5,8 @@ import { Hospital, Stethoscope, Building, MapPin, Dumbbell, Sparkles } from "luc
 import { Reveal } from "@/components/reveal"
 
 const stats = [
-  { icon: Stethoscope, value: 57000, suffix: "+", label: "profesionales médicos", displayValue: "57.000+" },
-  { icon: Building, value: 4500, suffix: "+", label: "centros médicos", displayValue: "4.500+" },
+  { icon: Stethoscope, value: 59000, suffix: "+", label: "profesionales médicos", displayValue: "59.000+" },
+  { icon: Building, value: 4400, suffix: "+", label: "centros médicos", displayValue: "4.400+" },
   { icon: Hospital, value: 5, suffix: "", label: "hospitales propios", displayValue: "5" },
   { icon: MapPin, value: 25, suffix: "", label: "centros médicos propios", displayValue: "25" },
   { icon: Dumbbell, value: 10, suffix: "", label: "centros rehabilitación avanzada", displayValue: "10" },

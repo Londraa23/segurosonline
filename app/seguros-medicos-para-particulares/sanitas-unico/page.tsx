@@ -9,8 +9,8 @@ import { ProductStatBar, FeatureBlock, CoverageCardGrid, BluaSection, LegalNote 
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Sanitas Único: Seguro Médico para Mayores",
-  description: "Sanitas Único: seguro médico desde 60 años sin límite de edad. Geriatría, servicios a domicilio, programas para mayores y Blua incluido.. ☎ 624 21 73 23",
+  title: "Sanitas Único – Coberturas, Precio y Carencias",
+  description: "Sanitas Único: seguro médico desde 60 años sin límite de edad. Geriatría, servicios a domicilio, programas para mayores y Blua incluido. ☎ 624 21 73 23",
   path: "/seguros-medicos-para-particulares/sanitas-unico/"
 })
 
@@ -37,7 +37,7 @@ export default function SanitasUnicoPage() {
         body="Diseñado específicamente para personas a partir de 60 años, sin límite de edad. Coberturas médicas completas, servicios a domicilio y programas de salud adaptados a mayores, con Blua incluido."
         badges={["Desde 60 años", "Sin límite de edad", "Sin cuestionario de salud"]}
         trustItems={["Desde 60 años", "Sin límite de edad", "Geriatría", "Servicios a domicilio"]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
       />
 
       <ProductStatBar stats={[
@@ -58,7 +58,7 @@ export default function SanitasUnicoPage() {
           "Videoconsulta con especialistas y urgencias 24h",
           "Atención telefónica especializada para mayores",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1530026186672-2cd00ffc50fe.jpg"
         badge="Coberturas médicas"
       />
 
@@ -91,7 +91,7 @@ export default function SanitasUnicoPage() {
           "Acompañamiento a cita médica (ida y vuelta)",
           "Acompañamiento durante la hospitalización",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1576013551627-0cc20b96c2a7.jpg"
         reverse
         badge="Servicios a Domicilio"
       />

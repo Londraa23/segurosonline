@@ -26,7 +26,7 @@ const vistaProducts: ProductCardData[] = [
       "Recuperación inmediata"
     ],
     href: "/servicios-de-salud/vista/cirugia-laser-ocular/",
-    image: "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1530026186672-2cd00ffc50fe.jpg"
   },
   {
     title: "Láser de Cataratas",
@@ -40,7 +40,7 @@ const vistaProducts: ProductCardData[] = [
       "Mayor precisión que tradicional"
     ],
     href: "/servicios-de-salud/vista/laser-de-cataratas/",
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1622253692010-333f2da6031d.jpg"
   },
   {
     title: "Presbicia (Vista Cansada)",
@@ -54,7 +54,7 @@ const vistaProducts: ProductCardData[] = [
       "Elimina necesidad de gafas de cerca"
     ],
     href: "/servicios-de-salud/vista/presbicia-vista-cansada/",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1573496359142-b8d87734a5a2.jpg"
   }
 ]
 
@@ -82,7 +82,7 @@ export default function VistaIndexPage() {
         body="Hoy en día la operación de ojos es un procedimiento sencillo que se realiza a través de técnicas de láser ocular avanzadas. En Sanitas encontrarás la mejor solución para la presbicia (vista cansada), miopía, astigmatismo, hipermetropía y cataratas, con las técnicas más avanzadas y seguras del mercado."
         badges={["Consulta gratuita", "Financiación disponible", "Para clientes y no clientes"]}
         trustItems={["Primera consulta gratis", "Técnicas más avanzadas", "Sin anestesia general", "Recuperación inmediata"]}
-        imageSrc="https://images.unsplash.com/photo-1590650153855-d9e808231d41?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1590650153855-d9e808231d41.jpg"
       />
 
       <CategoryProductGrid 

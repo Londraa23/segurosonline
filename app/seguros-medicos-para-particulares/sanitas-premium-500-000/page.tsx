@@ -60,7 +60,7 @@ export default function SanitasPremium500Page() {
         body="Hasta 500.000€ por persona y año. Cualquier médico en España o en el extranjero. Con reembolso de farmacia, dental y cobertura completa en EE.UU."
         badges={["500.000€ Límite", "Reembolso farmacia", "Cobertura EE.UU."]}
         trustItems={["500.000€ límite anual", "Reembolso farmacia", "Cobertura EE.UU.", "Subsidio hospitalización"]}
-        imageSrc="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579684385127-1ef15d508118.jpg"
       />
 
       <ProductStatBar stats={[
@@ -104,7 +104,7 @@ export default function SanitasPremium500Page() {
           "Acceso a los mejores especialistas mundiales",
           "La máxima tranquilidad sin límites relevantes"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1454165833267-028cc2402f1b?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1554224155-6726b3ff858f.jpg"
         badge="Máximo Nivel"
       />
 
@@ -116,7 +116,7 @@ export default function SanitasPremium500Page() {
           "Cobertura dentro del límite anual de 500.000€",
           "Tranquilidad total para viajes o estancias frecuentes"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1485827404703-89b55fcc595e.jpg"
         badge="Protección Global"
         reverse
       />

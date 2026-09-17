@@ -22,7 +22,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "El seguro de entrada más completo del mercado. Médico de cabecera, urgencias, pruebas básicas y toda la potencia de Blua digital desde el primer día.",
     features: ["Médico de cabecera y urgencias 24h", "Pruebas diagnósticas básicas incluidas", "Blua digital completo incluido", "El precio más accesible de Sanitas"],
     href: "/seguros-medicos-para-particulares/sanitas-accede/",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1576091160399-112ba8d25d1d.jpg",
   },
   {
     title: "Sanitas Avanza",
@@ -31,7 +31,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "Acceso completo al cuadro médico Sanitas con la particularidad de incluir cobertura de intervención quirúrgica sin hospitalización. Flexible y más económico.",
     features: ["Cuadro médico completo", "Intervención quirúrgica incluida", "Sin cobertura de hospitalización", "Blua digital incluido gratis"],
     href: "/seguros-medicos-para-particulares/sanitas-avanza/",
-    image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1544027993-37dbfe43562a.jpg",
   },
   {
     title: "Sanitas Más Salud",
@@ -41,7 +41,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "El seguro más elegido de Sanitas. Cobertura sanitaria completa con hospitalización y dental premium. Para quienes quieren lo mejor sin sorpresas.",
     features: ["Hospitalización completa incluida", "Seguro dental incluido", "Todo el cuadro médico Sanitas", "Blua digital gratis para siempre"],
     href: "/seguros-medicos-para-particulares/sanitas-mas-salud/",
-    image: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1536640712-4d4c36ff0e4e.jpg",
     highlighted: true
   },
   {
@@ -51,7 +51,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "La versión más premium del cuadro médico Sanitas. Sin copagos en ningún servicio, cobertura total y acceso prioritario. Para quienes no quieren pagar nada extra nunca.",
     features: ["Seguro dental premium incluido", "Cobertura sanitaria total", "Atención prioritaria garantizada", "Blua digital incluido"],
     href: "/sanitas-top-quantum/",
-    image: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1600880292089-90a7e086ee0c.jpg",
   },
   {
     title: "Sanitas Más Salud Familias",
@@ -60,7 +60,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "Toda la familia protegida bajo una misma póliza. Las mismas coberturas de Sanitas Más Salud adaptadas para que cuidar a los tuyos sea más fácil y más económico.",
     features: ["Toda la familia en una sola póliza", "Mismas coberturas que Sanitas Más Salud", "10% dto. desde 4 asegurados", "Pediatría y urgencias incluidas"],
     href: "/seguros-medicos-para-particulares/sanitas-mas-salud-familias/",
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1559839734-2b71ea197ec2.jpg",
   },
   {
     title: "Sanitas Profesionales",
@@ -69,7 +69,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "Diseñado específicamente para autónomos y profesionales independientes. Deducible fiscalmente, con todas las coberturas que necesitas y ventajas exclusivas.",
     features: ["Deducible como gasto profesional", "Cobertura completa sin lagunas", "Atención sin esperas", "Blua digital incluido"],
     href: "/seguros-medicos-para-particulares/sanitas-profesionales/",
-    image: "https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1614608682850-e0d6ed316d47.jpg",
   },
   {
     title: "Sanitas Único",
@@ -78,7 +78,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "El seguro pensado para quienes han superado los 60. Sin límite de edad máxima, con cobertura adaptada a las necesidades de salud de cada etapa de la vida.",
     features: ["Sin límite de edad máxima", "Cobertura adaptada a mayores", "Acceso a especialistas sin barreras", "Blua digital incluido"],
     href: "/seguros-medicos-para-particulares/sanitas-unico/",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1573496359142-b8d87734a5a2.jpg",
   },
   {
     title: "Sanitas Inclusivo",
@@ -87,7 +87,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "El seguro médico diseñado para personas con discapacidad. Cobertura adaptada, accesibilidad garantizada y atención personalizada en cada momento.",
     features: ["Cobertura adaptada a cada necesidad", "Accesibilidad total garantizada", "Especialistas en diversidad funcional", "Atención personalizada siempre"],
     href: "/seguros-medicos-para-particulares/sanitas-inclusivo-discapacidad/",
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1622253692010-333f2da6031d.jpg",
   },
   {
     title: "Néctar Contigo",
@@ -96,7 +96,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "Flexibilidad total para construir el seguro exactamente a tu medida. Elige las coberturas que necesitas y paga solo por lo que usas.",
     features: ["Coberturas totalmente personalizables", "Precio ajustado a lo que eliges", "Cuadro médico Sanitas completo", "Blua digital incluido"],
     href: "/seguros-medicos-para-particulares/nectar-contigo/",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1600880292203-757bb62b4baf.jpg",
   },
   {
     title: "Sanitas Más Salud Extranjeros",
@@ -105,7 +105,7 @@ const productosCuadroMedico: ProductCardData[] = [
     description: "Pensado para extranjeros residentes en España. Cobertura sanitaria completa, válida para visado y residencia, con toda la red médica Sanitas disponible desde el primer día.",
     features: ["Válido para solicitud de visado y residencia", "Cobertura sanitaria completa en España", "Acceso inmediato al cuadro médico", "Atención en varios idiomas"],
     href: "/seguros-medicos-para-particulares/sanitas-mas-salud-extranjeros/",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1454165804606-c3d57bc86b40.jpg",
   }
 ]
 
@@ -117,7 +117,7 @@ const productosReembolso: ProductCardData[] = [
     description: "El techo más alto del mercado. Hasta 500.000€ por persona y año, con reembolso de farmacia, dental, subsidio por hospitalización y cobertura en EE.UU.",
     features: ["Reembolso hasta 500.000€/año", "Cubre farmacia y gastos dentales", "Subsidio por hospitalización", "Cobertura internacional EE.UU. incluida"],
     href: "/seguros-medicos-para-particulares/sanitas-premium-500-000/",
-    image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1606857521015-7f9fcf423740.jpg",
   },
   {
     title: "Sanitas TOP QUANTUM",
@@ -126,7 +126,7 @@ const productosReembolso: ProductCardData[] = [
     description: "Lo mejor de los dos mundos: cuadro médico Sanitas completo, sin copagos, y reembolso de gastos médicos fuera del cuadro. Sin límites innecesarios.",
     features: ["Seguro dental incluido", "Reembolso de gastos fuera del cuadro", "Cobertura sanitaria total", "Blua digital incluido"],
     href: "/sanitas-top-quantum/",
-    image: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1530521954074-e64f6810b32d.jpg",
   },
   {
     title: "Sanitas Más 90.000",
@@ -135,7 +135,7 @@ const productosReembolso: ProductCardData[] = [
     description: "Cuadro médico Sanitas completo más libertad total de elección: si prefieres un médico fuera del cuadro, Sanitas te reembolsa el 70% de los gastos hasta 90.000€/año.",
     features: ["Cuadro médico + reembolso combinados", "Reembolso 70% hasta 90.000€/año", "Elección libre de médico en España e internacional", "Blua digital incluido"],
     href: "/seguros-medicos-para-particulares/sanitas-mas-90000/",
-    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1511895426328-dc8714191300.jpg",
   },
   {
     title: "Sanitas International Residents",
@@ -144,7 +144,7 @@ const productosReembolso: ProductCardData[] = [
     description: "Diseñado para residentes extranjeros en España que necesitan cobertura sanitaria completa homologada. Reembolso de gastos médicos y acceso al cuadro Sanitas.",
     features: ["Válido para residencia y renovación de visado", "Reembolso de gastos médicos incluido", "Cuadro médico Sanitas disponible", "Atención multilingüe"],
     href: "/seguros-medicos-para-extranjeros/sanitas-international-residents/",
-    image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1606811841689-23dfddce3e95.jpg",
   }
 ]
 
@@ -156,7 +156,7 @@ const productosEstudiantes: ProductCardData[] = [
     description: "Protección sanitaria completa para estudiantes que realizan estancias fuera de España, ya sea por Erasmus, máster o cualquier programa internacional.",
     features: ["Cobertura sanitaria en el país de destino", "Urgencias y hospitalización incluidas", "Repatriación sanitaria si es necesaria", "Asistencia 24h en varios idiomas"],
     href: "/seguros-para-estudiantes/sanitas-estudiantes/",
-    image: "https://images.unsplash.com/photo-1544568100-847a948585b9?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1544568100-847a948585b9.jpg",
   }
 ]
 
@@ -192,8 +192,8 @@ export default function ParticularesPage() {
         h1={<>Seguro médico privado <br className="hidden lg:block"/> para particulares.</>}
         body="Elige el seguro de salud Sanitas que mejor se adapta a ti y a tu familia. Con dental incluido, con reembolso o cuadro médico, con Blua digital incluido gratis para siempre. Te asesoramos sin ningún compromiso."
         badges={["Blua GRATIS para siempre", "4% dto. pago anual", "Sin periodos de carencia si vienes de otra compañía"]}
-        trustItems={["57.000+ médicos", "4.500 centros", "5 hospitales", "Sin permanencia"]}
-        imageSrc="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1600&q=80&auto=format"
+        trustItems={["59.000+ médicos", "4.400 centros", "5 hospitales", "Blua GRATIS"]}
+        imageSrc="/images/unsplash/photo-1511895426328-dc8714191300.jpg"
       />
 
       {/* Cuadro Médico Section */}

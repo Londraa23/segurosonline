@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal"
 import { Calendar, Clock, Tag } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguros Médicos para Autónomos: Ventajas Fiscales y Deducciones 2026 | SegurosOnline",
+  title: "Seguros Médicos para Autónomos: Ventajas Fiscales y Deducciones 2026",
   description: "Guía completa sobre las ventajas fiscales del seguro médico para autónomos en 2026: cuánto te puedes deducir, cómo aplicarlo y qué cubre Sanitas Profesionales. España. ☎ 624 21 73 23",
   alternates: {
-    canonical: "https://www.segurosonline.net/blog/seguros-autonomos-ventajas-fiscales-2026/"
+    canonical: "https://segurosonline.net/blog/seguros-autonomos-ventajas-fiscales-2026/"
   }
 }
 
@@ -31,7 +31,7 @@ export default function SegurosAutonomosFiscalidadPage() {
         body="Descubre cómo ahorrar en tu declaración de IRPF deduciendo las primas de tu seguro de salud y el de tu familia."
         badges={[{ text: "Lectura: 9 min", variant: "blue" }]}
         trustItems={["Deducción hasta 500€/persona", "Ahorro fiscal directo", "Sanitas Profesionales", "Cónyuge e hijos incluidos"]}
-        imageSrc="https://images.unsplash.com/photo-1554224155-1696413565d3?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1554224155-1696413565d3.jpg"
       />
 
       <article className="max-w-4xl mx-auto px-6 py-16 lg:py-24">

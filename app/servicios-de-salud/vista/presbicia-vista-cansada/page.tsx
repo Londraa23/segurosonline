@@ -49,7 +49,7 @@ export default function PresbiciaPage() {
         body="La presbicia o vista cansada es la dificultad para ver nítidamente objetos cercanos por el envejecimiento del cristalino. En Sanitas disponemos de soluciones para corregirla: técnicas extraoculares con láser excimer, o intraoculares que reemplazan el cristalino por una lente intraocular multifocal. Recuperación inmediata. Primera consulta gratuita."
         badges={["Técnicas extraoculares e intraoculares", "Sin hospitalización", "Recuperación al día siguiente", "Consulta gratuita"]}
         trustItems={["Técnicas variadas", "Sin hospitalización", "Recuperación al día siguiente", "Vida normal rápida"]}
-        imageSrc="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1573496359142-b8d87734a5a2.jpg"
       />
 
       <ProductFeatureSection title="¿Qué es la presbicia o vista cansada?">

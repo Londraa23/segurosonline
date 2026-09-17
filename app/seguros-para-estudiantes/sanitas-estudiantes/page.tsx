@@ -13,10 +13,10 @@ import {
 } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Estudiantes — Seguro Médico para Jóvenes en el Extranjero | Segurosonline",
+  title: "Sanitas Estudiantes — Seguro Médico para Jóvenes en el Extranjero",
   description: "Sanitas Estudiantes: cobertura sanitaria completa para Erasmus y estancias fuera de España. Urgencias, hospitalización, repatriación y asistencia 24h. Contrátalo aquí.",
   alternates: {
-    canonical: "https://www.segurosonline.net/seguros-para-estudiantes/sanitas-estudiantes/"
+    canonical: "https://segurosonline.net/seguros-para-estudiantes/sanitas-estudiantes/"
   }
 }
 
@@ -63,7 +63,7 @@ export default function SanitasEstudiantesPage() {
         body="Cobertura sanitaria completa para estudiantes en el extranjero. Erasmus, másters internacionales, programas de intercambio y cualquier estancia fuera de España."
         badges={["Erasmus+", "Cobertura Mundial", "Repatriación"]}
         trustItems={["Válido en el extranjero", "Urgencias y hospitalización", "Repatriación sanitaria", "Varios idiomas"]}
-        imageSrc="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1522202176988-66273c2fd55f.jpg"
       />
 
       <ProductStatBar stats={[
@@ -105,7 +105,7 @@ export default function SanitasEstudiantesPage() {
           "Cursos de idiomas de larga duración",
           "Destinos en toda Europa, EE.UU., Canadá, Asia y Oceanía"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1522202176988-66273c2fd55f.jpg"
         badge="Aceptado Universidades"
       />
 
@@ -117,7 +117,7 @@ export default function SanitasEstudiantesPage() {
           "Sin coste adicional para el estudiante ni su familia",
           "Asistencia coordinada por profesionales médicos 24h"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1540339832862-4745299807c3?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1436450412740-6b988f486c6b.jpg"
         badge="Seguridad Total"
         reverse
       />

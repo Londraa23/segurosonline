@@ -15,10 +15,10 @@ import {
 } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas Profesionales — Seguro Médico para Autónomos desde 37,60€/mes | Segurosonline",
+  title: "Sanitas Profesionales – Coberturas, Precio y Deducción IRPF",
   description: "Sanitas Profesionales: seguro médico completo para autónomos con coberturas por incapacidad temporal, accidentes laborales, dental incluido y deducción IRPF. ☎ Contrátalo aquí.",
   alternates: {
-    canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/sanitas-profesionales/"
+    canonical: "https://segurosonline.net/seguros-medicos-para-particulares/sanitas-profesionales/"
   }
 }
 
@@ -67,18 +67,18 @@ export default function SanitasProfesionalesPage() {
           { label: "Para Particulares", href: "/seguros-medicos-para-particulares" },
           { label: "Sanitas Profesionales" }
         ]}
-        label="Desde 37,60€/mes · Deducible IRPF hasta 500€/persona · Accidentes laborales · Blua GRATIS"
+        label="Desde 38,90€/mes · Deducible IRPF hasta 500€/persona · Accidentes laborales · Blua GRATIS"
         h1={<>Sanitas Profesionales.<br />El seguro médico del autónomo<br />más completo del mercado.</>}
-        body="Desde 37,60€/mes. Diseñado específicamente para autónomos y profesionales independientes. Con coberturas que ningún otro seguro incluye."
+        body="Desde 38,90€/mes. Diseñado específicamente para autónomos y profesionales independientes. Con coberturas que ningún otro seguro incluye."
         badges={["Deducible IRPF", "Accidentes laborales", "Dental incluido"]}
         trustItems={["Deducible fiscalmente", "Accidentes de tráfico y laborales", "Hospitalización", "Dental incluido"]}
-        imageSrc="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1573496359142-b8d87734a5a2.jpg"
       />
 
       <ProductStatBar stats={[
-        { value: "37,60€", label: "Desde (al mes)" },
+        { value: "38,90€", label: "Desde (al mes)" },
         { value: "500€", label: "Deducción IRPF" },
-        { value: "57.000", label: "Médicos en España" },
+        { value: "59.000", label: "Médicos en España" },
         { value: "0€", label: "Accidentes laborales" },
       ]} />
 
@@ -87,7 +87,7 @@ export default function SanitasProfesionalesPage() {
           Sanitas Profesionales es un seguro médico completo diseñado específicamente para autónomos y profesionales por cuenta propia. Incluye todas las coberturas de un seguro de salud completo más coberturas exclusivas pensadas para cubrir las situaciones que más afectan a un trabajador autónomo: incapacidad temporal, hospitalización inesperada y accidentes de tráfico o laborales.
         </p>
         <p>
-          Desde 37,60€/mes tienes protección total para tu salud, con acceso a más de 57.000 médicos, 4.500 centros en toda España y Blua digital incluido gratis para siempre. Y lo más importante: la prima es deducible en tu declaración de IRPF.
+          Desde 38,90€/mes tienes protección total para tu salud, con acceso a más de 59.000 médicos, 4.400 centros en toda España y Blua digital incluido gratis para siempre. Y lo más importante: la prima es deducible en tu declaración de IRPF.
         </p>
       </ProductFeatureSection>
 
@@ -119,7 +119,7 @@ export default function SanitasProfesionalesPage() {
           "Accidentes de tráfico y laborales incluidos de serie",
           "Capital por deceso en caso de accidente (hasta 5.250€)"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1521791136064-7986c2920216.jpg"
         badge="Solo para Autónomos"
       />
 
@@ -127,20 +127,20 @@ export default function SanitasProfesionalesPage() {
         title="Tres modalidades disponibles"
         subtitle="Elige la opción que mejor se adapte a tu ritmo de trabajo y presupuesto."
         cards={[
-          { 
-            icon: "shield", 
-            title: "Sin Copago", 
-            description: "Sin ningún coste adicional cada vez que usas el seguro. Ideal para quienes no quieren sorpresas y prevén un uso frecuente." 
+          {
+            icon: "shield",
+            title: "Sin Copago — 81€/mes",
+            description: "Sin ningún coste adicional cada vez que usas el seguro. Ideal para quienes no quieren sorpresas y prevén un uso frecuente."
           },
-          { 
-            icon: "trending", 
-            title: "Plus", 
-            description: "Prima más económica. Copago bajo con un tope máximo anual de 360€ por asegurado. Una vez alcanzado el tope, no pagas más." 
+          {
+            icon: "trending",
+            title: "Plus — 51,40€/mes",
+            description: "Prima intermedia. Copago bajo con un tope máximo anual de 360€ por asegurado. Una vez alcanzado el tope, no pagas más."
           },
-          { 
-            icon: "percent", 
-            title: "Óptima", 
-            description: "La prima más económica. Copago medio. Ideal para quienes usan los servicios de forma ocasional y quieren el coste mínimo." 
+          {
+            icon: "percent",
+            title: "Óptima — 38,90€/mes",
+            description: "La prima más económica. Copago medio. Ideal para quienes usan los servicios de forma ocasional y quieren el coste mínimo."
           }
         ]}
       />

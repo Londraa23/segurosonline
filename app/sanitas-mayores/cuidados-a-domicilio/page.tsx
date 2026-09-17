@@ -8,7 +8,7 @@ import { Reveal } from "@/components/reveal"
 import { generateMetadata } from "@/lib/metadata"
 
 export const metadata = generateMetadata({
-  title: "Cuidados a Domicilio para Mayores Sanitas — Atención Profesional en Casa | SegurosOnline",
+  title: "Cuidados a Domicilio para Mayores Sanitas — Atención Profesional en Casa",
   description: "Cuidados a domicilio Sanitas Mayores: selección de cuidador, rehabilitación en el hogar y servicios asistenciales personalizados. Sin salir de casa. ☎ 624 21 73 23",
   path: "/sanitas-mayores/cuidados-a-domicilio/"
 })
@@ -50,7 +50,7 @@ export default function CuidadosADomicilioPage() {
         body="Para mayores que quieren permanecer en su entorno familiar con la tranquilidad de contar con apoyo profesional. En casa, con los suyos."
         badges={["Cuidador seleccionado", "Rehabilitación en el hogar", "Servicios asistenciales", "Atención personalizada"]}
         trustItems={["Cuidadores seleccionados", "Rehabilitación domiciliaria", "Servicio personalizado", "Tengas o no seguro"]}
-        imageSrc="https://images.unsplash.com/photo-1581578731548-c64695ce6958?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1573497019940-1c28c88b4f3e.jpg"
       />
 
       <ProductFeatureSection title="¿Por qué el cuidado en el domicilio?">

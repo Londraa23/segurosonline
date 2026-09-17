@@ -61,7 +61,6 @@ export function Footer() {
                 className="h-9 w-auto"
               />
               <div>
-                <p className="text-lg font-bold">Seguros<span className="text-[#0091DA]">Online</span></p>
                 <p className="text-xs text-muted-foreground">Agencia Exclusiva Sanitas</p>
               </div>
             </Link>

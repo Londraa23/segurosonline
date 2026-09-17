@@ -33,7 +33,7 @@ const productosEmpresas: ProductCardData[] = [
       "4% dto. pago anual"
     ],
     href: "/seguros-medicos-para-empresas/sanitas-pymes-digital/",
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80&auto=format",
+    image: "/images/unsplash/photo-1542744173-8e7e53415bb0.jpg",
     highlighted: true
   },
   {
@@ -50,7 +50,7 @@ const productosEmpresas: ProductCardData[] = [
       "Deducible para empresa / exento IRPF"
     ],
     href: "/seguros-medicos-para-empresas/sanitas-empresas/",
-    image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1556761175-4b46a572b786.jpg"
   },
   {
     title: "Sanitas Inicia",
@@ -65,7 +65,7 @@ const productosEmpresas: ProductCardData[] = [
       "Urgencias en el extranjero hasta 12.000€/año"
     ],
     href: "/seguros-medicos-para-empresas/sanitas-inicia/",
-    image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1573164713988-8665fc963095.jpg"
   },
   {
     title: "Sanitas Global Care",
@@ -80,7 +80,7 @@ const productosEmpresas: ProductCardData[] = [
       "Sin número mínimo de asegurados"
     ],
     href: "/seguros-medicos-para-empresas/sanitas-global-care/",
-    image: "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=800&q=80&auto=format"
+    image: "/images/unsplash/photo-1436450412740-6b988f486c6b.jpg"
   }
 ]
 
@@ -117,7 +117,7 @@ export default function SegurosEmpresasPage() {
         body="Ofrecer un seguro de salud a tus empleados no es solo un beneficio social — es una decisión inteligente. Reduce el absentismo, mejora la productividad y es uno de los beneficios más valorados por encima de otras compensaciones. Y además, la empresa puede deducirse el gasto y el empleado tiene ventajas fiscales en su IRPF."
         badges={["Desde 5 empleados", "Exento IRPF hasta 500€", "Blua gratis"]}
         trustItems={["Desde 5 empleados", "Ventajas fiscales", "Reduce el absentismo", "Atención personalizada"]}
-        imageSrc="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1497366216548-37526070297c.jpg"
       />
 
       <section className="py-16 lg:py-24 bg-white">

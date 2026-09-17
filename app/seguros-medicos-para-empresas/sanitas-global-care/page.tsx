@@ -8,9 +8,9 @@ import { FeatureBlock, BluaSection } from "@/components/product-sections"
 import { Reveal } from "@/components/reveal"
 
 export const metadata: Metadata = {
-  title: "Sanitas Global Care — Seguro Médico para Empleados en el Extranjero | SegurosOnline",
-  description: "Sanitas Global Care: cobertura médica mundial para empleados expatriados. Reembolso 100%, hospitalización completa y sin número mínimo de asegurados.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-empresas/sanitas-global-care/" }
+  title: "Sanitas Global Care — Seguro Médico para Empleados en el Extranjero",
+  description: "Sanitas Global Care: cobertura médica mundial para empleados expatriados. Reembolso 100%, hospitalización completa y sin número mínimo de asegurados. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-empresas/sanitas-global-care/" }
 }
 
 const pageFaqs = [
@@ -36,7 +36,7 @@ export default function SanitasGlobalCarePage() {
         body="El seguro médico de Sanitas para empleados que trabajan o residen en el extranjero. Cobertura médica completa en cualquier parte del mundo, con reembolso del 100% de los gastos fuera del cuadro Sanitas. Disponible a partir de 3 meses de estancia en el extranjero, sin número mínimo de asegurados."
         badges={["Reembolso 100% mundial", "Desde 3 meses estancia"]}
         trustItems={["Cobertura mundial", "Reembolso 100%", "Hospitalización completa", "Sin mínimo asegurados"]}
-        imageSrc="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1497366216548-37526070297c.jpg"
       />
 
       <FeatureBlock
@@ -49,7 +49,7 @@ export default function SanitasGlobalCarePage() {
           "Alojamiento para los padres de pacientes menores de 18 años",
           "Gastos especiales en especialistas o urgencias premium extranjeras"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579154341098-e4e158cc7f55.jpg"
         badge="Tranquilidad Mundial"
       />
 

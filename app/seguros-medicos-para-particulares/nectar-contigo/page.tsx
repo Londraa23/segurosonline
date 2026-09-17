@@ -24,7 +24,7 @@ export const metadata = generateMetadata({
 const pageFaqs = [
   { 
     question: "¿Cuál es la diferencia entre Néctar Contigo y Sanitas Más Salud?", 
-    answer: "La principal diferencia es la red médica: Néctar Contigo funciona con una red específica de más de 15.000 profesionales, mientras que Sanitas Más Salud da acceso al cuadro médico general de Sanitas (más de 58.000 profesionales en toda España). A cambio, Néctar Contigo tiene un precio más accesible manteniendo la cobertura completa con hospitalización." 
+    answer: "La principal diferencia es la red médica: Néctar Contigo funciona con una red específica de más de 15.000 profesionales, mientras que Sanitas Más Salud da acceso al cuadro médico general de Sanitas (más de 59.000 profesionales en toda España). A cambio, Néctar Contigo tiene un precio más accesible manteniendo la cobertura completa con hospitalización." 
   },
   { 
     question: "¿Incluye hospitalización?", 
@@ -61,7 +61,7 @@ export default function NectarContigoPage() {
         body="Todas las coberturas esenciales, incluyendo hospitalización, a través de una red médica específica. Con copago o sin copago. Al precio más accesible."
         badges={["Precio accesible", "Hospitalización", "Red médica específica"]}
         trustItems={["Cobertura completa", "Hospitalización", "Urgencias 12.000€/año", "Sin carencias desde el inicio"]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
       />
 
       <ProductStatBar stats={[
@@ -95,7 +95,7 @@ export default function NectarContigoPage() {
       </ProductFeatureSection>
 
       <LegalNote>
-        <strong>NOTA CLAVE:</strong> La cobertura médica de Néctar Contigo se presta exclusivamente a través de una red médica específica denominada "Néctar Contigo", con más de 15.000 profesionales médicos. No da acceso al cuadro médico general de Sanitas (58.000+ profesionales).
+        <strong>NOTA CLAVE:</strong> La cobertura médica de Néctar Contigo se presta exclusivamente a través de una red médica específica denominada "Néctar Contigo", con más de 15.000 profesionales médicos. No da acceso al cuadro médico general de Sanitas (59.000+ profesionales).
       </LegalNote>
 
       <WhiteCardGrid 
@@ -124,7 +124,7 @@ export default function NectarContigoPage() {
           "Personas que buscan un equilibrio entre cobertura y precio",
           "Familias que quieren cobertura completa sin disparar el gasto"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1559839734-2b71ea197ec2.jpg"
         badge="Ahorro Inteligente"
         reverse
       />

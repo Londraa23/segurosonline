@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { ProductStatBar, FeatureBlock, CoverageCardGrid, StatementBand, ThreeColumnFeatures, LegalNote } from "@/components/product-sections"
 
 export const metadata: Metadata = {
-  title: "Sanitas TOP QUANTUM — Seguro Médico Premium con Reembolso | SegurosOnline",
-  description: "Sanitas TOP QUANTUM: asistencia sanitaria premium, todo incluido, con reembolso del 80% hasta 10.000€/año y urgencias en el extranjero hasta 15.000€.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/sanitas-top-quantum/" }
+  title: "Sanitas TOP QUANTUM – Coberturas, Precio y Carencias",
+  description: "Sanitas TOP QUANTUM: asistencia sanitaria premium, todo incluido, con reembolso del 80% hasta 10.000€/año y urgencias en el extranjero hasta 15.000€. Desde 57,96€/mes. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/sanitas-top-quantum/" }
 }
 
 const pageFaqs = [
@@ -29,17 +29,17 @@ export default function SanitasTopQuantumPage() {
           { label: "Seguros Médicos", href: "/seguros-medicos" },
           { label: "Sanitas TOP QUANTUM" }
         ]}
-        label="Sanitas TOP QUANTUM"
+        label="Desde 57,96€/mes"
         h1={<>Sanitas TOP QUANTUM.<br className="hidden lg:block" /> Todo incluido. Con reembolso. Sin límites.</>}
-        body="El seguro de salud más premium de Sanitas. Sin gastos adicionales por uso. Con reembolso del 80% hasta 10.000€/año en las especialidades más demandadas. Desde 0 hasta 75 años, sin límite de permanencia."
-        badges={["Todo incluido", "Reembolso 80% hasta 10.000€", "Hasta 75 años de contratación"]}
-        trustItems={["Todo incluido", "Reembolso familiar incluido", "58.000+ médicos", "Sin límite permanencia"]}
-        imageSrc="https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?w=1600&q=80&auto=format"
+        body="Desde 57,96€/mes. El seguro de salud más premium de Sanitas. Sin gastos adicionales por uso. Con reembolso del 80% hasta 10.000€/año en las especialidades más demandadas. Desde 0 hasta 75 años de contratación."
+        badges={["Desde 57,96€/mes", "Reembolso 80% hasta 10.000€", "Hasta 75 años de contratación"]}
+        trustItems={["Todo incluido", "Reembolso familiar incluido", "59.000+ médicos", "Blua GRATIS"]}
+        imageSrc="/images/unsplash/photo-1624727828489-a1e03b79bba8.jpg"
       />
 
       {/* Big numbers — the premium feeling */}
       <ProductStatBar stats={[
-        { value: "0€", label: "Gastos adicionales por uso" },
+        { value: "57,96€", label: "Desde (al mes)" },
         { value: "10.000€", label: "Reembolso/asegurado/año" },
         { value: "80%", label: "Tasa de reembolso" },
         { value: "15.000€", label: "Urgencias en el extranjero" },
@@ -63,7 +63,7 @@ export default function SanitasTopQuantumPage() {
           "Dental Milenium: 50+ servicios incluidos",
           "Accidentes de tráfico y laborales incluidos de serie",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1631815588090-d4bfec5b1ccb.jpg"
         badge="Premium"
         bgColor="bg-[#002A54]"
       />

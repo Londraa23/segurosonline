@@ -47,7 +47,7 @@ export default function BalonIntragastricoPage() {
         body="Si ya has probado con todo tipo de dietas y no has obtenido resultados, posiblemente necesitas la ayuda de otros sistemas. El balón intragástrico es un completo programa multidisciplinar en el que participan médicos, psicólogos y nutricionistas. Técnica mínimamente invasiva, sin cirugía, por vía endoscópica. Primera consulta gratuita. Disponible con o sin seguro Sanitas."
         badges={["Técnica ambulatoria", "Equipo multidisciplinar", "Resultados comprobados"]}
         trustItems={["Sin hospitalización", "Sin cicatrices", "Programa 6 meses", "Equipo multidisciplinar"]}
-        imageSrc="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1490645935967-10de6ba17061.jpg"
         imageAlt="Paciente recibiendo asesoramiento nutricional para el tratamiento de balón intragástrico"
       />
 
@@ -67,7 +67,7 @@ export default function BalonIntragastricoPage() {
           "Procedimiento rápido y seguro mediante vía endoscópica",
           "Se retira a los 6 meses para continuar afianzando los resultados en la fase de consolidación"
         ]}
-        imageSrc="https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1551076805-e1869033e561.jpg"
         badge="El Funcionamiento"
       />
 
@@ -80,7 +80,7 @@ export default function BalonIntragastricoPage() {
           "Personas que han fracasado en el cumplimiento de dietas por sí solas.",
           "Quienes han recuperado rápidamente el peso perdido tras finalizar las dietas previas."
         ]}
-        imageSrc="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1579684385127-1ef15d508118.jpg"
         badge="Indicaciones"
         reverse
       />

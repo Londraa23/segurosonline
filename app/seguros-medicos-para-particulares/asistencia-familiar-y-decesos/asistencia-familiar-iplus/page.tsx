@@ -10,9 +10,9 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Seguro de Decesos Asistencia Familiar iPlus Sanitas | SegurosOnline",
-  description: "Asistencia Familiar iPlus: el seguro de decesos más completo de Sanitas con asistencia en viaje, protección jurídica y cobertura por accidentes. Hasta 75 años.. ☎ 624 21 73 23",
-  alternates: { canonical: "https://www.segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-familiar-iplus/" }
+  title: "Seguro de Decesos Asistencia Familiar iPlus Sanitas",
+  description: "Asistencia Familiar iPlus: el seguro de decesos más completo de Sanitas con asistencia en viaje, protección jurídica y cobertura por accidentes. Hasta 75 años. ☎ 624 21 73 23",
+  alternates: { canonical: "https://segurosonline.net/seguros-medicos-para-particulares/asistencia-familiar-y-decesos/asistencia-familiar-iplus/" }
 }
 
 const pageFaqs = [
@@ -37,7 +37,7 @@ export default function AsistenciaFamiliarIPlusPage() {
         body="El seguro más completo y que mejor se adapta a tu familia y a tu presupuesto. Avalado por Santalucía."
         badges={["Avalado por Santalucía", "Hasta 75 años", "Sin edad máx. permanencia"]}
         trustItems={["Avalado por Santalucía", "Hasta 75 años", "Sin edad máx. permanencia", "Asistencia en viaje"]}
-        imageSrc="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1600&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1511895426328-dc8714191300.jpg"
       />
 
       <ProductStatBar stats={[
@@ -57,7 +57,7 @@ export default function AsistenciaFamiliarIPlusPage() {
           "Traslado nacional e internacional: gestiones y gastos para trasladarte en caso de fallecimiento desde cualquier lugar del mundo",
           "Diseñado para evolucionar según tu edad y ritmo de vida",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1529156069898-49953e39b3ac.jpg"
         badge="Asistencia Familiar iPlus"
       />
 
@@ -119,7 +119,7 @@ export default function AsistenciaFamiliarIPlusPage() {
           "Gastos derivados de incidencias con el equipaje y medios de transporte",
           "Otras coberturas",
         ]}
-        imageSrc="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=900&q=80&auto=format"
+        imageSrc="/images/unsplash/photo-1488646953014-85cb44e25828.jpg"
         badge="Asistencia en Viaje"
         reverse
       />
