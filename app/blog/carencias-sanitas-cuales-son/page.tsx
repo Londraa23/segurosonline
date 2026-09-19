@@ -39,7 +39,7 @@ export default function CarenciasSanitasPage() {
           <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground mb-12 pb-8 border-b border-border/60">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4 text-[#0091DA]" />
-              <time dateTime="2026-02-10">10 de febrero de 2026</time>
+              <time dateTime="2026-08-22">22 de agosto de 2026</time>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-[#0091DA]" />

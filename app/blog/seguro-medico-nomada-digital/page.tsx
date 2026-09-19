@@ -39,7 +39,7 @@ export default function SeguroMedicoNomadaDigitalPage() {
           <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground mb-12 pb-8 border-b border-border/60">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4 text-[#0091DA]" />
-              <time dateTime="2026-03-30">30 de marzo de 2026</time>
+              <time dateTime="2026-09-13">13 de septiembre de 2026</time>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-[#0091DA]" />

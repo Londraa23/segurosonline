@@ -5,20 +5,20 @@ import { ArrowRight, Calendar } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 
 const blogPosts = [
-  { title: "Sanitas Único: coberturas, precio y a quién le conviene", date: "13/04/2026", href: "/blog/sanitas-unico-opiniones-coberturas" },
-  { title: "Sanitas Más Salud vs Avanza: ¿cuál elegir?", date: "06/04/2026", href: "/blog/sanitas-mas-salud-vs-avanza" },
+  { title: "Sanitas Único: coberturas, precio y a quién le conviene", date: "19/09/2026", href: "/blog/sanitas-unico-opiniones-coberturas" },
+  { title: "Sanitas Más Salud vs Avanza: ¿cuál elegir?", date: "16/09/2026", href: "/blog/sanitas-mas-salud-vs-avanza" },
+  { title: "Seguro médico para nómada digital en España", date: "13/09/2026", href: "/blog/seguro-medico-nomada-digital" },
+  { title: "Qué seguro médico necesito para un visado en España", date: "11/09/2026", href: "/blog/seguro-medico-visado-espana" },
+  { title: "Seguro médico para mayores de 70 años: sin límite de edad", date: "08/09/2026", href: "/blog/seguro-medico-mayores-70" },
+  { title: "Seguro médico para mayores de 65 años: qué opciones tienes", date: "05/09/2026", href: "/blog/seguro-medico-mayores-65" },
+  { title: "Precio de Sanitas por edad en 2026: qué influye en tu prima", date: "01/09/2026", href: "/blog/precio-sanitas-por-edad-2026" },
+  { title: "Seguro Sanitas con copago vs sin copago: ¿cuál te conviene?", date: "27/08/2026", href: "/blog/copago-vs-sin-copago-sanitas" },
+  { title: "Carencias Sanitas: cuáles son y cómo eliminarlas", date: "22/08/2026", href: "/blog/carencias-sanitas-cuales-son" },
   { title: "Alergias primaverales: cómo prevenir y tratar los síntomas con tu seguro de salud Sanitas", date: "03/04/2026", href: "/blog/alergias-primaverales" },
-  { title: "Seguro médico para nómada digital en España", date: "30/03/2026", href: "/blog/seguro-medico-nomada-digital" },
   { title: "Seguro médico para embarazo: guía completa para futuras madres", date: "27/03/2026", href: "/blog/seguro-medico-embarazo" },
-  { title: "Qué seguro médico necesito para un visado en España", date: "23/03/2026", href: "/blog/seguro-medico-visado-espana" },
-  { title: "Seguro médico para mayores de 70 años: sin límite de edad", date: "16/03/2026", href: "/blog/seguro-medico-mayores-70" },
-  { title: "Seguro médico para mayores de 65 años: qué opciones tienes", date: "09/03/2026", href: "/blog/seguro-medico-mayores-65" },
-  { title: "Precio de Sanitas por edad en 2026: qué influye en tu prima", date: "02/03/2026", href: "/blog/precio-sanitas-por-edad-2026" },
-  { title: "Seguro Sanitas con copago vs sin copago: ¿cuál te conviene?", date: "18/02/2026", href: "/blog/copago-vs-sin-copago-sanitas" },
-  { title: "Carencias Sanitas: cuáles son y cómo eliminarlas", date: "10/02/2026", href: "/blog/carencias-sanitas-cuales-son" },
-  { title: "Seguros médicos para autónomos: ventajas fiscales y nuevas deducciones en 2026", date: "16/01/2026", href: "/blog/seguros-autonomos-ventajas-fiscales-2026" },
   { title: "Seguro de salud con reembolso Sanitas: qué es y cómo funciona", date: "27/02/2026", href: "/blog/seguro-reembolso-sanitas" },
   { title: "Por qué Sanitas es líder en salud privada en España", date: "13/02/2026", href: "/blog/sanitas-lider-salud-privada" },
+  { title: "Seguros médicos para autónomos: ventajas fiscales y nuevas deducciones en 2026", date: "16/01/2026", href: "/blog/seguros-autonomos-ventajas-fiscales-2026" },
   { title: "Comparativa de seguros de salud: ¿Qué ofrece Sanitas frente a otras aseguradoras?", date: "28/03/2025", href: "/blog/comparativa-seguros-salud" },
 ]
 
