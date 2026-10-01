@@ -5,11 +5,13 @@
 const MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/e1jd0u3pliei9vs88sh075loyyvj5hn2";
 
 interface SubmissionData {
-  name: string;
+  name?: string;
   phone: string;
   acceptPolicy: boolean;
   pageUrl: string;
   formId?: string;
+  // Extra lead fields (e.g. landing quote forms: insured, birthDate, cp, plan...)
+  [key: string]: unknown;
 }
 
 export async function submitToMake(data: SubmissionData) {
