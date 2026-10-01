@@ -124,14 +124,3 @@ Un valor desconocido muestra el H1 por defecto.
 3. **Política de cookies y aviso legal:** el briefing los pide en el footer, pero la web no tiene esas páginas. Solo existe `/politica-privacidad`. Cuando existan, añadir los enlaces en el footer de `landing-client.tsx`.
 4. **Texto de privacidad:** el briefing indica que el texto jurídico definitivo debe coincidir con la política de privacidad real. Conviene que lo valide quien lleve la parte legal.
 5. **Precios:** 33,60 € / 41,67 € / 48,10 € según tarifas Sanitas 2026 (válidas para altas hasta el 31/12/2026). Si cambian, se actualizan en `landing-client.tsx` (array `PRODUCTS`), en `content.ts` (H1 por defecto y FAQ) y en la meta description de `page.tsx`.
-
-## 9. Cómo probarla en local
-
-```bash
-npm install
-npm run dev
-# http://localhost:3000/seguro-salud-sanitas
-# http://localhost:3000/seguro-salud-sanitas?v=mayores
-```
-
-`npm run build` compila sin errores. La landing se ha revisado visualmente en escritorio (1440 px) y móvil (390 px).
